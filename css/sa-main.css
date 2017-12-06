@@ -60,7 +60,7 @@
 		font-size:15px;
 		font-weight:normal;
 		line-height:1.6em;
-		margin:28px 0; 
+		margin:20px 0; 
 	}
 	article p
 	{
@@ -143,7 +143,8 @@
         left:0;
     }
     aside div
-    {	position: relative;
+    {	
+    	position: relative;
     	background-color: #b00;
     	display: table-cell;
     	vertical-align: bottom;
@@ -246,12 +247,12 @@
     	width: 49%;
     	display: inline-block;
     	padding: 10px 0 0 0;
+
     }
     label 
     {
         font-family: "Helvetica Neue", Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
         font-weight:bold;
-        display:block;
         font-size:14px;       
     }
     input[type='email'], input[type='text'] 
@@ -349,12 +350,11 @@
 @media (max-width:860px) {
 	header 
 	{
-		position: relative;
+		
 		top:auto;
 		left:auto;
 	  	width:100vw;
 	  	height:120px;
-	  	background-color: #111;
 	  	padding:0 0 0 5%;
 
 	}
@@ -364,14 +364,27 @@
         position: relative;
         display:table;
         width: 100vw;
-        height:auto;
+        height:120px;
         border:none;
         top:auto;
         left:auto;
     }
     aside div
     {	
-    	display: none; 
+    	position: relative;
+    	display: block;
+    	vertical-align: middle;
+    	padding:2%;
+    	height: 120px;
+    }
+    .headline
+    {
+    	float: right;
+    	width: 220px;
+    }
+    .headline b
+    {
+    	letter-spacing:0;
     }
 	section
     {   
