@@ -124,10 +124,25 @@
 	 
 	section
     {   
+        
         position: relative;
+        display:table;
+        float:right;
         width: 50vw;
-        float: right;
-        padding: 20px;
+        height: 100vh;
+        border-top:20px solid #fff;
+        border-bottom:20px solid #fff;
+        border-right:20px solid #fff;
+        background-color: #eee;
+        
+    }
+     article
+    {	
+    	position: relative;
+    	display: table-cell;
+    	vertical-align: middle;
+    	padding:5%;
+    	
     }
     aside
 	{  
@@ -136,9 +151,7 @@
         display:table;
         width: 50vw;
         height: 100vh;
-        border-top:20px solid #fff;
-        border-bottom:20px solid #fff;
-        border-left:20px solid #fff;
+        border:20px solid #fff;
         top:0;
         left:0;
     }
@@ -180,38 +193,10 @@
 		font-weight: normal;
 		letter-spacing: -3px;
 	}
-	figure
-	{
-		width: 100%;
-		margin:0 0 20px 0;
-		display: inline-block;
-	}
-	figure h2
-	{
-		float: left;
-		padding-top: 37px;
-	}
-	figure p
-	{
-		float: right;
-	}
-	figure:nth-of-type(3), figure:nth-of-type(4)
-	{	
-		width:49%;
-	}
-	figure:nth-of-type(3)  h2, figure:nth-of-type(4) h2
-	{
-		float: none;
-		padding-top:10px;
-	}
-	figure:nth-of-type(3) p, figure:nth-of-type(4) p
-	{
-		float:none;
-	}
+	
     footer 
 	{	
-		clear: both;
-		padding-top: 50px;	
+		
 	}
 	footer p
 	{
@@ -339,18 +324,10 @@
 	
 }
 
-@media (min-width:1280px) {
-	section
-	{
-		max-width: 900px;
-		float: left;
-		margin-left: 50vw;	
-	}
-}	
+
 @media (max-width:860px) {
 	header 
 	{
-		
 		top:auto;
 		left:auto;
 	  	width:100vw;
@@ -388,10 +365,23 @@
     }
 	section
     {   
-        position: relative;
-        width: 100vw;
-        float: none;
-        padding: 10px;
+        
+       
+        
+        float:none;
+        width:100vw;
+        height: auto;
+        border:none;
+        background-color: #fff;
+        
+    }
+     article
+    {	
+    	position: relative;
+    	display: table-cell;
+    	vertical-align: middle;
+    	padding:5%;
+    	
     }
     h1 	
 	{
