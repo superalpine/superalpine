@@ -167,17 +167,17 @@
     }
     @keyframes panel
 	{
-		0%,100%   {background:#111;}
-		25%  {background:#333;}
-		45%  {background:#666;}
-		70% {background:#b00;}
+		0%,100%   {background:#b00;}
+		25%  {background:#666;}
+		45%  {background:#333;}
+		70% {background:#111;}
 	}
 	@-webkit-keyframes panel 
 	{
-		0%,100%   {background:#111;}
-		25%  {background:#333;}
-		45%  {background:#666;}
-		70% {background:#b00;}
+		0%,100%   {background:#b00;}
+		25%  {background:#666;}
+		45%  {background:#333;}
+		70% {background:#111;}
 	}
     .headline
 	{
