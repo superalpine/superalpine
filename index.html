@@ -4,82 +4,89 @@
 <title>Super Alpine</title>
 <meta charset="utf-8">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-<meta name="description" content="Super Alpine - A new print publication dedicated to speed, mountains and the high life. Kickstarter launching soon!">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@superalpine">
 <meta property="og:title" content="Super Alpine">
-<meta property="og:description" content="Super Alpine - A new print publication dedicated to speed, mountains and the high life. Kickstarter launching soon!">
+<meta property="og:description" content="Super Alpine">
 <meta property="og:url" content="http://superalpine.co">
-<meta property="og:image" content="http://superalpine.co/img/og.jpg">
+<meta property="og:image" content="http://superalpine.co/img/s1.jpg">
 <link href="css/sa-main.css" rel="stylesheet">
-<link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/apple-touch-icon-57x57.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144x144.png">
-<link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/apple-touch-icon-120x120.png">
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/apple-touch-icon-152x152.png">
-<link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16">
+<style>
+@media all {
+    body
+    {
+         background: url('img/s1.jpg') center center no-repeat;
+        background-size: cover;
+    }
+    header
+        {
+        position: absolute;
+        left:50px;
+        bottom:50px;
+        z-index: 0;
+        }
+        header h1 
+        {
+        color:#fff;
+        font-size:60px;   
+        text-transform: uppercase;
+        margin:0;
+        letter-spacing: -2px;
+        text-shadow: 1px 1px 2px rgba(0,0,0,.7);
+        }
+        header p 
+        {
+        color:#fff;
+        font-size:13px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        margin:0 0 0 5px;
+        text-shadow: 1px 1px 2px rgba(0,0,0,1);
+        }
+    }
+
+@media (max-width:700px) {
+    header
+    {
+    left:5px;
+    bottom:10px;
+    }
+    header h1 
+    {
+    font-size:37px;   
+    letter-spacing: -1px;
+    line-height: 1em;
+    }
+    header p 
+    {
+    font-size: 10px;
+    }
+   
+}    
+</style>
 </head>
 <body>
-
-<header>
-    <a href="http://superalpine.co/" class="logo" title="Super Alpine"><h1>Super Alpine</h1></a>
+    <header>
+    <p>スーパーアルパイン</p>
+    <h1>Super Alpine</h1>
+    <p>SA.2018 | <a href="http://superalpine.co">superalpine.co</a> | <a href='m&#97;ilto&#58;%68ello%40sup&#101;&#114;&#37;61l&#112;i&#110;&#101;&#46;co'>he&#108;lo&#64;su&#112;&#101;r&#97;lpine&#46;&#99;o</a></p>
 </header>
 
-<aside> 
-    <div>
-    <h2 class="headline">Speed, <b>mountains</b> &amp; the high life</h2>  
-    </div>
-</aside>
 
-<section>
- 
-    <article>
-        
-    <div align="center">    
-        <a href="https://www.kickstarter.com/projects/superalpine/super-alpine-magazine"><img src="img/kickstarter.png" alt="Kickstarter"></a>
-        <br>
-        <p>Get the Super Alpine magazine now on Kickstarter.</p>
-        <a class="button" href="https://www.kickstarter.com/projects/superalpine/super-alpine-magazine">View now</a>
-        <br>
-<br>
-<br>
+<input type="checkbox" id="op"></input>
+<div class="lower">
+    <label for="op"></label>
 </div>
-    <footer>
-    <!--
-    
-    <form action="https://superalpine.createsend.com/t/d/s/bjiydi/" method="post" id="subForm">
-        
-        <fieldset>
-        <label for="fieldName">Name</label>
-        <input id="fieldName" name="cm-name" type="text" placeholder="Your first name" />
-        </fieldset>
-
-        <fieldset>
-        <label for="fieldEmail">Email</label><br />
-        <input id="fieldEmail" name="cm-bjiydi-bjiydi" type="email" placeholder="Your email address" required />
-        </fieldset>
-        
-        <button type="submit">Subscribe</button>
-        
-        <p>We respect your privacy.</p>
-    </form>    
--->
-    <hr>
+<div class="overlay menu-overlay">
+    <label for="op"></label>
     <nav>
-    <a href="about/index.html">About &amp; Contact</a><br>
-    <a href="media/index.html">Media coverage</a><br>
-    <a href="terms/index.html">Terms &amp; conditions</a>
+    <ul>
+        <li><a href="about/index.html">About &amp; Contact</a></li>
+        <li><a href="media/index.html">Media coverage</a></li>
+        <li><a href="subscribe/index.html">Subscribe</a></li>
+    </ul>
     </nav>
-    <hr>
-    <p>&copy; Copyright 2018 Super Alpine. All rights reserved.<br>
-    No part of this publication may be reproduced or utilized in any form or by any means without prior written permission from Super Alpine.</p>
-    
-    </footer>
-    </article>
-
-</section>
+</div>
 
 </body>
 </html>

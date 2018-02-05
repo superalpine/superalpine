@@ -1,246 +1,231 @@
-@font-face {
-    font-family: 'pantonlight_caps';
-    src: url('../fonts/panton-lightcaps-webfont.woff2') format('woff2'),
-         url('../fonts/panton-lightcaps-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;}
-
-@font-face {
-    font-family: 'zefani_stencilregular';
-    src: url('../fonts/zefanistenciluppercase-regular-webfont.woff2') format('woff2'),
-         url('../fonts/zefanistenciluppercase-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}    
-
 @media all {
-	html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video 
-	{
-		margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;
-	}
-	body 
-	{
-		background-color:#fff;
-		color:#444;
-		font-family: 'pantonlight_caps', "Helvetica Neue", Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-        font-weight:400;
-		-webkit-text-size-adjust:none;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-	}
-	h1,h2,h3 
-	{
-		font-weight: normal; 
-		line-height:1em;
-		color:#111; 
-	}
-	h1 	
-	{
-		font-size:36px;
-		letter-spacing: -1px;
-		line-height: 1.2em;
-		text-transform: uppercase;
-		padding-bottom: 10px;
-	}
-	h2 	
-	{
-		font-size:18px; 
-		line-height: 1.2em;
-		padding: 20px 0 0 0;
-	}
-	h3
-	{
-		font-size: 16px;
-		line-height: 1.2em;
-		padding:10px 0; 
-	}
-	p
-	{
-		font-size:15px;
-		font-weight:normal;
-		line-height:1.6em;
-		margin:20px 0; 
-	}
-	article p
-	{
-		font-family: "Helvetica Neue", Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-	}
-	ul
-	{
-		margin:0 0 20px 20px;
-	}
-	li
-	{
-		font-size:14px;
-		font-weight:normal;
-		line-height:1.6em;
-	}
-	a 
-	{
-		color:#000;
-		text-decoration: none;
-	}
-	a:hover 
-	{
-		color:#b00;
-	}
-	img 	
-	{
-		max-width:100%;
-		display: block;
-	}
-	hr 
-	{
-		border:none; 
-		font-size:1px; 
-		height:1px; 
-		background-color:#ddd; 
-		width:100%; 
-		clear:both;
-	}
-	header 
-	{
-		position: fixed;
-		top:0;
-		left:50px;
-	  	width:110px;
-	  	height:150px;
-	}
-	.logo
-	{
-		position: absolute;
-		bottom: 25px;
-		display: block;
-		width: 70px;
-		height: 70px;
-		background: url(../img/sa-logo.png) no-repeat center center; background-size: cover;
-		z-index: 0;
-	}
-	.logo h1 
-	{
-		display: none;
-	}
-	 
-	section
-    {   
-        
-        position: relative;
-        display:table;
-        float:right;
-        width: 50vw;
-        height: 100vh;
-        border-top:20px solid #fff;
-        border-bottom:20px solid #fff;
-        border-right:20px solid #fff;
-        background-color: #eee;
-        
-    }
-     article
-    {	
-    	position: relative;
-    	display: table-cell;
-    	vertical-align: middle;
-    	padding:5%;
-    	
-    }
-    aside
-	{  
-		z-index: -2;
-        position: fixed;
-        display:table;
-        width: 50vw;
-        height: 100vh;
-        border:20px solid #fff;
-        top:0;
-        left:0;
-    }
-    aside div
-    {	
-    	position: relative;
-    	background-color: #b00;
-    	display: table-cell;
-    	vertical-align: bottom;
-    	padding:5%;
-    	animation:panel 30s linear infinite;
-		-webkit-animation:panel 30s linear infinite; 
-    }
-    @keyframes panel
-	{
-		0%,100%   {background:#b00;}
-		25%  {background:#666;}
-		45%  {background:#333;}
-		70% {background:#111;}
-	}
-	@-webkit-keyframes panel 
-	{
-		0%,100%   {background:#b00;}
-		25%  {background:#666;}
-		45%  {background:#333;}
-		70% {background:#111;}
-	}
-    .headline
-	{
-		font-family: 'zefani_stencilregular';
-		font-weight: normal;
-  		font-size: 5.9vw;  
-		line-height: 1.1em;
-		color:#fff;
-		text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-	}
-	.headline b
-	{
-		font-weight: normal;
-		letter-spacing: -3px;
-	}
-	
-    footer 
-	{	
-		
-	}
-	footer p
-	{
-		font-size: 12px;
-	}
-	footer nav
-	{
-		padding: 20px 0;
-	}
-	footer nav a
-	{
-		font-size:14px;
-		display: block;
-		line-height: 0.5em;
-	}
-	.subscribe
-    {   
-    	background-color: #eee;
-    	width: 100%;
-    	padding:0 20px 20px 20px;
-    	margin:20px 0 40px 0;
-    }
-    .subscribe p
+    html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+    html
     {
-    	font-family: "Helvetica Neue", Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    	padding:0;
-    	margin:0 0 0 12px;
-    	font-size: 12px;
-    	color:#999;
+        width: 100%;
+        height: 100%;
     }
-    fieldset
+    body 
     {
-    	width: 49%;
-    	display: inline-block;
-    	padding: 10px 0 0 0;
+        background-color: #111;
+        color:#ccc;
+        -webkit-text-size-adjust:none;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+   
+    a 
+    {
+    color:#fff;
+    text-decoration: none;
 
     }
-    label 
+    a:hover 
+    {
+    color:#999;
+    }
+    img     
+    {
+    max-width:100%;
+    }
+    header, section
+    {   
+    max-width: 600px;
+    margin:0 auto;
+    padding:15px;
+    }
+    header
+    {
+    margin-top:10%;
+    }
+     header h1 
+    {
+    font-size:60px;   
+    text-transform: uppercase;
+    margin:0;
+    letter-spacing: -2px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,.3);
+    }
+    header p 
+    {
+    font-size:12px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin:0 0 0 5px;
+    }
+    a 
+    {
+    color:#fff;
+    text-decoration: none;
+
+    }
+    a:hover 
+    {
+    color:#999;
+    }
+    img     
+    {
+    max-width:100%;
+    }
+   
+    h2
+    {
+        color:#fff;
+        font-size: 26px;
+        line-height: 1em;
+        text-transform: uppercase;
+        margin:20px 0 20px 0;
+    }
+    h3
+    {
+        color:#fff;
+        line-height: 1em;
+        font-size: 18px;
+        text-transform: uppercase;
+        margin:50px 0 10px 0;
+    }
+    p 
+    {
+    font-size:14px;
+    line-height: 1.7em;
+    font-weight: normal;
+    margin:10px 0;
+    
+    
+    }
+    input
+    {
+    display:none;
+    }
+    .lower label
+    {
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    width: 30px;
+    height:25px;
+    z-index: 1;
+    }
+    .lower label:after
+    { 
+    position: absolute;
+    display: block;
+    content: "";
+    top:-10px;
+    width: 30px;
+    height: 2px;
+    box-shadow: 0 10px 0 0 #fff, 0 20px 0 0 #fff,  0 30px 0 0 #fff; 
+    }
+    .lower label:hover
+    {
+    cursor:pointer;
+    }
+    .overlay
+    {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255,255,255,.95);
+    z-index: 2;
+    }
+    .overlay label
+    {
+    width: 30px;
+    height:30px;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    background: url('img/cross.png');
+    background-size: cover;
+    z-index: 100;
+    cursor:pointer;
+    }
+    .overlay nav 
+    {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    height: 60%;
+    font-size: 22px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    }
+    .overlay ul 
+    {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    }
+    .overlay ul li 
+    {
+    display: block;
+    height: 20%;
+    height: calc(100% / 5);
+    min-height: 54px;
+    }
+    .overlay ul li a 
+    {
+    display: block;
+    color:#444;
+    text-decoration:none;
+    text-transform:uppercase;
+    }
+    .overlay ul li a:hover
+    {
+    color: #111;
+    }
+    .lower~.menu-overlay
+    {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+    transition: opacity 0.5s, visibility 0s 0.5s;
+    }
+    #op:checked~.menu-overlay
+    {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+    }
+    .menu-overlay nav 
+    {
+    -moz-perspective: 300px;
+    }
+    .menu-overlay nav ul 
+    {
+    opacity: 0.4;
+    -webkit-transform: translateY(-25%) rotateX(35deg);
+    transform: translateY(-25%) rotateX(35deg);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    }
+    #op:checked~.menu-overlay nav ul 
+    {
+    opacity: 1;
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    }
+    #op:not(:checked)~.menu-overlay nav ul 
+    {
+    -webkit-transform: translateY(25%) rotateX(-35deg);
+    transform: translateY(25%) rotateX(-35deg);
+    }
+    
+    
+    form label 
     {
         font-family: "Helvetica Neue", Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
         font-weight:bold;
         font-size:14px;       
     }
-    input[type='email'], input[type='text'] 
+    form input[type='email'], form input[type='text'] 
     {
         font-family: "Helvetica Neue", Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
         display: block;
@@ -248,7 +233,7 @@
         line-height:18px;
         border:2px solid #ddd;
         border-radius:2px;
-        background-color: #fff;
+        background-color: #ddd;
         width:90%;
         padding:10px 5px;
         margin:10px 0 20px 0;
@@ -258,7 +243,7 @@
         letter-spacing: 0;
         font-weight: normal;
     }
-    input:focus, input:hover 
+    form input:focus, form input:hover 
     {
         border:2px solid #b00; 
         outline: none;
@@ -267,7 +252,7 @@
         -o-transition: all .3s ease 0s;
         transition: all .3s ease 0s;
     }
-    button, .button, input
+    form button, form input
     {
         font-family: "Helvetica Neue", Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
         font-size: 13px;
@@ -280,7 +265,7 @@
         border:none;
         border-radius:2px;
         color: #fff;
-        background-color:rgba(0,0,0,1);
+        background-color:rgba(150,150,150,1);
         z-index:0;
         text-align: center;
         text-decoration: none;
@@ -292,7 +277,7 @@
         transition: all .3s ease;
         -webkit-appearance:none;
     }
-    button:after, .button:after
+    form button:after
     {
         content: "";
         position: absolute;
@@ -311,86 +296,37 @@
         -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
         transform: translateX(-50%) translateY(-50%) rotate(-45deg);
     }
-    button:hover, .button:hover
+    form  button:hover
     {
         color:#fff;
     }
-    button:hover:after, .button:hover:after
+    form button:hover:after
     {
         height: 420%;
     }
-	
-	
-	
-}
-
-
-@media (max-width:860px) {
-	header 
-	{
-		top:auto;
-		left:auto;
-	  	width:100vw;
-	  	height:120px;
-	  	padding:0 0 0 5%;
-
-	}
-	 aside
-	{  
-		z-index: -2;
-        position: relative;
-        display:table;
-        width: 100vw;
-        height:120px;
-        border:none;
-        top:auto;
-        left:auto;
-    }
-    aside div
-    {	
-    	position: relative;
-    	display: block;
-    	vertical-align: middle;
-    	padding:2%;
-    	height: 120px;
-    }
-    .headline
-    {
-    	float: right;
-    	width: 220px;
-    }
-    .headline b
-    {
-    	letter-spacing:0;
-    }
-	section
-    {   
-        
-       
-        
-        float:none;
-        width:100vw;
-        height: auto;
-        border:none;
-        background-color: #fff;
-        
-    }
-     article
-    {	
-    	position: relative;
-    	display: table-cell;
-    	vertical-align: middle;
-    	padding:5%;
-    	
-    }
-    h1 	
-	{
-		font-size:28px;
-	}
-   	h2 	
-	{
-		font-size:15px; 
-		padding:10px 0 0 0;
-	}
 
 }
+
+@media (max-width:700px) {
+    header
+    {
+    
+    margin-top: 25%;
+    
+    }
+    header h1 
+    {
+    font-size:38px;   
+    letter-spacing: -1px;
+    }
+    header p
+    {
+        font-size: 11px;
+    }
+   
+   h2 
+   {
+    font-size: 20px;
+   }
+}
+ 
