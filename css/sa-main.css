@@ -17,7 +17,7 @@
     }
     body 
     {
-        background-color: #111;
+        background-color: #222;
         color:#ccc;
         -webkit-text-size-adjust:none;
         -webkit-font-smoothing: antialiased;
@@ -276,7 +276,7 @@
     }
     form input:focus, form input:hover 
     {
-        border:2px solid #b00; 
+        border:2px solid #FFA200; 
         outline: none;
         -webkit-transition: all .3s ease 0s;
         -moz-transition: all .3s ease 0s;
@@ -312,7 +312,7 @@
     {
         content: "";
         position: absolute;
-        background: none repeat scroll 0 0 #b00;
+        background: none repeat scroll 0 0 #FFA200;
         height: 0;
         left: 50%;
         top: 50%;
