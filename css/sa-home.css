@@ -7,15 +7,16 @@ h1
         text-transform: uppercase;
         position: relative;
         display: inline-block;
-        color: #fff;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color: transparent;
+        margin-left: 1%;
+        background-clip: text;
         background-image: url(../img/s1.jpg);
         background-repeat: no-repeat;
-        -webkit-background-size: cover;
         background-size: cover;
         background-position: 50% 50%;
-        margin-left: 1%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
     }
     
 p
