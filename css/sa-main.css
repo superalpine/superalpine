@@ -34,6 +34,24 @@
     a:hover 
     {
     color:#ff0000;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 20%, #111 40%, rgba(0,0,0,.6) 60%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s infinite;
+     -webkit-transition: all .4s ease 0s;
+        -moz-transition: all .4s ease 0s;
+        -o-transition: all .4s ease 0s;
+        transition: all .4s ease 0s;
+    }
+
+    
+    @-webkit-keyframes shine {
+      from {
+        -webkit-mask-position: 150%;
+      }
+      
+      to {
+        -webkit-mask-position: -50%;
+      }
     }
     img     
     {
