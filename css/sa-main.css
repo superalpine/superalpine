@@ -22,132 +22,135 @@
         -webkit-text-size-adjust:none;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        font-family:'Helvetica, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-family: Georgia, serif;
+        font-size: 17px;
+        font-weight: normal;
     }
-   
     a 
     {
-    color:#000;
-    text-decoration: none;
+        color:#000;
+        text-decoration: none;
     }
     a:hover 
     {
-    color:#ff0000;
-     -webkit-transition: all .4s ease 0s;
+        color:#ff0000;
+        -webkit-transition: all .4s ease 0s;
         -moz-transition: all .4s ease 0s;
         -o-transition: all .4s ease 0s;
         transition: all .4s ease 0s;
     }
-
-    
-    @-webkit-keyframes shine {
-      from {
-        -webkit-mask-position: 150%;
-      }
-      
-      to {
-        -webkit-mask-position: -50%;
-      }
-    }
     img     
     {
-    max-width:100%;
+        max-width:100%;
     }
-    header, section
+    section
     {   
-    max-width: 720px;
-    margin:0 auto;
-    }
-    article
-    {
-    padding:15px;
+        width: 60vw;
+        height: 100vh;
+        float: right;
+        position: relative;
     }
     header
     {
-    
-    margin:1% auto 5% auto;
-    padding:0 15px;
+        width: 40vw;
+        height: 100vh;
+        float:left;
+        background-color: #111;
+        position: fixed;
+        display: table;
+    }
+    header div
+    {   
+        display: table-cell;
+        vertical-align: middle;
+        padding:0 6%;
     }
     header h1 
     {
-    font-family: 'helvetica_neueregular';
-    font-size:36px; 
-    font-weight: normal;  
-    text-transform: uppercase;
-    line-height: .9em;
-    letter-spacing: 1px;
-    color: #fff;
+        font-family: 'helvetica_neueregular';
+        font-size:30px; 
+        font-weight: normal;  
+        text-transform: uppercase;
+        line-height: .9em;
+        letter-spacing: 1px;
+        color: #fff;
+    }
+     header h2
+    {
+        font-family: 'helvetica_neueregular';
+        color:#fff;
+        font-size: 76px;
+        line-height: 1em;
+        text-transform: uppercase;
+        margin:100px 0 0 0;
+        font-weight: normal;
+        position: relative;
+    }
+    header h2:before
+    {
+        content: '';
+        position: absolute;
+        border-top:5px solid #fff;
+        top:-20px;
+        left:0;
+        width:80px;
     }
     header p 
     {
-    color:#111;
-    font-size:11px;
-    letter-spacing: 1px;
-    margin:25px 0 5px 5px;
+        color:#ccc;
+        font-size:11px;
+        letter-spacing: 1px;
+        margin:25px 0 5px 5px;
+    }
+    header a
+    {
+        color: #ff0000;
+    }
+    header a:hover
+    {
+        color:#fff;
+    }
+    article, footer
+    {
+        max-width: 720px;
+        padding:15px;
+        margin:50px auto;
     }
     article h1
     {
         font-family: 'helvetica_neueregular';
-        font-size: 56px;
+        font-size: 27px;        
+        line-height: 34px;
         font-weight: normal;
-        line-height: .9em;
-        letter-spacing: -1px;
-        text-transform: uppercase;
-        color:#111;
-        margin:0 0 40px 0;
-        border-left:10px #ccc solid;
-        padding:0 0 0 20px;
-
-    }
-    article h2
-    {
-        font-family: 'helvetica_neueregular';
-        color:#222;
-        font-size: 48px;
-        line-height: 1em;
-        text-transform: uppercase;
-        margin:20px 0 50px 0;
-        font-weight: normal;
-    }
-    
-    article h3
-    {
-        font-family: 'helvetica_neueregular';
-        color:#222;
-        font-weight: normal;
-        line-height: 1em;
-        font-size: 32px;
-        text-transform: uppercase;
-        margin:30px 0 50px 0;
-    }
-     article h4
-    {
-        font-family: 'helvetica_neueregular';
-        color:#222;
-        font-weight: normal;
-        line-height: 1em;
-        font-size: 20px;
         text-transform: uppercase;
         letter-spacing: 1px;
-        margin:0 0 20px 0;
+        color:#000;
+        margin:30px 0 60px 0;
+        position: relative;
+    }
+    article h1:after
+    {
+        content: '';
+        position: absolute;
+        border-top:5px solid #000;
+        bottom:-20px;
+        left:0;
+        width:60px;
     }
     article p
     {
-        font-family: Georgia;
-        font-size: 18px;
-        font-weight: normal;
-        letter-spacing: .1px;
         line-height: 27px;
         margin:0 0 20px 0;
     }
-    article p:first-child:first-letter 
+    article.story p:first-of-type:first-letter 
     {
-      float: left;
-      font-size: 93px;
-      line-height: 80px;
-      padding-top: 4px;
-      padding-right: 8px;
-      padding-left: 3px;
+     
+        float: left;
+        font-size: 93px;
+        line-height: 80px;
+        padding-top: 0px;
+        padding-right: 8px;
+        padding-left: 3px;
     }
     article a
     {
@@ -156,31 +159,30 @@
 
     article blockquote
     {
-        font-size: 36px;
-        line-height: 1.2em;
-        font-style: italic;
-        color: #333;
-        letter-spacing: -1.5px;
-        margin:40px 0 40px -50px;
-        padding: 20px 30px 20px 40px;
-        border-left: 5px solid #333;
-        background-color: #eee;
+        font-family: 'helvetica_neueregular';
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 27px;
+        color: #000;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin:40px 0 40px 0;
+        padding: 0 0 0 30px;
+        border-left: 5px solid #000;
+        
     }
-     footer
+    
+    footer
     {
-        position: relative;
-        width: 100%;
-        left:auto
-        bottom: auto;
-        margin-top: 50px;
-        padding: 10px 0;
-        border-top:1px solid #ddd;
+        border-top:2px solid #eee;
+        max-width:95%;
     }
     footer p
     {
         font-family: helvetica, sans-serif;
         font-size: 13px;
         padding:10px 0;
+
     }
     footer a
     {
@@ -188,7 +190,7 @@
     }
     li 
     {
-        font-family: helvetica, sans-serif;
+        font-family: 'helvetica_neueregular';
     }
     em
     {
@@ -417,15 +419,39 @@
 
 }
 
-@media (max-width:800px) {
+@media (max-width:980px) {
     
-    article blockquote
-    {
-        font-size: 30px;
-        line-height: 1.1em;
-        letter-spacing: -1px;
-        margin:40px 0 40px 0;
-        
+
+    .lower label:after
+    { 
+    box-shadow: 0 10px 0 0 #fff, 0 20px 0 0 #fff,  0 30px 0 0 #fff; 
     }
+    header
+    {
+        width: 100vw;
+        height: auto;
+        float: none;
+        position: relative;
+    }
+    header div 
+    {
+        display: block;
+        max-width: 720px;
+        margin:0 auto;
+        padding:0 15px 15px 15px;
+
+    }
+    header h2
+    {
+        font-size: 60px;
+    }
+    section
+    {
+        width: 100vw;
+        float: none;
+        height: auto;
+    }
+
+    
    
 }
