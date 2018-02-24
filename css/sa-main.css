@@ -185,10 +185,30 @@
         letter-spacing: 1px;
         margin:40px 0 40px 0;
         padding: 0 0 0 30px;
-        border-left: 5px solid #000;
-        
+        border-left: 5px solid #000;    
     }
     
+    article span.location
+    {
+        font-family: helvetica,sans-serif;
+        font-size: 12px;
+        line-height: 12px;
+        margin: 6px 0 0 20px;
+        background-color: #111;
+        color: #fff;
+        padding: 5px 7px;
+        position: absolute;
+    }
+    article span.location a
+    {
+        color: #fff;
+        border:none;
+
+    }
+    article span.location a:hover
+    {
+        color: #ff0000;
+    }
     footer
     {
         border-top:2px solid #eee;
