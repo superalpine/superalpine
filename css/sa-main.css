@@ -22,8 +22,8 @@
         -webkit-text-size-adjust:none;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        font-family: Georgia, serif;
-        font-size: 17px;
+        font-family: 'Domine', Georgia, serif;
+        font-size: 16px;
         font-weight: normal;
     }
     a 
@@ -104,7 +104,6 @@
     {
         color:#ccc;
         font-size:12px;
-        
         margin:0 0 5px 0;
     }
     header a
@@ -127,11 +126,13 @@
     }
     article figcaption
     {
+        font-family: Georgia,serif;
         margin:0 0 30px 0;
-        font-size: 11px;
-        font-style: italic;
+        font-size: 12px;
         padding:5px 0 5px 0;
         text-align: right;
+        font-style: italic;
+        color: #666;
     }
     article h1
     {
@@ -158,13 +159,14 @@
     {
         line-height: 27px;
         margin:0 0 20px 0;
+        letter-spacing:.1px;
     }
     article.story p:first-of-type:first-letter 
     {
-     
+        font-family: Georgia, sans-serif;
         float: left;
-        font-size: 93px;
-        line-height: 80px;
+        font-size: 92px;
+        line-height: 78px;
         padding-top: 0px;
         padding-right: 8px;
         padding-left: 3px;
@@ -176,16 +178,15 @@
 
     article.story blockquote
     {
-        font-family: 'helvetica_neueregular';
-        font-size: 18px;
+        
+        font-size: 19px;
         font-weight: normal;
-        line-height: 27px;
-        color: #000;
-        text-transform: uppercase;
-        letter-spacing: 1px;
+        line-height: 30px;
+        color: #222;
         margin:40px 0 40px 0;
-        padding: 0 0 0 30px;
+        padding: 0 50px 0 30px;
         border-left: 5px solid #000;    
+        text-shadow: 1px 1px 3px rgba(0,0,0,.1);
     }
     
     article span.location
@@ -212,17 +213,21 @@
     footer
     {
         border-top:2px solid #eee;
+        padding:10px 0;
     }
     footer p
     {
-        font-family: helvetica, sans-serif;
-        font-size: 13px;
-        padding:10px 0;
-
+        font-family: Georgia,serif;
+        margin:0 0 30px 0;
+        font-size: 12px;
+        padding:5px 0 5px 0;
+        font-style: italic;
+        color: #666;
     }
     footer a
     {
-        color:#444;
+        color:#000;
+        border-bottom: 1px solid #ccc;
     }
     li 
     {
