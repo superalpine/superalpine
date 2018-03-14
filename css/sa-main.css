@@ -54,11 +54,11 @@
         height: 100vh;
         float: right;
         position: relative;
-        margin-top:50px;
     }
     header
     {
         width: 40vw;
+        max-width: 800px;
         height: 100vh;
         float:left;
         background-color: #111;
@@ -239,8 +239,8 @@
     {
         
         font-family: 'helvetica_neueregular';
-        font-size: 26px;        
-        line-height: 33px;
+        font-size: 24px;        
+        line-height: 30px;
         letter-spacing: 1px;
         font-weight: normal;
         text-transform: uppercase;
@@ -256,6 +256,11 @@
     article.list a
     {
         border:none;
+    }
+    
+    article.list a:hover
+    {
+        color:#000;
     }
     
     footer
@@ -295,19 +300,18 @@
     }
     img     
     {
-    max-width:100%;
+        max-width:100%;
     }
-   
     input
     {
-    display:none;
+        display:none;
     }
     .lower label
     {
-    position: absolute;
-    right: 40px;
+    position: fixed;
+    left: 40px;
     top: 30px;
-    width: 30px;
+    width: 25px;
     height:25px;
     z-index: 1;
     }
@@ -317,9 +321,9 @@
     display: block;
     content: "";
     top:-10px;
-    width: 30px;
+    width: 25px;
     height: 2px;
-    box-shadow: 0 10px 0 0 #111, 0 20px 0 0 #111,  0 30px 0 0 #111; 
+    box-shadow: 0 10px 0 0 #eee, 0 20px 0 0 #eee,  0 30px 0 0 #eee; 
     }
     .lower label:hover
     {
@@ -340,7 +344,7 @@
     width: 30px;
     height:30px;
     position: absolute;
-    right: 40px;
+    left: 40px;
     top: 30px;
     background: url('../img/cross.png');
     background-size: cover;
@@ -520,9 +524,17 @@
 @media (max-width:990px) {
     
 
-    .lower label:after
-    { 
-    box-shadow: 0 10px 0 0 #fff, 0 20px 0 0 #fff,  0 30px 0 0 #fff; 
+    .lower label
+    {
+        top:20px;
+        left: auto;
+        right: 20px;
+    }
+    .overlay label
+    {
+    right:20px;
+    left: auto;
+    top: 20px;
     }
     header
     {
