@@ -151,7 +151,7 @@
     {
         content: '';
         position: absolute;
-        border-top:5px solid #000;
+        border-top:5px solid #111;
         bottom:-20px;
         left:0;
         width:60px;
@@ -231,9 +231,16 @@
     }
     article.list
     {
+        display: block;
         clear: both;
         min-height:150px;
-        margin:50px auto 0 auto;
+        margin:50px auto 70px auto;
+    }
+    article.list div
+    {
+        float: left;
+        width: 57%;
+        padding-top: 10px;
     }
     article.list h1
     {
@@ -246,12 +253,26 @@
         text-transform: uppercase;
         color:#000;
         margin-bottom:10px;
+        position: relative;   
+    }
+    article.list h1:after
+    {
+        content: '';
+        position: absolute;
+        border-top:3px solid #111;
+        top:-10px;
+        left:0;
+        width:40px;
     }
     article.list img
     {
         float: left;
         width: 40%;
-        margin-right: 30px;
+        margin-right:3%;
+    }
+    article.list p
+    {
+        clear: right;
     }
     article.list a
     {
