@@ -9,6 +9,15 @@
   <loc>http://superalpine.co/</loc>
   <priority>1.00</priority>
 </url>
+
+<url>
+  <loc>http://superalpine.co/magazine/index.html</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://superalpine.co/articles/porsche-drive-book.html</loc>
+  <priority>0.50</priority>
+</url>
 <url>
   <loc>http://superalpine.co/articles/porsche-r7-rsr-prototype.html</loc>
   <priority>0.50</priority>

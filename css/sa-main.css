@@ -54,6 +54,7 @@
         height: 100vh;
         float: right;
         position: relative;
+        margin-top:50px;
     }
     header
     {
@@ -134,7 +135,7 @@
         font-style: italic;
         color: #666;
     }
-    article h1
+    article.story h1
     {
         font-family: 'helvetica_neueregular';
         font-size: 27px;        
@@ -146,7 +147,7 @@
         margin:30px 0 60px 0;
         position: relative;
     }
-    article h1:after
+    article.story h1:after
     {
         content: '';
         position: absolute;
@@ -155,11 +156,29 @@
         left:0;
         width:60px;
     }
-    article p
+    article p, article li
     {
         line-height: 27px;
         margin:0 0 20px 0;
         letter-spacing:.1px;
+    }
+    article.story h3
+    {
+        font-family: 'helvetica_neueregular';
+        text-transform: uppercase;
+        font-size: 18px;
+        margin:10px 0;
+
+    }
+    article.story ul
+    {
+        clear: both;
+        margin:10px 0 30px 40px;
+    }
+    article.story li
+    {
+        line-height: 1.7em;
+        margin: 0;
     }
     article.story p:first-of-type:first-letter 
     {
@@ -210,6 +229,35 @@
     {
         color: #ff0000;
     }
+    article.list
+    {
+        clear: both;
+        min-height:150px;
+        margin:50px auto 0 auto;
+    }
+    article.list h1
+    {
+        
+        font-family: 'helvetica_neueregular';
+        font-size: 26px;        
+        line-height: 33px;
+        letter-spacing: 1px;
+        font-weight: normal;
+        text-transform: uppercase;
+        color:#000;
+        margin-bottom:10px;
+    }
+    article.list img
+    {
+        float: left;
+        width: 40%;
+        margin-right: 30px;
+    }
+    article.list a
+    {
+        border:none;
+    }
+    
     footer
     {
         border-top:2px solid #eee;
@@ -220,6 +268,7 @@
         font-family: Georgia,serif;
         margin:0 0 30px 0;
         font-size: 12px;
+        line-height:1.6em;
         padding:5px 0 5px 0;
         font-style: italic;
         color: #666;
@@ -229,7 +278,11 @@
         color:#000;
         border-bottom: 1px solid #ccc;
     }
-    li 
+    nav ul
+    {
+
+    }
+    nav li  
     {
         font-family: 'helvetica_neueregular';
         letter-spacing: 1px;
@@ -488,7 +541,7 @@
     }
     header h2
     {
-        font-size: 56px;
+        font-size: 52px;
         margin:60px 0 10px 0;
     }
     section
@@ -497,7 +550,26 @@
         float: none;
         height: auto;
     }
-
-    
+    footer p
+    {
+        padding:10px;
+    }
+    article.list 
+    {
+        min-height: auto;
+        margin:0 auto;
+    }
+    article.list img
+    {
+        float: none;
+        width: 100%;
+        margin-right:0px;
+    }
+    article.list h1
+    {
+        font-size: 20px;
+        line-height: 26px;
+        margin: 10px 0 5px 0;
+    }
    
 }
