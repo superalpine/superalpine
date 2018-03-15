@@ -15,6 +15,7 @@
 <link href="../css/sa-main.css" rel="stylesheet">
 </head>
 <body>
+
  <header>
     <div>
     <p>スーパーアルパイン</p>
@@ -23,14 +24,16 @@
     </div>
 </header>
 
-<section>
-    <article class="story">
+<section itemscope itemtype="http://schema.org/Book">
+    <article class="story" itemprop="review" itemscope itemtype="http://schema.org/Review">
 		
         
-        <h1>Dream roads of the alps by Stefan Bogner</h1>
+        <h1 itemprop="name">Escapes: Dream roads of the alps by <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+<span itemprop="name">Stefan Bogner</span></span></h1>
+        <span itemprop="reviewBody">
         <p>This is a book I never expected to be printed. A book made up entirely of photographs, of mostly empty, alpine roads. A few paragraphs of text, in German, and that's it.</p>
         
-        <figure><img src="img/escapes5.jpg" alt="Escapes book"></figure>
+        <figure><img src="img/escapes5.jpg" alt="Escapes book" itemprop="image"></figure>
         <figcaption>Escapes book &copy; Copyright SUPER ALPINE. All rights reserved.</figcaption>
 
         <p>In this day and age of lower print sales, we can thank the popularity of the niche in publishing for this book. Back when print runs were for best sellers this would have never been made.</p>
@@ -72,10 +75,13 @@
             <li>Col de la Bonette </li>
             <li>Stilfser Joch</li>
         </ul>
+        </span>
         <figure><img src="img/escapes1.jpg" alt="Escapes book<"></figure>
         <figcaption>Escapes book &copy; Copyright SUPER ALPINE. All rights reserved.</figcaption>
         
         <h3>Availability</h3>
+        <p itemprop="publisher" itemscope itemtype="http://schema.org/Organization">Publisher: <span itemprop="name">Delius Klasing Vlg Gmbh</span> (17 Sept. 2012)</p>
+        <p>Language: <span itemprop="inLanguage">German</span></p>
         <p>'Escapes' is available in a 224 page hardcover from <a href="http://amzn.to/2pVUmnP">Amazon</a>.</p>
         </article>
         <footer>
