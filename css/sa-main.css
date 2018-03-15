@@ -241,7 +241,7 @@
         width: 57%;
         padding-top: 10px;
     }
-    article.list h1
+    article.list h3
     {
         
         font-family: 'helvetica_neueregular';
@@ -254,7 +254,7 @@
         margin-bottom:10px;
         position: relative;   
     }
-    article.list h1:after
+    article.list h3:after
     {
         content: '';
         position: absolute;
@@ -604,7 +604,7 @@
         width: 100%;
         margin-right:0px;
     }
-    article.list h1
+    article.list h3
     {
         font-size: 20px;
         line-height: 26px;
