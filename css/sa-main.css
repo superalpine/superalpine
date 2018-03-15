@@ -205,7 +205,6 @@
         margin:40px 0 40px 0;
         padding: 0 50px 0 30px;
         border-left: 5px solid #000;    
-        text-shadow: 1px 1px 3px rgba(0,0,0,.1);
     }
     
     article span.location
@@ -547,15 +546,16 @@
 
     .lower label
     {
+        position: absolute;
         top:20px;
         left: auto;
         right: 20px;
     }
     .overlay label
     {
-    right:20px;
-    left: auto;
-    top: 20px;
+        right:20px;
+        left: auto;
+        top: 20px;
     }
     header
     {
@@ -591,6 +591,12 @@
     {
         min-height: auto;
         margin:0 auto;
+        width: 100%;
+    }
+    article.list div
+    {
+        float: none;
+        width: 100%;
     }
     article.list img
     {
@@ -604,5 +610,13 @@
         line-height: 26px;
         margin: 10px 0 5px 0;
     }
-   
+    article span.location
+    {
+        display: block;
+        position: relative;
+        margin: 5px 0 5px 0;
+        width: 155px;
+    }
+
+    
 }
