@@ -43,6 +43,19 @@
     {
         max-width:100%;
     }
+    h3 
+    { 
+        font-family: 'helvetica_neueregular';
+        font-size: 24px;        
+        line-height: 30px;
+        letter-spacing: 1px;
+        font-weight: normal;
+        text-transform: uppercase;
+        color:#000;
+        margin-bottom:10px;
+        position: relative;   
+    }
+
     iframe
     {
         width:100%;
@@ -160,14 +173,6 @@
         line-height: 27px;
         margin:0 0 20px 0;
         letter-spacing:.1px;
-    }
-    article.story h3
-    {
-        font-family: 'helvetica_neueregular';
-        text-transform: uppercase;
-        font-size: 18px;
-        margin:10px 0;
-
     }
     article.story ul
     {
