@@ -50,15 +50,14 @@
     }
     section
     {   
-        width: 60vw;
+        width: 65vw;
         height: 100vh;
         float: right;
         position: relative;
     }
     header
     {
-        width: 40vw;
-        max-width: 800px;
+        width: 35vw;
         height: 100vh;
         float:left;
         background-color: #111;
@@ -85,7 +84,7 @@
     {
         font-family: 'helvetica_neueregular';
         color:#fff;
-        font-size: 76px;
+        font-size: 70px;
         line-height: 1em;
         text-transform: uppercase;
         margin:100px 0 0 0;
@@ -238,7 +237,7 @@
     article.list div
     {
         float: left;
-        width: 57%;
+        width: 370px;
         padding-top: 10px;
     }
     article.list h3
@@ -266,8 +265,8 @@
     article.list img
     {
         float: left;
-        width: 40%;
-        margin-right:3%;
+        width: 300px;
+        margin-right:20px;
     }
     article.list p
     {
@@ -541,10 +540,37 @@
 
 }
 
-@media (max-width:990px) {
-    
 
-    .lower label
+@media (max-width:1200px) {
+ 
+    article.list
+    {
+        max-width: 590px;
+        padding: 5px;
+        margin-bottom:0;
+    }
+
+    article.list div
+    {
+        
+        width: 350px;
+        
+    }
+    article.list img
+    {
+        
+        width: 200px;
+        
+    }
+    article.list h3
+    {
+        font-size: 20px;
+    }
+}
+    
+@media (max-width:1060px) {
+
+.lower label
     {
         position: absolute;
         top:20px;
@@ -574,7 +600,7 @@
     }
     header h2
     {
-        font-size: 52px;
+        font-size: 48px;
         margin:60px 0 10px 0;
     }
     section
@@ -606,7 +632,6 @@
     }
     article.list h3
     {
-        font-size: 20px;
         line-height: 26px;
         margin: 10px 0 5px 0;
     }
