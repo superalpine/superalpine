@@ -55,7 +55,10 @@
         margin-bottom:10px;
         position: relative;   
     }
-
+    .meta 
+    {
+        display: none;
+    }
     iframe
     {
         width:100%;
