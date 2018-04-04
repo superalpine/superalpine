@@ -144,8 +144,7 @@
     }
     section
     {   
-        max-width: 95%;
-        margin:0 auto;
+        
     }
     article
     {
@@ -295,10 +294,30 @@
         color:#000;
     }
     
+    .subbox
+    {
+        width:100%; 
+        background: url(../img/subbox.jpg) no-repeat;
+        background-size: cover;
+        clear:both;
+        padding:30px 22% 10px 22%;
+        margin-bottom: -22px;
+        color:#fff;
+    }
+    .subbox input
+    {
+        color:#111;
+    }
+    .subbox div
+    {
+        width: 49%; 
+        display: inline-block;
+    }
     footer
     {
+
         border-top:2px solid #eee;
-        padding:10px 0;
+        padding:20px;
     }
     footer p
     {
@@ -412,24 +431,22 @@
 
 
 @media (max-width: 700px) {
-
     nav 
     {
         height: 55px; 
         padding:15px 0 15px 3px; 
-        
-
     }
     nav li 
-    {
-        
+    {   
         font-size: 12px;
     }
     nav li a 
     {
-    
         margin: 0 3px;
-    
+    }
+    .subbox div
+    {
+        width: 100%;
     }
 }
 @media (max-width:1200px) {
@@ -494,6 +511,8 @@
         margin: 5px 0 5px 0;
         width: 155px;
     }
-
-    
+     .subbox
+    {
+        padding:30px;
+    }
 }
