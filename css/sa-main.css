@@ -58,6 +58,7 @@
     {
         width:100%;
         max-width: 100%;
+        margin:10px 0 20px 0;
     }
 
     nav 
@@ -66,7 +67,7 @@
         background-color: #222; 
         height: 60px; 
         padding:20px; 
-        text-align: right;
+        text-align: center;
         border-top:1px solid #ff0000;
     }
     nav li 
@@ -86,11 +87,6 @@
     {
         color:#ff0000;
     }
-    section
-    {   
-        max-width: 95%;
-        margin:0 auto;
-    }
     header
     {
         padding: 50px 100px;
@@ -100,21 +96,18 @@
         position: relative;
         width: 100vw;
         height: 300px;
-
     }
-
     header h1 
     {
-    background: url(../img/logo.png) no-repeat center center;
-    background-size: cover;
-    width: 100px;
-    height: 164px;    
-    display: block;
-    font-size: 0;
-    color:#efefef;
-    float: left;
+        background: url(../img/logo.png) no-repeat center center;
+        background-size: cover;
+        width: 100px;
+        height: 164px;    
+        display: block;
+        font-size: 0;
+        color:#efefef;
+        float: left;
     }
-    
     header h2:before
     {
         content: '';
@@ -134,7 +127,6 @@
         width: calc(100% - 250px);
         margin-top:15px;
     }
-    
     header p 
     {
         
@@ -150,7 +142,12 @@
     {
         color:#fff;
     }
-    article, footer
+    section
+    {   
+        max-width: 95%;
+        margin:0 auto;
+    }
+    article
     {
         max-width: 760px;
         padding:15px;
@@ -204,7 +201,7 @@
     }
     article.story p:first-of-type:first-letter 
     {
-        
+        color:#111;
         float: left;
         font-size: 92px;
         line-height: 78px;
@@ -231,12 +228,12 @@
     article span.location
     {
         font-family: 'IBM Plex Sans', sans-serif;
-        font-size: 12px;
-        line-height: 12px;
+        font-size: 13px;
+        line-height: 13px;
         margin: 6px 0 0 20px;
         background-color: #111;
         color: #fff;
-        padding: 5px 7px;
+        padding: 6px 8px;
         position: absolute;
         font-weight: 400;
     }
@@ -418,15 +415,15 @@
 
     nav 
     {
-        height: 50px; 
+        height: 55px; 
         padding:15px 0 15px 3px; 
-        text-align: left;
+        
 
     }
     nav li 
     {
         
-        font-size: 11px;
+        font-size: 12px;
     }
     nav li a 
     {
