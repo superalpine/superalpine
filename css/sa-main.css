@@ -14,7 +14,7 @@
         -webkit-text-size-adjust:none;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        font-family: 'IBM Plex Serif', serif;
+        font-family: 'IBM Plex Serif', Georgia, serif;
         font-size: 17px;
         font-weight: 400;
     }
@@ -38,7 +38,7 @@
     }
     h1, h2, h3, h4, h5, h6
     {
-        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'IBM Plex Sans', Helvetica, Roboto, Arial, sans-serif;
         font-weight: 100;
         color:#000;
     }
@@ -74,7 +74,7 @@
     {
         display: inline-block;
         text-transform: uppercase; 
-        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'IBM Plex Sans', Helvetica, Roboto, Arial, sans-serif;
         font-size: 14px;
     }
     nav li a 
@@ -327,7 +327,7 @@
     }
     footer p
     {
-        font-family: 'IBM Plex Sans', sans-serif;
+        font-family: 'IBM Plex Sans', Helvetica, Roboto, Arial, sans-serif;
         margin:0 0 30px 0;
         font-size: 12px;
         line-height:1.6em;
