@@ -103,7 +103,7 @@
     {
         max-width: 1000px;
         margin:0 auto;
-        padding: 50px 50px;
+        padding: 50px 0;
 
     }
     header h1 
@@ -244,49 +244,37 @@
     {
         color: #ff0000;
     }
-    article.list:first-of-type
+    
+    section.index
     {
-        width: 100%;
-        height: auto;
-        float: none;
-        padding: 20px;
-    }
-    article.list:first-of-type h3
-    {
-        font-size: 30px;
+        max-width: 1000px;
+        margin:0 auto;
     }
     
     article.list
     {
-        width: 49%;
+        width: 31%;
         min-height: 340px;
         padding: 0;
-        margin: 0 0 30px 0%;
+        margin: 0 2% 30px 0%;
+        display: block;
         float: left;
-        padding:15px 15px 0 15px;
         box-shadow: 1px 1px 5px rgba(0,0,0,.1);
+        overflow: hidden;
         
     }
-    article.list:nth-child(even)
-    {
-        float: left;
-        clear: left;
-    }
-    article.list:nth-child(odd)
-    {
-        float: right;
-    }
-
     article.list h3
     {
         font-size: 21px;        
-        line-height: 28px;
-        margin: 5px 0;         
+        line-height: 24px;
+        margin: 5px 15px;         
     }
-    article.list img
+    article.list p
     {
-        padding-bottom: 0;   
+        margin: 5px 15px;
+        line-height: 24px;         
     }
+    
     article.list a
     {
         border:none;
@@ -445,32 +433,6 @@
 
 }
 
-@media (max-width: 768px) {
-
-    nav 
-    {
-        height: 55px; 
-        padding:15px 0 15px 3px; 
-    }
-    nav li 
-    {   
-        font-size: 12px;
-    }
-    nav li a 
-    {
-        margin: 0 3px;
-    }
-     header div
-    {
-        
-        padding:0;
-
-    }
-    .subbox div
-    {
-        width: 100%;
-    }
-}
 @media (max-width:1020px) {
     
     header
@@ -503,7 +465,7 @@
     }
      header h2
     {
-        font-size: 42px;
+        font-size: 40px;
         width: calc(100% - 120px);
         margin-top:0px;
     }
@@ -511,28 +473,11 @@
     {
         margin-top: 0;
     }
-
-    article.list:first-of-type, article.list
+    
+    section.index
     {
-        width: 100%;
-        height: auto;
+        padding:0 20px;
     }
-    article.list
-    {
-        float: none;  
-        min-height: auto;
-        padding-bottom: 10px; 
-    }
-    article.list:nth-child(even)
-    {
-        float: none;
-        clear: left;
-    }
-    article.list:nth-child(odd)
-    {
-        float: none;
-    }
-
     article span.location
     {
         display: block;
@@ -540,8 +485,49 @@
         margin: 5px 0 5px 0;
         width: 155px;
     }
+    article.list
+    {
+        width: 47%;
+        margin:10px 3% 20px 0;
+        padding:0 0 30px 0;
+        height: auto;
+    }
      .subbox
     {
         padding:30px;
     }
+}
+
+@media (max-width: 768px) {
+
+    nav 
+    {
+        height: 55px; 
+        padding:15px 0 15px 0px; 
+    }
+    nav li 
+    {   
+        font-size: 12px;
+    }
+    nav li a 
+    {
+        margin: 0 3px;
+    }
+     header div
+    {
+        padding:10px;
+    }
+    .subbox div
+    {
+        width: 100%;
+    }
+    article.list
+    {
+        width: 95%;
+        float: none;
+        margin:10px auto 20px auto;
+        padding:0 0 10px 0;
+        height: auto;
+    }
+
 }
