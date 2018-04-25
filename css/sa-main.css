@@ -60,10 +60,13 @@
     iframe
     {
         width:100%;
-        max-width: 100%;
-        margin:10px 0 20px 0;
     }
-
+    .embed
+    {
+        max-width: 720px;
+        margin:10px auto;
+        overflow: hidden;
+    }
     nav 
     {
         width: 100%;
