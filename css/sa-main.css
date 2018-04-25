@@ -7,7 +7,7 @@
     }
     body 
     {
-        background-color: #fff;
+        background-color: #fafafa;
         color:#444;
         -webkit-text-size-adjust:none;
         -webkit-font-smoothing: antialiased;
@@ -66,11 +66,11 @@
     nav 
     {
         width: 100%;
-        background-color: #222; 
+        background-color: #fff; 
         height: 60px; 
         padding:20px; 
         text-align: center;
-        border-top:1px solid #ff0000;
+        border-top:2px solid #ff0000;
     }
     nav li 
     {
@@ -98,10 +98,12 @@
         position: relative;
         width: 100vw;
         height: 300px;
+        border-top:1px solid #eee;
+        border-bottom:1px solid #eee;
     }
     header div
     {
-        max-width: 1000px;
+        max-width: 1200px;
         margin:0 auto;
         padding: 50px 0;
 
@@ -247,40 +249,57 @@
     
     section.index
     {
-        max-width: 1000px;
+        max-width: 1200px;
         margin:0 auto;
     }
     
+    section.index h2
+    {
+        font-size: 42px;
+        line-height: 52px;
+        margin:50px 0 50px 25px;
+        text-transform: uppercase;
+        position: relative;
+    }
+    section.index h2:after
+    {
+        content: '';
+        position: absolute;
+        border-top:5px solid #111;
+        bottom:-20px;
+        left:0;
+        width:80px;
+    }
     article.list
     {
-        width: 31%;
+        background-color: #fff;
+        width:31.33333333%;
         min-height: 340px;
         padding: 0;
-        margin: 0 2% 30px 0%;
+        margin:1%;
         display: block;
         float: left;
-        box-shadow: 1px 1px 5px rgba(0,0,0,.1);
+        box-shadow: 0px 1px 2px 0px rgba(53, 53, 53, 0.0980392);
+        border:1px solid rgba(53, 53, 53, 0.0980392);
         overflow: hidden;
-        
     }
     article.list h3
     {
         font-size: 21px;        
         line-height: 24px;
-        margin: 5px 15px;         
+        margin: 10px 15px 5px 15px;         
     }
     article.list p
     {
-        margin: 5px 15px;
+        font-size: 16px;
         line-height: 24px;         
+        margin: 5px 15px;
     }
-    
     article.list a
     {
         border:none;
         display: block;
     }
-    
     article.list a:hover
     {
         color:#000;
@@ -292,13 +311,13 @@
         background: url(../img/subbox.jpg) no-repeat center center;
         background-size: cover;
         clear:both;
-        padding:20px 0 10px 0;
+        padding:50px 0;
         margin:120px 0 -22px 0 ;
         color:#fff;
     }
     .subbox form
     {
-         max-width: 1000px; 
+         max-width: 800px; 
          margin:0 auto;
     }
     .subbox div
@@ -308,8 +327,16 @@
     }
     .subbox h3
     {
+        font-size: 16px;
+        letter-spacing: 1px;
         color:#fff;
-        margin-bottom: 20px;
+        margin-bottom:0;
+    }
+    .subbox p
+    {
+        font-size: 18px;
+        margin:0 0 10px 0;
+        color: #ccc;
     }
     .subbox form button
     {
@@ -329,7 +356,7 @@
         padding:5px 0 5px 0;
         color: #666;
         clear: both;
-        max-width: 1000px; 
+        max-width: 1200px; 
     }
     em
     {
@@ -433,7 +460,7 @@
 
 }
 
-@media (max-width:1020px) {
+@media (max-width:1200px) {
     
     header
     {
@@ -476,7 +503,7 @@
     
     section.index
     {
-        padding:0 20px;
+        padding:0 10px;
     }
     article span.location
     {
@@ -485,17 +512,8 @@
         margin: 5px 0 5px 0;
         width: 155px;
     }
-    article.list
-    {
-        width: 47%;
-        margin:10px 3% 20px 0;
-        padding:0 0 30px 0;
-        height: auto;
-    }
-     .subbox
-    {
-        padding:30px;
-    }
+    
+     
 }
 
 @media (max-width: 768px) {
@@ -515,7 +533,7 @@
     }
      header div
     {
-        padding:10px;
+        padding:35px 10px;
     }
     .subbox div
     {
