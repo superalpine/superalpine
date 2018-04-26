@@ -1,2 +1,4 @@
 User-agent: Googlebot-Image
 Disallow: / 
+
+Sitemap: http://superalpine.co/sitemap.xml
