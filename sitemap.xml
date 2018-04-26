@@ -14,14 +14,6 @@
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>http://superalpine.co/articles/bellroy-elements-sleeve.html</loc>
-  <priority>0.30</priority>
-</url>
-<url>
-  <loc>http://superalpine.co/articles/simplon-pass.html</loc>
-  <priority>0.50</priority>
-</url>
-<url>
   <loc>http://superalpine.co/articles/col-de-joux-plane.html</loc>
   <priority>0.50</priority>
 </url>
@@ -64,6 +56,10 @@
 <url>
   <loc>http://superalpine.co/articles/arcteryx-alpha-sl-jacket</loc>
   <priority>0.40</priority>
+</url>
+<url>
+  <loc>http://superalpine.co/articles/bellroy-elements-sleeve.html</loc>
+  <priority>0.30</priority>
 </url>
 <url>
   <loc>http://superalpine.co/about/index.html</loc>
