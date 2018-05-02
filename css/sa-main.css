@@ -25,10 +25,10 @@
     a:hover 
     {
         color:#000;
-        -webkit-transition: all .4s ease 0s;
-        -moz-transition: all .4s ease 0s;
-        -o-transition: all .4s ease 0s;
-        transition: all .4s ease 0s;
+        -webkit-transition: all .5s ease 0s;
+        -moz-transition: all .5s ease 0s;
+        -o-transition: all .5s ease 0s;
+        transition: all .5s ease 0s;
     }
     img     
     {
@@ -227,13 +227,32 @@
         font-size: 24px;
         font-weight: normal;
         font-style: italic;
-        line-height: 34px;
-        margin:40px auto;
+        line-height: 38px;
+        margin:100px auto 100px auto;
         padding: 0 50px 0 30px;
-        border-left: 5px solid #000;
-        max-width: 720px;    
+        max-width: 500px;
+        position: relative;
     }
-    
+    article.story blockquote:before
+    {
+        content: open-quote;
+        position: absolute;
+        top:-20px;
+        left:35%;
+        font-size: 100px;
+        color:#ccc;
+
+    }
+    article.story blockquote:after
+    {
+        content: '';
+        position: absolute;
+        border-top:5px solid #ccc;
+        bottom:-30px;
+        left:35%;
+        width:50px;
+
+    } 
     article span.location
     {
         font-family: 'IBM Plex Sans', sans-serif;
@@ -289,9 +308,23 @@
         margin:1%;
         display: block;
         float: left;
-        box-shadow: 0px 1px 2px 0px rgba(53, 53, 53, 0.0980392);
-        border:1px solid rgba(53, 53, 53, 0.0980392);
-        overflow: hidden;
+        
+    }
+     article.list a
+    {
+        border:none;
+        display: block;
+        box-shadow: 0px 1px 2px 0px rgba(53, 53, 53, .2);
+        border:1px solid #eee;
+        min-height: 350px;
+        opacity: .9;
+    }
+    article.list a:hover
+    {
+        color:#333;
+        box-shadow: none;
+        border:1px solid #ccc;
+        opacity: 1;
     }
     article.list h3
     {
@@ -308,7 +341,6 @@
         text-transform: uppercase;
         color: #ff0000;
         margin: 10px 15px 0 15px;
-        
     }
     article.list p
     {
@@ -316,18 +348,6 @@
         line-height: 24px;         
         margin: 5px 15px;
     }
-    article.list a
-    {
-        border:none;
-        display: block;
-    }
-    article.list a:hover
-    {
-        color:#000;
-    }
-
-   
-    
     footer
     {
         border-top:1px solid #eee;
