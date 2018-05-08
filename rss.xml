@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+<title>Super Alpine</title>
+<link>http://superalpine.co</link>
+<description>RSS Feed of Super Alpine</description>
+
+<item>
+<title>Vision Arts Festival</title>
+<link>http://superalpine.co/articles/vision-arts.html</link>
+<description>Art and nature meet at 1600m in the Swiss alps.</description>
+</item>
+
+<item>
+<title>Casio G-Shock Mudmaster</title>
+<link>http://superalpine.co/articles/g-shock-mudmaster.html</link>
+<description>The wrist monster from 109 fathoms.</description>
+</item>
+
+<item>
+<title>Col de Joux Plane</title>
+<link>http://superalpine.co/articles/col-de-joux-plane.html</link>
+<description>A summit lake made famous in the Tour de France.</description>
+</item>
+
+<item>
+<title>Mittelallalin</title>
+<link>http://superalpine.co/articles/mittelallalin.html</link>
+<description>High above Saas Fee in the Swiss Alps.</description>
+</item>
+
+<item>
+<title>Cirque du Fer à Cheval</title>
+<link>http://superalpine.co/articles/cirque-du-fer-a-cheval.html</link>
+<description>A small piece of Yosemite in the French Alps.</description>
+</item>
+
+<item>
+<title>Gstaad 3000</title>
+<link>http://superalpine.co/articles/gstaad-3000.html</link>
+<description>It's not in Gstaad and it's not at 3000m. But there is a glacier.</description>
+</item>
+
+<item>
+<title>Porsche Drive</title>
+<link>http://superalpine.co/articles/porsche-drive-book.html</link>
+<description>14 Porsches and 15 passes in 4 days a book by Stefan Bogner and Jan Baedeker.</description>
+</item>
+
+</channel>
+</rss>
