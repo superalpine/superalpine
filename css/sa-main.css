@@ -7,6 +7,7 @@
     }
     body 
     {
+        border-top:3px solid #ff0000;
         background-color: #fafafa;
         color:#444;
         -webkit-text-size-adjust:none;
@@ -69,32 +70,7 @@
         padding: 10px 0 30px 0;
         max-width: 720px;
     }
-    nav 
-    {
-        width: 100%;
-        background-color: #fff; 
-        height: 60px; 
-        padding:20px; 
-        text-align: center;
-        border-top:2px solid #ff0000;
-    }
-    nav li 
-    {
-        display: inline-block;
-        text-transform: uppercase; 
-        font-family: 'IBM Plex Sans', Helvetica, Roboto, Arial, sans-serif;
-        font-size: 14px;
-    }
-    nav li a 
-    {
-        color:#aaa; 
-        margin: 0 20px;
-        border-bottom: none;
-    }
-    nav li a:hover
-    {
-        color:#ff0000;
-    }
+   
     header
     {
         
@@ -348,22 +324,7 @@
         line-height: 24px;         
         margin: 5px 15px;
     }
-    footer
-    {
-        border-top:1px solid #eee;
-        padding:20px;
-    }
-    footer p
-    {
-        font-family: 'IBM Plex Sans', Helvetica, Roboto, Arial, sans-serif;
-        margin:0 auto 10px auto;
-        font-size: 12px;
-        line-height:1.6em;
-        padding:5px 0 5px 0;
-        color: #666;
-        clear: both;
-        max-width: 1100px; 
-    }
+
     em
     {
         display: block;
@@ -374,22 +335,26 @@
     {
         max-width:100%;
     }
-    .subbox
+    footer
     {
-        width:100%; 
+        width: 100%;
         background: url(../img/subbox.jpg) no-repeat center center;
         background-size: cover;
         clear:both;
-        padding:60px 20px;
-        margin:50px auto;
+        padding:60px 0;
+        margin:50px 0;
     }
-    
-    .subbox div
+    footer p
     {
-        width: 49%; 
-        display: inline-block;
+        font-family: 'IBM Plex Sans', Helvetica, Roboto, Arial, sans-serif;
+        font-size: 14px;
+        line-height:1.6em;
+        padding:0;
+        margin:0;
+        color: #888;
+       
     }
-    .subbox h4
+    footer h4
     {
         font-size: 10px;        
         line-height: 18px;
@@ -399,16 +364,51 @@
         color: #ff0000;
         margin:0;
     }
-    .subbox h3
+    footer a
+        { 
+        color:#888; 
+        border-bottom: none;
+    }
+    footer a:hover
+    { 
+        color:#ff0000; 
+    }
+    
+    nav, .copy
+    {
+        width: 33%;
+        float: left;
+    }
+    nav li 
+    {
+        
+        text-transform: uppercase; 
+        font-family: 'IBM Plex Sans', Helvetica, Roboto, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 1.6em;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+   
+    .subbox
+    {
+        float:right;
+        width:33%;
+    }
+    
+    .subbox p
     {   
-        margin:0 0 20px 0;
+        
+        padding: 0;
+        margin: 0 0 10px 0;
+
     }
     form
     {
-        
         font-family: 'IBM Plex Sans', Helvetica, Roboto, Arial, sans-serif;
-        max-width: 800px; 
-        margin:0 auto;
+        max-width: 720px;
+        margin: 0 auto 10px auto;
     }
     form label 
     {
@@ -421,17 +421,19 @@
         
         display: block;
         font-size:14px;
-        line-height:18px;
-        border:2px solid #eee;
+        line-height:16px;
+        border:2px solid #fff;
         border-radius:2px;
         background-color: #fff;
         width:90%;
-        padding:10px 5px;
+        max-width: 300px;
+        padding:7px 5px;
         margin:10px 0 20px 0;
         -webkit-appearance:none;
         text-align: left;
         text-transform: none;
         font-weight: normal;
+        box-shadow: 0 0 1px #aaa;
     }
     form input:focus, form input:hover 
     {
@@ -451,7 +453,7 @@
         text-transform: uppercase;
         position: relative;
         display: inline-block;
-        padding: 12px 35px;
+        padding: 7px 20px;
         border:none;
         border-radius:2px;
         color: #fff;
@@ -556,29 +558,15 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 
-    nav 
-    {
-        height: 55px; 
-        padding:15px 0 15px 0px; 
-    }
-    nav li 
-    {   
-        font-size: 12px;
-    }
-    nav li a 
-    {
-        margin: 0 3px;
-    }
-     header div
-    {
-        padding:35px 10px;
-    }
-    .subbox div
-    {
-        width: 100%;
-    }
+   .copy, nav, .subbox
+   {
+        width: 90%;
+        float: none;
+        margin:0 auto 30px auto;
+   }
+
     article.list
     {
         width: 95%;
