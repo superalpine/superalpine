@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /img/
 Disallow: /articles/img/
 Disallow: /2015/
 
