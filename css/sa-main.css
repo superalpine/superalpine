@@ -70,7 +70,16 @@
         padding: 10px 0 30px 0;
         max-width: 720px;
     }
-   
+     em
+    {
+        display: block;
+        margin:10px 0;
+        font-size: 16px;
+    }
+    img     
+    {
+        max-width:100%;
+    }
     header
     {
         
@@ -325,16 +334,7 @@
         margin: 5px 15px;
     }
 
-    em
-    {
-        display: block;
-        margin:10px 0;
-        font-size: 16px;
-    }
-    img     
-    {
-        max-width:100%;
-    }
+  
     footer
     {
         width: 100%;
@@ -550,30 +550,33 @@
         margin: 5px 0 5px 0;
         width: 155px;
     }
-    
-     article.list
-    {
-        width: 48%;
-        min-height: 400px;
+    article.list
+    {  
+        width:48%;
+        min-height: 350px;   
     }
+    
 }
 
 @media (max-width: 800px) {
 
    .copy, nav, .subbox
-   {
+    {
         width: 90%;
         float: none;
         margin:0 auto 30px auto;
-   }
-
+    }
     article.list
     {
         width: 95%;
         float: none;
-        margin:10px auto 20px auto;
-        padding:0 0 20px 0;
+        margin:10px auto 20px auto; 
         min-height: auto;
+    }
+     article.list a
+    {
+        min-height: auto;
+        padding:0 0 20px 0;
     }
 
 }
