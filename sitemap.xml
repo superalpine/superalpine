@@ -14,6 +14,10 @@
   <priority>0.70</priority>
 </url>
 <url>
+  <loc>http://superalpine.co/articles/simplon-pass.html</loc>
+  <priority>0.50</priority>
+</url>
+<url>
   <loc>http://superalpine.co/articles/vision-arts.html</loc>
   <priority>0.50</priority>
 </url>
