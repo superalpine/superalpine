@@ -1,19 +1,38 @@
 @media all {
     html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
    
+   @font-face { 
+    font-family: 'DINRegular';
+    src: url('../fonts/din-regular-webfont.eot');
+    src: url('../fonts/din-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/din-regular-webfont.woff') format('woff'),
+         url('../fonts/din-regular-webfont.ttf') format('truetype'),
+         url('../fonts/din-regular-webfont.svg#DINRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+    font-family: 'DINBold';
+    src: url('../fonts/din-bold-webfont.eot');
+    src: url('../fonts/din-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/din-bold-webfont.woff') format('woff'),
+         url('../fonts/din-bold-webfont.ttf') format('truetype'),
+         url('../fonts/din-bold-webfont.svg#DINBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+
     body 
     {
-        border-top:3px solid #ff0000;
+        background: #fefefe;
+        border-left:3px solid #ff0000;
         color:#444;
         -webkit-text-size-adjust:none;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-        font-family: 'IBM Plex Serif', Georgia, serif;
+        font-family: 'DINRegular',Helvetica, Roboto, Arial, sans-serif;
         font-size: 17px;
-        font-weight: 400;
-        background: #fafafa url(../img/footer.jpg) no-repeat center bottom;
-        background-size: contain;
-
+        font-weight: normal;
     }
     a 
     {
@@ -35,8 +54,8 @@
     }
     h1, h2, h3, h4, h5, h6
     {
-        font-family: 'IBM Plex Sans', Helvetica, Roboto, Arial, sans-serif;
-        font-weight: 100;
+        
+        font-weight: normal;
         color:#000;
     }
     h3 
@@ -80,21 +99,15 @@
     }
     header
     {
-        
-        background-color: #efefef;
-        background: url(../img/header.jpg) no-repeat center center;
-        background-size: cover;
-        position: relative;
         width: 100vw;
         height: 300px;
-        border-top:1px solid #eee;
-        border-bottom:1px solid #eee;
+        
     }
     header div
     {
         max-width: 1100px;
         margin:0 auto;
-        padding: 50px 10px;
+        padding: 50px 20px;
 
     }
     header h1 
@@ -108,23 +121,15 @@
         color:#efefef;
         float: left;
     }
-    header h2:before
-    {
-        content: '';
-        position: absolute;
-        border-top:5px solid #000;
-        top:-20px;
-        left:0;
-        width:105px;
-    }
      header h2
     {
-        font-size: 72px;
+        font-size: 56px;
         line-height: 1em;
         text-transform: uppercase;
-        position: relative;
         float: right;
-        width: calc(100% - 200px);  
+        max-width: 500px; 
+        text-align: right;
+        color:#ddd;
     }
     header p 
     {  
@@ -134,7 +139,7 @@
     header a
     {
         color:#ff0000;
-      border-bottom: none;  
+        border-bottom: none;  
     }
     header a:hover
     {
@@ -156,7 +161,6 @@
         font-size: 13px;
         padding:5px 0 5px 0;
         text-align: right;
-        font-style: italic;
         color: #666;
     }
     article.story h1
@@ -164,7 +168,7 @@
         font-size: 38px;        
         line-height: 40px;
         text-transform: uppercase;
-        color:#555;
+        color:#111;
         margin:30px auto 60px auto;
         position: relative;
         max-width: 720px;
@@ -180,7 +184,7 @@
     }
     article p, article li
     {
-        line-height: 27px;
+        line-height: 26px;
         margin:0 auto 20px auto;
         max-width: 720px;
         hanging-punctuation: first;
@@ -198,12 +202,11 @@
     }
     article.story p:first-of-type:first-letter 
     {
-        font-family: 'IBM Plex Sans', Helvetica, Roboto, Arial, sans-serif;
-        font-weight: 400;
+        font-weight: bold;
         color:#111;
         float: left;
-        font-size: 92px;
-        line-height: 78px;
+        font-size: 86px;
+        line-height: 90px;
         padding-top: 0px;
         padding-right: 8px;
         padding-left: 3px;
@@ -212,44 +215,45 @@
     {
         font-size: 24px;
         font-weight: normal;
-        font-style: italic;
         line-height: 38px;
-        margin:100px auto 100px auto;
+        text-transform: uppercase;
+        margin:150px auto 150px auto;
         padding: 0 50px 0 30px;
-        max-width: 500px;
+        max-width: 600px;
         position: relative;
+        color:#000;
     }
     article.story blockquote:before
     {
+        font-family:Georgia, serif;
         content: open-quote;
         position: absolute;
-        top:-20px;
-        left:35%;
+        top:-30px;
+        left:40%;
         font-size: 100px;
-        color:#ccc;
+        color:#ddd;
 
     }
     article.story blockquote:after
     {
         content: '';
         position: absolute;
-        border-top:5px solid #ccc;
+        border-top:5px solid #ddd;
         bottom:-30px;
-        left:35%;
+        left:40%;
         width:50px;
 
     } 
     article span.location
     {
-        font-family: 'IBM Plex Sans', sans-serif;
-        font-size: 13px;
-        line-height: 13px;
-        margin: 6px 0 0 20px;
+        font-size: 14px;
+        line-height: 14px;
+        margin: 5px 0 0 20px;
         background-color: #111;
         color: #fff;
         padding: 6px 8px;
         position: absolute;
-        font-weight: 400;
+        font-weight: normal;
     }
     article span.location a
     {
@@ -324,7 +328,7 @@
         font-size: 10px;        
         line-height: 18px;
         letter-spacing: 2px;
-        font-weight: 400;
+        font-weight: normal;
         text-transform: uppercase;
         color: #ff0000;
         margin: 10px 15px 0 15px;
@@ -345,7 +349,6 @@
     }
     footer p
     {
-        font-family: 'IBM Plex Sans', Helvetica, Roboto, Arial, sans-serif;
         font-size: 14px;
         line-height:1.8em;
         padding:0;
@@ -358,7 +361,7 @@
         font-size: 10px;        
         line-height: 18px;
         letter-spacing: 2px;
-        font-weight: 400;
+        font-weight: normal;
         text-transform: uppercase;
         color: #ff0000;
         margin:0;
@@ -382,7 +385,6 @@
     {
         
         text-transform: uppercase; 
-        font-family: 'IBM Plex Sans', Helvetica, Roboto, Arial, sans-serif;
         font-size: 14px;
         line-height: 1.8em;
         list-style: none;
@@ -405,7 +407,6 @@
     }
     form
     {
-        font-family: 'IBM Plex Sans', Helvetica, Roboto, Arial, sans-serif;
         max-width: 720px;
         margin: 0 auto 10px auto;
     }
@@ -447,8 +448,8 @@
     {
         font-size: 12px;        
         line-height: 18px;
-        letter-spacing: 2px;
-        font-weight: 400;
+        letter-spacing: 1px;
+        font-weight: normal;
         text-transform: uppercase;
         position: relative;
         display: inline-block;
@@ -501,14 +502,15 @@
     
     header
     {
-        
+        max-width: 95%;
         height: 230px;
+        margin:0 auto;
     }
 
     header div
     {
-        
-        padding:30px 15px;
+        max-width: 100%;
+        padding:20px;
 
     }
     header h1 
@@ -521,17 +523,11 @@
         font-size: 9px;
     }
     
-    header h2:before
-    {
-        border-top:3px solid #000;
-        top:-15px;
-        width:80px;
-    }
      header h2
     {
         font-size: 40px;
-        width: calc(100% - 120px);
-        margin-top:0px;
+        max-width: 65%;
+        
     }
     article
     {
@@ -558,11 +554,7 @@
     {
         min-height: 400px;   
     }
-    body
-    {   
-        
-        background-size: 190%;
-    }
+   
 }
 
 @media (max-width: 800px) {
@@ -585,13 +577,15 @@
         min-height: auto;
         padding:0 0 20px 0;
     }
-    body
-    {   
-        background-image: none;
+    header h2
+        {
+        font-size: 30px;
+        
+        
     }
+
     footer
      {
-        background-color: #eee;
         margin:0;
         padding: 30px 0 0 0;
     }
