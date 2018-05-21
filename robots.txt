@@ -1,5 +1,7 @@
-User-agent: *
+User-agent: Googlebot-Image
 Disallow: /articles/img/
+
+User-agent: *
 Disallow: /2015/
 
 Sitemap: http://superalpine.co/sitemap.xml
