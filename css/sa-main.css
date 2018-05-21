@@ -131,11 +131,6 @@
         text-align: right;
         color:#ddd;
     }
-    header p 
-    {  
-        font-size:11px;
-        margin:0 0 5px 0;
-    }
     header a
     {
         color:#ff0000;
@@ -518,11 +513,6 @@
         width: 65px;
         height: 110px;    
     }
-    header p
-    {
-        font-size: 9px;
-    }
-    
      header h2
     {
         font-size: 40px;
