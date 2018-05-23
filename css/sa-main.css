@@ -33,66 +33,27 @@
         font-size: 17px;
         font-weight: normal;
     }
-    a 
-    {
-        color:#444;
-        text-decoration: none;
-        border-bottom: 1px solid #ff0000;
-    }
-    a:hover 
-    {
-        color:#000;
-        -webkit-transition: all .5s ease 0s;
-        -moz-transition: all .5s ease 0s;
-        -o-transition: all .5s ease 0s;
-        transition: all .5s ease 0s;
-    }
-    img     
-    {
-        max-width:100%;
-    }
+    a       {color:#444;text-decoration: none;border-bottom: 1px solid #ff0000;}
+    a:hover {color:#000;transition: all .5s ease 0s;}
+    img     {width:100%; max-width: 100%;}
     h1, h2, h3, h4, h5, h6 {font-weight: normal;color:#000;}
-    h3 {font-size: 21px;line-height: 21px; text-transform: uppercase;}
-    h4 {font-size: 10px;line-height: 18px; letter-spacing: 2px;font-weight: normal; text-transform: uppercase;color: #ff0000; margin: 10px 0 5px 0;}
-    p {margin:30px 0;font-size: 17px;line-height: 26px;}
-    .meta 
-    {
-        display: none;
-    }
-    iframe
-    {
-        width:100%;
-        max-width: 100%;
-    }
-    .embed
-    {
-        margin:0 auto;
-        overflow: hidden;
-        padding: 10px 0 30px 0;
-        max-width: 720px;
-    }
-     em
-    {
-        display: block;
-        margin:10px 0;
-        font-size: 16px;
-    }
-    img     
-    {
-        max-width:100%;
-    }
+    h3      {font-size: 21px;line-height: 21px; text-transform: uppercase;max-width: 720px; margin:0 auto;}
+    h4      {font-size: 10px;line-height: 18px; letter-spacing: 2px;font-weight: normal; text-transform: uppercase;color: #ff0000; margin: 10px 0 5px 0;}
+    p       {margin:30px auto;font-size: 17px;line-height: 26px; max-width: 720px; hanging-punctuation: first;}
+    .meta   {display: none;}
+    iframe  {width:100%;max-width: 100%;}
+    .embed  {margin:0 auto;overflow: hidden;padding: 10px 0 30px 0;max-width: 720px;}
+   
     header
     {
         width: 100vw;
-        min-height: 270px;
-        
+        min-height: 270px;     
     }
     header div
     {
         max-width: 1100px;
         margin:0 auto;
-        padding: 50px 20px;
-
+        padding: 50px 10px;
     }
     header h1 
     {
@@ -114,15 +75,6 @@
         max-width: 500px; 
         text-align: right;
         color:#ddd;
-    }
-    header a
-    {
-        color:#ff0000;
-        border-bottom: none;  
-    }
-    header a:hover
-    {
-        color:#fff;
     }
     article.story
     {
@@ -160,12 +112,6 @@
         bottom:-20px;
         left:0;
         width:60px;
-    }
-    article.story p, article.story li, article.story h3
-    {
-        margin:0 auto 20px auto;
-        max-width: 720px;
-        hanging-punctuation: first;
     }
     article.story ul
     {
@@ -269,118 +215,127 @@
     }
     main 
     {   
-    max-width: 1100px;
-    margin:0 auto;
-    display: grid;
-    grid-gap: 30px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(120px, auto);
-    padding: 0 10px;
+        max-width: 1100px;
+        margin:0 auto;
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(120px, auto);
+        padding: 0 10px;
     }
     main > article 
     {
-      display: flex;
-      align-items:flex-end;
-      justify-content: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center center;
-      border-radius: 2px;
+        display: flex;
+        align-items:flex-end;
+        justify-content: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 2px;
+    }
+    main article:nth-child(1) 
+    {
+        grid-row: 1 / 5;
+        grid-column: 1;
+        background-image:url(../img/jnl/col-de-turini.jpg);
+    }
+    main article:nth-child(2) 
+    {
+        grid-row: 1 / 3;
+        grid-column: 2;
+        background:url(../img/jnl/simplon-pass.jpg);
     }
 
-    main article:nth-child(1) {
-      grid-row: 1 / 5;
-      grid-column: 1;
-      background-image:url(../img/jnl/col-de-turini.jpg);
+    main article:nth-child(3) 
+    {
+        grid-row: 1 / 4;
+        grid-column: 3;
+        background:url(../img/jnl/vision-arts.jpg);
     }
 
-    main article:nth-child(2) {
-      grid-row: 1 / 3;
-      grid-column: 2;
-      background:url(../img/jnl/simplon-pass.jpg);
+    main article:nth-child(4) 
+    {
+        grid-row: 5 / 7;
+        grid-column: 1;
+        background:url(../img/jnl/g-shock-mudmaster.jpg);
     }
 
-    main article:nth-child(3) {
-      grid-row: 1 / 4;
-      grid-column: 3;
-       background:url(../img/jnl/vision-arts.jpg);
+    main > article:nth-child(5) 
+    {
+        grid-row: 3 / 7;
+        grid-column: 2;
+        background:url(../img/jnl/col-de-joux-plane.jpg);
     }
 
-    main article:nth-child(4) {
-      grid-row: 5 / 7;
-      grid-column: 1;
-    background:url(../img/jnl/g-shock-mudmaster.jpg);
-    }
-
-    main > article:nth-child(5) {
-      grid-row: 3 / 7;
-      grid-column: 2;
-      background:url(../img/jnl/col-de-joux-plane.jpg);
-    }
-
-    main > article:nth-child(6) {
+    main > article:nth-child(6) 
+    {
         grid-row: 4 / 7;
         grid-column: 3;
         background:url(../img/jnl/mittelallalin.jpg);
     }
 
-    main article:nth-child(7) {
-      grid-row: 7 / 9;
-      grid-column: 1;
-      background-image:url(../img/jnl/cirque-du-fer-a-cheval.jpg);
+    main article:nth-child(7) 
+    {
+        grid-row: 7 / 9;
+        grid-column: 1;
+        background-image:url(../img/jnl/cirque-du-fer-a-cheval.jpg);
     }
 
-    main article:nth-child(8) {
-      grid-row: 7 / 9;
-      grid-column: 2;
-      background:url(../img/jnl/gstaad-3000.jpg);
+    main article:nth-child(8) 
+    {
+        grid-row: 7 / 9;
+        grid-column: 2;
+        background:url(../img/jnl/gstaad-3000.jpg);
     }
 
-    main article:nth-child(9) {
-      grid-row: 7 / 9;
-      grid-column: 3;
-       background:url(../img/jnl/porsche-drive.jpg);
+    main article:nth-child(9) 
+    {
+        grid-row: 7 / 9;
+        grid-column: 3;
+        background:url(../img/jnl/porsche-drive.jpg);
     }
 
-    main article:nth-child(10) {
-      grid-row: 11 / 9;
-      grid-column: 1;
+    main article:nth-child(10) 
+    {
+        grid-row: 11 / 9;
+        grid-column: 1;
         background:url(../img/jnl/furka-pass.jpg);
     }
 
-    main > article:nth-child(11) {
-      grid-row: 11 / 9;
-      grid-column: 2;
-      background:url(../img/jnl/karajan-rs-turbo.jpg);
+    main > article:nth-child(11) 
+    {
+        grid-row: 11 / 9;
+        grid-column: 2;
+        background:url(../img/jnl/karajan-rs-turbo.jpg);
     }
 
-    main > article:nth-child(12) {
+    main > article:nth-child(12) 
+    {
         grid-row: 11 / 9;
         grid-column: 3;
         background:url(../img/jnl/escapes.jpg);
     }
 
-    main > article:nth-child(13) {
+    main > article:nth-child(13) 
+    {
         grid-row: 13 / 11;
         grid-column: 1;
         background:url(../img/jnl/arcteryx-alpha-sl-jacket.jpg);
     }
-    main > article:nth-child(14) {
+    main > article:nth-child(14) 
+    {
         grid-row: 13 / 11;
         grid-column: 2;
         background:url(../img/jnl/r7-rsr-prototype.jpg);
-
     }
-    main > article:nth-child(15) {
+    main > article:nth-child(15) 
+    {
         grid-row: 13 / 11;
         grid-column: 3;
         background:url(../img/jnl/bellroy-elements-sleeve.jpg);
-
     }
-
-
-    main > article a {
-        
+    main > article a 
+    {   
         border:none;
         background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
         color:#fff;
@@ -388,12 +343,10 @@
         width: 100%;
         opacity:.9;
     }
-
     main article a:hover {border:none; opacity: 1.0;}
     main article h4 {padding:0 20px;  font-weight: bold;}
     main article p {padding:0 20px; margin:0;color: #ddd;font-size: 14px;line-height: 20px;}
     main article h3 {color: #fff; padding:2px 20px 0 20px;}
-
 
     footer
     {
@@ -422,21 +375,9 @@
         color: #ff0000;
         margin:0;
     }
-    footer a
-        { 
-        color:#888; 
-        border-bottom: none;
-    }
-    footer a:hover
-    { 
-        color:#ff0000; 
-    }
-    
-    nav, .copy
-    {
-        width: 33%;
-        float: left;
-    }
+    footer a        {color:#888;  border-bottom: none;}
+    footer a:hover  {color:#ff0000; }
+    nav, .copy      {width: 33%;float: left;}
     nav li 
     {
         
@@ -456,10 +397,8 @@
     
     .subbox p
     {   
-        
         padding: 0;
         margin: 0 0 10px 0;
-
     }
     form
     {
@@ -543,92 +482,23 @@
         -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
         transform: translateX(-50%) translateY(-50%) rotate(-45deg);
     }
-    form button:hover
-    {
-        color:#fff;
-    }
-    form button:hover:after
-    {
-        height: 420%;
-    }
-
+    form button:hover           {color:#fff;}
+    form button:hover:after     {height: 420%;}
 }
-
 @media (max-width:1100px) {
-    
-    header
-    {
-        max-width: 95%;
-        height: 230px;
-        margin:0 auto;
-    }
-
-    header div
-    {
-        max-width: 100%;
-        padding:20px;
-
-    }
-    header h1 
-    {
-        width: 65px;
-        height: 110px;    
-    }
-     header h2
-    {
-        font-size: 40px;
-        max-width: 65%;
-        
-    }
-    article
-    {
-        margin-top: 0;
-    }
-    
-    section.index
-    {
-        padding:0 10px;
-    }
-    article.story span.location
-    {
-        display: block;
-        position: relative;
-        margin: 5px 0 5px 0;
-        width: 155px;
-    }
-    main
-    {
-        grid-gap: 10px;
-    }
+    header          {min-height: 160px;}
+    header div      {margin:0 auto;padding: 20px 10px;}
+    header h1       {width: 67px;height: 110px;}
+    header h2       {font-size: 40px; max-width: 65%;}
+    article.story   {padding:0 10px;margin:0 auto;}
+    section.index   {padding:0 10px;}
+    article.story span.location{display: block;position: relative; margin: 5px 0 5px 0; width: 155px;}
+    main            {grid-gap: 10px;}
 }
 
 @media (max-width: 800px) {
-  main 
-    {   
-    display:block;
-    grid-gap:0;
-    
-    }
-    main > article 
-    {
-      display: flex;
-      max-width: 500px;
-      height: 220px;
-      margin:0 auto 10px auto;
-    }
-   .copy, nav, .subbox
-    {
-        width: 90%;
-        float: none;
-        margin:0 auto 30px auto;
-    }
-    header, footer
-    {
-        max-width: 500px;
-        margin:0 auto;
-    }
-    header h2
-        {
-        font-size: 30px;   
-    }
+    main                {display:block;grid-gap:0;}
+    main > article      {display: flex;max-width: 600px;height: 220px;margin:0 auto 10px auto;}
+   .copy, nav, .subbox  {width: 100%;float: none;padding:0; margin:0 0 10px 0;}
+    header h2           {font-size: 30px; }
 }
