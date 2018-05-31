@@ -7,6 +7,18 @@
 <description>RSS Feed of Super Alpine</description>
 
 <item>
+<title>Col de Turini</title>
+<link>http://superalpine.co/articles/col-de-turini.html</link>
+<description>31 km of demonic, twisting, asphalt in the Italian Alps.</description>
+</item>
+
+<item>
+<title>Simplon Pass</title>
+<link>http://superalpine.co/articles/simplon-pass.html</link>
+<description>A tale of mercenaries and motorways linking Switzerland &amp; Italy.</description>
+</item>
+
+<item>
 <title>Vision Arts Festival</title>
 <link>http://superalpine.co/articles/vision-arts.html</link>
 <description>Art and nature meet at 1600m in the Swiss alps.</description>
@@ -36,17 +48,6 @@
 <description>A small piece of Yosemite in the French Alps.</description>
 </item>
 
-<item>
-<title>Gstaad 3000</title>
-<link>http://superalpine.co/articles/gstaad-3000.html</link>
-<description>It's not in Gstaad and it's not at 3000m. But there is a glacier.</description>
-</item>
-
-<item>
-<title>Porsche Drive</title>
-<link>http://superalpine.co/articles/porsche-drive-book.html</link>
-<description>14 Porsches and 15 passes in 4 days a book by Stefan Bogner and Jan Baedeker.</description>
-</item>
 
 </channel>
 </rss>
