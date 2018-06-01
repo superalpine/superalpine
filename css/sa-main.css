@@ -52,9 +52,9 @@ nav a:hover 	{color:#000; border-bottom: 1px solid #ff0000}
 main ul, main li {list-style: none;margin:0;}
 main li {padding:50px 70px 50px 70px;}
 main h4 {color: #ccc}
-main a:hover h4 {color: #ff0000}
+main a:hover h4, main a:active h4 {color: #ff0000}
 main a {color:#ccc;text-decoration: none;display: block; border:none;}
-main a:hover{color:#000;transition: all .5s ease 0s;background-color: #f1f1f1;border:none;}
+main a:hover, main a:active {color:#000;transition: all .5s ease 0s;background-color: #f1f1f1;border:none;}
 
 .story {max-width: 1600px; padding:50px 70px 140px 70px;}
 .story article {width:45%;float: left;}
@@ -170,4 +170,5 @@ form input[type='email'], form input[type='text']  {
 	.story figure {width: 100%; float: none;}
 	.story article h1 {font-size: 24px;}
 	.story article h2, h2 {font-size: 40px;}
+
 }
