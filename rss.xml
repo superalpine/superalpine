@@ -6,6 +6,14 @@
 <link>http://superalpine.co</link>
 <description>RSS Feed of Super Alpine</description>
 
+
+<item>
+<title>Chamonix</title>
+<link>http://superalpine.co/book/chamonix.html</link>
+<description>A 20-year love affair with France's mountain playground.</description>
+</item>
+
+
 <item>
 <title>Col de Turini</title>
 <link>http://superalpine.co/articles/col-de-turini.html</link>
@@ -42,11 +50,6 @@
 <description>High above Saas Fee in the Swiss Alps.</description>
 </item>
 
-<item>
-<title>Cirque du Fer à Cheval</title>
-<link>http://superalpine.co/articles/cirque-du-fer-a-cheval.html</link>
-<description>A small piece of Yosemite in the French Alps.</description>
-</item>
 
 
 </channel>

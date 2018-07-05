@@ -11,7 +11,7 @@
 </url>
 <url>
   <loc>http://superalpine.co/book/chamonix.html</loc>
-  <priority>0.90</priority>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>http://superalpine.co/magazine/index.html</loc>
@@ -31,11 +31,11 @@
 </url>
 <url>
   <loc>http://superalpine.co/articles/col-de-joux-plane.html</loc>
-  <priority>0.50</priority>
+  <priority>0.40</priority>
 </url>
 <url>
   <loc>http://superalpine.co/articles/mittelallalin.html</loc>
-  <priority>0.50</priority>
+  <priority>0.40</priority>
 </url>
 <url>
   <loc>http://superalpine.co/articles/cirque-du-fer-a-cheval.html</loc>
@@ -59,11 +59,11 @@
 </url>
 <url>
   <loc>http://superalpine.co/articles/porsche-r7-rsr-prototype.html</loc>
-  <priority>0.50</priority>
+  <priority>0.40</priority>
 </url>
 <url>
   <loc>http://superalpine.co/articles/karajan-porsche-rs-turbo.html</loc>
-  <priority>0.50</priority>
+  <priority>0.40</priority>
 </url>
 <url>
   <loc>http://superalpine.co/articles/col-de-turini.html</loc>
@@ -79,11 +79,11 @@
 </url>
 <url>
   <loc>http://superalpine.co/about/index.html</loc>
-  <priority>0.40</priority>
+  <priority>0.30</priority>
 </url>
 <url>
   <loc>http://superalpine.co/subscribe/index.html</loc>
-  <priority>0.20</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://superalpine.co/terms/index.html</loc>
