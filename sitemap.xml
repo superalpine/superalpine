@@ -18,6 +18,10 @@
   <priority>0.70</priority>
 </url>
 <url>
+  <loc>http://superalpine.co/articles/le-cristal-de-jade-chamonix.html</loc>
+  <priority>0.90</priority>
+</url>
+<url>
   <loc>http://superalpine.co/articles/simplon-pass.html</loc>
   <priority>0.50</priority>
 </url>

@@ -6,13 +6,17 @@
 <link>http://superalpine.co</link>
 <description>RSS Feed of Super Alpine</description>
 
+<item>
+<title>Le Cristal de Jade</title>
+<link>http://superalpine.co/articles/le-cristal-de-jade-chamonix.html</link>
+<description>5-star apartments in the centre of Chamonix.</description>
+</item>
 
 <item>
 <title>Chamonix</title>
 <link>http://superalpine.co/book/chamonix.html</link>
 <description>A 20-year love affair with France's mountain playground.</description>
 </item>
-
 
 <item>
 <title>Col de Turini</title>
@@ -43,14 +47,6 @@
 <link>http://superalpine.co/articles/col-de-joux-plane.html</link>
 <description>A summit lake made famous in the Tour de France.</description>
 </item>
-
-<item>
-<title>Mittelallalin</title>
-<link>http://superalpine.co/articles/mittelallalin.html</link>
-<description>High above Saas Fee in the Swiss Alps.</description>
-</item>
-
-
 
 </channel>
 </rss>
