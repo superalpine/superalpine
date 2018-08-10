@@ -76,6 +76,12 @@ max-width: 600px;position: relative;color:#000;}
 .story blockquote:before{font-family:Georgia, serif;content: open-quote;position: absolute;top:-30px;left:40%;font-size: 100px;color:#ddd;}
 .story blockquote:after {content: '';position: absolute;border-top:5px solid #ddd;bottom:-30px;left:40%;width:50px;} 
 
+.mags {max-width: 1600px; padding:50px 70px 140px 70px;}
+.mags p {font-size: 16px; line-height: 26px; margin:0 0 26px 0;}
+.mags h2 {font-size: 58px;margin:10px 0 50px 0;color: #333; max-width: 1000px;}
+.magbox {width: 30%; float: left; margin: 0 3% 100px 0;}
+.magbox h3 {font-size:18px;margin: 20px 0;}
+
 form {padding: 0 20px;}
 form label {text-transform: uppercase;font-size:15px;}
 form input[type='email'], form input[type='text']  {
@@ -95,7 +101,7 @@ form input[type='email'], form input[type='text']  {
         font-weight: normal;
         
     }
-    form input:focus, form input:hover 
+    #subForm input:focus, #subForm input:hover 
     {
         border:2px solid #ff0000; 
         outline: none;
@@ -104,7 +110,7 @@ form input[type='email'], form input[type='text']  {
         -o-transition: all .3s ease 0s;
         transition: all .3s ease 0s;
     }
-    form button
+    form button, .button
     {
         font-size: 12px;        
         line-height: 18px;
@@ -128,7 +134,7 @@ form input[type='email'], form input[type='text']  {
         transition: all .3s ease;
         -webkit-appearance:none;
     }
-    form button:after
+    form button:after, .button:after
     {
         content: "";
         position: absolute;
@@ -147,15 +153,17 @@ form input[type='email'], form input[type='text']  {
         -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
         transform: translateX(-50%) translateY(-50%) rotate(-45deg);
     }
-    form button:hover           {color:#fff;}
-    form button:hover:after     {height: 420%;}
+    form button:hover, .button:hover           {color:#fff;}
+    form button:hover:after, .button:hover:after     {height: 420%;}
 
 @media screen and (max-width:1260px) {
-	section, .story  {padding:30px 30px 50px 30px;}
+	section, .story, .mags  {padding:30px 30px 50px 30px;}
+    .magbox {width: 45%; margin-right:5%;}
 }
 
 @media screen and (max-width:1000px) {
-	section, .story  {padding:20px 20px 50px 20px;}
+	section, .story, .mags  {padding:20px 20px 50px 20px;}
+    
 }
 
 @media screen and (max-width:860px) {
@@ -166,10 +174,11 @@ form input[type='email'], form input[type='text']  {
     nav li {margin:5px 0;}
 	footer{float: none;width: 100%;margin:0;}
 	main li {padding:20px; }
-	.story {padding:20px 20px;}
+	.story, .mags {padding:20px 20px;}
 	.story article {width:100%;float: none;}
 	.story figure {width: 100%; float: none;}
 	.story article h1 {font-size: 24px;}
-	.story article h2, h2 {font-size: 40px;}
+	.story article h2, .mags h2, h2 {font-size: 40px;}
+    .magbox {width: 100%;}
 
 }
