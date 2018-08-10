@@ -82,9 +82,9 @@ max-width: 600px;position: relative;color:#000;}
 .magbox {width: 30%; float: left; margin: 0 3% 100px 0;}
 .magbox h3 {font-size:18px;margin: 20px 0;}
 
-form {padding: 0 20px;}
-form label {text-transform: uppercase;font-size:15px;}
-form input[type='email'], form input[type='text']  {
+form {padding:20px 0;}
+label {text-transform: uppercase;font-size:15px;}
+input[type='email'], input[type='text']  {
         display: block;
         font-size:14px;
         line-height:16px;
@@ -101,7 +101,7 @@ form input[type='email'], form input[type='text']  {
         font-weight: normal;
         
     }
-    #subForm input:focus, #subForm input:hover 
+    input:focus, input:hover 
     {
         border:2px solid #ff0000; 
         outline: none;
@@ -110,7 +110,7 @@ form input[type='email'], form input[type='text']  {
         -o-transition: all .3s ease 0s;
         transition: all .3s ease 0s;
     }
-    form button, .button
+    button, .button
     {
         font-size: 12px;        
         line-height: 18px;
@@ -134,7 +134,7 @@ form input[type='email'], form input[type='text']  {
         transition: all .3s ease;
         -webkit-appearance:none;
     }
-    form button:after, .button:after
+    button:after, .button:after
     {
         content: "";
         position: absolute;
@@ -153,8 +153,10 @@ form input[type='email'], form input[type='text']  {
         -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
         transform: translateX(-50%) translateY(-50%) rotate(-45deg);
     }
-    form button:hover, .button:hover           {color:#fff;}
-    form button:hover:after, .button:hover:after     {height: 420%;}
+    button:hover, .button:hover
+    {color:#fff;}
+    button:hover:after, .button:hover:after
+    {height: 420%;}
 
 @media screen and (max-width:1260px) {
 	section, .story, .mags  {padding:30px 30px 50px 30px;}
