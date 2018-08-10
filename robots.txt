@@ -4,5 +4,6 @@ Disallow: /articles/img/
 User-agent: *
 Disallow: /2015/
 Disallow: /ar/
+Disallow: /admin/
 
 Sitemap: http://superalpine.co/sitemap.xml
