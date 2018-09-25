@@ -1,10 +1,10 @@
 # Super Alpine
 
-The Super Alpine website.
+The Super Alpine website for the magazine and store. Alpine life + times.
 
 ## Built With
 
-* [Sublime Text](https://www.sublimetext.com) - Hand coded, no JS or frameworks used.
+* [Sublime Text](https://www.sublimetext.com) - Hand coded, no frameworks used.
 
 ## Authors
 

@@ -11,7 +11,7 @@
 </url>
 <url>
   <loc>http://superalpine.co/magazine/index.html</loc>
-  <priority>0.90</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://superalpine.co/magazine/sa00/index.html</loc>
@@ -19,71 +19,75 @@
 </url>
 <url>
   <loc>http://superalpine.co/magazine/sa01/index.html</loc>
-  <priority>0.70</priority>
+  <priority>0.95</priority>
 </url>
 <url>
-  <loc>http://superalpine.co/articles/le-cristal-de-jade-chamonix.html</loc>
+  <loc>http://superalpine.co/store/index.html</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://superalpine.co/articles/simplon-pass.html</loc>
-  <priority>0.50</priority>
+  <loc>http://superalpine.co/store/adm-print.html</loc>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>http://superalpine.co/store/tdb-print.html</loc>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>http://superalpine.co/store/chamonix-map-blk-print.html</loc>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://superalpine.co/store/chamonix-map-wht-print.html</loc>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://superalpine.co/articles/le-cristal-de-jade-chamonix.html</loc>
+  <priority>0.60</priority>
 </url>
 <url>
   <loc>http://superalpine.co/articles/vision-arts.html</loc>
-  <priority>0.50</priority>
+  <priority>0.20</priority>
 </url>
 <url>
   <loc>http://superalpine.co/articles/g-shock-mudmaster.html</loc>
-  <priority>0.50</priority>
-</url>
-<url>
-  <loc>http://superalpine.co/articles/col-de-joux-plane.html</loc>
-  <priority>0.40</priority>
+  <priority>0.20</priority>
 </url>
 <url>
   <loc>http://superalpine.co/articles/mittelallalin.html</loc>
-  <priority>0.40</priority>
+  <priority>0.20</priority>
 </url>
 <url>
   <loc>http://superalpine.co/articles/cirque-du-fer-a-cheval.html</loc>
-  <priority>0.50</priority>
+  <priority>0.20</priority>
 </url>
 <url>
   <loc>http://superalpine.co/articles/gstaad-3000.html</loc>
-  <priority>0.50</priority>
-</url>
-<url>
-  <loc>http://superalpine.co/articles/furka-pass.html</loc>
-  <priority>0.50</priority>
+  <priority>0.20</priority>
 </url>
 <url>
   <loc>http://superalpine.co/articles/escapes-book.html</loc>
-  <priority>0.60</priority>
+  <priority>0.30</priority>
 </url>
 <url>
   <loc>http://superalpine.co/articles/porsche-drive-book.html</loc>
-  <priority>0.60</priority>
+  <priority>0.30</priority>
 </url>
 <url>
   <loc>http://superalpine.co/articles/porsche-r7-rsr-prototype.html</loc>
-  <priority>0.40</priority>
+  <priority>0.20</priority>
 </url>
 <url>
   <loc>http://superalpine.co/articles/karajan-porsche-rs-turbo.html</loc>
-  <priority>0.40</priority>
-</url>
-<url>
-  <loc>http://superalpine.co/articles/col-de-turini.html</loc>
-  <priority>0.50</priority>
+  <priority>0.20</priority>
 </url>
 <url>
   <loc>http://superalpine.co/articles/arcteryx-alpha-sl-jacket</loc>
-  <priority>0.40</priority>
+  <priority>0.20</priority>
 </url>
 <url>
   <loc>http://superalpine.co/articles/bellroy-elements-sleeve.html</loc>
-  <priority>0.30</priority>
+  <priority>0.20</priority>
 </url>
 <url>
   <loc>http://superalpine.co/about/index.html</loc>
@@ -91,7 +95,7 @@
 </url>
 <url>
   <loc>http://superalpine.co/subscribe/index.html</loc>
-  <priority>0.80</priority>
+  <priority>0.20</priority>
 </url>
 <url>
   <loc>http://superalpine.co/terms/index.html</loc>
