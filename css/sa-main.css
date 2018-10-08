@@ -31,9 +31,8 @@ nav a, p a, small a, li a {color: #555; border-bottom: 1px solid #ddd; text-deco
 nav a:hover, p a:hover, small a:hover, li a:hover {color: #000; border-bottom: 1px solid #ff0000;}
 .meta {display: none;}
 .red {color:#ff0000; margin-bottom:10px;font-size: 12px;}
-.mo {display: none;}
 
-section 		{padding: 50px 70px 70px 70px; max-width: 1600px;}
+section 		{padding: 40px 70px 70px 70px; max-width: 1600px;}
 section li 		{font-size: 14px;line-height: 20px;}
 header 			{width:15%;float: left;}
 header h1 		{background: url(../img/logo.png) no-repeat center center;background-size:cover;width:95px;height:123px;display:block;font-size:0;color:#fff;}
@@ -45,6 +44,10 @@ nav ul, nav li {list-style: none;margin:0;}
 nav a   		{color:#555;border:none;}
 nav a:hover 	{color:#f00;border:none;}
 .title a:nth-of-type(2) {display: none;}
+.home {max-width: 1460px; margin:-20px 70px 0 70px; height:75vh; background: url(../img/contours.jpg) no-repeat center center; background-size:cover;}
+.available-now {width:500px;margin:0 0 50px 0;}
+.home-contain {display: table; width: 100%; height: 100%;}
+.home-content {display: table-cell; width: 100%;  vertical-align: middle;text-align: center;}
 
 main ul, main li {list-style: none;margin:0;}
 main li {padding:50px 70px 50px 70px;}
@@ -151,6 +154,7 @@ input[type='email'], input[type='text']  {
         transition: all .3s ease;
         -webkit-appearance:none;
     }
+
     button:after, .button:after
     {
         content: "";
@@ -158,7 +162,7 @@ input[type='email'], input[type='text']  {
         background: none repeat scroll 0 0 #000000;
         height: 0;
         left: 50%;
-        top:50%;
+        top: 50%;
         width: 100%;
         z-index: -1;
         -webkit-transition: all .3s ease 0s;
@@ -178,10 +182,11 @@ input[type='email'], input[type='text']  {
 @media screen and (max-width:1260px) {
 	section, .story, .boxes  {padding:20px 30px 50px 30px;}
     .box {width: 45%; margin-right:5%;}
+    .home {margin:0 20px;}
 }
 
 @media screen and (max-width:1000px) {
-	section, .story, .boxes  {padding:20px 20px 50px 20px;}
+    .story, .boxes  {padding:20px 20px 50px 20px;}
     
 }
 
@@ -192,15 +197,15 @@ input[type='email'], input[type='text']  {
 	nav{width: 36%;}
     nav li {margin:0 0 5px 0;}
 	footer{width: 33%;margin:0;text-align:right;}
-    footer p {font-size: 12px;}
+    footer p {font-size: 11px;line-height: 16px;}
 	main li {padding:20px; }
-	.story, .boxes {padding:0 20px;}
+	
+    .available-now {width:80%;margin:0 0 50px 0;}
+    .story, .boxes {padding:0 20px;}
 	.story article {width:100%;float: none;}
 	.story figure {width: 100%; float: none;}
 	.story article h1 {font-size: 20px;}
 	.story article h2, .boxes h2, h2 {font-size: 30px;}
     .box {width: 100%;}
-    .dt {display: none;}
-    .mo {display: block;}
 
 }
