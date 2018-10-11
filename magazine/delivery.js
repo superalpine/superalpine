@@ -33,6 +33,10 @@ $(document).ready(function(){
                 $(".payment-button").not(".Swiss").hide();
                 $(".Swiss").show();
             }
+             else if($(this).attr("value")=="Other"){
+                $(".payment-button").not(".Other").hide();
+                $(".Other").show();
+            }
             else{
                 $(".payment-button").hide();
             }
