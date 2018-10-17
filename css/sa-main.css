@@ -85,7 +85,7 @@ main a:hover, main li:active {color:#000;transition: all .5s ease 0s;background-
 .story span.location  {font-size: 12px; letter-spacing:1px;background-color: #333;color: #fff;padding:4px 10px; margin-left: 10px; font-weight: normal; }
 .story span.location a{color: #fff;border:none;text-decoration: none;}
 .story span.location a:hover{color: #ff0000;}
-.story blockquote{font-size: 24px;font-weight: normal;line-height: 38px;text-transform: uppercase;margin:100px auto 100px auto;padding: 0 50px 0 30px;
+.story blockquote{font-size: 22px;font-weight: normal;line-height: 36px;text-transform: uppercase;margin:100px auto 100px auto;padding: 0 50px 0 30px;
 max-width: 600px;position: relative;color:#000;}
 .story blockquote:before{font-family:Georgia, serif;content: open-quote;position: absolute;top:-30px;left:40%;font-size: 100px;color:#ddd;}
 .story blockquote:after {content: '';position: absolute;border-top:5px solid #ddd;bottom:-30px;left:40%;width:50px;} 
@@ -197,13 +197,12 @@ input[type='email'], input[type='text']  {
 	section, .story, .boxes  {padding:20px 30px 50px 30px;}
     .box {width: 45%; margin-right:5%;}
     .home {margin:0 20px;}
+    .slopes .text {width:200px;  margin:0 0 40px 0;}
 }
 
 @media screen and (max-width:1000px) {
     section, .story, .boxes  {padding:20px 20px 50px 20px;}
-    .slopes .text {width:200px;  margin:0 0 40px 0;}
     
-
 }
 
 @media screen and (max-width:860px) {
@@ -216,10 +215,9 @@ input[type='email'], input[type='text']  {
     footer p {font-size: 11px;line-height: 16px;}
 	main li {padding:20px; }
 	
-    .home {padding-bottom: 50px; margin:0 10px;}
-    .magazine, .store, .slopes {width:100%; height:50%; float:none; margin:0 0 10px 0!important;}
-    .store, .slopes {height: 30%;}
-    
+    .home { margin:-20px 10px 20px 10px;}
+    .magazine, .store, .slopes {width:100%; height:350px; float:none; margin:0 0 10px 0!important;}
+    .store, .slopes {height: 250px;}
     .magazine .text {width:280px;  margin:0 0 30px 0;}
     .slopes .text {width:190px;  margin:0 0 10px 0;}
     .store .text {width:140px; margin:0 0 10px 0;}
@@ -229,6 +227,7 @@ input[type='email'], input[type='text']  {
 	.story figure {width: 100%; float: none;}
 	.story article h1 {font-size: 20px;}
 	.story article h2, .boxes h2, h2 {font-size: 30px;}
+    .story blockquote {font-size: 18px; line-height: 24px;}
     .box {width: 100%;}
 
 }
