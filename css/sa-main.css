@@ -46,19 +46,19 @@ footer p        {font-size: 12px;line-height: 18px;}
 
 .home {max-width: 1600px; height: 70vh; padding:0 50px; margin:0 auto;}
 
-.magazine {width:70%; height:100%; background: url(../img/mag.jpg) no-repeat center center; background-size:cover; float:left; position: relative;}
-.magazine-content {position: absolute; bottom:110px; right:50px;}
-.magazine h2 {color: #fff; font-size: 50px; padding-bottom: 10px;text-shadow: 0px 0px 1px #222;}
-.magazine h3 {color: #fff; text-transform: none; font-weight: normal; padding-bottom: 10px;}
-.magazine p {color: #ff0000; font-size: 14px; text-transform: uppercase; font-family: DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-weight: normal;text-shadow:1px 1px 1px #222; letter-spacing: 1px;}
+.magazine {width:70%; height:100%; background: url(../img/mag.jpg) no-repeat left center; background-size:cover; float:left; position: relative;}
+.magazine-content {position: absolute; bottom:50px; right:50px;}
+.magazine h2 {color: #444; font-size: 52px; padding-bottom:5px; letter-spacing: -1px;}
+.magazine h3 {color: #333; font-size:12px;text-transform: none; font-weight: normal; padding-bottom: 10px;}
+.magazine p {color: #ff0000; font-size: 15px; text-transform: uppercase; font-family: DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-weight: normal; margin-bottom:-5px; }
 
-.slopes {width:29%; height:67%; background: url(../img/slopes.jpg) no-repeat center center; background-size:cover; float:right; border-bottom: 15px solid #fff;}
+.slopes {width:29%; height:67%; background: #444;  float:right; border-bottom: 15px solid #fff;}
 .slopes-content {text-align: center; max-width: 300px; margin:25% auto 0 auto; padding: 10px;}
-.slopes h2 {color: #fff; font-size: 32px; padding-bottom: 20px; text-shadow: 0px 0px 1px #222;}
+.slopes h2 {color: #eee; font-size: 32px; padding-bottom: 20px; }
 
-.store {width:29%;  height:33%; background: url(../img/prints.jpg) no-repeat center center; background-size:cover; float:right;}
+.store {width:29%;  height:33%; background: #eee;  float:right;}
 .store-content {text-align: center; max-width: 300px; margin:10% auto 0 auto; padding: 10px;} 
-.store h2 {color: #fff; font-size: 32px; padding-bottom: 20px;text-shadow: 0px 0px 1px #222;}
+.store h2 {color: #444; font-size: 32px; padding-bottom: 20px;}
 
 main ul, main li {list-style: none;margin:0;}
 main li {padding:50px 70px 50px 70px;}
@@ -92,6 +92,7 @@ main a:hover, main li:active {color:#000;transition: all .5s ease 0s;background-
 .boxes h2 {margin:10px 0 50px 0;color: #333; max-width: 1000px;}
 .box {width: 30%; float: left; margin: 0 3% 100px 0;}
 .box h3 {font-size:18px;margin: 20px 0;}
+.price {font-size:28px;}
 .payment-button {padding:20px 0;}
 .payment-button p:first-of-type:first-letter, .columns p:first-of-type:first-letter {color:#333;float:none;font-size:16px;line-height: 26px;padding:0;}
 .payment-button form {padding:0;}
@@ -142,7 +143,7 @@ input[type='email'], input[type='text']  {
     }
     button, .button
     {   font-family:DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;
-        font-size: 12px;        
+        font-size: 14px;        
         line-height: 20px;
         letter-spacing: 1px;
         font-weight: normal;
@@ -214,12 +215,17 @@ input[type='email'], input[type='text']  {
 
     
     .magazine, .store, .slopes {width:100%; height:350px; float:none; margin:0 0 10px 0!important;}
-    .magazine-content {bottom:40px; right:auto; text-align: center;  margin:0 auto; width: 100%;}
-    .magazine-content p {color: #fff; padding-bottom: 10px; font-size: 11px;}
-    .magazine-content h2, .magazine-content h3 {display: none;}
-    .store, .slopes {height: 250px; border-bottom: none;}
+    .magazine {background: #111 url();}
+    .magazine-content {bottom:90px; right:auto; text-align: center;  margin:0 auto; width: 100%;}
+    .magazine-content p {}
+    .magazine-content h2 {color:#fff; font-size: 45px;}
+    .magazine-content h3 { color: #fff; font-size: 11px;}
+    
+
+    .store, .slopes {height: 250px; border-bottom: none; background-color: #111;}
     .slopes-content {text-align: center;  margin:0 auto; width: 300px; padding:30px 0 0 0;}
     .store-content {text-align: center;  margin:0 auto; width: 300px; padding:80px 0 0 0;}
+    .store-content h2 {color: #fff;}
 
     .story, .boxes {padding:0 20px;}
 	.story article {width:100%;float: none;}
