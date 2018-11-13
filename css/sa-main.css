@@ -1,36 +1,31 @@
 @media all {
-
 @font-face { 
     font-family: 'DINRegular';
-    src: url('../fonts/din-regular-webfont.woff') format('woff');
-}
+    src: url('../fonts/din-regular-webfont.woff') format('woff');}
 @font-face {
     font-family: 'DINBold';
-    src: url('../fonts/din-bold-webfont.woff') format('woff');
-}
+    src: url('../fonts/din-bold-webfont.woff') format('woff');}
 @font-face {
     font-family: 'Futura-Bold';
-    src: url('../fonts/Futura-Bold.woff') format('woff');
-}
-
+    src: url('../fonts/Futura-Bold.woff') format('woff');}
 
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 body {background: #fff;color:#333;font-family: DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-weight: normal;}
-img     {width:100%; max-width: 100%;}
+img  {width:100%; max-width: 100%;}
 h1, h2, h3, h4, h5, h6 {font-family: Futura, Futura-Bold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-weight:bold;text-transform: uppercase;line-height: 1em;color:#111;}
-h1 {font-size: 26px}
-h2{font-size: 43px; margin:5px 0 0 -7px;}
-h3{font-size: 12px; margin-bottom: 10px;}
-h4 {font-size: 12px; margin-bottom: 10px;}
-h5 {font-size: 15px; color: #aaa;margin-bottom:5px;}
-li { margin:0 0 20px 20px;}
-p {font-size: 14px;line-height: 20px;}
+h1  {font-size: 26px}
+h2  {font-size: 43px; margin:5px 0 0 -7px;}
+h3  {font-size: 12px; margin-bottom: 10px;}
+h4  {font-size: 12px; margin-bottom: 10px;}
+h5  {font-size: 15px; color: #aaa;margin-bottom:5px;}
+li  {margin:0 0 20px 20px;}
+p   {font-size: 14px;line-height: 20px;}
 small {font-size: 12px;line-height: 18px; display: block; padding:0 0 50px 0;}
 b,strong {font-family: DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-weight: normal;}
 nav a, p a, small a, li a {color: #555; border-bottom: 1px solid #ddd; text-decoration: none;}
 nav a:hover, p a:hover, small a:hover, li a:hover {color: #000; border-bottom: 1px solid #ff0000;}
-.meta {display: none;}
-.red {color:#ff0000; margin-bottom:10px;font-size: 12px;}
+.meta   {display: none;}
+.red    {color:#ff0000; margin-bottom:10px;font-size: 12px;}
 
 section 		{padding:40px 50px 70px 50px; max-width: 1600px; margin:0 auto;}
 section div     {float: right;}
@@ -44,151 +39,68 @@ nav a:hover 	{color:#f00;border:none;}
 footer          {width:250px; float: right;}
 footer p        {font-size: 12px;line-height: 18px;}
 
-.home {max-width: 1600px; height: 70vh; padding:0 50px; margin:0 auto;}
-
-.magazine {width:70%; height:100%; background: url(../img/mag.jpg) no-repeat left center; background-size:cover; float:left; position: relative;}
+.home           {max-width: 1600px; height: 70vh; padding:0 50px; margin:0 auto;}
+.magazine       {width:70%; height:100%; background: url(../img/mag.jpg) no-repeat left center; background-size:cover; float:left; position: relative;}
 .magazine-content {position: absolute; bottom:50px; right:50px;}
-.magazine h2 {color: #444; font-size: 52px; padding-bottom:5px; letter-spacing: -1px;}
-.magazine h3 {color: #333; font-size:12px;text-transform: none; font-weight: normal; padding-bottom: 10px;}
-.magazine p {color: #ff0000; font-size: 15px; text-transform: uppercase; font-family: DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-weight: normal; margin-bottom:-5px; }
-
-.slopes {width:29%; height:67%; background: #444;  float:right; border-bottom: 15px solid #fff;}
+.magazine h2    {color: #444; font-size: 52px; padding-bottom:5px; letter-spacing: -1px;}
+.magazine h3    {color: #333; font-size:12px;text-transform: none; font-weight: normal; padding-bottom: 10px;}
+.magazine p     {color: #ff0000; font-size: 15px; text-transform: uppercase; font-family: DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-weight: normal; margin-bottom:-5px; }
+.slopes         {width:29%; height:67%; background: #444;  float:right; border-bottom: 15px solid #fff;}
 .slopes-content {text-align: center; max-width: 300px; margin:25% auto 0 auto; padding: 10px;}
-.slopes h2 {color: #eee; font-size: 32px; padding-bottom: 20px; }
+.slopes h2      {color: #eee; font-size: 32px; padding-bottom: 20px; }
+.store          {width:29%;  height:33%; background: #eee;  float:right;}
+.store-content  {text-align: center; max-width: 300px; margin:10% auto 0 auto; padding: 10px;} 
+.store h2       {color: #444; font-size: 32px; padding-bottom: 20px;}
 
-.store {width:29%;  height:33%; background: #eee;  float:right;}
-.store-content {text-align: center; max-width: 300px; margin:10% auto 0 auto; padding: 10px;} 
-.store h2 {color: #444; font-size: 32px; padding-bottom: 20px;}
-
-main ul, main li {list-style: none;margin:0;}
-main li {padding:50px 70px 50px 70px;}
-main h4 {color: #ccc}
+main ul, main li    {list-style: none;margin:0;}
+main li             {padding:50px 70px 50px 70px;}
+main h4             {color: #ccc}
 main a:hover h4, main li:active h4 {color: #ff0000}
-main a {color:#ccc;text-decoration: none;display: block; border:none;}
+main a              {color:#ccc;text-decoration: none;display: block; border:none;}
 main a:hover, main li:active {color:#000;transition: all .5s ease 0s;background-color: #f1f1f1;border:none;}
 
-.story {max-width: 1600px; padding:0 50px; margin:0 auto;}
-.story article {width:45%;float: left;}
-.story figure {width: 51%; float: right;}
-.story figcaption {margin:10px 0 50px 0;font-size: 14px;line-height: 20px;text-align: right;}
-.story article p {font-size: 16px; line-height: 26px; margin:0 0 26px 0;}
+.story              {max-width: 1600px; padding:0 50px; margin:0 auto;}
+.story article      {width:45%;float: left;}
+.story figure       {width: 51%; float: right;}
+.story figcaption   {margin:10px 0 50px 0;font-size: 14px;line-height: 20px;text-align: right;}
+.story article p    {font-size: 16px; line-height: 26px; margin:0 0 26px 0;}
 .story p:first-of-type:first-letter {color:#111;float: left;font-size: 86px;line-height: 72px;padding-top: 5px;padding-right: 8px;padding-left: 3px;}
-.story article h1 {color: #aaa;}
-.story article h2 {margin:10px 0 50px 0;}
-.story article h3 {font-size: 20px;}
-.story article ul {margin:20px 0 40px 0;}
-.story article li {font-size: 16px; line-height: 26px; padding:0;margin:0 0 0 20px;}
-.story article h4 {position: relative; border:1px solid #333; padding:6px 0 4px 10px; display:inline-block; margin-bottom: 20px;}
+.story article h1   {color: #aaa;}
+.story article h2   {margin:10px 0 50px 0;}
+.story article h3   {font-size: 20px;}
+.story article ul   {margin:20px 0 40px 0;}
+.story article li   {font-size: 16px; line-height: 26px; padding:0;margin:0 0 0 20px;}
+.story article h4   {position: relative; border:1px solid #333; padding:6px 0 4px 10px; display:inline-block; margin-bottom: 20px;}
 .story span.location  {font-size: 12px; letter-spacing:1px;background-color: #333;color: #fff;padding:4px 10px; margin-left: 10px; font-weight: normal; }
 .story span.location a{color: #fff;border:none;text-decoration: none;}
 .story span.location a:hover{color: #ff0000;}
-.story blockquote{font-size: 22px;font-weight: normal;line-height: 36px;text-transform: uppercase;margin:100px auto 130px auto;padding: 0 50px 0 30px; position:relative;color:#000;text-align: center; max-width: 600px;}
+.story blockquote   {font-size: 22px;font-weight: normal;line-height: 36px;text-transform: uppercase;margin:100px auto 130px auto;padding: 0 50px 0 30px; position:relative;color:#000;text-align: center; max-width: 600px;}
 .story blockquote:before{font-family:Georgia, serif; content: open-quote; position: absolute; top:-30px;left:46%;font-size: 70px;color:#ddd; }
 .story blockquote:after {content: close-quote; font-size:0; position: absolute;border-top:3px solid #ddd;bottom:-60px;left:45%;width:40px;} 
 
-.boxes {max-width: 1600px; padding:0 50px; margin:0 auto;}
-.boxes p {font-size: 16px; line-height: 26px; margin:0 0 26px 0;}
-.boxes h1 {color: #aaa;}
-.boxes h2 {margin:10px 0 50px 0;color: #333; max-width: 1000px;}
-.box {width: 30%; float: left; margin: 0 3% 100px 0;}
-.box h3 {font-size:18px;margin: 20px 0;}
-.price {font-size:28px;}
+.boxes      {max-width: 1600px; padding:0 50px; margin:0 auto;}
+.boxes p    {font-size: 16px; line-height: 26px; margin:0 0 26px 0;}
+.boxes h1   {color: #aaa;}
+.boxes h2   {margin:10px 0 50px 0;color: #333; max-width: 1000px;}
+.box        {width: 30%; float: left; margin: 0 3% 100px 0;}
+.box h3     {font-size:18px;margin: 20px 0;}
+.price      {font-size:28px;}
 .payment-button {padding:20px 0;}
 .payment-button p:first-of-type:first-letter, .columns p:first-of-type:first-letter {color:#333;float:none;font-size:16px;line-height: 26px;padding:0;}
 .payment-button form {padding:0;}
 .payment-button h3:first-of-type{color: #aaa;}
 
-.columns{width: 100%;padding:10px 0 30px 0;column-count: 2;column-gap: 60px;}       
+.columns: {width: 100%;padding:10px 0 30px 0;column-count: 2;column-gap: 60px;}       
 
-form {padding:20px 0;}
-select {
-        margin:0px 0 30px 0;
-        padding: 5px 5px 5px 10px;
-        font-size: 14px;
-        height: 34px;
-        border:none;
-        border-radius:2px;
-        color: #fff;
-        background-color:#000;
-        font-family:DINRegular,Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;;
-        font-weight: normal;
-        outline: none;
-        }
-label {text-transform: uppercase;font-size:15px;}
-input[type='email'], input[type='text']  {
-        display: block;
-        font-size:14px;
-        line-height:16px;
-        border:2px solid #ddd;
-        border-radius:2px;
-        background-color: #fff;
-        width:95%;
-        max-width: 400px;
-        padding:7px 5px;
-        margin:40px 0;
-        -webkit-appearance:none;
-        text-align: left;
-        text-transform: none;
-        font-weight: normal;
-        
-    }
-    input:focus, input:hover 
-    {
-        border:2px solid #ff0000; 
-        outline: none;
-        -webkit-transition: all .3s ease 0s;
-        -moz-transition: all .3s ease 0s;
-        -o-transition: all .3s ease 0s;
-        transition: all .3s ease 0s;
-    }
-    button, .button
-    {   font-family:DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;
-        font-size: 14px;        
-        line-height: 20px;
-        letter-spacing: 1px;
-        font-weight: normal;
-        text-transform: uppercase;
-        position: relative;
-        display: inline-block;
-        padding: 7px 20px;
-        border:none;
-        border-radius:2px;
-        color: #fff;
-        background-color:#ff0000;
-        z-index:0;
-        text-align: center;
-        text-decoration: none;
-        overflow: hidden;
-        -webkit-transition: all .3s ease;
-        -moz-transition: all .3s ease;
-        -o-transition: all .3s ease;
-        transition: all .3s ease;
-        -webkit-appearance:none;
-    }
-
-    button:after, .button:after
-    {
-        content: "";
-        position: absolute;
-        background: none repeat scroll 0 0 #000000;
-        height: 0;
-        left: 50%;
-        top: 50%;
-        width: 100%;
-        z-index: -1;
-        -webkit-transition: all .3s ease 0s;
-        -moz-transition: all .3s ease 0s;
-        -o-transition: all .3s ease 0s;
-        transition: all .3s ease 0s;
-        -moz-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
-        -ms-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
-        -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
-        transform: translateX(-50%) translateY(-50%) rotate(-45deg);
-    }
-    button:hover, .button:hover
-    {color:#fff;}
-    button:hover:after, .button:hover:after
-    {height: 420%;}
+form    {padding:20px 0;}
+select  {margin:0px 0 30px 0; padding: 5px 5px 5px 10px; font-size: 14px; height: 34px; border:none; border-radius:2px; color: #fff; background-color:#000; font-family:DINRegular,Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;; font-weight: normal; outline: none; }
+label   {text-transform: uppercase;font-size:15px;}
+input[type='email'], input[type='text']  {display: block;font-size:14px;line-height:16px;border:2px solid #ddd;border-radius:2px;background-color: #fff;width:95%;max-width: 400px;padding:7px 5px;margin:40px 0;-webkit-appearance:none;text-align: left;text-transform: none;font-weight: normal;}
+input:focus, input:hover {border:2px solid #ff0000; outline: none;-webkit-transition: all .3s ease 0s;-moz-transition: all .3s ease 0s;-o-transition: all .3s ease 0s;transition: all .3s ease 0s;}
+button, .button {font-family:DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-size: 14px;line-height: 20px;letter-spacing: 1px;font-weight: normal;text-transform: uppercase;position: relative;display: inline-block;padding: 7px 20px;border:none;border-radius:2px;color: #fff;background-color:#ff0000;z-index:0;text-align: center;text-decoration: none;overflow: hidden;-webkit-transition: all .3s ease;-moz-transition: all .3s ease;-o-transition: all .3s ease;transition: all .3s ease;-webkit-appearance:none;}
+button:after, .button:after {content: ""; position: absolute; background: none repeat scroll 0 0 #000000; height: 0; left: 50%; top: 50%; width: 100%; z-index: -1; -webkit-transition: all .3s ease 0s; -moz-transition: all .3s ease 0s; -o-transition: all .3s ease 0s; transition: all .3s ease 0s; -moz-transform: translateX(-50%) translateY(-50%) rotate(-45deg); -ms-transform: translateX(-50%) translateY(-50%) rotate(-45deg); -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg); transform: translateX(-50%) translateY(-50%) rotate(-45deg);}
+button:hover, .button:hover {color:#fff;}
+button:hover:after, .button:hover:after {height: 420%;}
 
 @media screen and (max-width:1260px) {
 	section, .home, .story, .boxes  {padding:20px;}
@@ -196,8 +108,7 @@ input[type='email'], input[type='text']  {
 }
 
 @media screen and (max-width:1000px) {
-    .slopes h2, .store h2 {font-size: 26px; line-height: 30px;}
-    
+    .slopes h2, .store h2 {font-size: 26px; line-height: 30px;}    
 }
 
 @media screen and (max-width:860px) {
@@ -206,33 +117,34 @@ input[type='email'], input[type='text']  {
     section {padding: 20px 15px 50px 15px;}
 
     header          {width:75px;}
-    header h1 {margin:0;width:75px;height:98px;}
+    header h1       {margin:0;width:75px;height:98px;}
     nav             {width:120px; float: left;}
-    nav ul, nav li {list-style: none;margin:0;}
+    nav ul, nav li  {list-style: none;margin:0;}
     nav li          {font-size: 14px;line-height:22px;}
     footer          {width:110px; float: right;}
     footer p        {font-size: 11px;line-height: 17px;}
 
-    
     .magazine, .store, .slopes {width:100%; height:350px; float:none; margin:0 0 10px 0!important;}
-    .magazine {background: #111 url();}
-    .magazine-content {bottom:90px; right:auto; text-align: center;  margin:0 auto; width: 100%;}
-    .magazine-content p {}
-    .magazine-content h2 {color:#fff; font-size: 45px;}
-    .magazine-content h3 { color: #fff; font-size: 11px;}
-    
+    .magazine               {background: #111 url();}
+    .magazine-content       {bottom:90px; right:auto; text-align: center;  margin:0 auto; width: 100%;}
+    .magazine-content h2    {color:#fff; font-size: 45px;}
+    .magazine-content h3    {color: #fff; font-size: 11px;}
 
-    .store, .slopes {height: 250px; border-bottom: none; background-color: #111;}
-    .slopes-content {text-align: center;  margin:0 auto; width: 300px; padding:30px 0 0 0;}
-    .store-content {text-align: center;  margin:0 auto; width: 300px; padding:80px 0 0 0;}
-    .store-content h2 {color: #fff;}
+    .store, .slopes         {height: 250px; border-bottom: none; background-color: #111;}
+    .slopes-content         {text-align: center;  margin:0 auto; width: 300px; padding:30px 0 0 0;}
+    .store-content          {text-align: center;  margin:0 auto; width: 300px; padding:80px 0 0 0;}
+    .store-content h2       {color: #fff;}
 
-    .story, .boxes {padding:0 20px;}
-	.story article {width:100%;float: none;}
-	.story figure {width: 100%; float: none;}
-	.story article h1 {font-size: 20px;}
+    .story, .boxes     {padding:0 20px;}
+	.story article     {width:100%;float: none;}
+	.story figure      {width: 100%; float: none;}
+	.story article h1  {font-size: 20px;}
 	.story article h2, .boxes h2, h2 {font-size: 30px;}
-    .story blockquote{font-size: 18px;line-height: 32px;margin:100px auto;padding: 0 30px 0 20px;}
-    .box {width: 100%;}
+    .story blockquote  {font-size: 18px;line-height: 32px;margin:100px auto;padding: 0 30px 0 20px;}
+    .box               {width: 100%;}
 
+    button, .button {-webkit-transition: none;-moz-transition: none;-o-transition: none;transition: none;}
+    button:after, .button:after {content: ""; position: relative;background: none;height: auto; left: auto;top: auto;width: auto;z-index:0;-webkit-transition: none;-moz-transition: none;-o-transition: none;transition: none;-moz-transform: none;-ms-transform: none;-webkit-transform: none;transform: none;}
+    button:hover, .button:hover {color:#000;}
+    button:hover:after, .button:hover:after  {height: auto;}
 }
