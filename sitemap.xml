@@ -26,26 +26,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://superalpine.co/store/adm-print.html</loc>
-  <priority>0.85</priority>
-</url>
-<url>
-  <loc>http://superalpine.co/store/tdb-print.html</loc>
-  <priority>0.85</priority>
-</url>
-<url>
-  <loc>http://superalpine.co/store/chamonix-map-blk-print.html</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://superalpine.co/store/chamonix-map-wht-print.html</loc>
-  <priority>0.90</priority>
-</url>
-<url>
-  <loc>http://superalpine.co/store/charmoz-grepon-print.html</loc>
-  <priority>0.85</priority>
-</url>
-<url>
   <loc>http://superalpine.co/articles/rare-jewels-cia-plots-on-the-slopes-of-mont-blanc.html</loc>
   <priority>0.70</priority>
 </url>
@@ -54,23 +34,11 @@
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>http://superalpine.co/articles/g-shock-mudmaster.html</loc>
-  <priority>0.30</priority>
-</url>
-<url>
   <loc>http://superalpine.co/articles/escapes-book.html</loc>
   <priority>0.30</priority>
 </url>
 <url>
   <loc>http://superalpine.co/articles/porsche-drive-book.html</loc>
-  <priority>0.30</priority>
-</url>
-<url>
-  <loc>http://superalpine.co/articles/porsche-r7-rsr-prototype.html</loc>
-  <priority>0.30</priority>
-</url>
-<url>
-  <loc>http://superalpine.co/articles/karajan-porsche-rs-turbo.html</loc>
   <priority>0.30</priority>
 </url>
 <url>
