@@ -37,6 +37,14 @@ $(document).ready(function(){
                 $(".payment-button").not(".Other").hide();
                 $(".Other").show();
             }
+             else if($(this).attr("value")=="UAE"){
+                $(".payment-button").not(".UAE").hide();
+                $(".UAE").show();
+            }
+             else if($(this).attr("value")=="SaudiArabia"){
+                $(".payment-button").not(".SaudiArabia").hide();
+                $(".SaudiArabia").show();
+            }
             else{
                 $(".payment-button").hide();
             }
