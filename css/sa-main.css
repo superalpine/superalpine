@@ -48,10 +48,10 @@ footer p        {font-size: 12px;line-height: 18px;}
 .magazine p     {color: #ff0000; font-size: 15px; text-transform: uppercase; font-family: DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-weight: normal; margin-bottom:-5px; }
 .slopes         {width:29%; height:67%; background: #444;  float:right; border-bottom: 15px solid #fff;}
 .slopes-content {text-align: center; max-width: 300px; margin:25% auto 0 auto; padding: 10px;}
-.slopes h2      {color: #eee; font-size: 32px; padding-bottom: 20px; }
+.slopes h2      {color: #eee; font-size: 30px; padding-bottom: 20px; }
 .store          {width:29%;  height:33%; background: #eee;  float:right;background: url(../store/img/sa01-5prints.jpg) no-repeat left center; background-size:cover;}
-.store-content  {text-align: center; max-width: 300px; margin:10% auto 0 auto; padding: 10px; } 
-.store h2       {color: #fff; font-size: 24px; padding-bottom: 20px; text-shadow: 0px 0px 15px #000;}
+.store-content  {text-align: center; max-width: 300px; margin:10% auto 0 auto; padding: 5px; } 
+.store h2       {color: #fff; font-size: 23px; padding-bottom: 15px; text-shadow: 0px 0px 15px #000;}
 
 main ul, main li    {list-style: none;margin:0;}
 main li             {padding:50px 70px 50px 70px;}
