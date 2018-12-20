@@ -51,7 +51,7 @@ footer p        {font-size: 12px;line-height: 18px;}
 .slopes h2      {color: #eee; font-size: 30px; padding-bottom: 20px; }
 .store          {width:29%;  height:33%; background: #eee;  float:right;background: url(../store/img/sa01-5prints.jpg) no-repeat left center; background-size:cover;}
 .store-content  {text-align: center; max-width: 300px; margin:10% auto 0 auto; padding: 5px; } 
-.store h2       {color: #fff; font-size: 23px; padding-bottom: 15px; text-shadow: 0px 0px 15px #000;}
+.store h2       {color: #fff; font-size: 28px; padding-bottom: 15px; text-shadow: 0px 0px 15px #000;}
 
 main ul, main li    {list-style: none;margin:0;}
 main li             {padding:50px 70px 50px 70px;}
