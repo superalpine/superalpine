@@ -23,15 +23,19 @@
 </url>
 <url>
   <loc>http://superalpine.co/store/index.html</loc>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://superalpine.co/store/chamonix-map-print.html</loc>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://superalpine.co/articles/rare-jewels-cia-plots-on-the-slopes-of-mont-blanc.html</loc>
-  <priority>0.70</priority>
+  <priority>0.50</priority>
 </url>
 <url>
   <loc>http://superalpine.co/articles/le-cristal-de-jade-chamonix.html</loc>
-  <priority>0.70</priority>
+  <priority>0.40</priority>
 </url>
 <url>
   <loc>http://superalpine.co/articles/escapes-book.html</loc>
@@ -51,10 +55,14 @@
 </url>
 <url>
   <loc>http://superalpine.co/about/index.html</loc>
-  <priority>0.20</priority>
+  <priority>0.25</priority>
 </url>
 <url>
   <loc>http://superalpine.co/subscribe/index.html</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>http://superalpine.co/media/index.html</loc>
   <priority>0.10</priority>
 </url>
 <url>
