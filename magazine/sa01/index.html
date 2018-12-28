@@ -13,12 +13,12 @@
 <meta property="og:site_name" content="Super Alpine">
 <meta property="og:url" content="http://superalpine.co/magazine/sa01">
 <meta property="og:image" content="http://superalpine.co/magazine/sa01/sa01-og.jpg">
-<meta property="product:price:amount" content="20.00">
+<meta property="product:price:amount" content="25.00">
 <meta property="product:price:currency" content="GBP">
 <meta property="og:availability" content="instock">
 <link href="../../css/sa-main.css" rel="stylesheet">
 <script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
-<script type="text/javascript" src="../delivery.js"></script>
+<script type="text/javascript" src="../../js/delivery.js"></script>
 </head>
 <body>
 <section>
@@ -118,16 +118,15 @@
   <blockquote>The book is just as beautiful and magical as the mountains and Chamonix. A must have for Chamonix adventure lovers</blockquote>
   
   <br>
-  <h3>Price &amp; delivery</h3>
+  <h3>Buy Now</h3>
+  <h6 class="red">Limited stock remaining</h6>
     <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
-       <h5 class="price">&pound;<span itemprop="price">20.00</span></h5>
+       <h5 class="price">&pound;<span itemprop="price">25.00</span></h5>
      <meta itemprop="priceCurrency" content="GBP">
     </div>
-    <br>
+   <p></p>
    
-   <h6 class="red">Check out the special editions in the <a href="../../store/index.html" class="red">Store</a></h6>
-   
-    <p>Select your country for delivery costs.<sup>*</sup></p>
+    <p>Select your country for delivery options.<sup>*</sup></p>
         <select id="Delivery">
             <option>Select your country</option>
             <option value="UK">United Kingdom</option>
@@ -173,16 +172,30 @@
 
     <div class="UK payment-button">
         <h3>United Kingdom</h3>
-        <h3>&pound;25.00</h3>
-        <p>This includes a cardboard mailer and delivery by Royal Mail First Class</p>
+        
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="7K38WY9YD2WHS">
-        <button type="submit">Buy Now</button>
-        <img alt="Paypal" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-        </form>
-         <p>Also available on <a href="https://www.amazon.co.uk/dp/B07J696YH6?m=ALTC0YGEEPPJQ&ref_=v_sp_widget_detail_page">Amazon</a></p>
+        <p>
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="XXERYLK5LT2C2">
+          <input type="hidden" name="currency_code" value="GBP">
+          <input type="hidden" name="on0" value="Delivery">
+      
+          <input type="radio" id="2ndClass" name="os0" value="2ndClass">  
+          <label for="2ndClass">Magazine + Royal Mail 2nd Class £25.00</label>
+          <br>
+          <input type="radio" id="1stClass" name="os0" value="1stClass" checked>
+          <label for="1stClass">Magazine + Royal Mail 1st Class £28.45</label>
+          <br>
+          <b class="red">SPECIAL OFFER</b>
+          <br>
+          <input type="radio" id="Print" name="os0" value="Print">
+          <label for="Print">Magazine + <a href="../../store/chamonix-map-print.html" target="_blank">Map print</a> + Royal Mail 1st Class signed £50.00</label>
+        </p>    
+         <button type="submit">Buy Now</button>
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+    </form>
     </div>
+
 
     <div class="Europe payment-button">
         <h3>Europe</h3>
@@ -194,6 +207,8 @@
         <button type="submit">Buy Now</button>
         <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
         </form>
+        <h6 class="red">SPECIAL OFFER</h6>
+        <p>Magazine + Map print - <a href="../../store/chamonix-map-print.html" target="_blank">more info</a></p>
     </div>
 
     <div class="Swiss payment-button">
@@ -206,11 +221,13 @@
         <button type="submit">Buy Now</button>
         <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
         </form>
+        <h6 class="red">SPECIAL OFFER</h6>
+        <p>Magazine + Map print - <a href="../../store/chamonix-map-print.html" target="_blank">more info</a></p>
     </div>
 
     <div class="USA payment-button">
         <h3>United States of America</h3>
-        <h3>&dollar;47.00</h3>
+        <h3>&dollar;50.00</h3>
         <p>This includes a cardboard mailer and delivery by Royal Mail International standard</p>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick">
@@ -218,18 +235,22 @@
         <button type="submit">Buy Now</button>
         <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
         </form>
+        <h6 class="red">SPECIAL OFFER</h6>
+        <p>Magazine + Map print - <a href="../../store/chamonix-map-print.html" target="_blank">more info</a></p>
     </div>
 
     <div class="Canada payment-button">
         <h3>Canada</h3>
-        <h3>&dollar;110.00</h3>
-        <p>Due to problems with Canada Post we are only able to send the magazine via UPS - arrives within 3 business days</p>
+        <h3>&dollar;75.00</h3>
+         <p>This includes a cardboard mailer and delivery by Royal Mail International tracked</p>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="Z6X5H6EUEGMZY">
-        <button type="submit">Buy Now</button>
+         <button type="submit">Buy Now</button>
         <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
         </form>
+        <h6 class="red">SPECIAL OFFER</h6>
+        <p>Magazine + Map print - <a href="../../store/chamonix-map-print.html" target="_blank">more info</a></p>
     </div>
 
     <div class="Australia payment-button">
@@ -242,6 +263,8 @@
         <button type="submit">Buy Now</button>
         <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
         </form>
+        <h6 class="red">SPECIAL OFFER</h6>
+        <p>Magazine + Map print - <a href="../../store/chamonix-map-print.html" target="_blank">more info</a></p>
     </div>
 
     <div class="NewZealand payment-button">
@@ -254,6 +277,8 @@
         <button type="submit">Buy Now</button>
         <img alt="Paypal" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
         </form>
+        <h6 class="red">SPECIAL OFFER</h6>
+        <p>Magazine + Map print - <a href="../../store/chamonix-map-print.html" target="_blank">more info</a></p>
     </div>
 
      <div class="SaudiArabia payment-button">
@@ -266,6 +291,8 @@
         <button type="submit">Buy Now</button>
         <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
         </form>
+        <h6 class="red">SPECIAL OFFER</h6>
+        <p>Magazine + Map print - <a href="../../store/chamonix-map-print.html" target="_blank">more info</a></p>
     </div>
 
       <div class="UAE payment-button">
@@ -278,6 +305,8 @@
         <button type="submit">Buy Now</button>
         <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
         </form>
+        <h6 class="red">SPECIAL OFFER</h6>
+        <p>Magazine + Map print - <a href="../../store/chamonix-map-print.html" target="_blank">more info</a></p>
     </div>
 
 
@@ -287,7 +316,6 @@
     </div>
     
     <small>
-      <sup>*</sup> A quantity discount is available, please <a href="mailto:hello@superalpine.co">contact us</a> for more information.<br>
       <sup>*</sup> <a href="../../terms/index.html">Terms apply</a>.
     </small>
    
@@ -306,11 +334,6 @@
    <figure>
       <img src="sa01-5.jpg" alt="Super Alpine Chamonix - introduction pages">
       <figcaption>Chamonix introduction</figcaption>
-    </figure>
-    
-    <figure>
-      <img src="sa01-7.jpg" alt="Super Alpine Chamonix - Street art">
-      <figcaption>Street art</figcaption>
     </figure>
 
      <figure>
