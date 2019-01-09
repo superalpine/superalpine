@@ -8,6 +8,7 @@
 @font-face {
     font-family: 'Futura-Bold';
     src: url('../fonts/Futura-Bold.woff') format('woff');}
+    
 
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 body {background: #fff;color:#333;font-family: DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-weight: normal;}
@@ -63,40 +64,38 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', e
 .subscribe input::placeholder {color:#777;}
 .subscribe button   { display: table-cell;  margin: 0; float: right;}
 
-main                {max-width: 1600px; padding:0 50px 50px 50px; margin:0 auto; position: relative; }
-main h2             {font-size: 36px; line-height: 42px; margin:20px 0; text-transform: none; font-family: 'Playfair Display', serif; font-weight:normal;}
-main h3             {font-size: 20px;}
-main p              {font-size: 17px; line-height: 28px;margin:0 0 25px 0; font-family: 'Playfair Display', serif; }
-main b              { font-family: 'Playfair Display', serif;font-weight: 700;}
 .the-search          {width: 100%; text-align: center; margin-top:-40px;}
 .the-search h1       {font-size: 80px; font-family: 'Playfair Display', serif; text-transform: none; font-weight: 900; font-style: italic; letter-spacing: -3px;  line-height: .6em;}
 .the-search h1 b     {font-size: 30px; font-family: 'Playfair Display', serif; text-transform: none; font-weight: 900; font-style: italic;line-height: .6em;}
 .the-search p        {font-family: DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-size: 14px; margin:20px 0 0 0; }
-
 .journal             {display: grid; grid-template-columns: 1fr 1fr;grid-gap: 20px 150px; margin:50px 0 100px 0;}
+.journal article div {border-left:3px solid #eee; padding-left:20px;}
 .archive             {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:20px 50px;  margin:50px 0;}
-.archive article    {padding: 10px 0;}
+.archive article     {padding: 10px 0;}
 .archive article p   {font-size: 15px; line-height: 23px;}
-.archive a          {display: block; border:none; border-left:2px solid #eee; padding-left:10px;}
-.archive a:hover    {border:none; border-left:2px solid #ff0000;}
+.archive a           {display: block; border:none; border-left:2px solid #eee; padding-left:10px;}
+.archive a:hover     {border:none; border-left:2px solid #ff0000;}
+
+main                {max-width: 1600px; padding:0 50px 50px 50px; margin:0 auto; position: relative; }
+main h2             {font-size: 36px; line-height: 42px; margin:20px 0; text-transform: none; font-family: 'Playfair Display', serif; font-weight:normal;}
+main h3             {font-size: 20px;}
+main p              {font-size: 17px; line-height: 28px;margin:0 0 25px 0; font-family: 'Playfair Display', serif; }
+main b              {font-family: 'Playfair Display', serif;font-weight: 700;}
+main.story article p:first-of-type:first-letter {color:#111;float: left;font-size: 86px;line-height: 72px;padding-right: 4px;}
 
 .story              {max-width: 1600px; padding:0 50px; margin:0 auto;}
 .story article      {width:45%;float: left;}
 .story figure       {width: 51%; float: right;}
 .story figcaption   {margin:10px 0 50px 0;font-size: 14px;line-height: 20px;text-align: right;}
 .story article p    {font-size: 16px; line-height: 26px; margin:0 0 26px 0;}
-.story p:first-of-type:first-letter {color:#111;float: left;font-size: 86px;line-height: 72px;padding-top: 5px;padding-right: 8px;padding-left: 3px;}
 .story article h1   {color: #aaa;}
 .story article h2   {margin:10px 0 50px 0;}
 .story article h3   {font-size: 20px;}
 .story article ul   {margin:20px 0 40px 0;}
 .story article li   {font-size: 16px; line-height: 26px; padding:0;margin:0 0 0 20px;}
 .story article h4   {position: relative; border:1px solid #333; padding:6px 0 4px 10px; display:inline-block; margin-bottom: 20px;}
-.story span.location  {font-size: 12px; letter-spacing:1px;background-color: #333;color: #fff;padding:4px 10px; margin-left: 10px; font-weight: normal; }
-.story span.location a{color: #fff;border:none;text-decoration: none;}
-.story span.location a:hover{color: #ff0000;}
 .story blockquote   {font-size: 22px;font-weight: normal;line-height: 36px;text-transform: uppercase;margin:100px auto 130px auto;padding: 0 50px 0 30px; position:relative;color:#000;text-align: center; max-width: 600px;}
-.story blockquote:before{font-family:Georgia, serif; content: open-quote; position: absolute; top:-30px;left:46%;font-size: 70px;color:#ddd; }
+.story blockquote:before{font-family:'Playfair Display', serif; content: open-quote; position: absolute; top:-30px;left:46%;font-size: 70px;color:#ddd; }
 .story blockquote:after {content: close-quote; font-size:0; position: absolute;border-top:3px solid #ddd;bottom:-60px;left:45%;width:40px;} 
 
 .boxes      {max-width: 1600px; padding:0 50px; margin:0 auto;}
