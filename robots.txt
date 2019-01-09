@@ -1,5 +1,6 @@
 User-agent: Googlebot-Image
 Disallow: /articles/img/
+Disallow: /journal/img/
 
 User-agent: *
 Disallow: /admin/

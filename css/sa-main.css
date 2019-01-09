@@ -22,8 +22,9 @@ li  {margin:0 0 20px 20px;}
 p   {font-size: 14px;line-height: 20px;}
 small {font-size: 12px;line-height: 18px; display: block; padding:0 0 50px 0;}
 b,strong {font-family: DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-weight: normal;}
-nav a, p a, small a, li a, p label a:visited{color: #555; border-bottom: 1px solid #ddd; text-decoration: none;}
-nav a:hover, p a:hover, small a:hover, li a:hover {color: #000; border-bottom: 1px solid #ff0000;}
+a {text-decoration: none; border: none;}
+main a, nav a, p a, small a, li a, p label a:visited{color: #555; border-bottom: 1px solid #ddd; text-decoration: none;}
+main a:hover, nav a:hover, p a:hover, small a:hover, li a:hover {color: #000; border-bottom: 1px solid #ff0000;}
 .meta   {display: none;}
 .red    {color:#ff0000; margin-bottom:10px;font-size: 12px;}
 .red2    {color:#ff0000;}
@@ -41,10 +42,10 @@ nav a:hover 	{color:#f00;border:none;}
 footer          {width:250px; float: right;}
 footer p        {font-size: 12px;line-height: 18px;}
 
-.home           {max-width: 1600px; height: 70vh; padding:0 50px; margin:0 auto;}
+.home           {max-width: 1600px; height: 70vh; min-height: 400px; padding:0 50px; margin:0 auto;}
 .magazine       {width:100%; height:100%; background: url(../img/home.jpg) no-repeat center center; background-size:cover; position: relative;}
 .magazine-content {position: absolute; top:0; left:0; width: 30%; height: 100%; text-align: center; padding-top: 16%;
-bbackground: -moz-linear-gradient(top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.2) 100%);
+background: -moz-linear-gradient(top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.2) 100%);
 background: -webkit-linear-gradient(top, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.4) 50%,rgba(0,0,0,0.2) 100%);
 background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.4) 50%,rgba(0,0,0,0.2) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', endColorstr='#33000000',GradientType=0 );}
@@ -53,12 +54,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', e
 .magazine p     {color: #fff; font-size: 15px; font-family: Futura, Futura-Bold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; text-transform: uppercase; letter-spacing:2px;}
 .magazine-content img {width: 75px;margin-bottom: 15px;}
 
-main ul, main li    {list-style: none;margin:0;}
-main li             {padding:50px 70px 50px 70px;}
-main h4             {color: #ccc}
-main a:hover h4, main li:active h4 {color: #ff0000}
-main a              {color:#ccc;text-decoration: none;display: block; border:none;}
-main a:hover, main li:active {color:#000;transition: all .5s ease 0s;background-color: #f1f1f1;border:none;}
+.subscribe          {width: 100%; background: url(../img/subscribe.jpg) no-repeat center center; background-size:cover; padding: 25px 0;margin: 20px auto;}
+.subscribe h1       {font-size: 26px; text-align: center; color: #fff;}
+.subscribe p       {font-size: 18px; text-align: center; color: #fff;margin:20px 0;}
+.subscribe form     {max-width: 700px; margin:0 auto; padding:10px;}
+.subscribe .subbox {background-color: rgba(255,255,255,.8); width:100%; height: 50px; padding: 10px; display: table;}
+.subscribe input[type='email'] {width: 51%; display: table-cell; margin: 1px 0 0 0; float: left; border:none; background-color: transparent; color: #000; font-size: 16px;}
+.subscribe input::placeholder {color:#777;}
+.subscribe button   { display: table-cell;  margin: 0; float: right;}
+
+main                {max-width: 1600px; padding:0 50px 50px 50px; margin:0 auto; position: relative; }
+main h2             {font-size: 36px; line-height: 42px; margin:20px 0; text-transform: none; font-family: 'Playfair Display', serif; font-weight:normal;}
+main h3             {font-size: 20px;}
+main p              {font-size: 17px; line-height: 28px;margin:0 0 25px 0; font-family: 'Playfair Display', serif; }
+main b              { font-family: 'Playfair Display', serif;font-weight: 700;}
+.the-search          {width: 100%; text-align: center; margin-top:-40px;}
+.the-search h1       {font-size: 80px; font-family: 'Playfair Display', serif; text-transform: none; font-weight: 900; font-style: italic; letter-spacing: -3px;  line-height: .6em;}
+.the-search h1 b     {font-size: 30px; font-family: 'Playfair Display', serif; text-transform: none; font-weight: 900; font-style: italic;line-height: .6em;}
+.the-search p        {font-family: DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-size: 14px; margin:20px 0 0 0; }
+
+.journal             {display: grid; grid-template-columns: 1fr 1fr;grid-gap: 20px 150px; margin:50px 0 100px 0;}
+.archive             {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:20px 50px;  margin:50px 0;}
+.archive article    {padding: 10px 0;}
+.archive article p   {font-size: 15px; line-height: 23px;}
+.archive a          {display: block; border:none; border-left:2px solid #eee; padding-left:10px;}
+.archive a:hover    {border:none; border-left:2px solid #ff0000;}
 
 .story              {max-width: 1600px; padding:0 50px; margin:0 auto;}
 .story article      {width:45%;float: left;}
@@ -93,10 +113,9 @@ main a:hover, main li:active {color:#000;transition: all .5s ease 0s;background-
 
 form    {padding:20px 0;}
 select  {margin:0px 0 30px 0; padding: 5px 5px 5px 10px; font-size: 14px; height: 34px; border:none; border-radius:2px; color: #fff; background-color:#000; font-family:DINRegular,Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;; font-weight: normal; outline: none; }
-label   {k;}
 input[type='email'], input[type='text']  {display: block;font-size:14px;line-height:16px;border:2px solid #ddd;border-radius:2px;background-color: #fff;width:95%;max-width: 400px;padding:7px 5px;margin:40px 0;-webkit-appearance:none;text-align: left;text-transform: none;font-weight: normal;}
 input:focus, input:hover {border:2px solid #ff0000; outline: none;-webkit-transition: all .3s ease 0s;-moz-transition: all .3s ease 0s;-o-transition: all .3s ease 0s;transition: all .3s ease 0s;}
-button, .button {font-family:DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-size: 14px;line-height:1em;letter-spacing: 1px;font-weight: normal;text-transform: uppercase;position: relative;display: inline-block;padding: 10px 20px; border:none;border-radius:2px;color: #fff;background-color:#ff0000;z-index:0;text-align: center;text-decoration: none;overflow: hidden;-webkit-transition: all .3s ease;-moz-transition: all .3s ease;-o-transition: all .3s ease;transition: all .3s ease;-webkit-appearance:none;}
+button, .button {font-family:DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-size: 14px;line-height:1em;letter-spacing: 1px;font-weight: normal;text-transform: uppercase;position: relative;display: inline-block;padding: 10px 20px; border:none;border-radius:1px;color: #fff;background-color:#ff0000;z-index:0;text-align: center;text-decoration: none;overflow: hidden;-webkit-transition: all .3s ease;-moz-transition: all .3s ease;-o-transition: all .3s ease;transition: all .3s ease;-webkit-appearance:none;}
 button:after, .button:after {content: ""; position: absolute; background: none repeat scroll 0 0 #000000; height: 0; left: 50%; top: 50%; width: 100%; z-index: -1; -webkit-transition: all .3s ease 0s; -moz-transition: all .3s ease 0s; -o-transition: all .3s ease 0s; transition: all .3s ease 0s; -moz-transform: translateX(-50%) translateY(-50%) rotate(-45deg); -ms-transform: translateX(-50%) translateY(-50%) rotate(-45deg); -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg); transform: translateX(-50%) translateY(-50%) rotate(-45deg);}
 button:hover, .button:hover {color:#fff;}
 button:hover:after, .button:hover:after {height: 420%;}
@@ -104,21 +123,20 @@ button:hover:after, .button:hover:after {height: 420%;}
 @media screen and (max-width:1260px) {
     header          {width:75px;}
     header h1       {margin:0;width:75px;height:98px;}
-	section, .home, .story, .boxes  {padding:20px;}
+	main, section, .home, .story, .boxes  {padding:20px;}
     .box {width: 45%; margin-right:5%;}
     .magazine-content       {width: 33%;}
     .magazine-content h2    {font-size: 42px;}
     .magazine-content h3    {font-size: 10px;}
     .magazine-content p     {font-size: 12px;}
-}
-
-@media screen and (max-width:1000px) {
-      
+    .archive  {grid-template-columns: 1fr 1fr;}
+    .journal {grid-gap: 20px 50px;}
 }
 
 @media screen and (max-width:860px) {
     
-    section, .home, .story, .boxes  {padding:15px;}
+
+    main, section, .home, .story, .boxes  {padding:15px;}
     section {padding: 20px 15px 50px 15px;}
 
     nav             {width:120px; float: left;}
@@ -126,13 +144,14 @@ button:hover:after, .button:hover:after {height: 420%;}
     nav li          {font-size: 14px;line-height:22px;}
     footer          {width:110px; float: right;}
     footer p        {font-size: 11px;line-height: 17px;}
+    
+    .journal, .archive    {grid-template-columns: 1fr;}
     .wallpaper      {width: 100%;float:none;}
 
     .magazine-content       {width: 100%;}
     .magazine-content h2    {font-size: 42px;}
     .magazine-content h3    {font-size: 10px;}
     .magazine-content p     {font-size: 12px;}
-
 
     .story, .boxes     {padding:0 20px;}
 	.story article     {width:100%;float: none;}
