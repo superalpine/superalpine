@@ -1,4 +1,4 @@
-@media all {
+
 @font-face { 
     font-family: 'DINRegular';
     src: url('../fonts/din-regular-webfont.woff') format('woff');}
@@ -10,46 +10,43 @@
     src: url('../fonts/Futura-Bold.woff') format('woff');}
     
 
-html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;box-sizing:border-box;}
 body {background: #fff;color:#333;font-family: DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-weight: normal;}
 img  {width:100%; max-width: 100%;}
 h1, h2, h3, h4, h5, h6 {font-family: Futura, Futura-Bold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-weight:bold;text-transform: uppercase;line-height: 1em;color:#111;}
 h1  {font-size: 26px}
-h2  {font-size: 43px; margin:5px 0 0 -7px;}
-h3  {font-size: 12px; margin-bottom: 10px;}
+h2  {font-size: 43px;}
+h3  {font-size: 20px; margin-bottom: 10px;}
 h4  {font-size: 12px; margin-bottom: 10px;}
-h5  {font-size: 15px; color: #aaa;margin-bottom:5px;}
-li  {margin:0 0 20px 20px;}
+h5  {font-size: 15px; line-height:22px; color: #aaa; margin-bottom:5px;}
+h6  {font-size: 15px; color: #ff0000; margin-bottom:10px;}
+ul   {margin:40px 0;}
+li  {margin:0 0 10px 20px; line-height: 22px;}
 p   {font-size: 14px;line-height: 20px;}
 small {font-size: 12px;line-height: 18px; display: block; padding:0 0 50px 0;}
-b,strong {font-family: DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-weight: normal;}
-a {text-decoration: none; border: none;}
-main a, nav a, p a, small a, li a, p label a:visited{color: #555; border-bottom: 1px solid #ddd; text-decoration: none;}
-main a:hover, nav a:hover, p a:hover, small a:hover, li a:hover {color: #000; border-bottom: 1px solid #ff0000;}
-.meta   {display: none;}
-.red    {color:#ff0000; margin-bottom:10px;font-size: 12px;}
-.red2    {color:#ff0000;}
-.wallpaper {width: 47%;float;left;}
+a {text-decoration: none; color:#333; border-bottom:1px solid #ddd;}
+a:hover {color:#000; border-bottom:1px solid #ff0000;}
 
-section 		{padding:40px 50px 70px 50px; max-width: 1600px; margin:0 auto;}
+.meta   {display: none;}
+.wallpaper {width: 47%;}
+
+section 		{padding:40px 50px 50px 50px; max-width: 1600px; margin:0 auto;}
+section h3      {font-size: 12px;}
 section div     {float: right;}
-header 			{width:95px;float: left;}
-header h1 		{background: url(../img/logo.png) no-repeat center center;background-size:cover;width:90px;height:116px;display:block;font-size:0;color:#fff;}
-nav				{width:300px; float: left;}
-nav ul, nav li {list-style: none;margin:0;}
-nav li          {font-size: 14px;line-height:25px;}
-nav a   		{color:#555;border:none;}
-nav a:hover 	{color:#f00;border:none;}
+header 			{width:90px;float: left;}
+header h1 		{background: url(../img/logo.png) no-repeat center center;background-size:cover;width:75px;height:97px;display:block;font-size:0;color:#fff;}
+nav				{width:200px; float: left;}
+nav ul, nav li  {list-style: none; margin:0;}
+nav li          {font-size: 14px; line-height:24px;}
+nav a   		{color:#555; border:none;}
+nav a:hover 	{color:#f00; border:none;}
 footer          {width:250px; float: right;}
 footer p        {font-size: 12px;line-height: 18px;}
+main            {max-width: 1600px; padding:0 50px 50px 50px; margin:0 auto;}
 
-.home           {max-width: 1600px; height: 70vh; min-height: 400px; padding:0 50px; margin:0 auto;}
+.home           {max-width: 1600px; height: 70vh; min-height: 410px; padding:0 50px; margin:0 auto;}
 .magazine       {width:100%; height:100%; background: url(../img/home.jpg) no-repeat center center; background-size:cover; position: relative;}
-.magazine-content {position: absolute; top:0; left:0; width: 30%; height: 100%; text-align: center; padding-top: 16%;
-background: -moz-linear-gradient(top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.2) 100%);
-background: -webkit-linear-gradient(top, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.4) 50%,rgba(0,0,0,0.2) 100%);
-background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.4) 50%,rgba(0,0,0,0.2) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', endColorstr='#33000000',GradientType=0 );}
+.magazine-content {position: absolute; top:0; left:0; width: 30%; height: 100%; text-align: center; padding-top: 16%; background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.4) 50%,rgba(0,0,0,0.2) 100%);}
 .magazine h2    {color: #fff; font-size: 56px; padding-bottom:10px; letter-spacing: -1px;}
 .magazine h3    {color: #ccc; font-size:13px;text-transform: none; font-weight: normal; padding-bottom: 20px;}
 .magazine p     {color: #fff; font-size: 15px; font-family: Futura, Futura-Bold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; text-transform: uppercase; letter-spacing:2px;}
@@ -57,7 +54,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', e
 
 .subscribe          {width: 100%; background: url(../img/subscribe.jpg) no-repeat center center; background-size:cover; padding: 25px 0;margin: 20px auto;}
 .subscribe h1       {font-size: 26px; text-align: center; color: #fff;}
-.subscribe p       {font-size: 18px; text-align: center; color: #fff;margin:20px 0;}
+.subscribe p        {font-size: 18px; text-align: center; color: #fff;margin:20px 0;}
 .subscribe form     {max-width: 700px; margin:0 auto; padding:10px;}
 .subscribe .subbox {background-color: rgba(255,255,255,.8); width:100%; height: 50px; padding: 10px; display: table;}
 .subscribe input[type='email'] {width: 51%; display: table-cell; margin: 1px 0 0 0; float: left; border:none; background-color: transparent; color: #000; font-size: 16px;}
@@ -70,98 +67,87 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', e
 .the-search p        {font-family: DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-size: 14px; margin:20px 0 0 0; }
 .journal             {display: grid; grid-template-columns: 1fr 1fr;grid-gap: 20px 150px; margin:50px 0 100px 0;}
 .journal article div {border-left:3px solid #eee; padding-left:20px;}
-.archive             {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:20px 50px;  margin:50px 0;}
+.archive             {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:20px 50px;  margin:50px 0 100px 0;}
 .archive article     {padding: 10px 0;}
-.archive article p   {font-size: 15px; line-height: 23px;}
+.archive p           {font-family: 'Playfair Display', serif; font-size:15px;line-height: 24px; }
 .archive a           {display: block; border:none; border-left:2px solid #eee; padding-left:10px;}
 .archive a:hover     {border:none; border-left:2px solid #ff0000;}
 
-main                {max-width: 1600px; padding:0 50px 50px 50px; margin:0 auto; position: relative; }
-main h2             {font-size: 36px; line-height: 42px; margin:20px 0; text-transform: none; font-family: 'Playfair Display', serif; font-weight:normal;}
-main h3             {font-size: 20px;}
-main p              {font-size: 17px; line-height: 28px;margin:0 0 25px 0; font-family: 'Playfair Display', serif; }
-main b              {font-family: 'Playfair Display', serif;font-weight: 700;}
-main.story article p:first-of-type:first-letter {color:#111;float: left;font-size: 86px;line-height: 72px;padding-right: 4px;}
+.story h1               {font-size: 40px; line-height: 44px; margin:0; text-transform: none; font-family: 'Playfair Display', serif; font-weight:400;color:#777;}
+.story h2, .journal h2  {font-size: 34px; line-height: 40px; margin:10px 0 30px 0; text-transform: none; font-family: 'Playfair Display', serif; font-weight:400;}
+.story h3               {font-size: 20px;}
+.story p, .journal p    {font-size: 17px; line-height: 28px;margin:0 0 25px 0; font-family: 'Playfair Display', serif; }
+.story b                {font-family: 'Playfair Display', serif;font-weight: 700;}
+.story article p:first-of-type:first-letter {color:#111; float: left; font-size: 60px;line-height: 53px;padding-right: 4px;}
+.story article          {width:45%;float: left;}
+.story figure           {width: 51%; float: right;}
+.story figcaption       {margin:10px 0 50px 0;font-size: 14px;line-height: 20px;text-align: right;}
 
-.story              {max-width: 1600px; padding:0 50px; margin:0 auto;}
-.story article      {width:45%;float: left;}
-.story figure       {width: 51%; float: right;}
-.story figcaption   {margin:10px 0 50px 0;font-size: 14px;line-height: 20px;text-align: right;}
-.story article p    {font-size: 16px; line-height: 26px; margin:0 0 26px 0;}
-.story article h1   {color: #aaa;}
-.story article h2   {margin:10px 0 50px 0;}
-.story article h3   {font-size: 20px;}
-.story article ul   {margin:20px 0 40px 0;}
-.story article li   {font-size: 16px; line-height: 26px; padding:0;margin:0 0 0 20px;}
-.story article h4   {position: relative; border:1px solid #333; padding:6px 0 4px 10px; display:inline-block; margin-bottom: 20px;}
-.story blockquote   {font-size: 22px;font-weight: normal;line-height: 36px;text-transform: uppercase;margin:100px auto 130px auto;padding: 0 50px 0 30px; position:relative;color:#000;text-align: center; max-width: 600px;}
-.story blockquote:before{font-family:'Playfair Display', serif; content: open-quote; position: absolute; top:-30px;left:46%;font-size: 70px;color:#ddd; }
-.story blockquote:after {content: close-quote; font-size:0; position: absolute;border-top:3px solid #ddd;bottom:-60px;left:45%;width:40px;} 
+.product article    {width:45%;float: left;}
+.product figure     {width: 51%; float: right;}
+.product figcaption {margin:10px 0 50px 0;font-size: 14px;line-height: 20px;text-align: right;}
+.product p          {font-size: 16px; line-height: 26px; margin:0 0 26px 0;}
+.product h1         {color: #aaa;}
+.product h2         {margin:10px 0 30px 0;}
+.product h3         {font-size: 20px;}
+.product h4         {position: relative; border:1px solid #333; padding:6px 0 4px 10px; display:inline-block; margin-bottom: 20px;}
+.product blockquote {font-size: 22px;font-weight: normal;line-height: 36px;text-transform: uppercase;margin:100px auto 130px auto;padding: 0 50px 0 30px; position:relative;color:#000;text-align: center; max-width: 600px;}
+.product blockquote:before{font-family:'Playfair Display', serif; content: open-quote; position: absolute; top:-30px;left:46%;font-size: 70px;color:#ddd; }
+.product blockquote:after {content: close-quote; font-size:0; position: absolute;border-top:3px solid #ddd;bottom:-60px;left:45%;width:40px;} 
+.product h3 + h5    {margin-top: 30px;}
 
-.boxes      {max-width: 1600px; padding:0 50px; margin:0 auto;}
-.boxes p    {font-size: 16px; line-height: 26px; margin:0 0 26px 0;}
-.boxes h1   {color: #aaa;}
-.boxes h2   {margin:10px 0 50px 0;color: #333; max-width: 1000px;}
 .box        {width: 30%; float: left; margin: 0 3% 100px 0;}
 .box h3     {font-size:18px;margin: 20px 0;}
-.price      {font-size:28px;}
-.payment-button {padding:20px 0;}
-.payment-button p:first-of-type:first-letter {color:#333;float:none;font-size:16px;line-height: 26px;padding:0;}
-.payment-button form {padding:0;}
-.payment-button h3:first-of-type{color: #aaa;}
 
 form    {padding:20px 0;}
 select  {margin:0px 0 30px 0; padding: 5px 5px 5px 10px; font-size: 14px; height: 34px; border:none; border-radius:2px; color: #fff; background-color:#000; font-family:DINRegular,Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;; font-weight: normal; outline: none; }
-input[type='email'], input[type='text']  {display: block;font-size:14px;line-height:16px;border:2px solid #ddd;border-radius:2px;background-color: #fff;width:95%;max-width: 400px;padding:7px 5px;margin:40px 0;-webkit-appearance:none;text-align: left;text-transform: none;font-weight: normal;}
-input:focus, input:hover {border:2px solid #ff0000; outline: none;-webkit-transition: all .3s ease 0s;-moz-transition: all .3s ease 0s;-o-transition: all .3s ease 0s;transition: all .3s ease 0s;}
-button, .button {font-family:DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-size: 14px;line-height:1em;letter-spacing: 1px;font-weight: normal;text-transform: uppercase;position: relative;display: inline-block;padding: 10px 20px; border:none;border-radius:1px;color: #fff;background-color:#ff0000;z-index:0;text-align: center;text-decoration: none;overflow: hidden;-webkit-transition: all .3s ease;-moz-transition: all .3s ease;-o-transition: all .3s ease;transition: all .3s ease;-webkit-appearance:none;}
-button:after, .button:after {content: ""; position: absolute; background: none repeat scroll 0 0 #000000; height: 0; left: 50%; top: 50%; width: 100%; z-index: -1; -webkit-transition: all .3s ease 0s; -moz-transition: all .3s ease 0s; -o-transition: all .3s ease 0s; transition: all .3s ease 0s; -moz-transform: translateX(-50%) translateY(-50%) rotate(-45deg); -ms-transform: translateX(-50%) translateY(-50%) rotate(-45deg); -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg); transform: translateX(-50%) translateY(-50%) rotate(-45deg);}
-button:hover, .button:hover {color:#fff;}
+input[type='email'], input[type='text']  {display: block;font-size:14px;line-height:16px;border:2px solid #ddd;border-radius:2px;background-color: #fff;width:95%;max-width: 400px;padding:7px 5px;margin:40px 0;text-align: left;text-transform: none;font-weight: normal;}
+input:focus, input:hover {border:2px solid #ff0000; outline: none;transition: all .3s ease 0s;}
+button, .button {font-family:DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-size: 14px;line-height:1em;letter-spacing: 1px;font-weight: normal;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 20px; border:none;border-radius:1px;color: #fff;background-color:#ff0000;z-index:0;text-align: center;overflow: hidden;transition: all .3s ease;}
+button:after, .button:after {content: ""; position: absolute; background: none repeat scroll 0 0 #000000; height: 0; left: 50%; top: 50%; width: 100%; z-index: -1;  transition: all .3s ease 0s; transform: translateX(-50%) translateY(-50%) rotate(-45deg);}
+button:hover, .button:hover {color:#fff; border:none;}
 button:hover:after, .button:hover:after {height: 420%;}
 
 @media screen and (max-width:1260px) {
-    header          {width:75px;}
-    header h1       {margin:0;width:75px;height:98px;}
-	main, section, .home, .story, .boxes  {padding:20px;}
-    .box {width: 45%; margin-right:5%;}
-    .magazine-content       {width: 33%;}
-    .magazine-content h2    {font-size: 42px;}
-    .magazine-content h3    {font-size: 10px;}
-    .magazine-content p     {font-size: 12px;}
-    .archive  {grid-template-columns: 1fr 1fr;}
-    .journal {grid-gap: 20px 50px;}
+    header              {width:65px;}
+    header h1           {margin:0;width:65px;height:84px;}
+	section             {padding:15px 15px 50px 15px;}
+    main, .home                {padding:0 15px;}
+    .box                {width: 45%; margin-right:5%;}
+    .magazine-content   {width: 33%;}
+    .magazine-content h2{font-size: 42px;}
+    .magazine-content h3{font-size: 10px;}
+    .magazine-content p {font-size: 12px;}
+    .archive            {grid-template-columns: 1fr 1fr;}
+    .journal            {grid-gap: 20px 50px;}
 }
 
 @media screen and (max-width:860px) {
     
-
-    main, section, .home, .story, .boxes  {padding:15px;}
-    section {padding: 20px 15px 50px 15px;}
-
-    nav             {width:120px; float: left;}
+    nav             {width:110px; float: left;}
     nav ul, nav li  {list-style: none;margin:0;}
     nav li          {font-size: 14px;line-height:22px;}
     footer          {width:110px; float: right;}
     footer p        {font-size: 11px;line-height: 17px;}
+    h1              {font-size: 20px;}
+    h2              {font-size: 30px;}
     
-    .journal, .archive    {grid-template-columns: 1fr;}
-    .wallpaper      {width: 100%;float:none;}
+    .the-search          {width: 100%; text-align: center; margin-top:-20px;}
+    .the-search h1       {font-size: 60px;}
 
+    .journal, .archive      {grid-template-columns: 1fr; margin-top:20px;}
+    .wallpaper              {width: 100%;}
     .magazine-content       {width: 100%;}
     .magazine-content h2    {font-size: 42px;}
     .magazine-content h3    {font-size: 10px;}
     .magazine-content p     {font-size: 12px;}
-
-    .story, .boxes     {padding:0 20px;}
-	.story article     {width:100%;float: none;}
-	.story figure      {width: 100%; float: none;}
-	.story article h1  {font-size: 20px;}
-	.story article h2, .boxes h2, h2 {font-size: 30px;}
-    .story blockquote  {font-size: 18px;line-height: 32px;margin:100px auto;padding: 0 30px 0 20px;}
+	.story article, .product article    {width:100%;float: none;}
+	.story figure, .product figure      {width: 100%; float: none;}
+	.product blockquote  {font-size: 18px;line-height: 32px;margin:100px auto;padding: 0 30px 0 20px;}
     .box               {width: 100%;}
 
-    button, .button {-webkit-transition: none;-moz-transition: none;-o-transition: none;transition: none;}
-    button:after, .button:after {content: ""; position: relative;background: none;height: auto; left: auto;top: auto;width: auto;z-index:0;-webkit-transition: none;-moz-transition: none;-o-transition: none;transition: none;-moz-transform: none;-ms-transform: none;-webkit-transform: none;transform: none;}
+    button, .button {transition: none;}
+    button:after, .button:after {content: ""; position: relative;background: none;height: auto; left: auto;top: auto;width: auto;z-index:0;transition: none;transform: none;}
     button:hover, .button:hover {color:#000;}
     button:hover:after, .button:hover:after  {height: auto;}
 }
