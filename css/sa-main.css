@@ -65,18 +65,19 @@ main            {max-width: 1600px; padding:0 50px 50px 50px; margin:0 auto;}
 .the-search h1       {font-size: 80px; font-family: 'Playfair Display', serif; text-transform: none; font-weight: 900; font-style: italic; letter-spacing: -3px;  line-height: .6em;}
 .the-search h1 b     {font-size: 30px; font-family: 'Playfair Display', serif; text-transform: none; font-weight: 900; font-style: italic;line-height: .6em;}
 .the-search p        {font-family: DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-size: 14px; margin:20px 0 0 0; }
-.journal             {display: grid; grid-template-columns: 1fr 1fr;grid-gap: 20px 150px; margin:50px 0 100px 0;}
+.journal, .archive   {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 20px 50px; margin:50px 0 100px 0;}
 .journal article div {border-left:3px solid #eee; padding-left:20px;}
-.archive             {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:20px 50px;  margin:50px 0 100px 0;}
+.journal p           {font-size: 17px; line-height: 26px; margin:0 0 20px 0;}
+.journal h2          {font-size: 24px; line-height: 26px; margin:20px 0;}
 .archive article     {padding: 10px 0;}
 .archive p           {font-family: 'Playfair Display', serif; font-size:15px;line-height: 24px; }
 .archive a           {display: block; border:none; border-left:2px solid #eee; padding-left:10px;}
 .archive a:hover     {border:none; border-left:2px solid #ff0000;}
 
 .story h1               {font-size: 40px; line-height: 44px; margin:0; text-transform: none; font-family: 'Playfair Display', serif; font-weight:400;color:#777;}
-.story h2, .journal h2  {font-size: 34px; line-height: 40px; margin:10px 0 30px 0; text-transform: none; font-family: 'Playfair Display', serif; font-weight:400;}
+.story h2               {font-size: 34px; line-height: 40px; margin:10px 0 30px 0; text-transform: none; font-family: 'Playfair Display', serif; font-weight:400;}
 .story h3               {font-size: 20px;}
-.story p, .journal p    {font-size: 17px; line-height: 28px;margin:0 0 25px 0; font-family: 'Playfair Display', serif; }
+.story p                {font-size: 17px; line-height: 28px;margin:0 0 25px 0; font-family: 'Playfair Display', serif; }
 .story b                {font-family: 'Playfair Display', serif;font-weight: 700;}
 .story article p:first-of-type:first-letter {color:#111; float: left; font-size: 60px;line-height: 53px;padding-right: 4px;}
 .story article          {width:45%;float: left;}
@@ -118,8 +119,8 @@ button:hover:after, .button:hover:after {height: 420%;}
     .magazine-content h2{font-size: 42px;}
     .magazine-content h3{font-size: 10px;}
     .magazine-content p {font-size: 12px;}
-    .archive            {grid-template-columns: 1fr 1fr;}
-    .journal            {grid-gap: 20px 50px;}
+    .journal, .archive  {grid-template-columns: 1fr 1fr;}
+    
 }
 
 @media screen and (max-width:860px) {
