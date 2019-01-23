@@ -3,25 +3,37 @@
 
 <channel>
 <title>Super Alpine</title>
-<link>http://superalpine.co</link>
-<description>RSS Feed of Super Alpine</description>
+<link>http://superalpine.co/journal/</link>
+<description>RSS Feed of The Search, the Super Alpine journal</description>
 
 <item>
-<title>Chamonix: A 20-year love affair with France's mountain playground</title>
-<link>http://superalpine.co/magazine/sa01/index.html</link>
-<description>Super Alpine Issue One - Chamonix: A 20-year love affair with France's mountain playground available now</description>
+<title>Freeskiing in Avoriaz</title>
+<description>The unique architecture of Avoriaz in the Portes du Soleil area of France was designed in the '60s by Jacques Labro, Jean-Jacques Orzoni and Jean-Marc Roques.  These buildings designed to echo the surrounding terrain are the playground for freeskier Richard Permin in a short film.</description>
 </item>
 
-<item>
-<title>Rare jewels and CIA plots</title>
-<link>http://superalpine.co/articles/rare-jewels-cia-plots-on-the-slopes-of-mont-blanc.html</link>
-<description>On the slopes of Mont Blanc</description>
-</item>
 
 <item>
-<title>Le Cristal de Jade</title>
-<link>http://superalpine.co/articles/le-cristal-de-jade-chamonix.html</link>
-<description>5-star apartments in the centre of Chamonix</description>
+<title>Linde Werdelin SpidoLite Carbon</title>
+<description>Linde Werdelins latest SpidoLite is a mix of high-tech materials, forged carbon, ALW (Alloy Linde Werdelin) and a ceramic bezel. It's their  strongest and lightest timepiece to date. An 18K rose gold crown and red accent dial top off the design. Limited to just 75 pieces.</description>
 </item>
+
+
+<item>
+<title>Porsche 993 3.8 RSR</title>
+<description>This Glacier white RSR is 1 of 45 factory built race cars. Delivered to Japan in March 1997 it was successfully campaigned the Japan Grand Touring Car championship (JGTC). Racing at Suzuka, Fuji, Sports Land Sugo and Sendai Highland Raceway. If you have half a million pounds to spare it could be yours.</description>
+</item>
+
+
+<item>
+<title>Monte Carlo Rally 2019</title>
+<description>The 2019 Monte Carlo Rally starts in Gap in the Haute-Alpes. A series of stages over the next two days including two at night before moving to the Alpes-Maritimes for the traditional Sunday finale above the Principality. This year the rally returns to the legendary Col de Turini.</description>
+</item>
+
+
+<item>
+<title>Interview with Reinhold Messner</title>
+<description>Cereal magazine has an interview with climber Reinhold Messner and photo story from the Messner Mountain Museum at Kronplatz — Corones in Italian.</description>
+</item>
+
 </channel>
 </rss>
