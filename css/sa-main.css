@@ -51,9 +51,6 @@ main            {max-width: 1600px; padding:0 50px 50px 50px; margin:0 auto;}
 .magazine h3    {color: #ccc; font-size:13px;text-transform: none; font-weight: normal; padding-bottom: 20px;}
 .magazine p     {color: #fff; font-size: 14px; font-family: Futura, Futura-Bold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; text-transform: uppercase; letter-spacing:2px;}
 .magazine-content img {width: 75px;margin-bottom: 15px;}
-.search         {position: absolute; top: 50px; right:50px;display: block;border:none; }
-.search a       {border:none; display: block; width: 150px;}
-
 
 .subscribe          {width: 100%; background: url(../img/subscribe.jpg) no-repeat center center; background-size:cover; padding: 20px 0;margin: 20px auto;}
 .subscribe h2       {font-size: 23px; text-align: center; color: #fff;}
