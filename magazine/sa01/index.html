@@ -119,77 +119,33 @@
     </div>
    <p></p>
    
-    <p>Select your country for delivery options.<sup>*</sup></p>
+    <p>Select your country for delivery pricing<sup>*</sup></p>
         <select id="Delivery">
             <option>Select your country</option>
             <option value="UK">United Kingdom</option>
             <option value="USA">United States of America</option>
-            <option value="Canada">Canada</option>
-            <option value="Australia">Australia</option>
-            <option value="NewZealand">New Zealand</option>
-            <option>---</option>
-            <option value="Europe">Austria</option>
-            <option value="Europe">Andorra</option>
-            <option value="Europe">Belgium</option>
-            <option value="Europe">Czech Republic</option>
-            <option value="Europe">Denmark</option>
-            <option value="Europe">Estonia</option>
-            <option value="Europe">Finland</option>
-            <option value="Europe">France</option>
-            <option value="Europe">Germany</option>
-            <option value="Europe">Greece</option>
-            <option value="Europe">Hungary</option>
-            <option value="Europe">Iceland</option>
-            <option value="Europe">Italy</option>
-            <option value="Europe">Latvia</option>
-            <option value="Europe">Liechtenstein</option>
-            <option value="Europe">Lithuania</option>
-            <option value="Europe">Luxembourg</option>
-            <option value="Europe">Malta</option>
-            <option value="Europe">Monaco</option>
-            <option value="Europe">Netherlands</option>
-            <option value="Europe">Norway</option>
-            <option value="Europe">Poland</option>
-            <option value="Europe">Portugal</option>
-            <option value="Europe">Slovakia</option>
-            <option value="Europe">Slovenia</option>
-            <option value="Europe">Spain</option>
-            <option value="Europe">Sweden</option>
-            <option value="Swiss">Switzerland</option> 
-            <option>---</option>
-            <option value="UAE">United Arab Emirates</option> 
-            <option value="SaudiArabia">Saudi Arabia</option> 
-            <option>---</option>
-            <option value="Other">Other countries</option>
+            <option value="Europe">Europe</option>
+            <option value="ROW">Rest of the World</option>
         </select>
 
     <div class="UK payment-button">
         <h3>United Kingdom</h3>
-        
+        <h3>&pound;25.00</h3>
+         <p>This includes a cardboard mailer and delivery by Royal Mail 2nd Class</p>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        
-          <input type="hidden" name="cmd" value="_s-xclick">
-          <input type="hidden" name="hosted_button_id" value="XXERYLK5LT2C2">
-          <input type="hidden" name="currency_code" value="GBP">
-          <input type="hidden" name="on0" value="Delivery">
-          <p>
-          <input type="radio" id="2ndClass" name="os0" value="2ndClass" checked>  
-          <label for="2ndClass">Magazine + Cardboard mailer + Royal Mail 2nd Class £25.00</label>
-          </p>
-          <p>
-          <input type="radio" id="1stClass" name="os0" value="1stClass">
-          <label for="1stClass">Magazine + Cardboard mailer + Royal Mail 1st Class £27.00</label>
-          </p>
-         <button type="submit">Buy Now</button>
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="XXERYLK5LT2C2">
+        <button type="submit">Buy Now</button>
         <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-    </form>
+        </form>
     </div>
 
 
     <div class="Europe payment-button">
-        <h3>Europe</h3>
+        <h3>Europe<sup>**</sup></h3>
         <h3>&euro;35.00</h3>
         <p>This includes a cardboard mailer and delivery by Royal Mail International standard</p>
+        <p><sup>**</sup>Includes Switzerland. Excludes Russia.</p>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="DFLGGER3WBDK8">
@@ -198,22 +154,10 @@
         </form>
     </div>
 
-    <div class="Swiss payment-button">
-        <h3>Switzerland</h3>
-        <h3>40.00FR</h3>
-        <p>This includes a cardboard mailer and delivery by Royal Mail International standard</p>
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="E3RB3BUWAX5XJ">
-        <button type="submit">Buy Now</button>
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-        </form>
-    </div>
-
     <div class="USA payment-button">
         <h3>United States of America</h3>
         <h3>&dollar;50.00</h3>
-        <p>This includes a cardboard mailer and delivery by Royal Mail International standard</p>
+        <p>This includes a cardboard mailer and delivery by Royal Mail International tracked</p>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="D3AY4WZZT6YTY">
@@ -222,56 +166,8 @@
         </form>
     </div>
 
-    <div class="Canada payment-button">
-        <h3>Canada</h3>
-        <h3>&dollar;75.00</h3>
-         <p>This includes a cardboard mailer and delivery by Royal Mail International tracked</p>
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="Z6X5H6EUEGMZY">
-         <button type="submit">Buy Now</button>
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-        </form>
-    </div>
-
-    <div class="Australia payment-button">
-        <h3>Australia</h3>
-        <h3>&dollar;70.00</h3>
-        <p>This includes a cardboard mailer and delivery by Royal Mail International standard</p>
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="CAQGPAQSRLKKL">
-        <button type="submit">Buy Now</button>
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-        </form>
-    </div>
-
-    <div class="NewZealand payment-button">
-      <h3>New Zealand</h3>
-       <h3>&dollar;71.00</h3>
-        <p>This includes a cardboard mailer and delivery by Royal Mail International standard</p>
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="LH6CCFV5EQ8N6">
-        <button type="submit">Buy Now</button>
-        <img alt="Paypal" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-        </form>
-    </div>
-
-     <div class="SaudiArabia payment-button">
-        <h3>Saudi Arabia</h3>
-        <h3>&pound;50.00</h3>
-        <p>This includes a cardboard mailer and delivery by Royal Mail International tracked</p>
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="6E2958YA4TTX2">
-        <button type="submit">Buy Now</button>
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-        </form>
-    </div>
-
-      <div class="UAE payment-button">
-        <h3>United Arab Emirates</h3>
+      <div class="ROW payment-button">
+        <h3>Rest of the World</h3>
         <h3>&pound;50.00</h3>
         <p>This includes a cardboard mailer and delivery by Royal Mail International tracked</p>
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -283,11 +179,6 @@
     </div>
 
 
-     <div class="Other payment-button">
-      <h3>Other countries</h3>
-      <p>Please <a href="mailto:hello@superalpine.co">contact us</a> for more information, specifiying the country you want to delivery to.</p>
-    </div>
-    
     <small>
       <sup>*</sup> <a href="../../terms/index.html">Terms apply</a>.
     </small>
