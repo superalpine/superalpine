@@ -10,59 +10,31 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://superalpine.co/magazine/index.html</loc>
-  <priority>0.70</priority>
+  <loc>http://superalpine.co/magazine/sa01/index.html</loc>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://superalpine.co/magazine/sa00/index.html</loc>
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>http://superalpine.co/magazine/sa01/index.html</loc>
-  <priority>0.95</priority>
-</url>
-<url>
-  <loc>http://superalpine.co/store/index.html</loc>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>http://superalpine.co/journal/index.html</loc>
+  <loc>http://superalpine.co/magazine/index.html</loc>
   <priority>0.60</priority>
 </url>
 <url>
-  <loc>http://superalpine.co/articles/rare-jewels-cia-plots-on-the-slopes-of-mont-blanc.html</loc>
+  <loc>http://superalpine.co/store/index.html</loc>
   <priority>0.50</priority>
 </url>
 <url>
-  <loc>http://superalpine.co/articles/le-cristal-de-jade-chamonix.html</loc>
+  <loc>http://superalpine.co/journal/index.html</loc>
   <priority>0.40</priority>
 </url>
 <url>
-  <loc>http://superalpine.co/articles/escapes-book.html</loc>
-  <priority>0.30</priority>
-</url>
-<url>
-  <loc>http://superalpine.co/articles/porsche-drive-book.html</loc>
-  <priority>0.30</priority>
-</url>
-<url>
-  <loc>http://superalpine.co/articles/arcteryx-alpha-sl-jacket</loc>
-  <priority>0.30</priority>
-</url>
-<url>
-  <loc>http://superalpine.co/articles/bellroy-elements-sleeve.html</loc>
-  <priority>0.30</priority>
-</url>
-<url>
   <loc>http://superalpine.co/about/index.html</loc>
-  <priority>0.20</priority>
+  <priority>0.30</priority>
 </url>
 <url>
   <loc>http://superalpine.co/media/index.html</loc>
-  <priority>0.10</priority>
-</url>
-<url>
-  <loc>http://superalpine.co/terms/index.html</loc>
-  <priority>0.10</priority>
+  <priority>0.20</priority>
 </url>
 </urlset>

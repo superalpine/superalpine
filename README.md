@@ -1,6 +1,6 @@
 # Super Alpine
 
-The Super Alpine website for the magazine and store. Alpine life + times.
+The Super Alpine website for the magazine and store.
 
 ## Built With
 
