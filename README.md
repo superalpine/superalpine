@@ -4,7 +4,7 @@ The Super Alpine website for the magazine and store.
 
 ## Built With
 
-* [Sublime Text](https://www.sublimetext.com) - Hand coded, no frameworks used.
+* [Sublime Text](http://www.sublimetext.com) - Hand coded, no frameworks used.
 
 ## Authors
 

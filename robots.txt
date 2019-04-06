@@ -5,4 +5,4 @@ Disallow: /journal/img/
 User-agent: *
 Disallow: /admin/
 
-Sitemap: https://superalpine.co/sitemap.xml
+Sitemap: http://superalpine.co/sitemap.xml
