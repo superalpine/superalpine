@@ -97,8 +97,35 @@ main            {max-width: 1600px; padding:0 50px 50px 50px; margin:0 auto;}
 .box h3     {font-size:18px;margin: 20px 0;}
 
 form    {padding:20px 0;}
-select  {margin:0px 0 30px 0; padding:10px; font-size: 14px; height: 34px; border:1px solid #000; border-radius:0; color: #000; background-color:#fff; 
-    font-family:DINRegular,Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; text-transform: uppercase; font-weight: normal; outline: none;}
+select{
+-webkit-appearance: none;
+-webkit-box-direction: normal;
+background-clip: padding-box;
+background-image:url(../img/arrow.png);
+background-position: right;
+background-repeat: no-repeat;
+background-size: contain;
+color: #222;
+background-color: #fff;
+border: 1px solid #ccc;
+border-radius: 3px;
+cursor: default;
+display: block;
+font-family:DINRegular,Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;
+font-size: 14px;
+font-weight: normal;
+
+line-height: 16px;
+margin:0 0 20px 0;
+padding:5px 30px 5px 10px;
+text-transform: uppercase;
+white-space: nowrap;
+width: 280px;
+height: 40px;
+outline: none;}
+
+
+
 input[type='email'], input[type='text']  {display: block;font-size:14px;line-height:16px;border:2px solid #ddd;border-radius:2px;background-color: #fff;width:95%;max-width: 400px;padding:7px 5px;margin:40px 0;text-align: left;text-transform: none;font-weight: normal;}
 input:focus, input:hover {border:2px solid #72BBC1; outline: none;transition: all .3s ease 0s;}
 button, .button {font-family:DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-size: 14px;line-height:1em;letter-spacing: 1px;font-weight: normal;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 20px; border:none;border-radius:1px;color: #fff;background-color:#72BBC1;z-index:0;text-align: center;overflow: hidden;transition: all .3s ease;}
