@@ -55,9 +55,8 @@ main            {max-width: 1600px; padding:0 50px 50px 50px; margin:0 auto;}
 .subscribe h2       {font-size: 23px; text-align: center; color: #fff; max-width: 100%; margin:0 auto 5px auto!important;}
 .subscribe p        {font-size: 17px; text-align: center; color: #fff; margin: 0 auto 5px auto!important;}
 .subscribe form     {max-width: 700px; margin:0 auto; padding:0 10px 10px 0;}
-.subscribe .subbox {background-color: #fff; width:100%; height: 50px; padding: 10px; display: table;}
-.subscribe input[type='email'] {width: 51%; display: table-cell; margin: 1px 0 0 0; float: left; border:none; background-color: transparent; color: #000; font-size: 16px;}
-.subscribe input:focus, .subscribe input:hover {color: #000;}
+.subscribe .subbox {background-color: #fff; width:100%; height: 48px; padding: 10px; display: table; border:1px solid #fff; border-radius: 3px;}
+.subscribe input[type='email'] {width: 51%; display: table-cell; margin: 1px 0 0 0; float: left; border:none; background-color: #fff; color: #111; font-size: 16px;}
 .subscribe input::placeholder {color:#ccc;}
 .subscribe button   { display: table-cell;  margin: 0; float: right;}
 
