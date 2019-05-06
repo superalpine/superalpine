@@ -45,18 +45,18 @@ nav a   		{color:#555; border:none;}
 footer          {width:250px; float: right;}
 footer p        {font-size: 12px;line-height: 18px;}
 main            {max-width: 1600px; padding:0 50px 50px 50px; margin:0 auto;}
-.am             {background:url(../img/nice.jpg) center center; background-size: cover; width: 100%; height: 700px;  position: relative;}
+.am             {background:url(../img/nice.jpg) center center; background-size: cover; width: 100%; height: 700px; position: relative;}
 .am-content     {width: 350px; height: 230px; text-align: center; position: absolute; bottom: 7%; right: 5%;}
 .am-content img {width: 350px; max-width: 350px;}
 .am-content h3  {color: #fff;margin: 20px 0 20px 0; font-size: 16px!important;}
 .am-content .button {}
 
-.subscribe          {width: 100%; background: #CBC9C2; padding: 20px 0; margin: 5px auto 0 auto;}
-.subscribe h2       {font-size: 23px; text-align: center; color: #fff; max-width: 100%; margin:0 auto 5px auto!important;}
-.subscribe p        {font-size: 17px; text-align: center; color: #fff; margin: 0 auto 5px auto!important;}
+.subscribe          {width: 100%; background: #CBC9C2; padding: 15px 0; margin: 0 auto;}
+.subscribe h2       {font-size: 20px; text-align: center; color: #fff; max-width: 100%; margin:0 auto 5px auto!important;}
+.subscribe p        {text-align: center; color: #fff; margin: 0 auto 5px auto!important;}
 .subscribe form     {max-width: 700px; margin:0 auto; padding:0 10px 10px 0;}
-.subscribe .subbox {background-color: #fff; width:100%; height: 48px; padding: 10px; display: table; border:1px solid #fff; border-radius: 3px;}
-.subscribe input[type='email'] {width: 51%; display: table-cell; margin: 1px 0 0 0; float: left; border:none; background-color: #fff; color: #111; font-size: 16px;}
+.subscribe .subbox {background-color: #fff; width:100%; height: 45px; padding: 5px; display: table; border:1px solid #fff; border-radius: 3px;}
+.subscribe input[type='email'] {width: 51%; display: table-cell; margin: 1px 0 0 0; float: left; border:none; background-color: #fff; color: #111; font-size: 15px;}
 .subscribe input::placeholder {color:#ccc;}
 .subscribe button   { display: table-cell;  margin: 0; float: right;}
 
@@ -105,6 +105,11 @@ button:after, .button:after {content: ""; position: absolute; background: none r
 button:hover, .button:hover {color:#fff; border:none;}
 button:hover:after, .button:hover:after {height: 420%;}
 
+
+@media screen and (min-width:1500px) {
+    .am             {height:800px;}
+}
+
 @media screen and (max-width:1260px) {
     header              {width:65px;}
     header h1           {margin:0;width:100px;height:100px;}
@@ -124,8 +129,8 @@ button:hover:after, .button:hover:after {height: 420%;}
     footer p        {font-size: 11px;line-height: 17px;}
     h1              {font-size: 20px;}
     h2              {font-size: 30px;}
-    .am             {background:url(../img/nice.jpg) center center; background-size: cover; width: 100%; height: 420px;  position: relative;}
-    .am-content     {width: 100%; height: 420px; text-align: center; position: relative; bottom: auto; right: auto; background-color: rgba(0,0,0,.4);}
+    .am             {background:url(../img/nice.jpg) center center; background-size: cover; width: 100%; height: 400px;  position: relative;}
+    .am-content     {width: 100%; height: 400px; text-align: center; position: relative; bottom: auto; right: auto; background-color: rgba(0,0,0,.4);}
     .am-content img     {padding-top: 22%; width: 80%;}
 
     .search         {display: none;}
