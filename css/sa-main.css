@@ -49,7 +49,6 @@ main            {max-width: 1600px; padding:0 50px 50px 50px; margin:0 auto;}
 .am-content     {width: 350px; height: 230px; text-align: center; position: absolute; bottom: 7%; right: 5%;}
 .am-content img {width: 350px; max-width: 350px;}
 .am-content h3  {color: #fff;margin: 20px 0 20px 0; font-size: 16px!important;}
-.am-content .button {}
 
 .subscribe          {width: 100%; background: #CBC9C2; padding: 15px 0; margin: 0 auto;}
 .subscribe h2       {font-size: 20px; text-align: center; color: #fff; max-width: 100%; margin:0 auto 5px auto!important;}
