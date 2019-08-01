@@ -1,17 +1,30 @@
+@font-face { 
+    font-family: 'Futura-Bold';
+    src: url('Futura-Bold.woff') format('woff');}
 body {background-color: #111;color: #ccc; background: url(contours.jpg) center center fixed no-repeat; background-size: cover;}
 header h1     {background: url(logo.png) no-repeat center center;background-size:cover;width:75px;height:97px;display:block;font-size:0;color:#fff;}
 nav a   		{color:#ccc; border:none;}
 nav a:hover 	{color:#f00; border:none;}
-h1,h2,h3,h4,h5,blockquote {color: #fff!important;}
-h6 {color: #f00!important;}
-a {color:#fff;}
-a:hover {color: #f30;}
+h1,h2,h3,h4,h5 {color: #fff!important;font-family: Futura-Bold;}
+h2 {font-size: 88px;}
+h6 {color: #f00!important; font-size: 18px;}
+blockquote {color:#fff!important;}
+a, footer a {color:#f30;}
+a:hover, footer a:hover {color: #fff;}
+.wallpaper {width: 47%;}
 footer p {color: #666;}
 button, .button {color: #fff;background-color:#f00;}
 button:after, .button:after {background: none repeat scroll 0 0 #333;}
 button:hover, .button:hover {color:#fff; border:none;}
 button:hover:after, .button:hover:after {height: 420%;}
 
+
+
 @media screen and (max-width:1260px) {
     header h1           {margin:0;width:65px;height:84px;}
+    h1 {font-size: 15px;}
+    h2 {font-size: 52px;}
+}
+@media screen and (max-width:830px) {
+    .wallpaper    {width: 100%;}
 }

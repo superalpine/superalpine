@@ -1,126 +1,93 @@
-
 @font-face { 
     font-family: 'DINRegular';
     src: url('../fonts/din-regular-webfont.woff') format('woff');}
 @font-face {
-    font-family: 'DINBold';
-    src: url('../fonts/din-bold-webfont.woff') format('woff');}
-@font-face {
-    font-family: 'Futura-Bold';
-    src: url('../fonts/Futura-Bold.woff') format('woff');}
-    
+  font-family: 'DIN Next Bold';
+  src: url('../fonts/DIN Next CYR Bold.woff') format('woff');}
+  @font-face {
+  font-family: 'DIN Next Heavy';
+  src: url('../fonts/DIN Next CYR Heavy.woff') format('woff');}  
 
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;box-sizing:border-box;}
-body {background: #fefefe;color:#333;font-family: DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-weight: normal;}
+body {background: #fefefe;color:#444;font-family: DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-weight: normal;}
 html, body {height: 100%;}
 img  {width:100%; max-width: 100%;}
-h1, h2, h3, h4, h5, h6 {font-family: Futura, Futura-Bold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-weight:bold;text-transform: uppercase;line-height: 1em;color:#111;}
-h1  {font-size: 26px}
-h2  {font-size: 43px; max-width: 1000px;}
-h3  {font-size: 20px; margin-bottom: 10px;}
-h4  {font-size: 12px; margin-bottom: 10px;}
-h5  {font-size: 15px; line-height:22px; color: #aaa; margin-bottom:5px;}
-h6  {font-size: 15px; color: #72BBC1; margin-bottom:10px;}
-ul   {margin:40px 0;}
+h1, h2, h3, h4, h5, h6 {font-family: 'DIN Next Bold', Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; text-transform: uppercase; line-height: 1em; color:#111;}
+h1  {font-size: 26px;color: #999; }
+h2  {font-size: 60px; max-width: 1100px; font-family: 'DIN Next Heavy', Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; margin:10px 0 20px 0;}
+h3  {font-size: 24px; margin-bottom: 10px; }
+h4  {font-size: 20px; margin-bottom: 10px;}
+h5  {font-size: 18px; line-height:22px; color: #111; margin-bottom:5px;}
+h6  {font-size: 16px; margin-bottom:10px;}
+ul   {margin:10px 0 40px 0;}
 li  {margin:0 0 10px 20px; line-height: 22px;}
-p   {font-size: 14px;line-height: 20px;}
-p b {font-family:DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;}
+p   {font-size: 17px; line-height: 28px;margin:0 0 25px 0;}
+p b {font-family: 'DIN Next Bold', Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; color:#111;}
 small {font-size: 12px;line-height: 18px; display: block; padding:0 0 50px 0;}
-a {text-decoration: none; color:#333; border-bottom:1px solid #ddd;}
-a:hover {color:#000; border-bottom:1px solid #000;}
+a {text-decoration: none; color:#000; border-bottom: 1px solid #ccc;}
+a:hover {color:#000; border-bottom: 1px solid #000;}
 
-.meta   {display: none;}
-.wallpaper {width: 47%;}
-
-section 		{padding:40px 50px 40px 50px; max-width: 1600px; margin:0 auto;}
-section h3      {font-size: 12px;}
+section 		{padding:30px 50px; max-width: 1600px; margin:0 auto;}
 section div     {float: right;}
-header 			{width:90px;float: left; }
-header h1 		{background: url(../img/logo.png) no-repeat center center;background-size:cover;width:115px;height:115px;display:block;font-size:0;color:#fff;}
+header 			{width:110px;float: left; }
+header h1 		{background: url(../img/logo.png) no-repeat center center;background-size:cover;width:100px;height:100px;display:block;font-size:0;color:#fff;}
 nav				{width:200px; float: left;}
 nav ul, nav li  {list-style: none; margin:0;}
 nav li          {font-size: 14px; line-height:24px;}
-nav a   		{color:#555; border:none;}
-
+nav h3, footer h3 {font-size: 12px; font-weight: normal; margin:0 0 5px 0;}
+nav a   		    {color:#888; border:none;}
+nav a:hover     {color:#000;}
 footer          {width:250px; float: right;}
+footer a        {color:#aaa; border:none;}
+footer a:hover  {color:#000;}
 footer p        {font-size: 12px;line-height: 18px;}
-main            {max-width: 1600px; padding:0 50px 50px 50px; margin:0 auto;}
-.am             {background:url(../img/nice.jpg) center center; background-size: cover; width: 100%; height: 700px; position: relative;}
-.am-content     {width: 350px; height: 230px; text-align: center; position: absolute; bottom: 7%; right: 5%;}
-.am-content img {width: 350px; max-width: 350px;}
-.am-content h3  {color: #fff;margin: 20px 0 20px 0; font-size: 16px!important;}
+main            {max-width: 1600px; padding:50px; margin:0 auto;}
 
-.subscribe          {width: 100%; background: #CBC9C2; padding: 15px 0; margin: 0 auto;}
-.subscribe h2       {font-size: 20px; text-align: center; color: #fff; max-width: 100%; margin:0 auto 5px auto!important;}
-.subscribe p        {text-align: center; color: #fff; margin: 0 auto 5px auto!important;}
-.subscribe form     {max-width: 700px; margin:0 auto; padding:0 10px 10px 0;}
-.subscribe .subbox {background-color: #fff; width:100%; height: 45px; padding: 5px; display: table; border:1px solid #fff; border-radius: 3px;}
-.subscribe input[type='email'] {width: 51%; display: table-cell; margin: 1px 0 0 0; float: left; border:none; background-color: #fff; color: #111; font-size: 15px;}
-.subscribe input::placeholder {color:#ccc;}
-.subscribe button   { display: table-cell;  margin: 0; float: right;}
-
-.the-search          {width: 100%; text-align: center;}
-.the-search h1       {font-size: 40px; margin-bottom: 10px;}
+.home {padding: 0 50px;}
+.home img {margin-bottom: 20px;}  
 
 .journal, .archive   {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 20px 50px; margin:50px 0 100px 0;}
 .journal article div {border-left:3px solid #eee; padding-left:20px;}
 .archive article     {padding: 10px 0;}
-.journal h2          {font-size: 24px; line-height: 26px; margin:20px 0;}
-.journal p           {font-size: 17px; line-height: 26px; padding:0 0 20px 0;}
-.archive a           {display: block; border:none; border-left:2px solid #eee; padding-left:10px;}
-.archive a:hover     {border:none; border-left:2px solid #72BBC1;}
+.journal h3          {margin:20px 0;}
+.archive a           {display: block; border:none; border-left:2px solid #ccc; padding-left:20px; color: #888;}
+.archive a:hover     {border:none; border-left:2px solid #000; color: #000;}
 
-.story h1               {font-size: 40px; line-height: 44px; margin:0; }
-.story h2               {font-size: 26px; line-height: 30px; margin:10px 0 30px 0;color:#aaa;}
-.story h3               {font-size: 20px;}
-.story p                {font-size: 17px; line-height: 28px;margin:0 0 25px 0; f}
-.story article          {width:45%;float: left;}
-.story figure           {width: 51%; float: right;}
+.story article          {width:40%;float: left;}
+.story figure           {width: 55%; float: right;}
 .story figcaption       {margin:10px 0 50px 0;font-size: 14px;line-height: 20px;text-align: right;}
 
 .product article    {width:45%;float: left;}
 .product figure     {width: 51%; float: right;}
 .product figcaption {margin:10px 0 50px 0;font-size: 14px;line-height: 20px;text-align: right;}
-.product p          {font-size: 16px; line-height: 26px; margin:0 0 26px 0;}
-.product h1         {color: #aaa;}
-.product h2         {margin:10px 0 30px 0;}
-.product h3         {font-size: 20px;}
-.product h4         {position: relative; border:1px solid #333; padding:6px 0 4px 10px; display:inline-block; margin-bottom: 20px;}
 .product blockquote {font-size: 22px;font-weight: normal;line-height: 36px;text-transform: uppercase;margin:100px auto 130px auto;padding: 0 50px 0 30px; position:relative;color:#000;text-align: center; max-width: 600px;}
 .product blockquote:before{font-family:serif; content: open-quote; position: absolute; top:-30px;left:46%;font-size: 70px;color:#ddd; }
 .product blockquote:after {content: close-quote; font-size:0; position: absolute;border-top:3px solid #ddd;bottom:-60px;left:45%;width:40px;} 
-.product h3 + h5    {margin-top: 30px;}
 
 .box        {width: 30%; float: left; margin: 0 3% 100px 0;}
-.box h3     {font-size:18px;margin: 20px 0;}
+.box h3     {margin: 20px 0;}
+.meta, .small-screen {display: none;}
+.sa {text-transform: uppercase; font-size: smaller;}
 
-form    {padding:20px 0;}
+form {margin-bottom: 20px;}
 select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip: padding-box;background-image:url(../img/arrow.png);background-position: right;background-repeat: no-repeat;
 background-size: contain;color: #222;background-color: #fff;border: 1px solid #ccc;border-radius: 3px;cursor: default;display: block;font-family:DINRegular,Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-size: 14px;font-weight: normal;line-height: 16px;margin:0 0 20px 0;padding:5px 30px 5px 10px;text-transform: uppercase;white-space: nowrap;width: 280px;height: 40px;outline: none;}
-input[type='email'], input[type='text']  {display: block;font-size:14px;line-height:16px;border:2px solid #ccc;border-radius:3px;background-color: #fff;width:95%;max-width: 400px;padding:7px 5px;margin:40px 0;text-align: left;text-transform: none;font-weight: normal;}
-input:focus, input:hover {border:3px solid #72BBC1; outline: none;transition: all .3s ease 0s;}
-button, .button {font-family:DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-size: 14px;line-height:1em;letter-spacing: 1px;font-weight: normal;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 20px; border:none;border-radius:1px;color: #fff;background-color:#72BBC1;z-index:0;text-align: center;overflow: hidden;transition: all .3s ease;}
+input[type='email'], input[type='text']  {display: block;font-size:14px;line-height:16px;border:1px solid #999;border-radius:1px;background-color: #fff;width:95%;max-width: 400px;padding:10px;margin:40px 0;text-align: left;text-transform: none;font-weight: normal;}
+input:focus, input:hover {border:1px solid #000000; outline: none;transition: all .3s ease 0s;}
+button, .button {font-family:DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-size: 14px;line-height:1em;letter-spacing: 1px;font-weight: normal;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 20px 9px 20px; border:1px solid #999;border-radius:1px;color: #111;background-color:#fff;z-index:0;text-align: center;overflow: hidden;transition: all .3s ease;}
 button:after, .button:after {content: ""; position: absolute; background: none repeat scroll 0 0 #000000; height: 0; left: 50%; top: 50%; width: 100%; z-index: -1;  transition: all .3s ease 0s; transform: translateX(-50%) translateY(-50%) rotate(-45deg);}
-button:hover, .button:hover {color:#fff; border:none;}
+button:hover, .button:hover {color:#fff; border:none;  border:1px solid #111;}
 button:hover:after, .button:hover:after {height: 420%;}
 
-
-@media screen and (min-width:1500px) {
-    .am             {height:800px;}
-}
-
 @media screen and (max-width:1260px) {
-    header              {width:65px;}
-    header h1           {margin:0;width:100px;height:100px;}
-	section             {padding:15px 15px 50px 15px;}
-    main                {padding:0 15px;}
-    .box                {width: 45%; margin-right:5%;}
+    section, main       {padding:15px;}
+    section             {padding-bottom:50px;}
+    .box                {width: 49%; margin-right:1%;}
     .journal, .archive  {grid-template-columns: 1fr 1fr;}
-    
+    .home               {padding: 0 10px;}
 }
 
-@media screen and (max-width:830px) {
-    
+@media screen and (max-width:800px) {    
     nav             {width:110px; float: left;}
     nav ul, nav li  {list-style: none;margin:0;}
     nav li          {font-size: 14px;line-height:22px;}
@@ -128,20 +95,14 @@ button:hover:after, .button:hover:after {height: 420%;}
     footer p        {font-size: 11px;line-height: 17px;}
     h1              {font-size: 20px;}
     h2              {font-size: 30px;}
-    .am             {background:url(../img/nice.jpg) center center; background-size: cover; width: 100%; height: 400px;  position: relative;}
-    .am-content     {width: 100%; height: 400px; text-align: center; position: relative; bottom: auto; right: auto; background-color: rgba(0,0,0,.4);}
-    .am-content img     {padding-top: 22%; width: 80%;}
-
-    .search         {display: none;}
-    .the-search          {width: 100%; text-align: center; margin-top:-20px;}
-    .subscribe .subbox      {width: 90%; margin:0 auto;}         
+    section             {padding-bottom:30px;}
     .journal, .archive      {grid-template-columns: 1fr; margin-top:20px;}
-    .wallpaper              {width: 100%;}
-	.story article, .product article    {width:100%;float: none;}
-	.story figure, .product figure      {width: 100%; float: none;}
-	.product blockquote  {font-size: 18px;line-height: 32px;margin:100px auto;padding: 0 30px 0 20px;}
+  	.story article, .product article    {width:100%;float: none;}
+  	.story figure, .product figure      {width: 100%; float: none;}
+  	.product blockquote  {font-size: 18px;line-height: 32px;margin:100px auto;padding: 0 30px 0 20px;}
     .box               {width: 100%;}
-
+    .home img {display: none;}
+    .home .small-screen {display: block;}
     button, .button {transition: none;}
     button:after, .button:after {content:""; position: relative;background: none;height: auto; left: auto;top: auto;width: auto;z-index:0;transition: none;transform: none;}
     button:hover, .button:hover {color:#000;}
