@@ -1,80 +1,69 @@
-@font-face { 
-    font-family: 'DINRegular';
-    src: url('../fonts/din-regular-webfont.woff') format('woff');}
-@font-face {
-  font-family: 'DIN Next Bold';
-  src: url('../fonts/DIN Next CYR Bold.woff') format('woff');}
-  @font-face {
-  font-family: 'DIN Next Heavy';
-  src: url('../fonts/DIN Next CYR Heavy.woff') format('woff');}  
-
+@font-face {font-family: 'DINRegular';src: url('../fonts/din-regular-webfont.woff') format('woff');}
+@font-face {font-family: 'DINBold'; src: url('../fonts/din-bold-webfont.woff') format('woff');}
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;box-sizing:border-box;}
-body {background: #fefefe;color:#444;font-family: DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-weight: normal;}
+body {background: #fefefe;color:#555;font-family: DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-weight: normal;}
 html, body {height: 100%;}
 img  {width:100%; max-width: 100%;}
-h1, h2, h3, h4, h5, h6 {font-family: 'DIN Next Bold', Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; text-transform: uppercase; line-height: 1em; color:#111;}
-h1  {font-size: 26px;color: #999; }
-h2  {font-size: 60px; max-width: 1100px; font-family: 'DIN Next Heavy', Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; margin:10px 0 20px 0;}
-h3  {font-size: 24px; margin-bottom: 10px; }
-h4  {font-size: 20px; margin-bottom: 10px;}
-h5  {font-size: 18px; line-height:22px; color: #111; margin-bottom:5px;}
+
+h1, h2, h3, h4, h5, h6 {font-family:DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; text-transform: uppercase; line-height: 1em; color:#000; font-weight: normal;}
+h2  {font-size: 50px; max-width: 1100px; margin:10px 0 20px 0;font-family:DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;}
+h3  {font-size: 20px; margin: 10px 0; line-height: 30px; }
+h4  {font-size: 18px; margin-bottom: 10px;}
+h5  {font-size: 17px; line-height:22px; color: #111; margin-bottom:5px;}
 h6  {font-size: 16px; margin-bottom:10px;}
 ul   {margin:10px 0 40px 0;}
-li  {margin:0 0 10px 20px; line-height: 22px;}
+li  {margin:0 0 10px 20px; line-height: 20px;}
 p   {font-size: 17px; line-height: 28px;margin:0 0 25px 0;}
-p b {font-family: 'DIN Next Bold', Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; color:#111;}
+b {font-family:DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; color:#000; font-weight: normal;}
 small {font-size: 12px;line-height: 18px; display: block; padding:0 0 50px 0;}
 a {text-decoration: none; color:#000; border-bottom: 1px solid #ccc;}
 a:hover {color:#000; border-bottom: 1px solid #000;}
-
-section 		    {padding:30px 50px; max-width: 1600px; margin:0 auto;}
+section 		    {padding:30px 50px 0 50px; max-width: 95%; margin:0 auto;}
 section div     {float: right;}
 header 			    {width:110px;float: left; }
-header h1 		  {background: url(../img/logo.png) no-repeat center center;background-size:cover;width:100px;height:100px;display:block;font-size:0;color:#fff;}
+header h1 		  {background: url(../img/logo.png) no-repeat center center;background-size:cover;width:90px;height:90px;display:block;font-size:0;color:#fff;}
 nav				      {width:200px; float: left;}
 nav ul, nav li  {list-style: none; margin:0;}
 nav li          {font-size: 14px; line-height:24px;}
-nav h3, footer h3 {font-size: 12px; font-weight: normal; margin:0 0 5px 0;}
+nav h3, footer h3 {font-size: 12px; font-weight: normal; margin:0 0 5px 0; line-height: 1em;}
 nav a   		    {color:#888; border:none;}
 nav a:hover     {color:#000;}
 footer          {width:250px; float: right;}
 footer a        {color:#aaa; border:none;}
 footer a:hover  {color:#000;}
-footer p        {font-size: 12px;line-height: 18px;}
-main            {max-width: 1600px; padding:50px; margin:0 auto;}
+footer p        {font-size: 12px;line-height: 18px; margin: 0 0 10px 0;}
+main            {max-width: 95%; padding:40px 50px; margin:0 auto;}
+article {}
+figure {}
+figure a, figure a:hover {border:none;}
+figcaption       {margin:10px 0 50px 0;font-size: 14px;line-height: 20px;text-align: right;}
 
-.home {padding: 0 50px;}
-.home img {margin-bottom: 20px;}  
+.journal h2,.journal h3, .journal p, .journal b, .journal figcaption, .journal li {font-family: 'Playfair Display', serif;}
+.journal ul {max-width: 720px; margin:0px auto 40px auto;}
+.journal h2 {text-transform: none;max-width: 720px; margin:50px auto 20px auto;}
+.journal h3 {text-transform: none;max-width: 720px; margin:20px auto; color: #666; line-height:26px;}
+.journal p {font-size: 20px; line-height: 30px; max-width: 720px; margin:10px auto 30px auto;}
+.journal article {max-width: 1440px; margin:10px auto; padding: 50px 0;}
+.journal article p:first-of-type {font-size: 24px;line-height: 34px;color:#111;}
+.journal article p:first-of-type::first-letter {font-size: 117px;  float: left; margin:28px 5px 10px 0; color: #111;}
+.journal figure {margin:100px 0;}
+.journal figcaption {font-style: italic;}
 
-.journal, .archive   {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 20px 50px; margin:50px 0 100px 0;}
-.journal article div {border-left:3px solid #eee; padding-left:20px;}
-.archive article     {padding: 10px 0;}
-.journal h3          {margin:20px 0;}
-.archive a           {display: block; border:none; border-left:2px solid #ccc; padding-left:20px; color: #888;}
-.archive a:hover     {border:none; border-left:2px solid #000; color: #000;}
 
-.story article          {width:40%;float: left;}
-.story figure           {width: 55%; float: right;}
-.story figcaption       {margin:10px 0 50px 0;font-size: 14px;line-height: 20px;text-align: right;}
-
-.product article    {width:45%;float: left;}
-.product figure     {width: 51%; float: right;}
-.product figcaption {margin:10px 0 50px 0;font-size: 14px;line-height: 20px;text-align: right;}
-.product blockquote {font-size: 22px;font-weight: normal;line-height: 36px;text-transform: uppercase;margin:100px auto 130px auto;padding: 0 50px 0 30px; position:relative;color:#000;text-align: center; max-width: 600px;}
-.product blockquote:before{font-family:serif; content: open-quote; position: absolute; top:-30px;left:46%;font-size: 70px;color:#ddd; }
-.product blockquote:after {content: close-quote; font-size:0; position: absolute;border-top:3px solid #ddd;bottom:-60px;left:45%;width:40px;} 
-
-.box        {width: 30%; float: left; margin: 0 3% 100px 0;}
-.box h3     {margin: 20px 0;}
-.meta, .small-screen {display: none;}
+.map {background:url(../img/map.jpg) no-repeat center center; background-size: cover; width: 100%; height: 45vh; position: relative; margin-bottom: 40px;}
+.map h2   {position: absolute;bottom: 5%; left:2.5%; font-size: 30px; color: #000; background-color: #fff; padding:5px 5px 3px 5px; margin:0; border:none; letter-spacing: 0; z-index: 99; font-family:DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; }
+.columns            {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 50px 100px; float: none; max-width: none; }
+.columns div        {display: block;}
+.product article {float: left; width: 45%;}
+.product figure {float: right; width: 50%; clear: right;}
+.meta {display: none;}
 .sa {text-transform: uppercase; font-size: smaller;}
 
-form {margin-bottom: 20px;}
 select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip: padding-box;background-image:url(../img/arrow.png);background-position: right;background-repeat: no-repeat;
 background-size: contain;color: #222;background-color: #fff;border: 1px solid #ccc;border-radius: 3px;cursor: default;display: block;font-family:DINRegular,Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-size: 14px;font-weight: normal;line-height: 16px;margin:0 0 20px 0;padding:5px 30px 5px 10px;text-transform: uppercase;white-space: nowrap;width: 280px;height: 40px;outline: none;}
 input[type='email'], input[type='text']  {display: block;font-size:14px;line-height:16px;border:1px solid #999;border-radius:1px;background-color: #fff;width:95%;max-width: 400px;padding:10px;margin:40px 0;text-align: left;text-transform: none;font-weight: normal;}
 input:focus, input:hover {border:1px solid #000000; outline: none;transition: all .3s ease 0s;}
-button, .button {font-family:DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-size: 13px;line-height:1em;letter-spacing: 1px;font-weight: normal;text-transform: uppercase;position: relative;display:inline-block; padding: 12px 25px 10px 25px; border-radius:20px; border:1px solid #000; color: #eee;background-color:#000;z-index:0;text-align: center;overflow: hidden;transition: all .3s ease; cursor:pointer;}
+button, .button {font-family:DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-size: 13px;line-height:1em;letter-spacing: 1px;font-weight: normal;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 20px 8px 20px; border-radius:20px; border:1px solid #000; color: #eee;background-color:#000;z-index:0;text-align: center;overflow: hidden;transition: all .3s ease; cursor:pointer;}
 button:after, .button:after {content: ""; position: absolute; background: none repeat scroll 0 0 #ffffff; color: #000; height: 0; left: 50%; top: 50%; width: 100%; z-index: -1;  transition: all .3s ease 0s; transform: translateX(-50%) translateY(-50%) rotate(-45deg);}
 button:hover, .button:hover {color:#000;  border:1px solid #000;}
 button:hover:after, .button:hover:after {height: 420%;}
@@ -82,29 +71,33 @@ button:hover:after, .button:hover:after {height: 420%;}
 @media screen and (max-width:1260px) {
     section, main       {padding:15px;}
     section             {padding-bottom:50px;}
-    .box                {width: 49%; margin-right:1%;}
-    .journal, .archive  {grid-template-columns: 1fr 1fr;}
-    .home               {padding: 0 10px;}
+    .columns  {grid-template-columns: 1fr 1fr;}
+    
 }
 
 @media screen and (max-width:800px) {    
-    nav             {width:110px; float: left;}
+    header h1       {width: 70px;height: 70px;}
+    nav             {width:100px; float: left;}
     nav ul, nav li  {list-style: none;margin:0;}
     nav li          {font-size: 14px;line-height:22px;}
     footer          {width:110px; float: right;}
     footer p        {font-size: 11px;line-height: 17px;}
     h1              {font-size: 20px;}
     h2              {font-size: 30px;}
-    section             {padding-bottom:30px;}
-    .journal, .archive      {grid-template-columns: 1fr; margin-top:20px;}
-  	.story article, .product article    {width:100%;float: none;}
-  	.story figure, .product figure      {width: 100%; float: none;}
-  	.product blockquote  {font-size: 18px;line-height: 32px;margin:100px auto;padding: 0 30px 0 20px;}
-    .box               {width: 100%;}
-    .home img {display: none;}
-    .home .small-screen {display: block;}
-    button, .button {transition: none;}
+    section             {padding-bottom:20px;}
+    .map {background:url(../img/map.jpg) no-repeat center center; background-size: cover; width: 100%; height: 40vh; position: relative; margin-bottom: 20px;}
+    .map h2   {font-size: 18px; }
+    .product article, .product figure {float:none; width: 100%;}
+    
+    .journal figure {margin:50px 0;}
+    .journal p {font-size: 18px; line-height: 28px;}
+    .journal article p:first-of-type {font-size: 22px;line-height: 32px;}
+    .journal article p:first-of-type::first-letter {font-size: 110px;}
+
+    .columns      {grid-template-columns: 1fr; margin-top:20px;}
+    
+    button, .button {transition: none; font-size:12px;}
     button:after, .button:after {content:""; position: relative;background: none;height: auto; left: auto;top: auto;width: auto;z-index:0;transition: none;transform: none;}
-    button:hover, .button:hover {color:#000;}
+    button:hover, .button:hover {color:#fff;}
     button:hover:after, .button:hover:after  {height: auto;}
 }

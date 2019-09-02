@@ -15,30 +15,34 @@
 </url>
 <url>
   <loc>https://superalpine.co/magazine/chamonix/index.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/magazine/sa00/index.html</loc>
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://superalpine.co/magazine/index.html</loc>
+  <loc>https://superalpine.co/magazine/sa00/index.html</loc>
   <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/magazine/index.html</loc>
+  <priority>0.50</priority>
 </url>
 <url>
   <loc>https://superalpine.co/store/index.html</loc>
-  <priority>0.60</priority>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/store/aiguille-du-dru-sticker/index.html</loc>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://superalpine.co/journal/index.html</loc>
-  <priority>0.10</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/about/index.html</loc>
   <priority>0.30</priority>
 </url>
 <url>
-  <loc>https://superalpine.co/media/index.html</loc>
+  <loc>https://superalpine.co/about/index.html</loc>
   <priority>0.20</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/media/index.html</loc>
+  <priority>0.10</priority>
 </url>
 </urlset>
