@@ -56,7 +56,6 @@ figcaption       {margin:10px 0 50px 0;font-size: 14px;line-height: 20px;text-al
 .columns div        {display: block;}
 .product article {float: left; width: 45%;}
 .product figure {float: right; width: 50%; clear: right;}
-.meta {display: none;}
 .sa {text-transform: uppercase; font-size: smaller;}
 
 select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip: padding-box;background-image:url(../img/arrow.png);background-position: right;background-repeat: no-repeat;
