@@ -42,7 +42,7 @@ figcaption       {margin:10px 0 50px 0;font-size: 14px;line-height: 20px;text-al
 .journal ul {max-width: 720px; margin:0px auto 40px auto;}
 .journal h2 {text-transform: none;max-width: 720px; margin:50px auto 20px auto;}
 .journal h3 {text-transform: none;max-width: 720px; margin:20px auto; color: #666; line-height:26px;}
-.journal p {font-size: 20px; line-height: 30px; max-width: 720px; margin:10px auto 30px auto;}
+.journal p {font-size: 20px; line-height: 32px; max-width: 720px; margin:10px auto 40px auto;}
 .journal article {max-width: 1440px; margin:10px auto; padding: 50px 0;}
 .journal article p:first-of-type {font-size: 24px;line-height: 34px;color:#111;}
 .journal article p:first-of-type::first-letter {font-size: 117px;  float: left; margin:28px 5px 10px 0; color: #111;}
