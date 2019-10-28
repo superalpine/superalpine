@@ -12,8 +12,8 @@ h4  {font-size: 18px; margin-bottom: 10px;}
 h5  {font-size: 17px; line-height:22px; color: #111; margin-bottom:5px;}
 h6  {font-size: 16px; margin-bottom:10px;}
 ul   {margin:10px 0 40px 0;}
-li  {margin:0 0 10px 20px; line-height: 20px;}
-p   {font-size: 17px; line-height: 28px;margin:0 0 25px 0;}
+li  {margin:0 0 10px 20px; font-size: 17px; line-height: 20px;}
+p,td, th   {font-size: 17px; line-height: 28px;margin:0 0 25px 0; font-weight: normal;}
 b {font-family:DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; color:#000; font-weight: normal;}
 small {font-size: 12px;line-height: 18px; display: block; padding:0 0 50px 0;}
 a {text-decoration: none; color:#000; border-bottom: 1px solid #900;}
@@ -40,6 +40,7 @@ figcaption       {margin:10px 0 50px 0;font-size: 14px;line-height: 20px;text-al
 
 .journal h2,.journal h3, .journal p, .journal b, .journal figcaption, .journal li {font-family: 'Playfair Display', serif;}
 .journal ul {max-width: 720px; margin:0px auto 40px auto;}
+.journal li {font-size: 20px; line-height: 30px;}
 .journal h2 {text-transform: none;max-width: 720px; margin:50px auto 20px auto;}
 .journal h3 {text-transform: none;max-width: 720px; margin:20px auto; color: #666; line-height:26px;}
 .journal p {font-size: 20px; line-height: 32px; max-width: 720px; margin:10px auto 40px auto;}
@@ -50,7 +51,10 @@ figcaption       {margin:10px 0 50px 0;font-size: 14px;line-height: 20px;text-al
 .journal figcaption {font-style: italic;}
 .journal blockquote {margin:0 0 30px 60px; width: 280px; font-size: 22px; line-height: 32px; text-transform: uppercase; float: right; 
     border-left:10px solid #ddd; padding-left: 60px;}
-
+.journal table {margin: 40px auto 60px auto; max-width: 720px; width: 100%;}
+.journal table th {text-align: right; padding: 5px 10px; text-transform: uppercase; border-bottom: 1px dashed #ddd; color:#000;}
+.journal table td {text-align: left; padding: 5px 10px;  border-bottom: 1px dashed #ddd;}
+.journal hr {width: 100px; height: 5px; margin: 80px auto; border:none; background-color: #ddd; color: #ddd; clear: all; display: block;}
 
 .map {background:url(../img/map.jpg) no-repeat center center; background-size: cover; width: 100%; height: 45vh; position: relative; margin-bottom: 40px;}
 .map h2   {position: absolute;bottom: 5%; left:2.5%; font-size: 30px; color: #000; background-color: #fff; padding:5px 5px 3px 5px; margin:0; border:none; letter-spacing: 0; z-index: 99; font-family:DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; }
