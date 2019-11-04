@@ -68,6 +68,7 @@ figcaption       {margin:10px 0 50px 0;font-size: 14px;line-height: 20px;text-al
 .product article {float: left; width: 45%;}
 .product figure {float: right; width: 50%; clear: right;}
 .sa {text-transform: uppercase; font-size: smaller;}
+.button .so {background-color: #c00;}
 
 select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip: padding-box;background-image:url(../img/arrow.png);background-position: right;background-repeat: no-repeat;
 background-size: contain;color: #222;background-color: #fff;border: 1px solid #ccc;border-radius: 3px;cursor: default;display: block;font-family:DINRegular,Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-size: 14px;font-weight: normal;line-height: 16px;margin:0 0 20px 0;padding:5px 30px 5px 10px;text-transform: uppercase;white-space: nowrap;width: 280px;height: 40px;outline: none;}
@@ -77,6 +78,10 @@ button, .button {font-family:DINRegular, Helvetica, system-ui, 'Segoe UI', Robot
 button:after, .button:after {content: ""; position: absolute; background: none repeat scroll 0 0 #ffffff; color: #000; height: 0; left: 50%; top: 50%; width: 100%; z-index: -1;  transition: all .3s ease 0s; transform: translateX(-50%) translateY(-50%) rotate(-45deg);}
 button:hover, .button:hover {color:#000;  border:1px solid #000;}
 button:hover:after, .button:hover:after {height: 420%;}
+
+.button.so {background-color: #c00;border:1px solid #c00; color: #eee;}
+.button.so:after {background: none repeat scroll 0 0 #c00; color: #eee; }
+.button.so:hover {border:1px solid #c00;}
 
 @media screen and (max-width:1260px) {
     section, main       {padding:15px;}
