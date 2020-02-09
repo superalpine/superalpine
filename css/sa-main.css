@@ -1,12 +1,14 @@
+
 @font-face {font-family: 'DINRegular';src: url('../fonts/din-regular-webfont.woff') format('woff');}
 @font-face {font-family: 'DINBold'; src: url('../fonts/din-bold-webfont.woff') format('woff');}
+
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;box-sizing:border-box;}
 body {background: #fefefe;color:#555;font-family: DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; font-weight: normal;}
 html, body {height: 100%;}
 html {max-width: 2000px; margin:0 auto;}
 img  {width:100%; max-width: 100%;}
 
-h1, h2, h3, h4, h5, h6 {font-family:DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; text-transform: uppercase; line-height: 1em; color:#000; font-weight: normal;}
+h1, h2, h3, h4, h5, h6 {font-family: DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; text-transform: uppercase; line-height: 1em; color:#000; font-weight: normal;}
 h2  {font-size: 50px; max-width: 1100px; margin:10px 0 20px 0;font-family:DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;}
 h3  {font-size: 20px; margin: 10px 0; line-height: 30px; }
 h4  {font-size: 18px; margin-bottom: 10px;}
@@ -14,7 +16,7 @@ h5  {font-size: 17px; line-height:22px; color: #111; margin-bottom:5px;}
 h6  {font-size: 16px; margin-bottom:0; color: #aaa}
 ul   {margin:10px 0 40px 0;}
 li  {margin:0 0 10px 20px; font-size: 17px; line-height: 20px;}
-p,td, th   {font-size: 17px; line-height: 28px;margin:0 0 25px 0; font-weight: normal;}
+p,td, th   {font-size: 16px; line-height: 26px;margin:0 0 25px 0; font-weight: normal;}
 b {font-family:DINBold, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; color:#000; font-weight: normal;}
 small {font-size: 12px;line-height: 18px; display: block; padding:0 0 50px 0;}
 a {text-decoration: none; color:#000; border-bottom: 1px solid #900;}
@@ -39,17 +41,15 @@ figure {display: block;}
 figure a, figure a:hover {border:none;}
 figcaption       {margin:10px 0 50px 0;font-size: 14px;line-height: 20px;text-align: right;}
 
-.journal h2,.journal h3, .journal p, .journal b, .journal figcaption, .journal li {font-family: 'Playfair Display', serif;}
 .journal ul {max-width: 720px; margin:0px auto 40px auto;}
 .journal li {font-size: 20px; line-height: 30px;}
-.journal h2 {text-transform: none;max-width: 720px; margin:50px auto 20px auto;}
-.journal h3 {text-transform: none;max-width: 720px; margin:20px auto; color: #666; line-height:26px;}
-.journal p {font-size: 20px; line-height: 32px; max-width: 720px; margin:10px auto 40px auto;}
+.journal h2 {text-transform: none;max-width: 720px; margin:50px auto 20px auto; text-transform: uppercase;}
+.journal h3 {text-transform: none;max-width: 720px; margin:20px auto;}
+.journal p {max-width: 720px; margin:10px auto 40px auto;}
 .journal article {max-width: 1440px; margin:10px auto; padding: 50px 0;}
-.journal article p:first-of-type {font-size: 24px;line-height: 34px;color:#111;}
-.journal article p:first-of-type::first-letter {font-size: 117px;  float: left; margin:28px 5px 10px 0; color: #111;}
+.journal article p:first-of-type {font-size: 21px;line-height: 31px;color:#111;}
+.journal article p:first-of-type::first-letter {font-size: 90px;  float: left; margin:28px 5px 10px 0; color: #111;}
 .journal figure {margin:100px 0;}
-.journal figcaption {font-style: italic;}
 .journal blockquote {margin:0 0 30px 60px; width: 280px; font-size: 22px; line-height: 32px; text-transform: uppercase; float: right; 
     border-left:10px solid #ddd; padding-left: 60px;}
 .journal table {margin: 40px auto 60px auto; max-width: 720px; width: 100%;}
