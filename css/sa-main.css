@@ -66,9 +66,10 @@ figcaption       {margin:10px 0 50px 0;font-size: 14px;line-height: 20px;text-al
 .map h2   {position: absolute;bottom: 5%; left:2.5%; font-size: 30px; color: #000; background-color: #fff; padding:5px 5px 3px 5px; margin:0; border:none; letter-spacing: 0; z-index: 99; font-family:DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; }
 .columns            {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 50px 50px; max-width: none; }
 .columns div        {display: block;}
+.columns2            {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 50px 50px; max-width: none; }
+.columns2 div        {display: block;}
 .product article {float: left; width: 45%;}
 .product figure {float: right; width: 50%; clear: right;}
-.sa {text-transform: uppercase; font-size: smaller;}
 .button .so {background-color: #c00;}
 
 select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip: padding-box;background-image:url(../img/arrow.png);background-position: right;background-repeat: no-repeat;
@@ -87,7 +88,7 @@ button:hover:after, .button:hover:after {height: 420%;}
 @media screen and (max-width:1260px) {
     section, main       {padding:15px;}
     section             {padding-bottom:50px;}
-    .columns  {grid-template-columns: 1fr 1fr;}
+    .columns, .columns2  {grid-template-columns: 1fr 1fr;}
     
 }
 
@@ -116,7 +117,7 @@ button:hover:after, .button:hover:after {height: 420%;}
     .photogrid figure {padding:10px 0;}
 
 
-    .columns      {grid-template-columns: 1fr; margin-top:20px;}
+    .columns, .columns2      {grid-template-columns: 1fr; margin-top:20px;}
     
     button, .button {transition: none; font-size:12px;}
     button:after, .button:after {content:""; position: relative;background: none;height: auto; left: auto;top: auto;width: auto;z-index:0;transition: none;transform: none;}
