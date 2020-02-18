@@ -60,7 +60,7 @@ figcaption       {margin:10px 0 50px 0;font-size: 14px;line-height: 20px;text-al
 .journal .photogrid figure {margin:0;}
 
 .mtn {background:url(../img/mtn.jpg) no-repeat center center; background-size: cover; width: 100%; height: 52vh; position: relative; margin-bottom: 40px;}
-.mtn h2   {position: absolute;bottom: 5%; left:2%; font-size: 28px; color: #000; background-color: #fff; padding:7px 10px 3px 10px; margin:0; border:none; z-index: 99; font-family:DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; }
+.mtn h2   {position:absolute; bottom: 5%; left:2%; font-size: 28px; color: #000; background-color: #fff; padding:7px 10px 3px 10px; margin:0; border:none; z-index: 99; font-family:DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif; }
 .columns         {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 50px 50px; max-width: none; }
 .columns div     {display: block;}
 .columns2        {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 50px 50px; max-width: none; }
@@ -70,9 +70,9 @@ figcaption       {margin:10px 0 50px 0;font-size: 14px;line-height: 20px;text-al
 
 .button .so {background-color: #c00;}
 
-#subForm {top:50px; left:20px; position: relative;}
+#subForm {top:50px; left:20px; position: relative; max-width: 400px; width: 80%;}
 select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip: padding-box;background-image:url(../img/arrow.png);background-position: right;background-repeat: no-repeat;background-size: contain;color: #222;background-color: #fff;border: 1px solid #ccc;border-radius: 3px;cursor: default;display: block;font-family:DINRegular,Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-size: 14px;font-weight: normal;line-height: 16px;margin:0 0 20px 0;padding:5px 30px 5px 10px;text-transform: uppercase;white-space: nowrap;width: 280px;height: 40px;outline: none;}
-input[type='email'], input[type='text']  {display: block;font-size:14px;line-height:16px;border:1px solid #999;border-radius:1px;background-color: #fff;width:95%;max-width: 400px;padding:10px;margin:40px 0;text-align: left;text-transform: none;font-weight: normal;}
+input[type='email'], input[type='text']  {display: block;font-size:14px;line-height:16px;border:1px solid #999;border-radius:1px;background-color: #fff;width:95%;padding:10px;margin:20px 0;text-align: left;text-transform: none;font-weight: normal;}
 input:focus, input:hover {border:1px solid #000000; outline: none;transition: all .3s ease 0s;}
 button, .button {font-family:DINRegular, Helvetica, system-ui, 'Segoe UI', Roboto, sans-serif;font-size: 13px;line-height:1em;letter-spacing: 1px;font-weight: normal;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 20px 8px 20px;  border:1px solid #000; color: #eee;background-color:#000;z-index:0;text-align: center;overflow: hidden;transition: all .3s ease; cursor:pointer; border-radius: 5px;}
 button:after, .button:after {content: ""; position: absolute; background: none repeat scroll 0 0 #ffffff; color: #000; height: 0; left: 50%; top: 50%; width: 100%; z-index: -1;  transition: all .3s ease 0s; transform: translateX(-50%) translateY(-50%) rotate(-45deg);}
@@ -101,7 +101,9 @@ button:hover:after, .button:hover:after {height: 420%;}
     h2              {font-size: 30px;}
     section             {padding-bottom:20px;}
     .mtn {height: 40vh;}
-    .mtn h2   {font-size: 17px; }
+    .mtn h2   {font-size: 17px;}
+    .home {height: 60vh; margin-bottom: 20px;}
+    .home h2 {bottom: auto; left:5%; top: 5%;}
     .product article, .product figure {float:none; width: 100%;}
     
     .journal article {margin:0; padding:0;}
@@ -115,7 +117,7 @@ button:hover:after, .button:hover:after {height: 420%;}
     .photogrid figure {padding:10px 0;}
 
 
-    .columns, .columns2      {grid-template-columns: 1fr; margin-top:20px;}
+    .columns, .columns2      {grid-template-columns: 1fr;grid-gap: 10px 0;}
     
     button, .button {transition: none; font-size:12px;}
     button:after, .button:after {content:""; position: relative;background: none;height: auto; left: auto;top: auto;width: auto;z-index:0;transition: none;transform: none;}
