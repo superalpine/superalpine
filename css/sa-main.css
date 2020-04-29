@@ -101,9 +101,8 @@ button:hover:after, .button:hover:after {height: 420%;}
     h2              {font-size: 30px;}
     main            {padding:15px 0 0 0;}
     section          {padding: 15px 0 0 0;}
-    .mtn {height: 80vh;}
     .mtn h2   {font-size: 17px;}
-    .home {height: 80vh;}
+    .home {height: 75vh;}
     .home h2 {bottom: auto; left:5%; top: 5%;}
     .product article, .product figure {float:none; width: 100%;}
     
