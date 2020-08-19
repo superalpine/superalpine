@@ -1,44 +1,54 @@
+
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video 
     {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
-    body{background: #fefefe; color:#222;text-rendering:optimizeLegibility;-webkit-text-size-adjust:none;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;}
-
-    h1,h2,h3 {color: #000;}
-    h1 {font-size: 50px;}
-    h2 {font-size: 20px; margin: 10px 0; text-transform: uppercase;}
-    h3 {font-size: 20px;}
-    p {max-width: 750px;}
-    p, li, td, th {font-size: 16px; line-height: 24px;  margin:0 0 20px 0; }
-    table {max-width: 100%; width: 100%; margin:0 auto 20px auto;}
-    th {text-align: left; width: 23.75%; cursor: pointer; background-color: #ddd;}
-    th:hover {color: #c00;}
-    th, td {padding: 0 10px; border-bottom: 1px solid #eee; font-size: 14px;}
+    body{background: #fff; color:#222;text-rendering:optimizeLegibility;-webkit-text-size-adjust:none;
+    font-family: helvetica, roboto, sans-serif;}
+    .container {max-width: 1500px;margin:0 auto;padding:10px 30px;}
+    h1,h2,h3,h4 {color: #000;}
+    h1 {font-size: 60px;}
+    h2 {font-size: 16px; margin: 0 0 20px 0; text-transform: uppercase;}
+    h3 {font-size: 26px; margin: 40px 0 20px 0; }
+    h4 {font-size: 16px; }
+    p, li, td, th {font-size: 15px; line-height: 22px;  margin:0 0 20px 0;}
+    table {max-width: 100%; width: 100%; margin:0 auto 50px auto;}
+    th {background-color: #000; color: #fff;}
+    th, td {padding:5px 10px; margin: 0; text-align: center;}
+    td {border-bottom: 1px solid #ddd;border-right: 1px solid #ddd;}
+    td:first-of-type {border-left: 1px solid #ddd;}
     ul,ol { margin:0 0 25px 20px;}
     li {line-height:30px; margin:0;}
     blockquote {font-style: italic; font-size: 20px; line-height: 30px; padding:30px 30px 40px 30px;}
     b {font-weight:bold; color: #000;}
     small {display: block;  }
     img {width: 100%;max-width: 100%;}
-    .flag {width: 40px; float: left; margin: 11px 15px 0 0;}
-    a {color: #000;}
-    a:hover {color: #900;}
-    header {width: 100vw; height: 110px; position: fixed; z-index: 1; top:0; left: 0;  box-shadow: 1px 0 9px rgba(0,0,0,0.1); background-color: #fff;}
-    header a {display: block;}
-    header h1 {background: url(../img/logo.png) no-repeat center center;background-size:cover;width:70px;height:70px;display:block;font-size:0;color:#fff; margin:20px 0 0 20px; float: left;}
-    main {width: 95%; padding:20px; margin-top: 110px;}
-    article {width: 50vw; float: right;} 
-    figure {width: 40vw; height:83vh; float: left; position: fixed;}
+    .flag {width: 15px; float: left; margin: 0 7px 0 5px;}
+    
+    header {width:100%; height: 60px; margin-bottom: 30px;border-bottom: 1px solid #ccc}
+    header h1 a {font-size:20px;text-decoration: none; color: #000;  float: left; margin-top: 15px;}
+    
+    main {width:100%; clear: both;}
+    main a {color: #900; text-decoration: none; border-bottom: 1px solid #ddd;}
+    main a:hover {color: #000; border-bottom: 1px solid #000}
+    
+    article {width:42%; float: left;} 
+    article p:first-of-type {font-size: 20px; line-height: 26px; font-weight: bold; }
+    article nav {padding: 10px 0 20px 0; font-size: 13px;}
+   
+    figure {width: 52%; float: right; position: relative; margin-bottom: 15px;}
+    figcaption {position: absolute; bottom:10px;right:10px;background-color: rgba(255,255,255,0.5);padding: 2px 5px; font-size: 10px; letter-spacing:.05em;}
+    figcaption a {border: none;}
+    
     footer {width: 100%; float: right; margin:20px 0;}
     footer small {font-size: 13px;line-height: 18px;}
     
-    .menu-toggle {display: inline-block;font-size:30px;text-decoration: none;outline: none; float: right; margin:30px 20px 0 0; }
+    .menu-toggle {display:block;font-size:25px;text-decoration: none;outline: none; float: right; color: #000;width:23px;height: auto; }
     .menu-toggle:hover {color: #900;}
     .main-menu {position: absolute;display: none;left: -200px;top: 0;height: 100%;overflow-y: scroll;overflow-x: visible;z-index: 999;}
-    .main-menu ul {list-style: none; margin:90px 20px;padding:0;min-height: 100%;width: 100vw;background: #ddd;}
+    .main-menu ul {list-style: none; margin:90px 20px;padding:0;min-height: 100%;width: 100vw;}
     .main-menu li {font-size: 26px; line-height: 50px;  list-style: none; text-transform: uppercase;}
     .main-menu a {color: #000;text-decoration: none; display: block;}
     .main-menu a:hover {color: #c00;}
-    .main-menu .menu-close {font-size: 16px; padding: 40px 0 0 0; right: 60px; position: absolute;}
+    .main-menu .menu-close {font-size: 16px; padding: 40px 0 0 0; right: 70px; position: absolute;}
     .main-menu:target,
     .main-menu[aria-expanded="true"] {display: block;left: 0;outline: none;}
     .main-menu:target .menu-close,
@@ -49,11 +59,10 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .main-menu[aria-expanded="true"] + .backdrop{position: absolute;display: block;  left: 0;top: 0;width: 100%;height: 100%;z-index: 998;background: #ddd;cursor: default;}
 
     
-@media screen and (max-width:900px) {   
-        main {padding:10px; width: 100%;}
+@media screen and (max-width:900px) { 
+        .container {max-width: 1500px;margin:0 auto;padding:10px;}  
+        main {width: 100%;}
         article {width:100%; float: none;} 
-        figure {width:100%; height:50vh; float: none; position: relative;}
-        th {width: 25%;}
-        th,td {padding: 0;}
+        figure {width:100%; float: none;}
 	
 	}
