@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="//www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="//www.sitemaps.org/schemas/sitemap/0.9
+            //www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://superalpine.co/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/magazine/alpes-maritimes/index.html</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/magazine/chamonix/index.html</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/magazine/index.html</loc>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/store/index.html</loc>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/store/sticker-pack/index.html</loc>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/store/col-de-turini-sticker/index.html</loc>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/store/aiguille-du-dru-sticker/index.html</loc>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/store/matterhorn-sticker/index.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/journal/index.html</loc>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/about/index.html</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/journal/seiko-skx007-divers-watch.html</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/journal/bunker-research-book.html</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/journal/timex-expedition-katmai-watch.html</loc>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/journal/g-shock-mudmaster.html</loc>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/journal/mountains-epic-cycling-climbs.html</loc>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/journal/issue-two-behind-the-scenes.html</loc>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/journal/le-cristal-de-jade-chamonix.html</loc>
+  <priority>0.15</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/journal/rare-jewels-cia-plots-on-the-slopes-of-mont-blanc.html</loc>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/journal/porsche-r7-rsr-prototype.html</loc>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/journal/arcteryx-alpha-sl-jacket.html</loc>
+  <priority>0.15</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/journal/bellroy-elements-sleeve.html</loc>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/journal/karajan-porsche-rs-turbo.html</loc>
+  <priority>0.10</priority>
+</url>
+</urlset>
