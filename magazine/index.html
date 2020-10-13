@@ -1,67 +1,46 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Super Alpine magazine</title>
+<title>Magazine - Super Alpine</title>
 <meta charset="utf-8">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-<meta name="description" content="An independant magazine printed on high quality paper from sustainable sources in limited numbers. Issue One: Chamonix and Issue Two Alpes-Maritimes.">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@superalpine">
-<meta property="og:title" content="Super Alpine magazine">
-<meta property="og:description" content="An independant magazine printed on high quality paper from sustainable sources in limited numbers. Issue One: Chamonix and Issue Two Alpes-Maritimes.">
+<meta name="description" content="The Super Alpine magazine">
 <meta property="og:url" content="https://superalpine.co/magazine/index.html">
-<meta property="og:image" content="https://superalpine.co/magazine/sa00/sa-mag1.jpg">
-<link href="../css/sa-main.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
-<section>
-<header><a href="../index.html" title="Super Alpine"><h1>Super Alpine</h1></a></header>
-  <div>
-    <nav>
-    <h3>Navigation</h3>
-      <ul>
-          
-          <li><a href="../magazine/index.html" title="Super Alpine magazine">Magazine</a></li>
-          <li><a href="../store/index.html" title="Super Alpine store">Store</a></li>
-          <li><a href="../journal/index.html" title="The Super Alpine Journal">Journal</a></li>
-          <li><a href="../about/index.html" title="About Super Alpine">About</a></li>
-    </ul>
+<header>
+  <h1><a href="../index.html" title="Super Alpine">Super Alpine</a></h1>
+  <input id="burger" type="checkbox" />
+  <label for="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+  </label>
+  <nav>    
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../projects/index.html">Projects</a></li>
+      <li><a href="../about/index.html">About</a></li>
+      <li><a href="../newsletter/index.html">Newsletter</a></li>
+    </ul>  
+    <div class="navfooter">
+    <img src="../img/super-alpine.svg" alt="Super Alpine">
+    <small>&copy; Copyright 2015-<script>document.write(Date().split(' ')[3])</script> SUPER ALPINE. All rights reserved. <a href="../terms/index.html">Terms &amp; Conditions</a></small>
+  </div>
   </nav>
-  <footer>
-    <h3>Legal</h3>
-    <p>&copy; Copyright 2015-2020 SUPER ALPINE.<br> All rights reserved. <a href="../terms/index.html" title="Terms and conditions" rel="nofollow">Terms</a></p> 
-  </footer>
-</div>
-<br clear="all">
+</header>
+<section>
+<img src="../img/camo-header.svg" class="sa-header" alt="Super Alpine">
+  <h2 class="black">Magazine</h2>
+    <p><b><sub>SUPER ALPINE</sub></b> produced two magazines &mdash; <b>Chamonix:</b> A 20-year love affair with France's mountain playgound in 2018, and <b>Alpes-Maritimes</b> in 2019. These were soft-cover books printed in limited numbers. Both have sold out.</p>
+    <p>Due to the current travel restrictions it is not possible to finish any of our current print projects. We will continue to produce printed materials as soon as it books feasible.</p>
+    <figure>
+      <img src="magazines.jpg" alt="Super Alpine magazines">
+    </figure>
 </section>
-
-  <main>
-  
-  <h2>The Magazine</h2>
-  <article class="columns2">
-  
-  <div>
-  <figure><a href="alpes-maritimes/index.html"><img src="../img/sa02-cover.jpg"></a></figure>
-  <h3>Alpes-Maritimes</h3>
-  <p>From mountain passes to medieval villages to the hedonistic pleasures of Monaco.</p>
-  <a href="alpes-maritimes/index.html" class="button">Read more</a>
-  </div>
-  
-  <div>
-  <figure><a href="chamonix/index.html"><img src="../img/sa01-cover.jpg"></a></figure>
-  <h3>Chamonix</h3>
-  <p>Special Edition: A 20-year love affair with France’s mountain playground.</p>
-  <a href="chamonix/index.html" class="button">Read more</a>
-  </div>
-  
-  <div>
-  <figure><a href="sa00/index.html"><img src="../img/sa00-cover.jpg"></a></figure>
-  <h3>Prototype</h3>
-  <p>Speed, mountains and the high life in the prototype.</p>
-  <a href="sa00/index.html" class="button">Read more</a>
-  </div>
-  
-  </article>
-</main>    
+<footer>
+  <small>&copy; Copyright 2015-<script>document.write(Date().split(' ')[3])</script> SUPER ALPINE. All rights reserved.</small>
+</footer>
 </body>
-</html>    
+</html>

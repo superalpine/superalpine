@@ -1,6 +1,6 @@
 # Super Alpine
 
-The Super Alpine website for the magazine and store. Exploring the alpine landscapes. From the highest mountains through luxurious resorts and ancient villages to the Mediterranean.
+The Super Alpine website.
 
 ## Built With
 

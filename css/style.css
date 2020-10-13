@@ -1,0 +1,172 @@
+@font-face {font-family: 'kenjo_iregular';
+    src: url('../fonts/kenjo_i-webfont.woff2') format('woff2'),
+         url('../fonts/kenjo_i-webfont.woff') format('woff');
+    font-weight: normal; font-style: normal;}
+
+html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video 
+    {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+    html,body {width: 100%; height: 100%;}
+    body{background:#fff; color:#333; font-family:"Helvetica Neue",Helvetica,Roboto,sans-serif; font-weight: normal;font-stretch: normal;}
+    h1,h2,h3,h4,h5,h6 
+    {color: #000; text-transform: uppercase; font-weight: 200;letter-spacing:.48px;margin:0 auto 20px auto;max-width: 700px;}
+    h1 {font-size: 60px; line-height: 55px;}
+    h2 {font-size: 44px; line-height: 44px;color: #fff;}
+    h3 {font-size: 30px;}
+    h4 {font-size: 24px;}
+    h5 {font-size: 18px;}
+    h6 {font-size: 16px;}
+    p {font-size: 17px; line-height: 25px; margin:0 auto 20px auto; font-weight: 400;max-width: 700px;}
+    ul,ol {margin:0 auto 25px auto;max-width: 700px;}
+    li {list-style-type: square; font-size: 15px; line-height: 23px;  margin:0 0 10px 0;}
+    b {font-weight: bold;}
+    small {display: block;margin:10px 0; line-height: 1.4em;}
+    blockquote {font-family: Georgia,serif;max-width: 650px;margin:20px auto; font-size: 17px; line-height: 27px; text-align:justify; font-style: italic;}
+    img {width: 100%; max-width: 100%; font-size: 0;}
+    hr {width: 50%; margin:20px auto; background-color: #555; height: 1px; border: none;}
+    video {width: 100%; max-width: 100%; font-size: 0; float: left;}
+    iframe {margin: 20px auto; max-width: 1000px; width:100%; height: 450px;display: block;}
+    p+video {padding:15px 0 30px 0;}
+    a {color: #900; text-decoration: none;}
+    a:hover {color: #000;}
+
+    table{max-width:760px; width: 100%; margin: 50px auto; border-top: 1px dashed #ccc;}
+    th{font-size:14px;text-align: right; padding: 10px 10px 10px 0; border-bottom: 1px dashed #ccc; font-weight: 400; width: 40%; text-transform: uppercase;}
+    td{font-size:14px;text-align: left; padding: 10px 0 10px 10px; border-bottom: 1px dashed #ccc; font-weight: 600;}
+    
+    header {max-width: 98%; height: 100px; padding: 15px 10px 0 0; margin:0 auto;}
+    header h1 {float: left; font-size:0;margin:0;width: 0;height: 0; }
+    header a, header a:hover {text-decoration: none; border-bottom:none;}
+    header h1 a {color: #000; text-decoration: none;background: url(../img/super-alpine.svg) no-repeat center center; height: 70px; width:70px; background-size: cover; display: block;}
+    header ul {display: block; float: right;}
+    header ul li {display: inline-block; padding: 25px 0 0 30px; font-size: 16px;  letter-spacing: 1px; font-family:kenjo_iregular;}
+    header ul li a {color: #707070;}
+    header ul li a:hover {color: #900; border-bottom: 1px solid #707070;}
+    header input {display: none;}
+    .navfooter {display: none;}
+    
+    section {max-width: 98%; margin:0 auto;  padding:20px 0;clear: all;}
+    article {margin: 20px 0; padding-bottom: 50px;}
+    
+    figure {max-width: 1000px; margin:50px auto; clear: all;}
+    figcaption {font-family:Georgia,serif; font-style: italic; font-size: 13px; margin-top: 10px;}
+    .photogrid {display: flex;flex-wrap: wrap;max-width: 1000px;}
+    .portrait {flex: 34%; max-width: 34%; height: 470px; margin-right: 1%;}
+    .landscape { flex: 65%; max-width: 65%; height: 470px;}
+    .photogrid img {max-width: 100%; width: 100%; height: 470px; object-fit: cover;}
+    
+    footer {max-width: 98%; height: 70px; padding:20px 0 0 0; clear: both; margin:0 auto;}
+    footer small {font-size: 13px;line-height: 18px;margin:0; color: #999;}
+    
+    .hero-box {background-color: #222; max-width: 98%; height: 85vh; margin:0 auto;}
+    .hero-image {background-size: cover!important; width: 70%; height: 100%;  float: left;}
+    .hero-image img {float: left;}
+    .hero-title {width: 30%; height:100%; float: right; display: table;}
+    .hero-title div {display:table-cell; vertical-align: middle; text-align: center;}
+    .hero-title div h2 {font-family:kenjo_iregular; color:#fff; font-size: 53px;line-height: 53px; padding: 0 10px;}
+    .hero-title div h3 {color: #fff; font-weight: 700; letter-spacing: 3px; font-size: 18px;}
+    .hero-title div p {color: #fff; font-family:Georgia,sans-serif; font-size: 15px;margin:-15px 0 20px 0;}
+    
+    .three-col {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 0 10px; max-width: 98%; margin:0 auto; padding:0; }
+    .three-col a {display: block; position: relative; height: 75vh;}
+    .three-col a:hover{opacity:.8;transition: opacity .4s ease-out;-moz-transition: opacity .4s ease-out;-webkit-transition: opacity .4s ease-out;}
+    .three-col h2 {position: absolute; bottom: 15px; font-size: 38px; padding: 0 20px;}
+    
+    .projects {display: grid;grid-gap: 20px 20px; max-width: 98%; margin:0 auto; padding:0;}
+    .projects-l1 {grid-template-columns: 2fr 1fr 1fr 1fr; margin-bottom: 20px;}
+    .projects-l2 {grid-template-columns: 1fr 1fr 2fr 1fr;}
+    .projects a {display: block; position: relative; height:40vh;background-position: center center;background-repeat: no-repeat;background-size: cover;}
+    .projects a:hover{opacity:.7;transition: opacity .4s ease-out;-moz-transition: opacity .4s ease-out;-webkit-transition: opacity .4s ease-out;}
+    .projects h2 {position: absolute; bottom: 0; font-size: 28px; line-height: 28px;font-weight: 700; padding: 0 15px;}
+  
+    .store-box {background-color: #222;color:#fff; max-width: 1000px;margin: 10px auto 50px auto; height:500px;}
+    .store-box figure {float: left; width: 55%; height: 100%; margin: 0; }
+    .store-text {float: right; width: 45%;  text-align: center; padding:45px 0;}
+    .store-text h3 {color: #fff;font-size: 30px;}
+    .store-text h4 {color: #fff;font-weight: 700; letter-spacing: 3px; font-size: 18px;}
+    .store-text form {margin:20px auto -10px auto;}
+    .store-text a {color: #fff;}
+    .price {font-size: 48px;font-weight: 700;margin-top: 50px;}
+
+    .drop-cap p:first-of-type {font-size: 22px;line-height: 30px; font-weight: 500; color:#000; margin:0 auto 40px auto;}
+    .drop-cap p:first-of-type::first-letter {font-size: 100px; float: left; margin:29px 6px 10px 0; font-weight: 500; color: #000;}
+    
+    .see-also {display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-gap: 10px 10px; max-width: 98%; margin:0 auto; padding:0;}
+    .see-also a {display: block; position: relative; height:40vh;background-color: #222;}
+    .see-also a:hover{opacity:.7;transition: opacity .4s ease-out;-moz-transition: opacity .4s ease-out;-webkit-transition: opacity .4s ease-out;}
+    .see-also h2 {position: absolute; bottom: 0; font-size: 26px; line-height: 28px; font-weight: 700;padding:0 15px;}
+  
+    .black {color: #000;}
+    .sa-header {margin: -15px 0 20px 0;}
+
+    form {max-width: 700px;margin:0 auto;}
+    select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip: padding-box;background-image:url(../img/arrow.png);background-position: right;background-repeat: no-repeat;background-size: contain;color: #222;background-color: #fff;border: 1px solid #ccc;border-radius: 3px;cursor: default;display: block;font-family:"Helvetica Neue",Helvetica,Roboto,sans-serif;font-size: 14px;font-weight: normal;line-height: 16px;margin:0 0 20px 0;padding:5px 30px 5px 10px;text-transform: uppercase;white-space: nowrap;width: 280px;height: 40px;outline: none;}
+    input[type='email'], input[type='text']  {display: block;font-size:16px;line-height:16px;border:2px solid #ccc;background-color: #fff;width:95%;padding:10px;margin:20px 0;text-align: left;text-transform: none;font-weight: normal;}
+    input:focus, input:hover {border:2px solid #c00; outline: none;transition: all .3s ease 0s;}
+    button, .button {font-family:"Helvetica Neue",Helvetica,Roboto,sans-serif;font-size: 14px;line-height:1em;font-weight: 500;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 20px; color: #000;background-color:#fff;z-index:0;text-align: center;overflow: hidden; border: 1px solid #ccc; border-radius: 3px; margin:0 auto; cursor: pointer;}
+    
+    button:hover, .button:hover {color:#fff;background-color: #c00;}
+    
+@media screen and (max-width:1111px) { 
+    header input {display: none;}
+    header input + label { position: relative; float: right; height: 22px; width: 20px; z-index: 6; top:20px;}
+    header input + label span { position: absolute; width: 100%; height: 2px; top: 50%; left: 0; display: block; background: #111; transition: .3s;}
+    header input + label span:first-child {top: 5px;}
+    header input + label span:last-child {top: 17px;}
+    header label:hover {cursor: pointer;}
+    header input:checked + label span {opacity: 0;top: 50%;}
+    header input:checked + label span:first-child {opacity: 1;transform: rotate(405deg);}
+    header input:checked + label span:last-child {opacity: 1;transform: rotate(-405deg);}
+    header input ~ nav {background: #ddd;position: fixed;top: 0;left: 0;width: 100%;height: 0;z-index: 3;transition: .3s;transition-delay: .5s;overflow: hidden;}
+    header input ~ nav > ul {text-align: right;position: absolute;top: 20%;left: 7%;right: 7%;list-style-type: none;max-width: none;}
+    header input ~ nav > ul > li {opacity: 0;transition: .3s;transition-delay: 0s;list-style-type: none;font-size:38px; line-height:48px; margin:0 0 5px 0; color: #707070; text-transform: uppercase; font-weight: 200;letter-spacing:.48px;max-width: none; display: block;}
+    header input ~ nav > ul > li > a {text-decoration: none;display: block;padding: 20px;color: #707070; border-bottom: none;}
+    header input ~ nav > ul > li > a:hover {color: #900;border-bottom: none;}
+    header input:checked ~ nav {height: 100%; transition-delay: 0s;}
+    header input:checked ~ nav > ul > li {opacity: 1;transition-delay: .3s;}
+    .navfooter {position: absolute; bottom: 30px; left:30px; color: #707070; display: block;}
+    .navfooter img {width: 70px; max-width: 70px;  position: absolute; bottom: 70px;}
+    .navfooter a{color: #707070; display: block;}
+    .navfooter a:hover{color: #900;}
+    
+    .three-col, .projects, .see-also {display: grid; grid-template-columns: 1fr; grid-gap: 10px 0;}
+    .three-col a {height: 50vh;}
+    .see-also {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 5px;}
+    .see-also a {height:20vh;}
+    .see-also h2 {font-size: 1rem; line-height: 1em;}
+
+    .hero-image {width: 60%;}
+    .hero-title {width: 40%;}
+    .hero-title div h2 {font-size: 50px;line-height: 50px;}
+    .hero-image figcaption {bottom: 40px;}
+
+    .store-box {height:auto;}
+    .store-box figure {float: none; width: 100%; height: 400px;}
+    .store-text {float: none; width: 100%;  text-align: center; padding:45px 0;}
+    .store-text h3 {font-size: 26px;}
+    .store-text h4 {font-size: 16px;}
+    .price {font-size: 40px;}
+    
+    .drop-cap p:first-of-type {font-size: 20px;line-height: 28px;}
+    .drop-cap p:first-of-type::first-letter {font-size: 90px; margin:28px 6px 10px 0;}
+}
+@media screen and (max-width:790px) { 
+    header,section,.hero-box, .three-col, footer {width: 95%;}
+    p,li {font-size: 16px;}
+
+    header input ~ nav > ul {top: 10%;}
+    header input ~ nav > ul > li {font-size:28px;}
+    header input ~ nav > ul > li > a {padding:0;}
+    .navfooter {position: absolute; bottom: 35px; left:10px; color: #707070;}    
+
+    .hero-box {height: 100vh;}
+    .hero-image {width: 100%; height: 60vh; float: none;}
+    .hero-image img {float: none;}
+    .hero-title {width: 100%; height:40vh; float: none; display: table; }
+    .hero-title div {display:table-cell; vertical-align: middle; text-align: center;}
+    .hero-title div h2 {font-size: 40px;line-height: 40px; padding:20px 10px 0 10px;}    
+
+    .photogrid {display: block;}
+    .portrait {flex: 100%; max-width: 100%; height: auto; margin: 0 0 10px 0;}
+    .landscape { flex: 100%; max-width: 100%; height: auto;}
+    .photogrid img {height: auto; object-fit: cover;}
+    }

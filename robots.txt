@@ -1,4 +1,6 @@
 User-agent: *
 Disallow: /admin/
+Disallow: /fonts/
+Disallow: /js/
 
 Sitemap: https://superalpine.co/sitemap.xml
