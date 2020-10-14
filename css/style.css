@@ -168,7 +168,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     header input ~ nav > ul > li > a {padding:0;}
     .navfooter {position: absolute; bottom: 35px; left:10px; color: #707070;}    
 
-    .projects {width: 100%; height: auto;}
+    .projects {height: auto;}
     .projects h3 {font-size: 16px; color: #000; font-weight: normal;letter-spacing:normal; margin:10px 0 0 0;}
     .projects p {font-size: 14px; margin:0;}
     .projects img {height: 80%; object-fit: cover;}
