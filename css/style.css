@@ -71,9 +71,9 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .three-col a:hover{opacity:.8;transition: opacity .4s ease-out;-moz-transition: opacity .4s ease-out;-webkit-transition: opacity .4s ease-out;}
     .three-col h2 {position: absolute; bottom: 15px; font-size: 38px; padding: 0 20px;}
     
-    .projects {width: 100%; height: 65vh;}
-    .projects h3 {font-size: 16px; color: #000; font-weight: normal;letter-spacing:normal; margin:10px 0 0 0;}
-    .projects p {font-size: 14px;margin:0; line-height: 18px;}
+    .projects {max-width: 98%; margin:0 auto;  height: 65vh; padding: 0;}
+    .projects h3 {font-size: 16px; color: #111; font-weight:600;letter-spacing:normal; margin:10px 0 0 0;}
+    .projects p {font-size: 14px;margin:0; line-height: 18px; color: #707070;}
     .projects img {height: 100%;object-fit: cover;}
     .projects a {color: #000;}
     .projects a:hover {opacity:.7;transition: opacity .4s ease-out;-moz-transition: opacity .4s ease-out;-webkit-transition: opacity .4s ease-out;}
@@ -95,13 +95,13 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .drop-cap p:first-of-type {font-size: 22px;line-height: 30px; font-weight: 500; color:#000; margin:0 auto 40px auto;}
     .drop-cap p:first-of-type::first-letter {font-size: 100px; float: left; margin:29px 6px 10px 0; font-weight: 500; color: #000;}
     
-    .see-also {display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-gap: 10px 10px; max-width: 98%; margin:0 auto; padding:0;}
+    .see-also {display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-gap: 20px 20px; max-width: 98%; margin:0 auto; padding:0;}
     .see-also a {display: block; position: relative; height:40vh;background-color: #222;}
     .see-also a:hover{opacity:.7;transition: opacity .4s ease-out;-moz-transition: opacity .4s ease-out;-webkit-transition: opacity .4s ease-out;}
-    .see-also h2 {position: absolute; bottom: 0; font-size: 26px; line-height: 28px; font-weight: 700;padding:0 15px;}
+    .see-also h2 {position: absolute; bottom: 0; font-size: 24px; line-height: 26px; font-weight: 700;padding:0 15px;}
   
     .black {color: #000;}
-    .sa-header {margin: -15px 0 20px 0;}
+    .sa-header {margin: -20px 0 20px 0;}
 
     form {max-width: 700px;margin:0 auto;}
     select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip: padding-box;background-image:url(../img/arrow.png);background-position: right;background-repeat: no-repeat;background-size: contain;color: #222;background-color: #fff;border: 1px solid #ccc;border-radius: 3px;cursor: default;display: block;font-family:"Helvetica Neue",Helvetica,Roboto,sans-serif;font-size: 14px;font-weight: normal;line-height: 16px;margin:0 0 20px 0;padding:5px 30px 5px 10px;text-transform: uppercase;white-space: nowrap;width: 280px;height: 40px;outline: none;}
