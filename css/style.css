@@ -71,13 +71,18 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .three-col a:hover{opacity:.8;transition: opacity .4s ease-out;-moz-transition: opacity .4s ease-out;-webkit-transition: opacity .4s ease-out;}
     .three-col h2 {position: absolute; bottom: 15px; font-size: 38px; padding: 0 20px;}
     
-    .projects {display: grid;grid-gap: 20px 20px; max-width: 98%; margin:0 auto; padding:0;}
-    .projects-l1 {grid-template-columns: 2fr 1fr 1fr 1fr; margin-bottom: 20px;}
-    .projects-l2 {grid-template-columns: 1fr 1fr 2fr 1fr;}
-    .projects a {display: block; position: relative; height:40vh;background-position: center center;background-repeat: no-repeat;background-size: cover;}
-    .projects a:hover{opacity:.7;transition: opacity .4s ease-out;-moz-transition: opacity .4s ease-out;-webkit-transition: opacity .4s ease-out;}
-    .projects h2 {position: absolute; bottom: 0; font-size: 28px; line-height: 28px;font-weight: 700; padding: 0 15px;}
-  
+    .projects {width: 100%; height: 65vh;}
+    .projects h3 {font-size: 16px; color: #000; font-weight: normal;letter-spacing:normal; margin:10px 0 0 0;}
+    .projects p {font-size: 14px;margin:0; line-height: 18px;}
+    .projects img {height: 100%;object-fit: cover;}
+    .projects a {color: #000;}
+    .projects a:hover {opacity:.7;transition: opacity .4s ease-out;-moz-transition: opacity .4s ease-out;-webkit-transition: opacity .4s ease-out;}
+    .p-wide {float: left; width: 45%; height: 55vh; margin-right:3%;}
+    .p-narrow {float: left; width: 24%; height: 55vh;}
+    .p-narrow:last-of-type {float: right;}
+    .p-square {float: left; width: 32%; height: 55vh;}
+    .p-square:nth-of-type(2) {margin:0 2%;}
+
     .store-box {background-color: #222;color:#fff; max-width: 1000px;margin: 10px auto 50px auto; height:500px;}
     .store-box figure {float: left; width: 55%; height: 100%; margin: 0; }
     .store-text {float: right; width: 45%;  text-align: center; padding:45px 0;}
@@ -128,11 +133,16 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .navfooter a{color: #707070; display: block;}
     .navfooter a:hover{color: #900;}
     
-    .three-col, .projects, .see-also {display: grid; grid-template-columns: 1fr; grid-gap: 10px 0;}
+    .three-col,.see-also {display: grid; grid-template-columns: 1fr; grid-gap: 10px 0;}
     .three-col a {height: 50vh;}
     .see-also {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 5px;}
     .see-also a {height:20vh;}
     .see-also h2 {font-size: 1rem; line-height: 1em;}
+
+    .p-wide {margin-right:1.2%;}
+    .p-narrow {width: 26%;}
+    .p-square {width: 32.5%;}
+    .p-square:nth-of-type(2) {margin:0 1.2%;}
 
     .hero-image {width: 60%;}
     .hero-title {width: 40%;}
@@ -158,6 +168,17 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     header input ~ nav > ul > li > a {padding:0;}
     .navfooter {position: absolute; bottom: 35px; left:10px; color: #707070;}    
 
+    .projects {width: 100%; height: auto;}
+    .projects h3 {font-size: 16px; color: #000; font-weight: normal;letter-spacing:normal; margin:10px 0 0 0;}
+    .projects p {font-size: 14px; margin:0;}
+    .projects img {height: 80%; object-fit: cover;}
+    
+    .p-wide {float: none; width: 100%; height: 55vh; margin-right:0;}
+    .p-narrow {float: none; width: 100%; height: 55vh;}
+    .p-narrow:last-of-type {float: none;}
+    .p-square {float: none; width: 100%; height: 55vh;}
+    .p-square:nth-of-type(2) {margin:0}
+
     .hero-box {height: 100vh;}
     .hero-image {width: 100%; height: 60vh; float: none;}
     .hero-image img {float: none;}
@@ -169,4 +190,6 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .portrait {flex: 100%; max-width: 100%; height: auto; margin: 0 0 10px 0;}
     .landscape { flex: 100%; max-width: 100%; height: auto;}
     .photogrid img {height: auto; object-fit: cover;}
+
+
     }
