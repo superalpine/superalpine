@@ -10,7 +10,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     h1,h2,h3,h4,h5,h6 
     {color: #000; text-transform: uppercase; font-weight: 200;letter-spacing:.48px;margin:0 auto 20px auto;max-width: 700px;}
     h1 {font-size: 60px; line-height: 55px;}
-    h2 {font-size: 44px; line-height: 44px;color: #fff;}
+    h2 {font-size: 44px; line-height: 44px;}
     h3 {font-size: 30px;}
     h4 {font-size: 24px;}
     h5 {font-size: 18px;}
@@ -46,7 +46,6 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     
     section {max-width: 98%; margin:0 auto;  padding:20px 0;clear: all;}
     article {margin: 20px 0; padding-bottom: 50px;}
-    
     figure {max-width: 1000px; margin:50px auto; clear: all;}
     figcaption {font-family:Georgia,serif; font-style: italic; font-size: 13px; margin-top: 10px;}
     .photogrid {display: flex;flex-wrap: wrap;max-width: 1000px;}
@@ -69,7 +68,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .three-col {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 0 10px; max-width: 98%; margin:0 auto; padding:0; }
     .three-col a {display: block; position: relative; height: 75vh;}
     .three-col a:hover{opacity:.8;transition: opacity .4s ease-out;-moz-transition: opacity .4s ease-out;-webkit-transition: opacity .4s ease-out;}
-    .three-col h2 {position: absolute; bottom: 15px; font-size: 38px; padding: 0 20px;}
+    .three-col h2 {position: absolute; bottom: 15px; font-size: 38px; padding: 0 20px;color:#fff;}
     
     .projects {max-width: 98%; margin:0 auto;  height: 65vh; padding: 0;}
     .projects h3 {font-size: 16px; color: #111; font-weight:600;letter-spacing:normal; margin:10px 0 0 0;}
@@ -98,9 +97,8 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .see-also {display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-gap: 20px 20px; max-width: 98%; margin:0 auto; padding:0;}
     .see-also a {display: block; position: relative; height:40vh;background-color: #222;}
     .see-also a:hover{opacity:.7;transition: opacity .4s ease-out;-moz-transition: opacity .4s ease-out;-webkit-transition: opacity .4s ease-out;}
-    .see-also h2 {position: absolute; bottom: 0; font-size: 24px; line-height: 26px; font-weight: 700;padding:0 15px;}
+    .see-also h2 {position: absolute; bottom: 0; font-size: 24px; line-height: 26px; font-weight: 700;padding:0 15px;color:#fff;}
   
-    .black {color: #000;}
     .sa-header {margin: -20px 0 20px 0;}
 
     form {max-width: 700px;margin:0 auto;}
@@ -190,6 +188,4 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .portrait {flex: 100%; max-width: 100%; height: auto; margin: 0 0 10px 0;}
     .landscape { flex: 100%; max-width: 100%; height: auto;}
     .photogrid img {height: auto; object-fit: cover;}
-
-
     }
