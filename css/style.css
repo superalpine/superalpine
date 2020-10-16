@@ -95,11 +95,10 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .drop-cap p:first-of-type {font-size: 22px;line-height: 30px; font-weight: 500; color:#000; margin:0 auto 40px auto;}
     .drop-cap p:first-of-type::first-letter {font-size: 100px; float: left; margin:29px 6px 10px 0; font-weight: 500; color: #000;}
     
-    .see-also {display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-gap: 20px 20px; max-width: 98%; margin:0 auto; padding:0;}
-    .see-also a {display: block; position: relative; height:40vh;background-color: #222;}
-    .see-also a:hover{opacity:.7;transition: opacity .4s ease-out;-moz-transition: opacity .4s ease-out;-webkit-transition: opacity .4s ease-out;}
-    .see-also h2 {position: absolute; bottom: 0; font-size: 24px; line-height: 26px; font-weight: 700;padding:0 15px;color:#fff;}
-  
+    .further-reading {display: grid; grid-template-columns: 1fr 2fr 2fr 2fr; grid-gap: 20px 20px; max-width: 98%; margin:0 auto; padding:0;}
+    .further-reading a {display: block; position: relative; height:40vh;background-color: #222;}
+    .further-reading a:hover{opacity:.7;transition: opacity .4s ease-out;-moz-transition: opacity .4s ease-out;-webkit-transition: opacity .4s ease-out;}
+    .further-reading h2 {position: absolute; bottom: 0; font-size: 24px; line-height: 26px; font-weight: 700;padding:0 15px;color:#fff;}
     .sa-header {margin: -20px 0 20px 0;}
 
     form {max-width: 700px;margin:0 auto;}
@@ -132,11 +131,11 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .navfooter a{color: #707070; display: block;}
     .navfooter a:hover{color: #900;}
     
-    .three-col,.see-also {display: grid; grid-template-columns: 1fr; grid-gap: 10px 0;}
+    .three-col,.further-reading {display: grid; grid-template-columns: 1fr; grid-gap: 10px 0;}
     .three-col a {height: 50vh;}
-    .see-also {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 5px;}
-    .see-also a {height:20vh;}
-    .see-also h2 {font-size: 1rem; line-height: 1em;}
+    .further-reading {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 5px;}
+    .further-reading a {height:20vh;}
+    .further-reading h2 {font-size: 1rem; line-height: 1em;}
 
     .p-wide {margin-right:1.2%;}
     .p-narrow {width: 26%;}
