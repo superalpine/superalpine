@@ -163,7 +163,10 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
 }
 @media screen and (max-width:790px) { 
     header,section,.hero-box, .three-col, footer {width: 95%;}
-    p,li {font-size: 16px;}
+    p,li {font-size: 15px;}
+    blockquote {max-width: 80%;font-size: 15px; line-height: 25px;}
+    .drop-cap p:first-of-type {font-size: 18px;line-height: 26px;}
+    .drop-cap p:first-of-type::first-letter {font-size: 90px; margin:22px 6px 10px 0;}
 
     header input ~ nav > ul {top: 10%;}
     header input ~ nav > ul > li {font-size:28px;}
@@ -186,7 +189,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .p-quarter:nth-of-type(3) {margin:00;}
 
     .hero-box {height: 100vh;}
-    .hero-image {width: 100%; height: 60vh; float: none;}
+    .hero-image {width: 100%; height: 55vh; float: none;}
     .hero-image img {float: none;}
     .hero-image figcaption {bottom: 5px;}
     .hero-title {width: 100%; height:40vh; float: none; display: table; }
