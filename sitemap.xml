@@ -46,7 +46,11 @@
 </url>
 <url>
   <loc>https://superalpine.co/projects/col-de-joux-plane/index.html</loc>
-  <priority>0.50</priority>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/projects/les-gets/index.html</loc>
+  <priority>0.30</priority>
 </url>
 <url>
   <loc>https://superalpine.co/about/index.html</loc>
