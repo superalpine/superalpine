@@ -14,7 +14,7 @@
 </url>
 <url>
   <loc>https://superalpine.co/projects/chamonix/index.html</loc>
-  <priority>0.80</priority>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://superalpine.co/projects/chamonix/bibliography.html</loc>
@@ -30,15 +30,15 @@
 </url>
 <url>
   <loc>https://superalpine.co/projects/cirque-du-fer-a-cheval/index.html</loc>
-  <priority>0.20</priority>
+  <priority>0.25</priority>
 </url>
 <url>
   <loc>https://superalpine.co/projects/col-de-turini/index.html</loc>
-  <priority>0.90</priority>
+  <priority>0.85</priority>
 </url>
 <url>
   <loc>https://superalpine.co/projects/monaco/index.html</loc>
-  <priority>0.30</priority>
+  <priority>0.35</priority>
 </url>
 <url>
   <loc>https://superalpine.co/projects/zermatt/index.html</loc>
@@ -50,11 +50,23 @@
 </url>
 <url>
   <loc>https://superalpine.co/projects/les-gets/index.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/projects/crans-montana/index.html</loc>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/projects/porsche-museum/index.html</loc>
   <priority>0.30</priority>
 </url>
 <url>
+  <loc>https://superalpine.co/projects/vision-arts-festival/index.html</loc>
+  <priority>0.20</priority>
+</url>
+<url>
   <loc>https://superalpine.co/about/index.html</loc>
-  <priority>0.10</priority>
+  <priority>0.15</priority>
 </url>
 <url>
   <loc>https://superalpine.co/newsletter/index.html</loc>

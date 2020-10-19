@@ -24,7 +24,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     img {width: 100%; max-width: 100%; font-size: 0;}
     hr {width: 50%; margin:20px auto; background-color: #555; height: 1px; border: none;}
     video {width: 100%; max-width: 100%; font-size: 0; float: left;}
-    iframe {margin: 20px auto; max-width: 1000px; width:100%; height: 450px;display: block;}
+    iframe {margin: 20px auto; max-width: 760px; width:100%; height: 450px;display: block;}
     p+video {padding:15px 0 30px 0;}
     a {color: #900; text-decoration: none;}
     a:hover {color: #000;}
@@ -46,12 +46,15 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     
     section {max-width: 98%; margin:0 auto;  padding:20px 0;clear: all;}
     article {margin: 20px 0; padding-bottom: 50px;}
-    figure {max-width: 1000px; margin:50px auto; clear: all;}
+    figure {max-width: 1100px; margin:50px auto; clear: all;}
     figcaption {font-family:Georgia,serif; font-style: italic; font-size: 13px; margin-top: 10px;}
-    .photogrid {display: flex;flex-wrap: wrap;max-width: 1000px;}
+    
+    .photogrid {display: flex;flex-wrap: wrap;max-width: 1100px;}
     .portrait {flex: 34%; max-width: 34%; height: 470px; margin-right: 1%;}
     .landscape { flex: 65%; max-width: 65%; height: 470px;}
     .photogrid img {max-width: 100%; width: 100%; height: 470px; object-fit: cover;}
+    .portrait-right {flex: 34%; max-width: 34%; height: 470px; }
+    .landscape-left { flex: 65%; max-width: 65%; height: 470px;margin-right: 1%;}
     
     footer {max-width: 98%; height: 70px; padding:20px 0 0 0; clear: both; margin:0 auto;}
     footer small {font-size: 13px;line-height: 18px;margin:0; color: #999;}
@@ -66,28 +69,44 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .hero-title div h3 {color: #fff; font-weight: 700; letter-spacing: 3px; font-size: 18px;}
     .hero-title div p {color: #fff; font-family:Georgia,sans-serif; font-size: 15px;margin:-15px 0 20px 0;}
     
+    .two-col {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 0 10px; max-width: 1100px; margin:0 auto; padding:0; }
+    
     .three-col {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 0 10px; max-width: 98%; margin:0 auto; padding:0; }
     .three-col a {display: block; position: relative; height: 75vh;}
     .three-col a:hover{opacity:.8;transition: opacity .4s ease-out;-moz-transition: opacity .4s ease-out;-webkit-transition: opacity .4s ease-out;}
     .three-col h2 {position: absolute; bottom: 15px; font-size: 38px; padding: 0 20px;color:#fff;}
     
-    .projects {max-width: 98%; margin:0 auto;  height: 65vh; padding: 0;}
+    .projects {max-width:98%; margin:0 auto; padding:0; 
+        display: grid;grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: 1fr 1fr 1fr 1fr 1fr;  grid-gap: 0 40px;}
+    .projects a {display: inline-block; position: relative; height: 60vh;}
+    .projects img {height: 85%;object-fit: cover;}
     .projects h3 {font-size: 16px; color: #111; font-weight:600;letter-spacing:normal; margin:10px 0 0 0;}
     .projects p {font-size: 14px;margin:0; line-height: 18px; color: #707070;}
-    .projects img {height: 100%;object-fit: cover;}
-    .projects a {color: #000;}
-    .projects a:hover {opacity:.7;transition: opacity .4s ease-out;-moz-transition: opacity .4s ease-out;-webkit-transition: opacity .4s ease-out;}
-    .p-wide {float: left; width: 45%; height: 55vh; margin-right:3%;}
-    .p-narrow {float: left; width: 24%; height: 55vh;}
-    .p-narrow:last-of-type {float: right;}
-    .p-square {float: left; width: 32%; height: 55vh;}
-    .p-square:nth-of-type(2) {margin:0 2%;}
-    .p-quarter {float: left; width: 23%; height: 55vh;}
-    .p-quarter:last-of-type {float: right;}
-    .p-quarter:nth-of-type(2) {margin:0 2.5%;}
-    .p-quarter:nth-of-type(3) {margin:0 2.5% 0 0;}
+    .projects a {color: #000; opacity: 1.0;}
+    .projects a:hover{opacity:.8;transition: opacity .4s ease-out;-moz-transition: opacity .4s ease-out;-webkit-transition: opacity .4s ease-out;}
+
+    .chx { grid-area: 1 / 1 / 2 / 3; }
+    .chx-bib { grid-area: 1 / 3 / 2 / 4; }
+    .adm { grid-area: 1 / 4 / 2 / 5; }
+
+    .mdg { grid-area: 2 / 1 / 3 / 2; }
+    .zermatt { grid-area: 2 / 2 / 3 / 3; }
+    .porsche { grid-area: 2 / 3 / 3 / 4; }
+    .cdjp { grid-area: 2 / 4 / 3 / 5; }
+
+    .crans { grid-area: 3 / 1 / 4 / 2; }
+    .lg { grid-area: 3 / 2 / 4 / 3; }
+    .cdt { grid-area: 3 / 3 / 4 / 5; }
+
+    .monaco { grid-area: 4 / 1 / 5 / 3; }
+    .vision { grid-area: 4 / 3 / 5 / 5; }
+
+    .cdfac { grid-area: 5 / 1 / 6 / 2; }
+    .emp1 { grid-area: 5 / 2 / 6 / 3; }
+    .emp2 { grid-area: 5 / 3 / 6 / 4; }
+    .emp3 { grid-area: 5 / 4 / 6 / 5; }
     
-    .store-box {background-color: #222;color:#fff; max-width: 1000px;margin: 10px auto 50px auto; height:500px;}
+    .store-box {background-color: #222;color:#fff; max-width: 1100px;margin: 10px auto 50px auto; height:500px;}
     .store-box figure {float: left; width: 55%; height: 100%; margin: 0; }
     .store-text {float: right; width: 45%;  text-align: center; padding:45px 0;}
     .store-text h3 {color: #fff;font-size: 30px;}
@@ -135,16 +154,13 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .navfooter a{color: #707070; display: block;}
     .navfooter a:hover{color: #900;}
     
+    .projects {grid-gap:20px 20px;}
+    
     .three-col,.further-reading {display: grid; grid-template-columns: 1fr; grid-gap: 10px 0;}
     .three-col a {height: 50vh;}
     .further-reading {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 5px;}
     .further-reading a {height:20vh;}
     .further-reading h2 {font-size: 1rem; line-height: 1em;}
-
-    .p-wide {margin-right:1.2%;}
-    .p-narrow {width: 26%;}
-    .p-square {width: 32.5%;}
-    .p-square:nth-of-type(2) {margin:0 1.2%;}
 
     .hero-image {width: 60%;}
     .hero-title {width: 40%;}
@@ -172,22 +188,9 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     header input ~ nav > ul > li {font-size:28px;}
     header input ~ nav > ul > li > a {padding:0;}
     .navfooter {position: absolute; bottom: 35px; left:10px; color: #707070;}    
-
-    .projects {height: auto;}
-    .projects h3 {font-size: 16px; color: #000; font-weight: normal;letter-spacing:normal; margin:10px 0 0 0;}
-    .projects p {font-size: 14px; margin:0;}
-    .projects img {height: 80%; object-fit: cover;}
     
-    .p-wide {float: none; width: 100%; height: 55vh; margin-right:0;}
-    .p-narrow {float: none; width: 100%; height: 55vh;}
-    .p-narrow:last-of-type {float: none;}
-    .p-square {float: none; width: 100%; height: 55vh;}
-    .p-square:nth-of-type(2) {margin:0}
-    .p-quarter {float: none; width: 100%; height: 55vh;}
-    .p-quarter:last-of-type {float: none;}
-    .p-quarter:nth-of-type(2) {margin:0;}
-    .p-quarter:nth-of-type(3) {margin:00;}
-
+    .projects {display: table;grid-template-columns: auto; grid-template-rows: auto;  grid-gap: 0;}
+   
     .hero-box {height: 100vh;}
     .hero-image {width: 100%; height: 55vh; float: none;}
     .hero-image img {float: none;}
@@ -200,4 +203,8 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .portrait {flex: 100%; max-width: 100%; height: auto; margin: 0 0 10px 0;}
     .landscape { flex: 100%; max-width: 100%; height: auto;}
     .photogrid img {height: auto; object-fit: cover;}
+    .portrait-right {flex: 100%; max-width: 100%; height: auto; }
+    .landscape-left { flex: 100%; max-width: 100%; height: auto;margin:10px 0;}
+    
+    
     }
