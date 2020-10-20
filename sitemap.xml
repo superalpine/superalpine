@@ -65,6 +65,10 @@
   <priority>0.20</priority>
 </url>
 <url>
+  <loc>https://superalpine.co/projects/glacier-3000/index.html</loc>
+  <priority>0.30</priority>
+</url>
+<url>
   <loc>https://superalpine.co/about/index.html</loc>
   <priority>0.15</priority>
 </url>
