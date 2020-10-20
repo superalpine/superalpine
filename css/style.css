@@ -78,9 +78,9 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     
     .projects {max-width:98%; margin:0 auto; padding:0; 
         display: grid;grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: 1fr 1fr 1fr 1fr 1fr;  grid-gap: 0 40px;}
-    .projects a {display: inline-block; position: relative; height: 60vh;}
-    .projects img {height: 85%;object-fit: cover;}
-    .projects h3 {font-size: 16px; color: #111; font-weight:600;letter-spacing:normal; margin:10px 0 0 0;}
+    .projects a {display: inline-block; position: relative; height: 65vh;}
+    .projects img {height: 83%;object-fit: cover;}
+    .projects h3 {font-size: 16px; color: #111; font-weight:600;letter-spacing:normal; margin:15px 0 5px 0;}
     .projects p {font-size: 14px;margin:0; line-height: 18px; color: #707070;}
     .projects a {color: #000; opacity: 1.0;}
     .projects a:hover{opacity:.8;transition: opacity .4s ease-out;-moz-transition: opacity .4s ease-out;-webkit-transition: opacity .4s ease-out;}
