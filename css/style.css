@@ -17,7 +17,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     h6 {font-size: 16px;}
     p {font-size: 17px; line-height: 25px; margin:0 auto 20px auto; font-weight: 400;max-width: 700px;}
     ul,ol {margin:0 auto 25px auto;max-width: 700px;}
-    li {list-style-type: square; font-size: 15px; line-height: 23px;  margin:0 0 10px 10px;}
+    li {list-style-type: square; font-size: 15px; line-height: 23px;  margin:0 0 10px 20px;}
     b {font-weight: bold;}
     small {display: block;margin:10px 0; line-height: 1.4em;}
     blockquote {font-family: Georgia,serif;max-width: 650px;margin:20px auto; font-size: 17px; line-height: 27px; text-align:justify; font-style: italic;}
