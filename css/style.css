@@ -33,7 +33,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     th{font-size:14px;text-align: right; padding: 10px 10px 10px 0; border-bottom: 1px dashed #ccc; font-weight: 400; width: 40%; text-transform: uppercase;}
     td{font-size:14px;text-align: left; padding: 10px 0 10px 10px; border-bottom: 1px dashed #ccc; font-weight: 600;}
     
-    header {max-width: 98%; height: 100px; padding: 15px 10px 0 0; margin:0 auto;}
+    header {max-width: 95%; height: 110px; padding: 20px 10px 0 0; margin:0 auto;}
     header h1 {float: left; font-size:0;margin:0;width: 0;height: 0; }
     header a, header a:hover {text-decoration: none; border-bottom:none;}
     header h1 a {color: #000; text-decoration: none;background: url(../img/super-alpine.svg) no-repeat center center; height: 70px; width:70px; background-size: cover; display: block;}
@@ -44,7 +44,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     header input {display: none;}
     .navfooter {display: none;}
     
-    section {max-width: 98%; margin:0 auto;  padding:20px 0;clear: all;}
+    section {max-width: 95%; margin:0 auto;  padding:20px 0;clear: all;}
     article {margin: 20px 0; padding-bottom: 50px;}
     figure {max-width: 1100px; margin:50px auto; clear: all;}
     figcaption {font-family:Georgia,serif; font-style: italic; font-size: 13px; margin-top: 10px;}
@@ -56,10 +56,10 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .portrait-right {flex: 34%; max-width: 34%; height: 470px; }
     .landscape-left { flex: 65%; max-width: 65%; height: 470px;margin-right: 1%;}
     
-    footer {max-width: 98%; height: 70px; padding:20px 0 0 0; clear: both; margin:0 auto;}
+    footer {max-width: 95%; height: 70px; padding:20px 0 0 0; clear: both; margin:0 auto;}
     footer small {font-size: 13px;line-height: 18px;margin:0; color: #999;}
     
-    .hero-box {background-color: #222; max-width: 98%; height: 85vh; margin:0 auto;}
+    .hero-box {background-color: #222; max-width: 95%; height: 85vh; margin:0 auto;}
     .hero-image {background-size: cover!important; width: 70%; height: 100%;  float: left; position: relative;}
     .hero-image img {float: left;}
     .hero-image figcaption {margin:0; position: absolute; bottom: 10px; left:10px; color: #fff;}
@@ -71,12 +71,12 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     
     .two-col {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 0 10px; max-width: 1100px; margin:0 auto; padding:0; }
     
-    .three-col {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 0 10px; max-width: 98%; margin:0 auto; padding:0; }
+    .three-col {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 0 10px; max-width: 95%; margin:0 auto; padding:0; }
     .three-col a {display: block; position: relative; height: 75vh;}
     .three-col a:hover{opacity:.8;transition: opacity .4s ease-out;-moz-transition: opacity .4s ease-out;-webkit-transition: opacity .4s ease-out;}
     .three-col h2 {position: absolute; bottom: 15px; font-size: 38px; padding: 0 20px;color:#fff;}
     
-    .projects {max-width:98%; margin:0 auto; padding:0;display: grid;grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: 1fr 1fr 1fr 1fr 1fr;  grid-gap: 0 40px;}
+    .projects {max-width:95%; margin:0 auto; padding:0;display: grid;grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: 1fr 1fr 1fr 1fr 1fr;  grid-gap: 0 40px;}
     .projects a {display: inline-block; position: relative; height: 65vh;}
     .projects img {height: 83%;object-fit: cover;}
     .projects h3 {font-size: 16px; color: #111; font-weight:600;letter-spacing:normal; margin:15px 0 5px 0;}
@@ -117,7 +117,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .drop-cap p:first-of-type {font-size: 22px;line-height: 30px; font-weight: 500; color:#000; margin:0 auto 40px auto;}
     .drop-cap p:first-of-type::first-letter {font-size: 100px; float: left; margin:29px 6px 10px 0; font-weight: 500; color: #000;}
     
-    .further-reading {display: grid; grid-template-columns: 1fr 2fr 2fr 2fr; grid-gap: 20px 20px; max-width: 98%; margin:0 auto; padding:0;}
+    .further-reading {display: grid; grid-template-columns: 1fr 2fr 2fr 2fr; grid-gap: 20px 20px; max-width: 95%; margin:0 auto; padding:0;}
     .further-reading a {display: block; position: relative; height:40vh;background-color: #222;}
     .further-reading a:hover{opacity:.7;transition: opacity .4s ease-out;-moz-transition: opacity .4s ease-out;-webkit-transition: opacity .4s ease-out;}
     .further-reading h2 {position: absolute; bottom: 0; font-size: 24px; line-height: 26px; font-weight: 700;padding:0 15px;color:#fff;}
@@ -154,10 +154,32 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .navfooter a:hover{color: #900;}
     
     .projects {display: table;grid-template-columns: auto; grid-template-rows: auto;  grid-gap: 0;}
-    .projects a {display:block;  height: 50vh;}
+    .projects a {display:table-cell;  height: 55vh;}
+    .projects img {height: 70%;}
+
+    .chx {width: 100%;}
+    .chx-bib { width: 46%; float: left; }
+    .adm {width: 46%; float: right;}
+
+    .mdg { width: 100%;clear: both;  }
+    .zermatt { width: 46%; float: left;  }
+    .porsche { width: 46%; float: right; }  
+    .cdjp { width: 100%; clear: both;  }
+
+    .crans { width: 46%; float: left; }
+    .lg { width: 46%; float: right;  }
+    .cdt { width: 100%;clear: both;  }
+
+    .monaco { width: 46%; float: left;  }
+    .g3000 { width: 46%; float: right;  }
+
+    .cdfac { width: 100%; clear: both;  }
+    .vision { width: 100%;  }
+    .emp2 { width: 100%;  }
+    .emp3 { width: 100%;  }
     
-    .three-col,.further-reading {display: grid; grid-template-columns: 1fr; grid-gap: 10px 0;}
-    .three-col a {height: 50vh;}
+    .three-col {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 10px;}
+    .three-col a {height: 40vh;}
     .further-reading {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 5px;}
     .further-reading a {height:20vh;}
     .further-reading h2 {font-size: 1rem; line-height: 1em;}
@@ -179,7 +201,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .drop-cap p:first-of-type::first-letter {font-size: 90px; margin:28px 6px 10px 0;}
 }
 @media screen and (max-width:790px) { 
-    header,section,.hero-box, .three-col, footer {width: 95%;}
+
     p,li {font-size: 15px;max-width:85%;}
     blockquote {max-width: 80%;font-size: 15px; line-height: 25px;}
     .drop-cap p:first-of-type {font-size: 18px;line-height: 26px;}
@@ -197,6 +219,8 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .hero-title {width: 100%; height:40vh; float: none; display: table; }
     .hero-title div {display:table-cell; vertical-align: middle; text-align: center;}
     .hero-title div h2 {font-size: 40px;line-height: 40px; padding:20px 10px 0 10px;}    
+
+    .three-col {display: grid; grid-template-columns: 1fr; grid-gap: 10px 0;}
 
     .photogrid {display: block;}
     .portrait {flex: 100%; max-width: 100%; height: auto; margin: 0 0 10px 0;}
