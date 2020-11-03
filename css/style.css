@@ -66,7 +66,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .hero-image figcaption {margin:0; position: absolute; bottom: 10px; left:10px; color: #fff;}
     .hero-title {width: 30%; height:100%; float: right; display: table;}
     .hero-title div {display:table-cell; vertical-align: middle; text-align: center;}
-    .hero-title div h2 {font-family:kenjo_iregular; color:#fff; font-size: 52px;line-height: 53px; padding: 0 10px; letter-spacing: -1px;}
+    .hero-title div h2 {font-family:kenjo_iregular; color:#fff; font-size: 50px;line-height: 50px; padding: 0 10px;}
     .hero-title div h3 {color: #fff; font-weight: 700; letter-spacing: 3px; font-size: 18px;}
     .hero-title div p {color: #fff; font-family: 'Playfair Display', serif; font-size: 15px;margin:-15px 0 20px 0;}
     
