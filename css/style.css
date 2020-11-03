@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
-@font-face {font-family: 'kenjo_iregular';
-    src: url('../fonts/kenjo_i-webfont.woff2') format('woff2'),
-         url('../fonts/kenjo_i-webfont.woff') format('woff');
-    font-weight: normal; font-style: normal;}
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video 
     {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
     html,body {width: 100%; height: 100%;}
@@ -39,8 +35,8 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     header a, header a:hover {text-decoration: none; border-bottom:none;}
     header h1 a {color: #000; text-decoration: none;background: url(../img/super-alpine.svg) no-repeat center center; height: 70px; width:70px; background-size: cover; display: block;}
     header ul {display: block; float: right;}
-    header ul li {display: inline-block; padding: 25px 0 0 30px; font-size: 16px;  letter-spacing: 1px; font-family:kenjo_iregular;}
-    header ul li a {color: #707070;}
+    header ul li {display: inline-block; padding: 25px 0 0 30px; font-size: 14px; text-transform: uppercase;  }
+    header ul li a {color: #111;}
     header ul li a:hover {color: #900; border-bottom: 1px solid #707070;}
     header input {display: none;}
     .navfooter {display: none;}
@@ -66,9 +62,9 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .hero-image figcaption {margin:0; position: absolute; bottom: 10px; left:10px; color: #fff;}
     .hero-title {width: 30%; height:100%; float: right; display: table;}
     .hero-title div {display:table-cell; vertical-align: middle; text-align: center;}
-    .hero-title div h2 {font-family:kenjo_iregular; color:#fff; font-size: 50px;line-height: 50px; padding: 0 10px;}
+    .hero-title div h2 { color:#fff; font-size: 50px;line-height: 50px; padding: 0 10px;}
     .hero-title div h3 {color: #fff; font-weight: 700; letter-spacing: 3px; font-size: 18px;}
-    .hero-title div p {color: #fff; font-family: 'Playfair Display', serif; font-size: 15px;margin:-15px 0 20px 0;}
+    .hero-title div p {color: #fff; font-family: 'Playfair Display', serif; font-size: 15px;margin:-15px 0 20px 0; max-width: 100%;}
     
     .two-col {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 0 10px; max-width: 1100px; margin:0 auto; padding:0; }
     
@@ -144,7 +140,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     header input:checked + label span:last-child {opacity: 1;transform: rotate(-405deg);}
     header input ~ nav {background: #ddd;position: fixed;top: 0;left: 0;width: 100%;height: 0;z-index: 3;transition: .3s;transition-delay: .5s;overflow: hidden;}
     header input ~ nav > ul {text-align: right;position: absolute;top: 20%;left: 7%;right: 7%;list-style-type: none;max-width: none;}
-    header input ~ nav > ul > li {opacity: 0;transition: .3s;transition-delay: 0s;list-style-type: none;font-size:38px; line-height:48px; margin:0 0 5px 0; color: #707070; text-transform: uppercase; font-weight: 200;letter-spacing:.48px;max-width: none; display: block;}
+    header input ~ nav > ul > li {opacity: 0;transition: .3s;transition-delay: 0s;list-style-type: none;font-size:38px; line-height:48px; margin:0 0 5px 0; color: #707070; text-transform: uppercase;max-width: none; display: block;}
     header input ~ nav > ul > li > a {text-decoration: none;display: block;padding: 20px;color: #707070; border-bottom: none;}
     header input ~ nav > ul > li > a:hover {color: #900;border-bottom: none;}
     header input:checked ~ nav {height: 100%; transition-delay: 0s;}
@@ -217,7 +213,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .hero-image {width: 100%; height: 55vh; float: none;}
     .hero-image img {float: none;}
     .hero-image figcaption {bottom: 5px;}
-    .hero-title {width: 100%; height:40vh; float: none; display: table; }
+    .hero-title {width: 100%; height:40vh; float: none; display: table;text-align: center; }
     .hero-title div {display:table-cell; vertical-align: middle; text-align: center;}
     .hero-title div h2 {font-size: 40px;line-height: 40px; padding:20px 10px 0 10px;}    
 
