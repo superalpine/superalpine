@@ -66,7 +66,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .hero-image figcaption {margin:0; position: absolute; bottom: 10px; left:10px; color: #fff;}
     .hero-title {width: 30%; height:100%; float: right; display: table;}
     .hero-title div {display:table-cell; vertical-align: middle; text-align: center;}
-    .hero-title div h2 {font-family:kenjo_iregular; color:#fff; font-size: 52px;line-height: 53px; padding: 0 10px;}
+    .hero-title div h2 {font-family:kenjo_iregular; color:#fff; font-size: 52px;line-height: 53px; padding: 0 10px; letter-spacing: -1px;}
     .hero-title div h3 {color: #fff; font-weight: 700; letter-spacing: 3px; font-size: 18px;}
     .hero-title div p {color: #fff; font-family: 'Playfair Display', serif; font-size: 15px;margin:-15px 0 20px 0;}
     
@@ -116,7 +116,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .price {font-size: 48px;font-weight: 700;margin-top: 50px;font-family:"Helvetica Neue",Helvetica,Roboto,sans-serif;}
 
     .drop-cap p:first-of-type {font-size: 22px;line-height: 30px; font-weight: 500; color:#000; margin:0 auto 40px auto;}
-    .drop-cap p:first-of-type::first-letter {font-size: 100px; float: left; margin:26px 6px 10px 0; font-weight: 500; color: #000;}
+    .drop-cap p:first-of-type::first-letter {font-size: 100px; float: left; margin:24px 6px 10px 0; font-weight: 500; color: #000;}
     
     .further-reading {display: grid; grid-template-columns: 1fr 2fr 2fr 2fr; grid-gap: 20px 20px; max-width: 95%; margin:0 auto; padding:0;}
     .further-reading a {display: block; position: relative; height:40vh;background-color: #222;}
@@ -199,7 +199,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .price {font-size: 40px;}
     
     .drop-cap p:first-of-type {font-size: 20px;line-height: 28px;}
-    .drop-cap p:first-of-type::first-letter {font-size: 90px; margin:28px 6px 10px 0;}
+    .drop-cap p:first-of-type::first-letter {font-size: 95px; margin:20px 6px 10px 0;}
 }
 @media screen and (max-width:790px) { 
 
