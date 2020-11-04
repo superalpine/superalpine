@@ -68,10 +68,13 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     
     .two-col {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 0 10px; max-width: 1100px; margin:0 auto; padding:0; }
     
-    .three-col {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 0 10px; max-width: 95%; margin:0 auto; padding:0; }
-    .three-col a {display: block; position: relative; height: 75vh;}
-    .three-col a:hover{opacity:.8;transition: opacity .4s ease-out;-moz-transition: opacity .4s ease-out;-webkit-transition: opacity .4s ease-out;}
-    .three-col h2 {position: absolute; bottom: 15px; font-size: 38px; padding: 0 20px;color:#fff;}
+    .home div { width: calc(33.3% - 16px);height: 500px; display:inline-flex;}
+    .home div:nth-of-type(2) {margin: 0 20px;}
+    .home div img {height:80%; object-fit: cover;}
+    .home h3 {font-size: 17px; font-weight:600;letter-spacing:normal; margin:15px 0 5px 0;}
+    .home p {max-width: 100%;}
+    .home a {color: #333;}
+    .home a:hover {color: #900;}
     
     .projects {max-width:95%; margin:0 auto; padding:0;display: grid;grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: 1fr 1fr 1fr 1fr 1fr;  grid-gap: 0 40px;}
     .projects a {display: inline-block; position: relative; height: 65vh;}
@@ -175,8 +178,10 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .emp2 { width: 100%;  }
     .emp3 { width: 100%;  }
     
-    .three-col {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 10px;}
-    .three-col a {height: 40vh;}
+    .home div { width: 100%;height: 500px; display:block;}
+    .home div:nth-of-type(2) {width:60%; margin: 0; display:inline-flex;}
+    .home div:nth-of-type(3) {width:38%; margin: 0 0 0 10px; display:inline-flex;}
+
     .further-reading {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 5px;}
     .further-reading a {height:20vh;}
     .further-reading h2 {font-size: 1rem; line-height: 1em;}
@@ -209,7 +214,9 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     header input ~ nav > ul > li {font-size:28px;}
     header input ~ nav > ul > li > a {padding:0;}
     .navfooter {position: absolute; bottom: 35px; left:10px; color: #707070;}    
-   
+    .home div,.home div:nth-of-type(2),.home div:nth-of-type(3) { width: 100%; height: 500px; display:block; margin:0 0 10px 0;}
+  
+
     .hero-box {height: 100vh; max-height: 100%;}
     .hero-image {width: 100%; height: 55vh; float: none;}
     .hero-image img {float: none;}
@@ -218,8 +225,6 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .hero-title div {display:table-cell; vertical-align: middle; text-align: center;}
     .hero-title div h2 {font-size: 40px;line-height: 40px; padding:20px 10px 0 10px;}    
 
-    .three-col {display: grid; grid-template-columns: 1fr; grid-gap: 10px 0;}
-
     .photogrid {display: block;}
     .portrait {flex: 100%; max-width: 100%; height: auto; margin: 0 0 10px 0;}
     .landscape { flex: 100%; max-width: 100%; height: auto;}
@@ -227,6 +232,5 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .portrait-right {flex: 100%; max-width: 100%; height: auto; }
     .landscape-left { flex: 100%; max-width: 100%; height: auto;margin:10px 0;}
     .photogrid figcaption {margin-bottom: 30px;}
-    
     
     }
