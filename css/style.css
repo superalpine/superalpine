@@ -19,9 +19,9 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     small {display: block;margin:10px 0; line-height: 1.4em;}
     blockquote {font-family: 'Playfair Display', serif;font-style: italic;font-size: 20px;line-height: 32px;margin:60px auto; padding:30px; border-top:1px solid #ccc; border-bottom:1px solid #ccc; text-align: center; max-width: 800px; }
     img {width: 100%; max-width: 100%; font-size: 0;}
-    hr {width: 50%; margin:20px auto; background-color: #555; height: 1px; border: none;}
+    hr {width: 50%; margin:20px auto; background-color: #ddd; height: 1px; border: none;}
     video {width: 100%; max-width: 100%; font-size: 0; float: left;}
-    iframe {margin: 20px auto; max-width: 700px; width:100%; height: 450px;display: block;}
+    iframe {margin: 70px auto; max-width: 700px; width:100%; height: 450px;display: block;}
     p+video {padding:15px 0 30px 0;}
     a {color: #900; text-decoration: none;}
     a:hover {color: #000;}
@@ -35,15 +35,15 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     header a, header a:hover {text-decoration: none; border-bottom:none;}
     header h1 a {color: #000; text-decoration: none;background: url(../img/super-alpine.svg) no-repeat center center; height: 70px; width:70px; background-size: cover; display: block;}
     header ul {display: block; float: right;}
-    header ul li {display: inline-block; padding: 25px 0 0 30px; font-size: 15px; text-transform: uppercase;  }
-    header ul li a {color: #111;}
-    header ul li a:hover {color: #900; border-bottom: 1px solid #707070;}
+    header ul li {display: inline-block; padding: 25px 0 0 30px; font-size: 15px; text-transform: uppercase; font-weight: 700; }
+    header ul li a {color: #000;}
+    header ul li a:hover {color: #900;}
     header input {display: none;}
     .navfooter {display: none;}
     
     section {max-width: 95%; margin:0 auto;  padding:20px 0;clear: all;}
     article {margin: 20px 0; padding-bottom: 50px;}
-    figure {max-width: 1100px; margin:50px auto; clear: all;}
+    figure {max-width: 1100px; margin:70px auto 100px auto; clear: all;}
     figcaption {font-family: 'Playfair Display', serif; font-style: italic; font-size: 13px; margin-top: 10px;}
     
     .photogrid {display: flex;flex-wrap: wrap;max-width: 1100px;}
@@ -56,15 +56,12 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     footer {max-width: 95%; height: 70px; padding:20px 0 0 0; clear: both; margin:0 auto;}
     footer small {font-size: 12px;line-height: 17px;margin:0; color: #999;}
     
-    .hero-box {background-color: #222; max-width: 95%; height: 85vh; margin:0 auto;}
-    .hero-image {background-size: cover!important; width: 70%; height: 100%;  float: left; position: relative;}
-    .hero-image img {float: left;}
-    .hero-image figcaption {margin:0; position: absolute; bottom: 10px; left:10px; color: #fff;}
-    .hero-title {width: 30%; height:100%; float: right; display: table;}
-    .hero-title div {display:table-cell; vertical-align: middle; text-align: center;}
-    .hero-title div h2 { color:#fff; font-size: 50px;line-height: 50px; padding: 0 10px;}
-    .hero-title div h3 {color: #fff; font-weight: 700; letter-spacing: 3px; font-size: 18px;}
-    .hero-title div p {color: #fff; font-family: 'Playfair Display', serif; font-size: 15px;margin:-15px 0 20px 0; max-width: 100%;}
+    .hero {text-align: center;}
+    .hero div {margin:-20px auto 50px auto; width: 100%;height: 700px;}
+    .hero h2 {color: #fff; padding: 80px 0 0 0; font-size: 60px; line-height: 1em;text-shadow: 1px 1px 1px rgba(0,0,0,0.4);}
+    .hero h3 {font-size: 24px;}
+    .hero p {font-style: italic; display: block; margin-bottom: 50px;}
+    .hero figcaption {color: #fff;}
     
     .two-col {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 0 10px; max-width: 1100px; margin:0 auto; padding:0; }
     
@@ -185,13 +182,9 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .further-reading {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 5px;}
     .further-reading a {height:20vh;}
     .further-reading h2 {font-size: 1rem; line-height: 1em;}
-
-    .hero-box {height: 85vh; max-height: 500px;}
-    .hero-image {width: 60%;}
-    .hero-title {width: 40%;}
-    .hero-title div h2 {font-size: 50px;line-height: 50px;}
-    .hero-image figcaption {bottom: 40px;}
-
+    
+    .hero div {height: 600px;}
+    
     .store-box {height:auto;}
     .store-box figure {float: none; width: 100%; height: 400px;}
     .store-text {float: none; width: 100%;  text-align: center; padding:45px 0;}
@@ -215,15 +208,9 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     header input ~ nav > ul > li > a {padding:0;}
     .navfooter {position: absolute; bottom: 35px; left:10px; color: #707070;}    
     .home div,.home div:nth-of-type(2),.home div:nth-of-type(3) { width: 100%; height: 500px; display:block; margin:0 0 10px 0;}
-  
 
-    .hero-box {height: 100vh; max-height: 100%;}
-    .hero-image {width: 100%; height: 55vh; float: none;}
-    .hero-image img {float: none;}
-    .hero-image figcaption {bottom: 5px;}
-    .hero-title {width: 100%; height:40vh; float: none; display: table;text-align: center; }
-    .hero-title div {display:table-cell; vertical-align: middle; text-align: center;}
-    .hero-title div h2 {font-size: 40px;line-height: 40px; padding:20px 10px 0 10px;}    
+    .hero div {height: 300px;}
+    .hero h2 {padding: 50px 0 0 0; font-size: 40px;} 
 
     .photogrid {display: block;}
     .portrait {flex: 100%; max-width: 100%; height: auto; margin: 0 0 10px 0;}
