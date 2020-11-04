@@ -35,7 +35,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     header a, header a:hover {text-decoration: none; border-bottom:none;}
     header h1 a {color: #000; text-decoration: none;background: url(../img/super-alpine.svg) no-repeat center center; height: 70px; width:70px; background-size: cover; display: block;}
     header ul {display: block; float: right;}
-    header ul li {display: inline-block; padding: 25px 0 0 30px; font-size: 14px; text-transform: uppercase;  }
+    header ul li {display: inline-block; padding: 25px 0 0 30px; font-size: 15px; text-transform: uppercase;  }
     header ul li a {color: #111;}
     header ul li a:hover {color: #900; border-bottom: 1px solid #707070;}
     header input {display: none;}
@@ -198,11 +198,12 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .drop-cap p:first-of-type::first-letter {font-size: 95px; margin:20px 6px 10px 0;}
 }
 @media screen and (max-width:790px) { 
-
+    h2 {max-width: 85%;}
     p,li {font-size: 15px;max-width:85%;}
-    blockquote {max-width: 80%;font-size: 15px; line-height: 25px;}
+    blockquote {font-size: 16px; line-height: 26px;}
     .drop-cap p:first-of-type {font-size: 18px;line-height: 26px;}
     .drop-cap p:first-of-type::first-letter {font-size: 90px; margin:22px 6px 10px 0;}
+    th,td {width: 50%;}
 
     header input ~ nav > ul {top: 10%;}
     header input ~ nav > ul > li {font-size:28px;}
@@ -225,6 +226,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .photogrid img {height: auto; object-fit: cover;}
     .portrait-right {flex: 100%; max-width: 100%; height: auto; }
     .landscape-left { flex: 100%; max-width: 100%; height: auto;margin:10px 0;}
+    .photogrid figcaption {margin-bottom: 30px;}
     
     
     }
