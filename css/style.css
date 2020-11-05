@@ -204,6 +204,9 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .drop-cap p:first-of-type::first-letter {font-size: 90px; margin:22px 6px 10px 0;}
     th,td {width: 50%;}
 
+    header {height: 100px;}
+    header h1 a {height: 60px; width:60px;}
+
     header input ~ nav > ul {top: 10%;}
     header input ~ nav > ul > li {font-size:28px;}
     header input ~ nav > ul > li > a {padding:0;}
@@ -211,12 +214,8 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .home div,.home div:nth-of-type(2),.home div:nth-of-type(3) { width: 100%; height: 500px; display:block; margin:0 0 10px 0;}
 
     .hero {padding: 10px 0 0 0;}
-    .hero h2 {font-size: 40px;}
-    .hero h3 {font-size: 18px;letter-spacing:1px; font-weight: 400;}
-    .hero p {font-style: italic;  margin:0 auto 60px auto;color: #999;}
-    .hero hr {background-color: #999; height: 3px; width: 200px;}
+    .hero h2 {font-size: 60px; line-height: 60px; padding: 0 5px;}
     .hero img {max-width: 100%; padding: 0; margin-bottom: -3px;}
-    .hero figcaption {color: #999;}
 
     .photogrid {display: block;}
     .portrait {flex: 100%; max-width: 100%; height: auto; margin: 0 0 10px 0;}
