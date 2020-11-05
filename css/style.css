@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+@font-face {font-family: "MFred"; src:url("../fonts/MFred.woff2") format("woff2"); font-stretch: normal; font-weight: normal;}
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video 
     {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
     html,body {width: 100%; height: 100%;}
     body{background:#fff; color:#222; font-family:"Helvetica Neue",Helvetica,Roboto,sans-serif; font-weight: normal;font-stretch: normal;}
     h1,h2,h3,h4,h5,h6 
-    {color: #000; text-transform: uppercase; font-weight: 700;margin:0 auto 20px auto; max-width: 600px;}
+    {color: #000; text-transform: uppercase; font-weight: 600;margin:0 auto 20px auto; max-width: 600px;}
     h1 {font-size: 60px; line-height: 55px;}
-    h2 {font-size: 44px; line-height: 44px; letter-spacing: -1px;}
+    h2 {font-size: 44px; line-height: 44px; letter-spacing: -1px; }
     h3 {font-size: 30px;}
     h4 {font-size: 24px;}
     h5 {font-size: 18px;}
@@ -57,7 +58,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     footer small {font-size: 12px;line-height: 17px;margin:0; color: #999;}
     
     .hero {text-align: center;  background-color: #222; margin-bottom: 40px;}
-    .hero h2 {font-size: 60px; line-height: 1em; margin:0 auto 10px auto; color: #fff;}
+    .hero h2 {font-size: 120px; line-height:110px; margin:0 auto 10px auto; color: #fff;font-family: MFred; max-width: 800px;}
     .hero h3 {font-size: 17px; color: #fff; padding-bottom: 20px; }
     .hero h6 {color: #999; font-weight: 500; font-size: 13px;margin:40px auto 10px auto; }
     .hero p {font-style: italic; color: #999; font-size: 18px;}
