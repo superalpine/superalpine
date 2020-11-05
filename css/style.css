@@ -58,7 +58,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     footer small {font-size: 12px;line-height: 17px;margin:0; color: #999;}
     
     .hero {text-align: center;  background-color: #222; margin-bottom: 40px;}
-    .hero h2 {font-size: 120px; line-height:110px; margin:0 auto 10px auto; color: #fff;font-family: MFred; max-width: 800px;}
+    .hero h2 {font-size: 120px; line-height:110px; margin:0 auto 10px auto; color: #fff;font-family: MFred; max-width: 800px; font-weight: normal;}
     .hero h3 {font-size: 17px; color: #fff; padding-bottom: 20px; }
     .hero h6 {color: #999; font-weight: 500; font-size: 13px;margin:40px auto 10px auto; }
     .hero p {font-style: italic; color: #999; font-size: 18px;}
