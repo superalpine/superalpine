@@ -26,7 +26,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     p+video {padding:15px 0 30px 0;}
     a {color: #900; text-decoration: none;}
     a:hover {color: #000;}
-
+   
     table{max-width:700px; width: 100%; margin: 50px auto; border-top: 1px dashed #ccc;}
     th{font-size:14px;text-align: right; padding: 10px 10px 10px 0; border-bottom: 1px dashed #ccc; font-weight: 400; width: 40%; text-transform: uppercase;}
     td{font-size:14px;text-align: left; padding: 10px 0 10px 10px; border-bottom: 1px dashed #ccc; font-weight: 600;}
@@ -67,7 +67,11 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .hero figcaption {color: #999;}
 
     .two-col {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 0 10px; max-width: 1100px; margin:0 auto; padding:0; }
-    
+    .three-col {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:90px; margin:0 auto; background-color: #222; padding: 50px;color: #fff;}
+    .three-col h5 {color: #fff;}
+    .three-col a {color: #fff; border-bottom: 2px solid #900;}
+    .three-col a:hover {color: #ccc;border-bottom: 2px solid #fff;}
+
     .home div { width: calc(33.3% - 16px);height: 500px; display:inline-flex;}
     .home div:nth-of-type(2) {margin: 0 20px;}
     .home div img {height:80%; object-fit: cover;}
