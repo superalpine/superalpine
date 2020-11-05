@@ -19,7 +19,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     small {display: block;margin:10px 0; line-height: 1.4em;}
     blockquote {font-family: 'Playfair Display', serif;font-style: italic;font-size: 20px;line-height: 32px;margin:60px auto; padding:30px; border-top:1px solid #ccc; border-bottom:1px solid #ccc; text-align: center; max-width: 800px; }
     img {width: 100%; max-width: 100%; font-size: 0;}
-    hr {width: 50%; margin:20px auto; background-color: #ddd; height: 1px; border: none;}
+    hr {width:50%; margin:20px auto; background-color: #ddd; height: 1px; border: none;}
     video {width: 100%; max-width: 100%; font-size: 0; float: left;}
     iframe {margin: 70px auto; max-width: 700px; width:100%; height: 450px;display: block;}
     p+video {padding:15px 0 30px 0;}
@@ -56,13 +56,15 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     footer {max-width: 95%; height: 70px; padding:20px 0 0 0; clear: both; margin:0 auto;}
     footer small {font-size: 12px;line-height: 17px;margin:0; color: #999;}
     
-    .hero {text-align: center;}
-    .hero div {margin:-20px auto 50px auto; width: 100%;height: 700px;}
-    .hero h2 {color: #fff; padding: 80px 0 0 0; font-size: 60px; line-height: 1em;text-shadow: 1px 1px 1px rgba(0,0,0,0.4);}
-    .hero h3 {font-size: 24px;}
-    .hero p {font-style: italic; display: block; margin-bottom: 50px;}
-    .hero figcaption {color: #fff;}
-    
+    .hero {text-align: center;  background-color: #222; margin-bottom: 40px;}
+    .hero h2 {font-size: 60px; line-height: 1em; margin:0 auto 10px auto; color: #fff;}
+    .hero h3 {font-size: 17px; color: #fff; padding-bottom: 20px; }
+    .hero h6 {color: #999; font-weight: 500; font-size: 13px;margin:40px auto 10px auto; }
+    .hero p {font-style: italic; color: #999; font-size: 18px;}
+    .hero hr {background-color: #999; height: 3px; width: 200px;}
+    .hero img {max-width: 1140px;  padding: 0 20px 40px 20px;}
+    .hero figcaption {color: #999;}
+
     .two-col {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 0 10px; max-width: 1100px; margin:0 auto; padding:0; }
     
     .home div { width: calc(33.3% - 16px);height: 500px; display:inline-flex;}
@@ -183,8 +185,6 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .further-reading a {height:20vh;}
     .further-reading h2 {font-size: 1rem; line-height: 1em;}
     
-    .hero div {height: 600px;}
-    
     .store-box {height:auto;}
     .store-box figure {float: none; width: 100%; height: 400px;}
     .store-text {float: none; width: 100%;  text-align: center; padding:45px 0;}
@@ -209,8 +209,13 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .navfooter {position: absolute; bottom: 35px; left:10px; color: #707070;}    
     .home div,.home div:nth-of-type(2),.home div:nth-of-type(3) { width: 100%; height: 500px; display:block; margin:0 0 10px 0;}
 
-    .hero div {height: 300px;}
-    .hero h2 {padding: 50px 0 0 0; font-size: 40px;} 
+    .hero {padding: 10px 0 0 0;}
+    .hero h2 {font-size: 40px;}
+    .hero h3 {font-size: 18px;letter-spacing:1px; font-weight: 400;}
+    .hero p {font-style: italic;  margin:0 auto 60px auto;color: #999;}
+    .hero hr {background-color: #999; height: 3px; width: 200px;}
+    .hero img {max-width: 100%; padding: 0; margin-bottom: -3px;}
+    .hero figcaption {color: #999;}
 
     .photogrid {display: block;}
     .portrait {flex: 100%; max-width: 100%; height: auto; margin: 0 0 10px 0;}
