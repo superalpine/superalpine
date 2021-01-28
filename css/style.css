@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
 @font-face {font-family: "MFred"; src:url("../fonts/MFred.woff2") format("woff2"); font-stretch: normal; font-weight: normal;}
+@font-face {font-family: 'DIN';src: url('../fonts/din-bold-webfont.woff') format('woff');}
+@font-face {font-family: 'DIN-Regular';src: url('../fonts/din-regular-webfont.woff') format('woff');}
+
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video 
     {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
     html,body {width: 100%; height: 100%;}
@@ -17,7 +20,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     ul,ol {margin:0 auto 25px auto;max-width: 600px;}
     li {list-style-type: square; font-size: 15px; line-height: 23px;  margin:0 0 10px 20px;}
     b {font-weight: bold;}
-    small {display: block;margin:10px 0; line-height: 1.4em;}
+    small {display: block;margin:10px auto; line-height: 1.4em;max-width: 600px;}
     blockquote {font-family: 'Playfair Display', serif;font-style: italic;font-size: 20px;line-height: 32px;margin:60px auto; padding:30px; border-top:1px solid #ccc; border-bottom:1px solid #ccc; text-align: center; max-width: 800px; }
     img {width: 100%; max-width: 100%; font-size: 0;}
     hr {width:50%; margin:20px auto; background-color: #ddd; height: 1px; border: none;}
@@ -71,14 +74,6 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .three-col h5 {color: #fff;}
     .three-col a {color: #fff; border-bottom: 2px solid #999; padding-bottom: 2px;}
     .three-col a:hover {color: #ccc;border-bottom: 2px solid #c00;}
-
-    .home div { width: calc(33.3% - 16px);height: 500px; display:inline-flex;}
-    .home div:nth-of-type(2) {margin: 0 20px;}
-    .home div img {height:80%; object-fit: cover;}
-    .home h3 {font-size: 17px; font-weight:600;letter-spacing:normal; margin:15px 0 5px 0;}
-    .home p {max-width: 100%;}
-    .home a {color: #333; border:none;}
-    .home a:hover {color: #900; border:none;}
     
     .projects {max-width:95%; margin:0 auto; padding:0;display: grid;grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: 1fr 1fr 1fr 1fr 1fr;  grid-gap: 0 40px;}
     .projects a {display: inline-block; position: relative; height: 65vh;}
@@ -109,14 +104,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .aosta { grid-area: 5 / 3 / 6 / 4; }
     .giger { grid-area: 5 / 4 / 6 / 5; }
     
-    .store-box {background-color: #222;color:#fff; max-width: 1100px;margin: 10px auto 50px auto; height:500px;}
-    .store-box figure {float: left; width: 55%; height: 100%; margin: 0; }
-    .store-text {float: right; width: 45%;  text-align: center; padding:45px 0;}
-    .store-text h3 {color: #fff;font-size: 30px;}
-    .store-text h4 {color: #fff;font-weight: 700; letter-spacing: 3px; font-size: 18px;}
-    .store-text form {margin:20px auto -10px auto;}
-    .store-text a {color: #fff;}
-    .price {font-size: 48px;font-weight: 700;margin-top: 50px;font-family:"Helvetica Neue",Helvetica,Roboto,sans-serif;}
+    .price {font-family:"Helvetica Neue",Helvetica,Roboto,sans-serif;font-size: 48px; margin:15px auto 20px auto;font-weight: 700;max-width: 600px;}
 
     .drop-cap p:first-of-type {font-size: 22px;line-height: 30px; font-weight: 500; color:#000; margin:0 auto 40px auto;}
     .drop-cap p:first-of-type::first-letter {font-size: 100px; float: left; margin:24px 6px 10px 0; font-weight: 500; color: #000;}
@@ -127,13 +115,31 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .further-reading h2 {position: absolute; bottom: 0; font-size: 24px; line-height: 26px; font-weight: 700;padding:0 15px;color:#fff;}
     .sa-header {margin: -20px 0 20px 0;}
 
+    .book-hero {width: 100vw; height: 80vh; background:url(../projects/chamonix-travel-guide-book/img/bg.jpg) center center;background-size: cover; margin:0 auto; }
+    .book-hero h1 {font-family:DIN, sans-serif; font-size: 55px; font-weight: normal;line-height: 1.1em; letter-spacing: 1px; color:#fff;text-shadow: 0px 0px 0 rgb(135,-81,0), 1px 1px  0 rgb(40,-176,0), 2px 2px 1px rgba(0,0,0,0), 2px 2px 1px rgba(0,0,0,0.5); margin: 0;}
+    .book-hero-text h2 {font-family: 'DIN-Regular'; color:#fff; font-size: 24px; line-height: 36px;  margin:10px 0;}
+    .book-hero h4 {font-family: 'DIN';color: #fff;font-size: 16px; line-height: 26px; margin: 20px 0 20px 0; letter-spacing: 0;font-weight: normal;}
+    .book-hero figure {width:40%; height: 100%; float: right; background:url(../projects/chamonix-travel-guide-book/img/cover.png) no-repeat center center; background-size: contain; margin:0;padding: 0;}
+    .cdt-hero {background:url(https://andrewrevitt.com/img/cdt-bg.jpg) center center;background-size: cover;height: 50vh;}
+    .matterhorn-hero {background:url(https://andrewrevitt.com/img/matterhorn-bg.jpg) center center;background-size: cover;height: 50vh;}
+    .cdt-image {width:30%; height: 70%; float: right; background:url(https://andrewrevitt.com/img/cdt-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 99;}
+    .matterhorn-image {width:35%; height: 70%; float: right; background:url(https://andrewrevitt.com/img/matterhorn-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 99;}
+    .book-hero-text {width: 40%; height: 100%; display: table; float: left; padding: 0 0 0 70px; }
+    .book-hero-text div {display: table-cell; vertical-align: middle; color: #fff; }
+    .book-hero button {color: #fff;background-color:#B60E0B; border: 1px solid #B60E0B; padding:10px 20px; text-align: center; cursor: pointer;font-family: 'DIN-Regular';}
+    .book-hero figure a {display: block; width: 100%; height: 100%;border:none;}
+    .book-hero figure a:hover {border:none;}
+    
+    
     form {max-width: 600px;margin:0 auto;}
     select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip: padding-box;background-image:url(../img/arrow.png);background-position: right;background-repeat: no-repeat;background-size: contain;color: #222;background-color: #fff;border: 1px solid #ccc;border-radius: 3px;cursor: default;display: block;font-family:"Helvetica Neue",Helvetica,Roboto,sans-serif;font-size: 14px;font-weight: normal;line-height: 16px;margin:0 0 20px 0;padding:5px 30px 5px 10px;text-transform: uppercase;white-space: nowrap;width: 280px;height: 40px;outline: none;}
     input[type='email'], input[type='text']  {display: block;font-size:16px;line-height:16px;border:2px solid #ccc;background-color: #fff;width:95%;padding:10px;margin:20px 0;text-align: left;text-transform: none;font-weight: normal;}
     input:focus, input:hover {border:2px solid #c00; outline: none;transition: all .3s ease 0s;}
-    button, .button {font-family:"Helvetica Neue",Helvetica,Roboto,sans-serif;font-size: 14px;line-height:1em;font-weight: 500;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 20px; color: #000;background-color:#fff;z-index:0;text-align: center;overflow: hidden; border: 1px solid #ccc; border-radius: 3px; margin:0 auto; cursor: pointer;}
+    button, .button {font-family:"Helvetica Neue",Helvetica,Roboto,sans-serif;font-size: 15px;line-height:1em;font-weight: 500;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 20px; color: #fff;background-color:#222;z-index:0;text-align: center;overflow: hidden; border: 1px solid #222; border-radius: 3px; margin:0 auto; cursor: pointer;}
     
-    button:hover, .button:hover {color:#fff;background-color: #c00;}
+    button:hover, .button:hover {color:#fff;background-color: #c00;border: 1px solid #c00;}
+
+    #c1,#c2,#c3,#c4 {display: none}
     
 @media screen and (max-width:1111px) { 
     header input {display: none;}
@@ -182,23 +188,16 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .aosta { width: 46%; float: right;  }
     .giger { width: 100%;  }
     
-    .home div { width: 100%;height: 500px; display:block;}
-    .home div:nth-of-type(2) {width:60%; margin: 0; display:inline-flex;}
-    .home div:nth-of-type(3) {width:38%; margin: 0 0 0 10px; display:inline-flex;}
 
     .further-reading {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 5px;}
     .further-reading a {height:20vh;}
     .further-reading h2 {font-size: 1rem; line-height: 1em;}
     
-    .store-box {height:auto;}
-    .store-box figure {float: none; width: 100%; height: 400px;}
-    .store-text {float: none; width: 100%;  text-align: center; padding:45px 0;}
-    .store-text h3 {font-size: 26px;}
-    .store-text h4 {font-size: 16px;}
-    .price {font-size: 40px;}
-    
     .drop-cap p:first-of-type {font-size: 20px;line-height: 28px;}
     .drop-cap p:first-of-type::first-letter {font-size: 95px; margin:20px 6px 10px 0;}
+
+    .book-hero h1 {font-family:DIN, sans-serif; font-size: 40px; font-weight: normal;line-height: 1.1em; letter-spacing: 1px; color:#fff;text-shadow: 0px 0px 0 rgb(135,-81,0), 1px 1px  0 rgb(40,-176,0), 2px 2px 1px rgba(0,0,0,0), 2px 2px 1px rgba(0,0,0,0.5); margin: 0;}
+
 }
 @media screen and (max-width:790px) { 
     h2,h3 {max-width: 85%;}
@@ -220,9 +219,6 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .three-col {display: block;  padding: 30px;}
     .three-col p, .three-col h5 {max-width:100%;}
 
-    .hero {padding: 10px 0 0 0;}
-    .hero h2 {font-size: 60px; line-height: 60px; padding: 0 5px;}
-    .hero img {max-width: 100%; padding: 0; margin-bottom: -3px;}
 
     .photogrid {display: block;}
     .portrait {flex: 100%; max-width: 100%; height: auto; margin: 0 0 10px 0;}
@@ -231,5 +227,19 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .portrait-right {flex: 100%; max-width: 100%; height: auto; }
     .landscape-left { flex: 100%; max-width: 100%; height: auto;margin:10px 0;}
     .photogrid figcaption {margin-bottom: 30px;}
+
+    .book-hero {width: 100vw; height: auto; background:url(../projects/chamonix-travel-guide-book/img/bg.jpg) center center;background-size: cover; margin:0 auto; }
+    .book-hero h1 {font-family:DIN, sans-serif; font-size: 36px; font-weight: normal;line-height: 1.1em; letter-spacing: 1px; color:#fff;text-shadow: 0px 0px 0 rgb(135,-81,0), 1px 1px  0 rgb(40,-176,0), 2px 2px 1px rgba(0,0,0,0), 2px 2px 1px rgba(0,0,0,0.5); margin: 0;}
+    .book-hero h2 {font-family: 'DIN-Regular'; color:#fff; font-size: 22px; line-height: 30px;  margin:10px 0;}
+    .book-hero h4 {font-family: 'DIN';color: #fff;font-size: 16px; line-height: 26px; margin: 20px 0 20px 0; letter-spacing: 0;font-weight: normal;}
+    .book-hero figure {width:100%; height: 400px; float: none; background:url(../projects/chamonix-travel-guide-book/img/cover.png) no-repeat center center; background-size: contain; margin:0;padding: 0;}
+    .cdt-hero {background:url(https://andrewrevitt.com/img/cdt-bg.jpg) center center;background-size: cover;height: auto;}
+    .matterhorn-hero {background:url(https://andrewrevitt.com/img/matterhorn-bg.jpg) center center;background-size: cover;height: auto;}
+    .cdt {width:100%; height: 200px; float:none; background:url(https://andrewrevitt.com/img/cdt-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 99;}
+    .matterhorn {width:100%; height: 200px; float:none; background:url(https://andrewrevitt.com/img/matterhorn-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 99;}
+   
+    .book-hero-text {width: 100%; height: auto; display: block; float: none; padding: 0 30px; }
+    .book-hero-text div {display: table-cell; vertical-align: middle; color: #fff; }
+    .book-hero p, .cdt-hero p, .matterhorn-hero p {max-width: 100%;}
     
     }
