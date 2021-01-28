@@ -1,26 +1,15 @@
-$(document).ready(function(){
-    $("#Delivery").change(function () {
-        $(this).find("option:selected").each(function(){
-            if($(this).attr("value")=="UK"){
-                $(".payment-button").not(".UK").hide();
-                $(".UK").show();
-            }
-            else if($(this).attr("value")=="Europe"){
-                $(".payment-button").not(".Europe").hide();
-                $(".Europe").show();
-            }
-            else if($(this).attr("value")=="USA"){
-                $(".payment-button").not(".USA").hide();
-                $(".USA").show();
-            }
-             else if($(this).attr("value")=="ROW"){
-                $(".payment-button").not(".ROW").hide();
-                $(".ROW").show();
-            }
-            
-            else{
-                $(".payment-button").hide();
-            }
-        });
-    }).change();
-});
+function showDivs(prefix,chooser) {
+        for(var ary=[],i=0;i<chooser.options.length;i++) {
+                var div = document.getElementById(prefix+chooser.options[i].value);
+                div.style.display ='none';
+              if (chooser.options[i].selected) ary.push(chooser.options[i])
+
+        }
+ for (var div,z0=0;z0<ary.length;z0++){
+  div=document.getElementById(prefix+ary[z0].value);
+  if (div) div.style.display = 'block';
+ }
+}
+window.onload=function() {
+  document.getElementById('selectedOptions').value='0';//set value to your default
+}
