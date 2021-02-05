@@ -200,8 +200,9 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
 
 }
 @media screen and (max-width:790px) { 
-    h2,h3 {max-width: 85%;}
+    h2,h3,form,ul,.price, small {max-width: 85%;}
     p,li {font-size: 15px;max-width:85%;}
+
     blockquote {font-size: 16px; line-height: 26px;}
     .drop-cap p:first-of-type {font-size: 18px;line-height: 26px;}
     .drop-cap p:first-of-type::first-letter {font-size: 90px; margin:22px 6px 10px 0;}
@@ -235,8 +236,8 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .book-hero figure {width:100%; height: 400px; float: none; background:url(../projects/chamonix-travel-guide-book/img/cover.png) no-repeat center center; background-size: contain; margin:0;padding: 0;}
     .cdt-hero {background:url(https://andrewrevitt.com/img/cdt-bg.jpg) center center;background-size: cover;height: auto;}
     .matterhorn-hero {background:url(https://andrewrevitt.com/img/matterhorn-bg.jpg) center center;background-size: cover;height: auto;}
-    .cdt {width:100%; height: 200px; float:none; background:url(https://andrewrevitt.com/img/cdt-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 99;}
-    .matterhorn {width:100%; height: 200px; float:none; background:url(https://andrewrevitt.com/img/matterhorn-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 99;}
+    .cdt-image {width:100%; height: 200px; float:none; background:url(https://andrewrevitt.com/img/cdt-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 99;}
+    .matterhorn-image {width:100%; height: 200px; float:none; background:url(https://andrewrevitt.com/img/matterhorn-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 99;}
    
     .book-hero-text {width: 100%; height: auto; display: block; float: none; padding: 0 30px; }
     .book-hero-text div {display: table-cell; vertical-align: middle; color: #fff; }
