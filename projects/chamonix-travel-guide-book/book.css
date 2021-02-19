@@ -15,7 +15,7 @@ html, body {height: 100%;}
 body{font-family:"Helvetica Neue", Helvetica, Roboto, sans-serif; font-weight: normal;font-stretch: normal; font-size:16px; line-height: 1.6em; background-color: #fff; color: #111;}
 img {width: 100%; max-width: 100%;}
 header{ color:#fff; position: relative; overflow: hidden;} 
-header h1 {font-size: 60px; line-height: 1em; font-family: DIN; text-transform: uppercase; letter-spacing: 2px; color: #fff;}
+header h1 {font-size: 60px; line-height: 1em; font-family: DIN; text-transform: uppercase; letter-spacing: 5px; color: #fff;}
 header h2 {font-size: 20px; font-weight: 300;margin-bottom: 50px; }
 video {width: 100vw; height: auto;margin: auto;display: block;z-index: 1;position: absolute;}
 section {width: 100vw; height: 100vh; position: relative;}
@@ -29,19 +29,18 @@ small {display: block; font-size: 13px;}
 ul {margin: 20px;}
 h1, h2, h3, h4, h5, h6 
 {font-family:DIN, sans-serif;line-height: 1.1em; text-transform: uppercase; font-weight: normal;}
-h1 {font-size: 40px; line-height: 1.1em; letter-spacing: 1px;text-shadow: 0px 0px 0 rgb(135,-81,0), 1px 1px  0 rgb(40,-176,0), 2px 2px 1px rgba(0,0,0,0), 2px 2px 1px rgba(0,0,0,0.5);}
 h2 {font-size: 28px; line-height: 36px; font-family: 'DIN-Regular'; margin:5px 0 10px 0;}
 h3 {font-size: 23px; line-height: 28px; margin: 20px 0 10px 0;}
 h4 {font-size: 19px; line-height: 26px; margin: 20px 0 20px 0;}
 h5 {font-size: 16px; line-height: 24px; margin: 20px 0 10px 0;}
 a {color: #B60E0B; text-decoration: none;}
-a:hover {color:#191E3C;}
+a:hover {color:#15254C;}
 input, select {font-size: 14px;font-weight: 500;text-transform: uppercase;border-radius: 3px;text-transform: uppercase;  height: 35px;  overflow: hidden;  outline: none; }
 button, .button {font-family:'DIN-Regular',sans-serif;font-size: 15px;line-height:1em;font-weight: 500;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 20px; color: #fff;background-color:#c00;z-index:0;text-align: center;overflow: hidden; border: 1px solid #c00; border-radius: 3px; margin:0 auto; cursor: pointer;}
-button:hover, .button:hover {color:#fff;background-color: #191E3C;border: 1px solid #191E3C;}
+button:hover, .button:hover {color:#fff;background-color: #15254C;border: 1px solid #15254C;}
 select  {color: #222; background-color: #fff; border: 1px solid #ccc; margin-top: -10px;
   -webkit-appearance: none;-webkit-box-direction: normal; background-clip: padding-box; background-image:url(../../img/arrow.png);background-position: right;background-repeat: no-repeat;background-size: contain; display: block;padding:5px 30px 5px 10px;white-space: nowrap; width: 280px;cursor:default;}
-.logo {width: 70px; height: 70px; position: absolute; z-index: 999; top:30px; left: 70px; background:rgba(9,20,50,0.5);}
+.logo {width: 70px; height: 70px; position: absolute; z-index: 999; top:30px; left: 70px; background:rgba(21,37,76,0.5);}
 .logo:hover { background:#f00;transition: background-color 0.5s ease;}
 .price {font-family:"Helvetica Neue",Helvetica,Roboto,sans-serif;font-size: 48px; margin:15px 0 20px 0;font-weight: 700;}
 .red {color: #B60E0B;}
