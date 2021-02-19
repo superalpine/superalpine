@@ -58,12 +58,15 @@ select  {color: #222; background-color: #fff; border: 1px solid #ccc; margin-top
 .gradient {width: 100vw;height: 100vh;min-height: 100%;object-fit: cover;position: relative;z-index: 2;
 	background: linear-gradient(90deg,rgba(5,0,20,.7),transparent);}
 .dark-bg {background: linear-gradient(110deg, rgb(10, 12, 27) 0%, rgb(37, 45, 68) 100%);; margin:0 auto;  color: #fff;}
-.quote {font-size: 30px;line-height: 44px; text-align: center; color: #fff;z-index: 99;position: relative;}
 .book-cover {width:40%; height: 100%; float: right; background:url(img/cover.png) no-repeat center center; background-size: contain;z-index: 99;position: relative;}
 .book-text {height: auto; padding: 50px 0;}
 .icon-scroll,.icon-scroll:before {position: absolute;left: 50%;z-index: 999;}
 .icon-scroll {width: 40px;height: 70px;margin-left: -20px;top: 90%;margin-top: -35px;box-shadow: inset 0 0 0 1px #fff;border-radius: 25px;}
 .icon-scroll:before { content: ''; width: 8px; height: 8px; background: #fff; margin-left: -4px; top: 8px; border-radius: 4px; -webkit-animation-duration: 1.5s;          animation-duration: 1.5s;  -webkit-animation-iteration-count: infinite;          animation-iteration-count: infinite;  -webkit-animation-name: scroll;          animation-name: scroll;}
+.social {width: 80vw;}
+.social div {width: 23%; float: left; margin-right: 1%;}
+.social div img {width: 100%;}
+.social div p {display: block; clear: left; font-family: 'DIN-Regular'; font-size: 12px;}
 }
 
 @media (min-aspect-ratio: 16/9) {
@@ -81,9 +84,9 @@ select  {color: #222; background-color: #fff; border: 1px solid #ccc; margin-top
 .dark-bg {height: auto; }
 .left-text {width: 100%; height: auto; display: block; float: none; padding: 0 20px;}
 .right-text {float: none; width: 100%; padding:20px;}
-.quote {padding:20px;}
 .book-cover {width:100%; height: 400px; float: right; background:url(img/cover.png) no-repeat center center; background-size: contain;z-index: 99;position: relative;}
 .dark-bg .gradient {display: none;}
+.center-text {font-size: 22px; line-height: 32px;}
 figure {width: 100vw; height: auto; position: relative; margin: 10px auto; clear: all;}
 figure img {float: none; width: 100%;margin-bottom: 0;}
 figure img:first-of-type {margin-left:0;float:none;}
