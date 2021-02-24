@@ -12,7 +12,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
 {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 html {scroll-behavior: smooth;}
 html, body {height: 100%;}
-body{font-family:"Helvetica Neue", Helvetica, Roboto, sans-serif; font-weight: normal;font-stretch: normal; font-size:16px; line-height: 1.6em; background-color: #fff; color: #222;}
+body{font-family: 'Playfair Display', serif; font-weight: normal;font-stretch: normal; font-size:16px; line-height: 1.6em; background-color: #fff; color: #222;}
 img {width: 100%; max-width: 100%;}
 header{ color:#fff; position: relative; overflow: hidden;} 
 header h1 {font-size: 60px; line-height: 1em; font-family: DIN; text-transform: uppercase; letter-spacing: 5px; color: #fff;}
@@ -26,9 +26,15 @@ figure img:first-of-type {margin-left: 1%;float: left}
 .three img:nth-of-type(2) {margin:0 1%;}
 .three img:last-of-type {float: right;}
 
-footer {clear: all; width: 95vw; margin: 0 auto; padding:0 0 20px 0;}
-footer b {font-size: 12px; text-transform: uppercase;font-weight: normal;}
-p,li {margin:10px 0 20px 0; font-family: 'Playfair Display', serif;font-size: 16px; line-height: 24px;}
+ footer {max-width:1600px; margin:100px auto;clear: all;  }
+    footer .three-col {padding:50px 50px 50px 30px; background-color: #001233;clear: all; color: #ccc; font-size: 13px; line-height: 20px;}
+    footer img {width: 90px;}
+    footer .three-col a {color: #bbb; border-bottom: 1px solid #bbb!important;}
+    footer .three-col a:hover {color: #fff!important; border-bottom: none;}
+    .three-col {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:20px 50px; margin:0 auto; padding:20px;}
+    .three-col div a {border:none;}
+    
+p,li {margin:10px 0 20px 0; font-size: 16px; line-height: 24px;}
 small {display: block; font-size: 13px;}
 ul {margin: 20px;}
 h1, h2, h3, h4, h5, h6 
@@ -96,7 +102,8 @@ figure img:first-of-type {margin-left:0;float:none;}
 .three img {float: none; width: 100%;margin-bottom: 0;}
 .three img:nth-of-type(2) {margin:0;}
 .three img:last-of-type {float: none;}
-
+ .three-col {display: block;}
+    footer .three-col div {padding: 0 0 20px 0}
 
 }
 @supports (-webkit-touch-callout: none) {
