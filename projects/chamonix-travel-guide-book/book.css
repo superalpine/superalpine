@@ -44,14 +44,14 @@ h3 {font-size: 23px; line-height: 28px; margin: 20px 0 10px 0;}
 h4 {font-size: 19px; line-height: 26px; margin: 20px 0 20px 0;}
 h5 {font-size: 16px; line-height: 24px; margin: 20px 0 10px 0;}
 a {color: #222; text-decoration: none;border-bottom: 2px solid #b00;}
-    a:hover {color: #000; border-bottom: 2px solid #E20613;}
+a:hover {color: #000; border-bottom: 2px solid #f00;}
 input, select {font-size: 14px;font-weight: 500;text-transform: uppercase;border-radius: 3px;text-transform: uppercase;  height: 35px;  overflow: hidden;  outline: none; }
 button, .button {font-family:'DIN-Regular',sans-serif;font-size: 15px;line-height:1em;font-weight: 500;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 20px; color: #fff;background-color:#c00;z-index:0;text-align: center;overflow: hidden; border: 1px solid #c00; border-radius: 3px; margin:0 auto; cursor: pointer;}
 button:hover, .button:hover {color:#fff;background-color: #15254C;border: 1px solid #15254C;}
 select  {color: #222; background-color: #fff; border: 1px solid #ccc; margin-top: -10px;
   -webkit-appearance: none;-webkit-box-direction: normal; background-clip: padding-box; background-image:url(../../img/arrow.png);background-position: right;background-repeat: no-repeat;background-size: contain; display: block;padding:5px 30px 5px 10px;white-space: nowrap; width: 280px;cursor:default;}
 .logo {width: 70px; height: 70px; position: absolute; z-index: 999; top:30px; left: 70px; background:#E20613;}
-.logo:hover { background:#101040;transition: background-color 0.5s ease;}
+.logo:hover { background:#000;transition: background-color 0.5s ease;}
 .price {font-family:"Helvetica Neue",Helvetica,Roboto,sans-serif;font-size: 48px; margin:15px 0 20px 0;font-weight: 700;}
 .red {color: #E20613;}
 .arete {background: url(../chamonix/arete.jpg) center center;background-size: cover;background-attachment: fixed;}

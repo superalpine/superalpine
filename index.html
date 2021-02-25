@@ -5,91 +5,65 @@
 <meta charset="utf-8">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 <link rel="canonical" href="https://superalpine.co">
-<meta name="description" content="Super Alpine explore the alpine landscapes, creating original online and printed content. Founded in Chamonix, France we've spent the last 20 years touring the Alps from its highest mountains to the Mediterranean sea.">
+<meta name="description" content="Super Alpine Haute Montagne. Get the Chamonix Mont Blanc Travel Guide and read about the best of the Alps featuring the Col du Turini, Zermatt Matterhorn, Monaco, the Alpes-Maritimes and more.">
 <meta property="og:title" content="Super Alpine">
-<meta property="og:description" content="Super Alpine explore the alpine landscapes, creating original online and printed content. Founded in Chamonix, France we've spent the last 20 years touring the Alps from its highest mountains to the Mediterranean sea.">
+<meta property="og:description" content="Super Alpine Haute Montagne. Get the Chamonix Mont Blanc Travel Guide and read about the best of the Alps featuring the Col du Turini, Zermatt Matterhorn, Monaco, the Alpes-Maritimes and more.">
 <meta property="og:site_name" content="Super Alpine">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://superalpine.co">
 <meta property="og:image" content="https://superalpine.co/img/og.jpg">
 <link rel="apple-touch-icon" sizes="180x180" href="https://superalpine.co/img/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://superalpine.co/img//favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://superalpine.co/img//favicon-16x16.png">
-<link rel="mask-icon" href="https://superalpine.co/img/safari-pinned-tab.svg" color="#000000">
-<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/png" href="https://superalpine.co/img/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="https://superalpine.co/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://superalpine.co/img/favicon-16x16.png" sizes="16x16">
+<link rel="mask-icon" href="https://superalpine.co/img/safari-pinned-tab.svg" color="#E20613">
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+@font-face {font-family: 'DIN';src: url('fonts/din-bold-webfont.woff') format('woff');}
+@font-face {font-family: 'DIN-Regular';src: url('fonts/din-regular-webfont.woff') format('woff');}
+html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video 
+{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+html,body {width: 100%; height: 100%;}
+body{background:#fff; color:#222; font-family: 'Playfair Display', serif; font-weight: normal;font-stretch: normal;}
+body {background:#001233 url(projects/chamonix-travel-guide-book/img/hero-bg.jpg) center center no-repeat;background-size:cover;}
+header h1 {font-size:0;margin:0;width: 0;height: 0; position: absolute; top:50px; left: 50px; }
+header h1 a {height: 70px; width:70px; display: block; background:#E20613 url(img/super-alpine.png) no-repeat center center;background-size: cover; }
+header h1 a:hover {background:#000 url(img/super-alpine.png) no-repeat center center;background-size: cover;}
+header p {font-size: 16px; line-height: 25px; position: absolute; top:40px; right:20px;}
+header p a {padding:20px;}
+a {color: #eee; text-decoration: none;}
+a:hover {color: #E20613; text-decoration: none;}
+section{max-width: 500px; position: absolute; top: 300px; left: 50px;}
+h2 {font-family: DIN; font-size:46px; line-height:56px;text-transform: uppercase; color: #fff; letter-spacing: 5px; width: 200px; margin-bottom: 10px;}
+h3 {font-family: 'DIN-Regular'; font-size: 20px;text-transform: uppercase; color: #fff;letter-spacing: -1px; }
+p {color: #fff; margin:20px 0 0 0;}
+input[type='email'], input[type='text']  {display: inline-block;font-size:15px;line-height:15px;background-color: #fff;padding:7px;margin:20px 0; color: #fff; outline: none; min-width: 200px;}
+button {font-family:'DIN-Regular',sans-serif;font-size: 15px;line-height:1em;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 20px; color: #fff;background-color:#E20613;text-align: center;overflow: hidden; border: 1px solid #E20613; border-radius: 3px;  cursor: pointer;}
+button:hover {color:#fff;background-color: #000;border: 1px solid #000;}
+@media screen and (max-width:790px) { 
+  header h1 {top:20px; left: 20px;}
+  header p {top:20px; right:10px;}
+  section{top: 180px; left: 20px;}
+  button {clear: both; display: block;}
+  input[type='email']{margin: 0 0 20px 0;}
+}
+</style>
 </head>
 <body>
 <header>
-<h1><a href="index.html" title="Super Alpine">Super Alpine</a></h1>
-<input id="burger" type="checkbox" />
-<label for="burger">
-<span></span>
-<span></span>
-<span></span>
-</label>
-<nav>    
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="projects/index.html">Projects</a></li>
-<li><a href="about/index.html">About</a></li>
-<li><a href="newsletter/index.html">Newsletter</a></li>
-</ul>  
-<div class="navfooter">
-<img src="img/super-alpine.svg" alt="Super Alpine">
-<small>&copy; Copyright 2015-<script>document.write(Date().split(' ')[3])</script> SUPER ALPINE. All rights reserved. <a href="terms/index.html">Terms &amp; Conditions</a></small>
-</div>
-</nav>
+  <h1><a href="index.html">Super Alpine</a></h1>
+  <p><a href="projects/index.html">Projects</a> <a href="about/index.html">About</a></p>
 </header>
-<section><img src="img/camo-header.svg" class="sa-header" alt="Super Alpine"></section>
-
-<section class="cdt-hero">
-    <figure class="cdt-image"></figure>
-      <div class="book-hero-text">
-      <div>
-      <h2>Col de Turini</h2>
-      <p>Vinyl stickers now available to buy</p>
-      <br>
-      <a href="projects/col-de-turini/sticker.html" class="button">Learn More</a>
-    </div>
-    </div>
-  
-  </section>
-
-<br clear="all">
-
-  <section class="matterhorn-hero">
-    <figure class="matterhorn-image"></figure>
-   <div class="book-hero-text">
-      <div>
-      <h2>Matterhorn</h2>
-      <p>Vinyl stickers now available to buy</p>
-      <br>
-      <a href="projects/zermatt/sticker.html" class="button">Learn More</a>
-    </div>
-    </div>
-    
-  </section>
-
-<br clear="all">
-
-<!-- <section class="book-hero">
-	<figure><a href="projects/chamonix-travel-guide-book/index.html"></a></figure>
-	<div class="book-hero-text">
-		<div>
-		<h1>Chamonix<br> Mont<br> Blanc </h1>
-		<h2>Travel Guide</h2>
-		<h4>A new guidebook for the informed traveller</h4>
-		<p>It's the Alps’ most famous mountain resort and the death-sport capital of the world, but there's much more to Chamonix than the rush of adrenaline.</p>
-		<a href="projects/chamonix-travel-guide-book/index.html"><button>Learn More</button></a>
-		</div>
-	</div>
-	
-	<div class="gradient"></div>
-<br clear="all">
-</section> -->
-
-<footer>
-<small>&copy; Copyright 2015-<script>document.write(Date().split(' ')[3])</script> SUPER ALPINE. All rights reserved.</small>
-</footer>
+<section>
+  <h2>Chamonix Mont Blanc</h2>
+  <h3>Travel Guide</h3>
+  <p>Coming soon - sign up for release date and special offer</p>
+<form class="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="92D4C54F0FEC16E5ADC2B1904DE9ED1ADB55ABBABEADC985E7594ADE8E18644C486B12C1F9ED4BC47B7406BD2292C416B5C0B162252BC1F11F23E662C756C736">
+<input aria-label="Name" id="fieldName" maxlength="200" name="cm-name" placeholder="Your first name" type="text">
+<input autocomplete="Email" aria-label="Email" class="js-cm-email-input" id="fieldEmail" maxlength="200" name="cm-bjiydi-bjiydi" required="" type="email" placeholder="Your email address">
+<button type="submit">Subscribe</button>
+</form>
+<script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
+</section>
 </body>
 </html>
