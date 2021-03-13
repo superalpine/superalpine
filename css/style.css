@@ -57,7 +57,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .landscape-left { flex: 65%; max-width: 65%; height: 470px;margin-right: 1%;}
     
     footer {max-width:1600px; margin:100px auto; clear: all;  }
-    footer .three-col {padding:70px 50px 70px 30px; background-color: #000;clear: all; color: #ccc; font-size: 13px; line-height: 20px;}
+    footer .three-col {padding:60px 50px 60px 30px; background-color: #000;clear: all; color: #ccc; font-size: 13px; line-height: 20px;}
     footer img {width: 90px;}
     footer .three-col a {color: #bbb; border-bottom: 1px solid #bbb!important;}
     footer .three-col a:hover {color: #fff!important; border-bottom: none;}
