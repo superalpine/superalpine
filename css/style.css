@@ -6,49 +6,48 @@
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video 
     {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
     html,body {width: 100%; height: 100%;}
-    body{background:#fff; color:#222; font-family:"Helvetica Neue",Helvetica,Roboto,sans-serif; font-weight: normal;font-stretch: normal;}
+    body{background:#fff; color:#222; font-family:'Playfair Display', serif; font-weight: normal;font-stretch: normal;}
     h1,h2,h3,h4,h5,h6 
-    {color: #000; text-transform: uppercase; font-weight: 600;margin:0 auto 20px auto; max-width: 600px;}
+    {font-family:DIN, sans-serif; color: #000; text-transform: uppercase; font-weight: normal;margin:0 auto 20px auto; max-width: 600px;}
     h1 {font-size: 60px; line-height: 55px;}
-    h2 {font-size: 44px; line-height: 44px; letter-spacing: -1px; }
-    h3 {font-size: 30px;}
+    h2 {font-size: 44px; line-height: 44px; letter-spacing: -1px;}
+    h3 {font-size: 26px;}
     h4 {font-size: 24px;}
     h5 {font-size: 18px;}
     h6 {font-size: 16px;}
-    p {font-size: 16px; line-height: 25px; margin:0 auto 20px auto; font-weight: 400;max-width: 600px;font-family: 'Playfair Display', serif;}
-    sub { font-family:"Helvetica Neue",Helvetica,Roboto,sans-serif; font-weight: 700; font-variant: small-caps;}
-    ul,ol {margin:0 auto 25px auto;max-width: 600px;}
+    p {font-size: 16px; line-height: 25px; margin:0 auto 20px auto;max-width: 600px;}
+    ul,ol {margin:0 auto 35px auto;max-width: 600px;}
     li {list-style-type: square; font-size: 15px; line-height: 23px;  margin:0 0 10px 20px;}
-    b {font-weight: bold;}
     small {display: block;margin:10px auto; line-height: 1.4em;max-width: 600px;}
-    blockquote {font-family: 'Playfair Display', serif;font-style: italic;font-size: 20px;line-height: 32px;margin:60px auto; padding:30px; border-top:1px solid #ccc; border-bottom:1px solid #ccc; text-align: center; max-width: 800px; }
+    blockquote {font-style: italic;font-size: 20px;line-height: 32px;margin:60px auto; padding:30px; border-top:1px solid #ccc; border-bottom:1px solid #ccc; text-align: center; max-width: 800px; }
     img {width: 100%; max-width: 100%; font-size: 0;}
     hr {width:50%; margin:20px auto; background-color: #ddd; height: 1px; border: none;}
     video {width: 100%; max-width: 100%; font-size: 0; float: left;}
     iframe {margin: 70px auto; max-width: 700px; width:100%; height: 450px;display: block;}
     p+video {padding:15px 0 30px 0;}
-    a {color: #900; text-decoration: none;}
-    a:hover {color: #000; border-bottom: 1px solid #900;}
+    a {color: #222; text-decoration: none;border-bottom: 2px solid #b00;}
+    a:hover {color: #000; border-bottom: 2px solid #f00;}
 
-    table{max-width:700px; width: 100%; margin: 50px auto; border-top: 1px dashed #ccc;}
+    table{max-width:700px; width: 100%; margin: 50px auto; border-top: 1px dashed #ccc; font-family: sans-serif;}
     th{font-size:14px;text-align: right; padding: 10px 10px 10px 0; border-bottom: 1px dashed #ccc; font-weight: 400; width: 40%; text-transform: uppercase;}
     td{font-size:14px;text-align: left; padding: 10px 0 10px 10px; border-bottom: 1px dashed #ccc; font-weight: 600;}
     
-    header {max-width: 95%; height: 110px; padding: 20px 10px 0 0; margin:0 auto;}
+    header {max-width:1600px; height: 110px; padding: 20px 20px 0 20px; margin:0 auto;}
     header h1 {float: left; font-size:0;margin:0;width: 0;height: 0; }
-    header a, header a:hover {text-decoration: none; border-bottom:none;}
-    header h1 a {color: #000; text-decoration: none;background: url(../img/super-alpine.svg) no-repeat center center; height: 70px; width:70px; background-size: cover; display: block;}
+    header a, header a:hover {text-decoration: none; border-bottom:none;transition: background-color 0.5s ease;}
+    header h1 a {height: 70px; width:70px; display: block; background:#E20613 url(../img/super-alpine.png) no-repeat center center;background-size: cover; }
+    header h1 a:hover {background:#000 url(../img/super-alpine.png) no-repeat center center;background-size: cover;}
     header ul {display: block; float: right;}
-    header ul li {display: inline-block; padding: 25px 0 0 30px; font-family: 'Playfair Display', serif; }
-    header ul li a {color: #444;}
-    header ul li a:hover {color: #900;}
+    header ul li {display: inline-block; padding: 25px 0 0 30px; }
+    header ul li a {color:#000;}
+    header ul li a:hover {color: #E20613;}
     header input {display: none;}
-    .navfooter {display: none;}
     
-    section {max-width: 95%; margin:0 auto;  padding:20px 0;clear: all;}
+    section {max-width:1600px; margin:0 auto;  padding:0 20px;clear: all;}
     article {margin: 20px 0; padding-bottom: 50px;}
     figure {max-width: 1100px; margin:70px auto 100px auto; clear: all;}
-    figcaption {font-family: 'Playfair Display', serif; font-style: italic; font-size: 13px; margin-top: 10px;}
+    figure:first-of-type {margin-top: 0;}
+    figcaption {font-style: italic; font-size: 13px; margin-top: 10px;color: #707070;}
     
     .photogrid {display: flex;flex-wrap: wrap;max-width: 1100px;}
     .portrait {flex: 34%; max-width: 34%; height: 470px; margin-right: 1%;}
@@ -57,28 +56,40 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .portrait-right {flex: 34%; max-width: 34%; height: 470px; }
     .landscape-left { flex: 65%; max-width: 65%; height: 470px;margin-right: 1%;}
     
-    footer {max-width: 95%; height: 70px; padding:20px 0 0 0; clear: both; margin:0 auto;}
-    footer small {font-size: 12px;line-height: 17px;margin:0; color: #999;}
+    footer {max-width:1600px; margin:100px auto; clear: all;  }
+    footer .three-col {padding:70px 50px 70px 30px; background-color: #000;clear: all; color: #ccc; font-size: 13px; line-height: 20px;}
+    footer img {width: 90px;}
+    footer .three-col a {color: #bbb; border-bottom: 1px solid #bbb!important;}
+    footer .three-col a:hover {color: #fff!important; border-bottom: none;}
     
-    .hero {text-align: center;  background-color: #222; margin-bottom: 40px;}
-    .hero h2 {font-size: 120px; line-height:110px; margin:0 auto 10px auto; color: #fff;font-family: MFred; max-width: 800px; font-weight: normal;}
-    .hero h3 {font-size: 17px; color: #fff; padding-bottom: 20px; }
-    .hero h6 {color: #999; font-weight: 500; font-size: 13px;margin:40px auto 10px auto; }
-    .hero p {font-style: italic; color: #999; font-size: 18px;}
-    .hero hr {background-color: #999; height: 3px; width: 200px;}
-    .hero img {max-width: 1140px;  padding: 0 20px 40px 20px;}
-    .hero figcaption {color: #999;}
+    .hero {text-align: center;}
+    .hero h2 {font-size: 120px; line-height:110px; margin:0 auto 10px auto;font-family: MFred; max-width: 800px; font-weight: normal; color: #000;}
+    .hero h3 {font-size: 17px; padding-bottom: 20px; color: #000; letter-spacing: 1px; }
+    .hero h6 {font-family:"Helvetica Neue",Helvetica,sans-serif; font-weight: 500; font-size: 13px;margin:40px auto 10px auto; }
+    .hero p {font-style: italic; font-size: 18px;}
+    .hero hr {background-color: #ddd; height: 3px; width: 200px;}
+    .hero img { padding: 0;}
 
     .two-col {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 0 10px; max-width: 1100px; margin:0 auto; padding:0; }
-    .three-col {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:90px; margin:0 auto; background-color: #222; padding: 50px;color: #fff;}
-    .three-col h5 {color: #fff;}
-    .three-col a {color: #fff; border-bottom: 2px solid #999; padding-bottom: 2px;}
-    .three-col a:hover {color: #ccc;border-bottom: 2px solid #c00;}
+    .three-col {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:20px 50px; margin:0 auto; padding:20px;}
+    .three-col div a {border:none;}
+    .noheader {padding-bottom: 50px;}
     
-    .projects {max-width:95%; margin:0 auto; padding:0;display: grid;grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: 1fr 1fr 1fr 1fr 1fr;  grid-gap: 0 40px;}
-    .projects a {display: inline-block; position: relative; height: 65vh;}
+    .sabk {background: url(../img/sabk.jpg) center center no-repeat;background-size:cover; position: relative;}
+    .sabk img {width: 200px; position: absolute; bottom:10%; right:10%;}   
+    .sabk img:first-of-type{top:2%; left:2%;}
+    .wide {width: 100%; height: 300px; margin-bottom: 30px; background-position: 50% 70%;}
+    .wide img {width: 200px; position: absolute; bottom:140px; right:5%;}   
+    .wide img:first-of-type{top:50px; left:2%;}
+    
+
+    .square {float:left; width: 50vw; max-width: 800px; height: 85vh; max-height: 800px;}
+    .dual-text {float:right; width: 42vw; max-width: 600px;margin-right: 1vw;}
+
+    .projects {max-width:1600px; margin:0 auto; padding:0 20px;display: grid;grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: 1fr 1fr 1fr 1fr 1fr;  grid-gap: 0 40px;}
+    .projects a {display: inline-block; position: relative; height: 65vh; }
     .projects img {height: 83%;object-fit: cover;}
-    .projects h3 {font-size: 16px; color: #111; font-weight:600;letter-spacing:normal; margin:15px 0 5px 0;}
+    .projects h3, .three-col h3 {font-family: 'DIN'; font-size: 16px; color: #111; font-weight:normal;letter-spacing:normal; margin:15px 0 5px 0;}
     .projects p {font-size: 14px;margin:0; line-height: 18px; color: #707070;}
     .projects a {color: #000; opacity: 1.0; border:none;}
     .projects a:hover{opacity:.8;transition: opacity .4s ease-out;-moz-transition: opacity .4s ease-out;-webkit-transition: opacity .4s ease-out; border:none;}
@@ -104,64 +115,60 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .aosta { grid-area: 5 / 3 / 6 / 4; }
     .giger { grid-area: 5 / 4 / 6 / 5; }
     
-    .price {font-family:"Helvetica Neue",Helvetica,Roboto,sans-serif;font-size: 48px; margin:15px auto 20px auto;font-weight: 700;max-width: 600px;}
+    .price {font-family:"Helvetica Neue",Helvetica,sans-serif;font-size: 48px; margin:15px auto 20px auto;font-weight: 700;max-width: 600px;}
 
     .drop-cap p:first-of-type {font-size: 22px;line-height: 30px; font-weight: 500; color:#000; margin:0 auto 40px auto;}
-    .drop-cap p:first-of-type::first-letter {font-size: 100px; float: left; margin:24px 6px 10px 0; font-weight: 500; color: #000;}
+    .drop-cap p:first-of-type::first-letter {font-size: 100px; float: left; margin:24px 6px 10px 0; font-weight: 500; color:#000;}
     
-    .further-reading {display: grid; grid-template-columns: 1fr 2fr 2fr 2fr; grid-gap: 20px 20px; max-width: 95%; margin:0 auto; padding:0;}
-    .further-reading a {display: block; position: relative; height:40vh;background-color: #222;}
+    .further-reading {display: grid; grid-template-columns: 1fr 2fr 2fr 2fr; grid-gap: 20px 20px; max-width:1600px; margin:0 auto; padding:0 20px;}
+    .further-reading a {display: block; position: relative; height:40vh;background-color: #222;border-bottom: none;}
     .further-reading a:hover{opacity:.7;transition: opacity .4s ease-out;-moz-transition: opacity .4s ease-out;-webkit-transition: opacity .4s ease-out;}
     .further-reading h2 {position: absolute; bottom: 0; font-size: 24px; line-height: 26px; font-weight: 700;padding:0 15px;color:#fff;}
-    .sa-header {margin: -20px 0 20px 0;}
-
-    .book-hero {width: 100vw; height: 80vh; background:url(../projects/chamonix-travel-guide-book/img/bg.jpg) center center;background-size: cover; margin:0 auto; }
-    .book-hero h1 {font-family:DIN, sans-serif; font-size: 55px; font-weight: normal;line-height: 1.1em; letter-spacing: 1px; color:#fff;text-shadow: 0px 0px 0 rgb(135,-81,0), 1px 1px  0 rgb(40,-176,0), 2px 2px 1px rgba(0,0,0,0), 2px 2px 1px rgba(0,0,0,0.5); margin: 0;}
-    .book-hero-text h2 {font-family: 'DIN-Regular'; color:#fff; font-size: 24px; line-height: 36px;  margin:10px 0;}
-    .book-hero h4 {font-family: 'DIN';color: #fff;font-size: 16px; line-height: 26px; margin: 20px 0 20px 0; letter-spacing: 0;font-weight: normal;}
+    
+    .book-hero {width: 100vw; height: 80vh; margin:0 auto;background: url(../projects/chamonix-travel-guide-book/img/hero-bg.jpg) center center;background-size:cover; padding: 20px;}
+    .book-hero h1 {font-family:DIN, sans-serif; font-size: 55px; font-weight: normal;line-height: 1.1em; letter-spacing: 5px; color:#fff; text-shadow: 1px 1px 3px #000; margin: 0;}
+    .book-hero-text h2 {font-family: 'DIN-Regular'; color:#fff; font-size: 22px; line-height: 26px;  margin:10px 0;}
     .book-hero figure {width:40%; height: 100%; float: right; background:url(../projects/chamonix-travel-guide-book/img/cover.png) no-repeat center center; background-size: contain; margin:0;padding: 0;}
-    .cdt-hero {background:url(https://andrewrevitt.com/img/cdt-bg.jpg) center center;background-size: cover;height: 50vh;}
-    .matterhorn-hero {background:url(https://andrewrevitt.com/img/matterhorn-bg.jpg) center center;background-size: cover;height: 50vh;}
-    .cdt-image {width:30%; height: 70%; float: right; background:url(https://andrewrevitt.com/img/cdt-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 99;}
-    .matterhorn-image {width:35%; height: 70%; float: right; background:url(https://andrewrevitt.com/img/matterhorn-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 99;}
-    .book-hero-text {width: 40%; height: 100%; display: table; float: left; padding: 0 0 0 70px; }
+    .book-hero-text {width: 45%; height: 100%; display: table; float: left; padding: 0 0 0 70px; }
     .book-hero-text div {display: table-cell; vertical-align: middle; color: #fff; }
-    .book-hero button {color: #fff;background-color:#B60E0B; border: 1px solid #B60E0B; padding:10px 20px; text-align: center; cursor: pointer;font-family: 'DIN-Regular';}
     .book-hero figure a {display: block; width: 100%; height: 100%;border:none;}
     .book-hero figure a:hover {border:none;}
+    .cdt-hero {background:url(https://andrewrevitt.com/img/cdt-bg.jpg) center center;background-size: cover;height: 300px;max-width: 900px;}
+    .matterhorn-hero {background:url(https://andrewrevitt.com/img/matterhorn-bg.jpg) center center;background-size: cover;height: 300px;max-width:900px;}
+    .cdt-image {width:25%; height: 100%; float: right; background:url(https://andrewrevitt.com/img/cdt-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 2;}
+    .matterhorn-image {width:25%; height:100%; float: right; background:url(https://andrewrevitt.com/img/matterhorn-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 2;}
+    .half {width: 50%; float: left;}
+    .red {color:#E20613;}
+   
     
-    
-    form {max-width: 600px;margin:0 auto;}
-    select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip: padding-box;background-image:url(../img/arrow.png);background-position: right;background-repeat: no-repeat;background-size: contain;color: #222;background-color: #fff;border: 1px solid #ccc;border-radius: 3px;cursor: default;display: block;font-family:"Helvetica Neue",Helvetica,Roboto,sans-serif;font-size: 14px;font-weight: normal;line-height: 16px;margin:0 0 20px 0;padding:5px 30px 5px 10px;text-transform: uppercase;white-space: nowrap;width: 280px;height: 40px;outline: none;}
+    form {max-width: 600px;margin:10px auto;}
+    select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip: padding-box;background-image:url(../img/arrow.png);background-position: right;background-repeat: no-repeat;background-size: contain;color: #222;background-color: #fff;border: 1px solid #ccc;border-radius: 3px;cursor: default;display: block;font-family:"Helvetica Neue",Helvetica,sans-serif;font-size: 14px;font-weight: normal;line-height: 16px;margin:0 0 20px 0;padding:5px 30px 5px 10px;text-transform: uppercase;white-space: nowrap;width: 280px;height: 40px;outline: none;}
     input[type='email'], input[type='text']  {display: block;font-size:16px;line-height:16px;border:2px solid #ccc;background-color: #fff;width:95%;padding:10px;margin:20px 0;text-align: left;text-transform: none;font-weight: normal;}
-    input:focus, input:hover {border:2px solid #c00; outline: none;transition: all .3s ease 0s;}
-    button, .button {font-family:"Helvetica Neue",Helvetica,Roboto,sans-serif;font-size: 15px;line-height:1em;font-weight: 500;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 20px; color: #fff;background-color:#222;z-index:0;text-align: center;overflow: hidden; border: 1px solid #222; border-radius: 3px; margin:0 auto; cursor: pointer;}
+    input:focus, input:hover {border:2px solid #000; outline: none;transition: all .3s ease 0s;}
+    button, .button {font-family:'DIN-Regular',sans-serif;font-size: 15px;line-height:1em;font-weight: 500;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 20px; color: #fff;background-color:#E20613;z-index:0;text-align: center;overflow: hidden; border: 1px solid #E20613; border-radius: 3px; margin:0 auto; cursor: pointer;}
     
-    button:hover, .button:hover {color:#fff;background-color: #c00;border: 1px solid #c00;}
-
-    #c1,#c2,#c3,#c4 {display: none}
+    button:hover, .button:hover {color:#fff;background-color: #000;border: 1px solid #000;}
     
 @media screen and (max-width:1111px) { 
+    
     header input {display: none;}
-    header input + label { position: relative; float: right; height: 22px; width: 20px; z-index: 6; top:20px;}
-    header input + label span { position: absolute; width: 100%; height: 2px; top: 50%; left: 0; display: block; background: #111; transition: .3s;}
+    header input + label { position: relative; float: right; height: 22px; width: 20px; z-index: 6; top:10px;}
+    header input + label span { position: absolute; width: 100%; height: 2px; top: 50%; left: 0; display: block; background: #000; transition: .3s;}
     header input + label span:first-child {top: 5px;}
     header input + label span:last-child {top: 17px;}
     header label:hover {cursor: pointer;}
     header input:checked + label span {opacity: 0;top: 50%;}
     header input:checked + label span:first-child {opacity: 1;transform: rotate(405deg);}
     header input:checked + label span:last-child {opacity: 1;transform: rotate(-405deg);}
-    header input ~ nav {background: #ddd;position: fixed;top: 0;left: 0;width: 100%;height: 0;z-index: 3;transition: .3s;transition-delay: .5s;overflow: hidden;}
+    header input ~ nav {background: #fff;position: fixed;top: 0;left: 0;width: 100%;height: 0;z-index: 3;transition: .3s;transition-delay: .5s;overflow: hidden;}
     header input ~ nav > ul {text-align: right;position: absolute;top: 20%;left: 7%;right: 7%;list-style-type: none;max-width: none;}
-    header input ~ nav > ul > li {opacity: 0;transition: .3s;transition-delay: 0s;list-style-type: none;font-family:"Helvetica Neue",Helvetica,Roboto,sans-serif;font-size:38px; line-height:48px; margin:0 0 5px 0; color: #707070; text-transform: uppercase;max-width: none; display: block;}
-    header input ~ nav > ul > li > a {text-decoration: none;display: block;padding: 20px;color: #707070; border-bottom: none;}
-    header input ~ nav > ul > li > a:hover {color: #900;border-bottom: none;}
+    header input ~ nav > ul > li {opacity: 0;transition: .3s;transition-delay: 0s;list-style-type: none;font-size:30px; line-height:48px; margin:0 0 5px 0; color: #E20613; max-width: none; display: block;}
+    header input ~ nav > ul > li > a {text-decoration: none;display: block;padding: 20px;color: #000; border-bottom: none;}
+    header input ~ nav > ul > li > a:hover {color: #E20613;border-bottom: none;}
     header input:checked ~ nav {height: 100%; transition-delay: 0s;}
     header input:checked ~ nav > ul > li {opacity: 1;transition-delay: .3s;}
-    .navfooter {position: absolute; bottom: 30px; left:30px; color: #707070; display: block;}
-    .navfooter img {width: 70px; max-width: 70px;  position: absolute; bottom: 70px;}
-    .navfooter a{color: #707070; display: block;}
-    .navfooter a:hover{color: #900;}
+    
+    .hero h2 {font-size: 80px; line-height:80px; }
     
     .projects {display: table;grid-template-columns: auto; grid-template-rows: auto;  grid-gap: 0;}
     .projects a {display:table-cell;  height: 55vh;}
@@ -187,7 +194,6 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .vision {width: 46%; float: left;  }
     .aosta { width: 46%; float: right;  }
     .giger { width: 100%;  }
-    
 
     .further-reading {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 5px;}
     .further-reading a {height:20vh;}
@@ -196,13 +202,11 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .drop-cap p:first-of-type {font-size: 20px;line-height: 28px;}
     .drop-cap p:first-of-type::first-letter {font-size: 95px; margin:20px 6px 10px 0;}
 
-    .book-hero h1 {font-family:DIN, sans-serif; font-size: 40px; font-weight: normal;line-height: 1.1em; letter-spacing: 1px; color:#fff;text-shadow: 0px 0px 0 rgb(135,-81,0), 1px 1px  0 rgb(40,-176,0), 2px 2px 1px rgba(0,0,0,0), 2px 2px 1px rgba(0,0,0,0.5); margin: 0;}
+    .book-hero h1 {font-size: 40px;text-shadow: none;}
 
 }
 @media screen and (max-width:790px) { 
-    h2,h3,form,ul,.price, small {max-width: 85%;}
-    p,li {font-size: 15px;max-width:85%;}
-
+    p,li {font-size: 15px;}
     blockquote {font-size: 16px; line-height: 26px;}
     .drop-cap p:first-of-type {font-size: 18px;line-height: 26px;}
     .drop-cap p:first-of-type::first-letter {font-size: 90px; margin:22px 6px 10px 0;}
@@ -210,17 +214,14 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
 
     header {height: 100px;}
     header h1 a {height: 60px; width:60px;}
-
     header input ~ nav > ul {top: 10%;}
     header input ~ nav > ul > li {font-size:28px;}
     header input ~ nav > ul > li > a {padding:0;}
-    .navfooter {position: absolute; bottom: 35px; left:10px; color: #707070;}    
-    .home div,.home div:nth-of-type(2),.home div:nth-of-type(3) { width: 100%; height: 500px; display:block; margin:0 0 10px 0;}
 
-    .three-col {display: block;  padding: 30px;}
-    .three-col p, .three-col h5 {max-width:100%;}
-
-
+    .three-col {display: block;}
+    footer { margin:70px auto;}
+    footer .three-col {padding:0px 20px 50px 20px;}
+    
     .photogrid {display: block;}
     .portrait {flex: 100%; max-width: 100%; height: auto; margin: 0 0 10px 0;}
     .landscape { flex: 100%; max-width: 100%; height: auto;}
@@ -229,18 +230,20 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .landscape-left { flex: 100%; max-width: 100%; height: auto;margin:10px 0;}
     .photogrid figcaption {margin-bottom: 30px;}
 
-    .book-hero {width: 100vw; height: auto; background:url(../projects/chamonix-travel-guide-book/img/bg.jpg) center center;background-size: cover; margin:0 auto; }
-    .book-hero h1 {font-family:DIN, sans-serif; font-size: 36px; font-weight: normal;line-height: 1.1em; letter-spacing: 1px; color:#fff;text-shadow: 0px 0px 0 rgb(135,-81,0), 1px 1px  0 rgb(40,-176,0), 2px 2px 1px rgba(0,0,0,0), 2px 2px 1px rgba(0,0,0,0.5); margin: 0;}
-    .book-hero h2 {font-family: 'DIN-Regular'; color:#fff; font-size: 22px; line-height: 30px;  margin:10px 0;}
-    .book-hero h4 {font-family: 'DIN';color: #fff;font-size: 16px; line-height: 26px; margin: 20px 0 20px 0; letter-spacing: 0;font-weight: normal;}
-    .book-hero figure {width:100%; height: 400px; float: none; background:url(../projects/chamonix-travel-guide-book/img/cover.png) no-repeat center center; background-size: contain; margin:0;padding: 0;}
-    .cdt-hero {background:url(https://andrewrevitt.com/img/cdt-bg.jpg) center center;background-size: cover;height: auto;}
-    .matterhorn-hero {background:url(https://andrewrevitt.com/img/matterhorn-bg.jpg) center center;background-size: cover;height: auto;}
-    .cdt-image {width:100%; height: 200px; float:none; background:url(https://andrewrevitt.com/img/cdt-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 99;}
-    .matterhorn-image {width:100%; height: 200px; float:none; background:url(https://andrewrevitt.com/img/matterhorn-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 99;}
+    .book-hero {height: auto;}
+    .book-hero h1 {font-size: 28px;}
+    .book-hero h2 {font-size: 18px; line-height: 26px;}
+    .book-hero figure {width:100%; height: 350px; float: none; margin-top: -40px;}
+    .book-hero-text {width: 100%; height: auto; display: block; float: none; padding: 0 20px; margin-top: -20px; }
+    .book-hero p {line-height: 20px;}
+
+    .cdt-hero, .matterhorn-hero {height: 200px;max-width:93%; padding: 20px;}
+    .cdt-image, .matterhorn-image  {width:25%; height: 100%; float: right;}
+    .cdt-hero p, .matterhorn-hero p {max-width: 100%;}
    
-    .book-hero-text {width: 100%; height: auto; display: block; float: none; padding: 0 30px; }
-    .book-hero-text div {display: table-cell; vertical-align: middle; color: #fff; }
-    .book-hero p, .cdt-hero p, .matterhorn-hero p {max-width: 100%;}
-    
+    .half {float: none; width: 100%;}
+    .square {float:none; width: 100%; height: 300px; margin-bottom: 20px;}
+    .sabk img {width: 150px; position: absolute; bottom:10%; right:10%;}   
+    .sabk img:first-of-type{top:0; left:0;}
+    .dual-text {float:none; width:100%;}
     }
