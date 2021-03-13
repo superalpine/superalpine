@@ -8,17 +8,17 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     html,body {width: 100%; height: 100%;}
     body{background:#fff; color:#222; font-family:'Playfair Display', serif; font-weight: normal;font-stretch: normal;}
     h1,h2,h3,h4,h5,h6 
-    {font-family:DIN, sans-serif; color: #000; text-transform: uppercase; font-weight: normal;margin:0 auto 20px auto; max-width: 600px;}
+    {font-family:DIN, sans-serif; color: #000; text-transform: uppercase; font-weight: normal;margin:0 auto 20px auto; max-width: 660px;}
     h1 {font-size: 60px; line-height: 55px;}
     h2 {font-size: 44px; line-height: 44px; letter-spacing: -1px;}
     h3 {font-size: 26px;}
     h4 {font-size: 24px;}
     h5 {font-size: 18px;}
     h6 {font-size: 16px;}
-    p {font-size: 16px; line-height: 25px; margin:0 auto 20px auto;max-width: 600px;}
-    ul,ol {margin:0 auto 35px auto;max-width: 600px;}
+    p {font-size: 16px; line-height: 25px; margin:0 auto 20px auto;max-width: 660px;}
+    ul,ol {margin:0 auto 35px auto;max-width: 660px;}
     li {list-style-type: square; font-size: 15px; line-height: 23px;  margin:0 0 10px 20px;}
-    small {display: block;margin:10px auto; line-height: 1.4em;max-width: 600px;}
+    small {display: block;margin:10px auto; line-height: 1.4em;max-width: 660px;}
     blockquote {font-style: italic;font-size: 20px;line-height: 32px;margin:60px auto; padding:30px; border-top:1px solid #ccc; border-bottom:1px solid #ccc; text-align: center; max-width: 800px; }
     img {width: 100%; max-width: 100%; font-size: 0;}
     hr {width:50%; margin:20px auto; background-color: #ddd; height: 1px; border: none;}
@@ -84,7 +84,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     
 
     .square {float:left; width: 50vw; max-width: 800px; height: 85vh; max-height: 800px;}
-    .dual-text {float:right; width: 42vw; max-width: 600px;margin-right: 1vw;}
+    .dual-text {float:right; width: 42vw; max-width: 660px;margin-right: 1vw;}
 
     .projects {max-width:1600px; margin:0 auto; padding:0 20px;display: grid;grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: 1fr 1fr 1fr 1fr 1fr;  grid-gap: 0 40px;}
     .projects a {display: inline-block; position: relative; height: 65vh; }
@@ -115,7 +115,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .aosta { grid-area: 5 / 3 / 6 / 4; }
     .giger { grid-area: 5 / 4 / 6 / 5; }
     
-    .price {font-family:"Helvetica Neue",Helvetica,sans-serif;font-size: 48px; margin:15px auto 20px auto;font-weight: 700;max-width: 600px;}
+    .price {font-family:"Helvetica Neue",Helvetica,sans-serif;font-size: 48px; margin:15px auto 20px auto;font-weight: 700;max-width: 660px;}
 
     .drop-cap p:first-of-type {font-size: 22px;line-height: 30px; font-weight: 500; color:#000; margin:0 auto 40px auto;}
     .drop-cap p:first-of-type::first-letter {font-size: 100px; float: left; margin:24px 6px 10px 0; font-weight: 500; color:#000;}
@@ -141,7 +141,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .red {color:#E20613;}
    
     
-    form {max-width: 600px;margin:10px auto;}
+    form {max-width: 660px;margin:10px auto;}
     select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip: padding-box;background-image:url(../img/arrow.png);background-position: right;background-repeat: no-repeat;background-size: contain;color: #222;background-color: #fff;border: 1px solid #ccc;border-radius: 3px;cursor: default;display: block;font-family:"Helvetica Neue",Helvetica,sans-serif;font-size: 14px;font-weight: normal;line-height: 16px;margin:0 0 20px 0;padding:5px 30px 5px 10px;text-transform: uppercase;white-space: nowrap;width: 280px;height: 40px;outline: none;}
     input[type='email'], input[type='text']  {display: block;font-size:16px;line-height:16px;border:2px solid #ccc;background-color: #fff;width:95%;padding:10px;margin:20px 0;text-align: left;text-transform: none;font-weight: normal;}
     input:focus, input:hover {border:2px solid #000; outline: none;transition: all .3s ease 0s;}
