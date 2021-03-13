@@ -23,27 +23,24 @@
   body {background:#000 url(magazine/sa00/sa00-hero.jpg) top center no-repeat;background-size:cover;}
   header ul li a {color:#fff;}
   header input + label span { background: #000;}
-  section {text-align: center;}
-  section h1 {max-width: 100%; padding-top: 100px; margin:0; font-family: MFred; font-size: 120px; line-height: 110px; color: #000; text-shadow: 1px 1px 10px #fff;}
-  section p {font-family: 'DIN'; max-width: 100%; margin:20px auto 40px auto; font-size: 18px;
-text-shadow:
-   -1px -1px 0 #fff,  
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-     1px 1px 0 #fff;}
+  section {height: 70vh;}
+  section div {text-align: center; background-color: rgba(0,0,0,.7); max-width: 340px; color: #fff; margin:5% auto 0 auto;}
+  section div h1 {font-family: MFred; font-size: 100px; line-height: 70px; margin:0 auto; color: #fff; padding: 20px 0 0 0;}
+  .sa {font-size:68px;}
+  .proto {font-size:89px;line-height: 89px;}
+  section div p {font-family: 'DIN-Regular';  margin:20px auto 40px auto; max-width: 260px;}
+  section div button {margin-bottom: 50px;}
 
-  footer {position: absolute; bottom: 0; left:auto; right: auto; margin:auto; top:auto; width: 100%; max-width: 100%;}
-  
   @media screen and (min-width:1900px) { 
-  section h1 {padding-top: 200px}
+    section div {max-width: 640px; margin:7% auto 0 auto;}
+    section div h1 {font-size: 150px; line-height: 120px;}
+    .sa {font-size:105px;}
+    .proto {font-size:130px;line-height: 130px;}
+    section div p {max-width: 100%;}
   }
   
   @media screen and (max-width:690px) { 
-  section h1 {padding-top: 50px;  font-size: 90px; line-height: 80px;}
-  section p {color: #fff; text-shadow: 1px 1px 1px #000;}
-  section button {margin-bottom: 100px;}
-  footer {position: relative;}
-  
+    section {min-height: 80vh;}
   }
 </style>
 </head>
@@ -68,12 +65,12 @@ text-shadow:
 </header>
 
 <section>
+		<div>
+		<h1><span class="sa">Super Alpine</span> Magazine <span class="proto">Prototype</span></h1>
 		
-		<h1>Super Alpine Magazine 00</h1>
-		
-		<p>The original magazine protoype is now available for the first time as a digital download</p>
+		<p>The original magazine is now available for the first time</p>
 		<a href="magazine/sa00/index.html"><button>Learn More</button></a>
-		
+		</div>
 
 </section>
 
