@@ -133,10 +133,10 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     .book-hero-text div {display: table-cell; vertical-align: middle; color: #fff; }
     .book-hero figure a {display: block; width: 100%; height: 100%;border:none;}
     .book-hero figure a:hover {border:none;}
-    .cdt-hero {background:url(https://andrewrevitt.com/img/cdt-bg.jpg) center center;background-size: cover;height: 300px;max-width: 900px;}
-    .matterhorn-hero {background:url(https://andrewrevitt.com/img/matterhorn-bg.jpg) center center;background-size: cover;height: 300px;max-width:900px;}
-    .cdt-image {width:25%; height: 100%; float: right; background:url(https://andrewrevitt.com/img/cdt-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 2;}
-    .matterhorn-image {width:25%; height:100%; float: right; background:url(https://andrewrevitt.com/img/matterhorn-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 2;}
+    .cdt-hero {background:url(../store/cdt-bg.jpg) center center;background-size: cover;height: 300px;max-width: 900px;}
+    .matterhorn-hero {background:url(../store/matterhorn-bg.jpg) center center;background-size: cover;height: 300px;max-width:900px;}
+    .cdt-image {width:25%; height: 100%; float: right; background:url(../store/cdt-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 2;}
+    .matterhorn-image {width:25%; height:100%; float: right; background:url(../store/matterhorn-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 2;}
     .half {width: 50%; float: left;}
     .red {color:#E20613;}
    
