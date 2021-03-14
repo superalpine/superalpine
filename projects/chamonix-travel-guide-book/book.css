@@ -51,8 +51,13 @@ button, .button {font-family:'DIN-Regular',sans-serif;font-size: 15px;line-heigh
 button:hover, .button:hover {color:#fff;background-color: #15254C;border: 1px solid #15254C;}
 select  {color: #222; background-color: #fff; border: 1px solid #ccc; margin-top: -10px;
 -webkit-appearance: none;-webkit-box-direction: normal; background-clip: padding-box; background-image:url(../../img/arrow.png);background-position: right;background-repeat: no-repeat;background-size: contain; display: block;padding:5px 30px 5px 10px;white-space: nowrap; width: 280px;cursor:default;}
-.logo {width: 70px; height: 70px; position: absolute; z-index: 999; top:30px; left: 70px; background:#E20613;}
-.logo:hover { background:#000;transition: background-color 0.5s ease;}
+    .vb button {background:#eee url("../../img/basket.svg");background-position-x: 49%;background-position-y: 35%;background-size: 17px;background-repeat: no-repeat;border:none;display: block;height: 35px;line-height: 54px;
+position: absolute;right:20px;top:35px;width: 40px;font-size: 0;color: #fff; z-index: 999;}
+    .vb button:hover {background-color: transparent;border: none;}
+
+
+.logo {width: 70px; height: 70px; position: absolute; z-index: 999; top:20px; left: 20px; background:#E20613;}
+.logo:hover { background:#000;transition: background-color 0.5s ease;}    
 .price {font-family:"Helvetica Neue",Helvetica,sans-serif;font-size: 48px; margin:15px 0 20px 0;font-weight: 700;}
 .red {color: #E20613;}
 .arete {background: url(../chamonix/arete.jpg) center center;background-size: cover;background-attachment: fixed;}

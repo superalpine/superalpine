@@ -32,7 +32,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     th{font-size:14px;text-align: right; padding: 10px 10px 10px 0; border-bottom: 1px dashed #ccc; font-weight: 400; width: 40%; text-transform: uppercase;}
     td{font-size:14px;text-align: left; padding: 10px 0 10px 10px; border-bottom: 1px dashed #ccc; font-weight: 600;}
     
-    header {max-width:1600px; height: 110px; padding: 20px 20px 0 20px; margin:0 auto;}
+    header {max-width:1600px; height: 110px; padding: 20px 20px 0 20px; margin:0 auto; position: relative;}
     header h1 {float: left; font-size:0;margin:0;width: 0;height: 0; }
     header a, header a:hover {text-decoration: none; border-bottom:none;transition: background-color 0.5s ease;}
     header h1 a {height: 70px; width:70px; display: block; background:#E20613 url(../img/super-alpine.png) no-repeat center center;background-size: cover; }
@@ -42,6 +42,11 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     header ul li a {color:#000;}
     header ul li a:hover {color: #E20613;}
     header input {display: none;}
+    header nav {position: relative;}
+    .vb {margin: 0;}
+    .vb button {background:transparent url("../img/basket.svg");background-position-x: 49%;background-position-y: 35%;background-size: 17px;background-repeat: no-repeat;border:none;display: block;height: 50px;line-height: 54px;
+position: absolute;right:400px;top:35px;width: 40px;font-size: 0;color: #fff; }
+    .vb button:hover {background-color: transparent;border: none;}
     
     section {max-width:1600px; margin:0 auto;  padding:0 20px;clear: all;}
     article {margin: 20px 0; padding-bottom: 50px;}
@@ -146,8 +151,9 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     input[type='email'], input[type='text']  {display: block;font-size:16px;line-height:16px;border:2px solid #ccc;background-color: #fff;width:95%;padding:10px;margin:20px 0;text-align: left;text-transform: none;font-weight: normal;}
     input:focus, input:hover {border:2px solid #000; outline: none;transition: all .3s ease 0s;}
     button, .button {font-family:'DIN-Regular',sans-serif;font-size: 15px;line-height:1em;font-weight: 500;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 20px; color: #fff;background-color:#E20613;z-index:0;text-align: center;overflow: hidden; border: 1px solid #E20613; border-radius: 3px; margin:0 auto; cursor: pointer;}
-    
     button:hover, .button:hover {color:#fff;background-color: #000;border: 1px solid #000;}
+
+
     
 @media screen and (max-width:1111px) { 
     
@@ -167,7 +173,8 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     header input ~ nav > ul > li > a:hover {color: #E20613;border-bottom: none;}
     header input:checked ~ nav {height: 100%; transition-delay: 0s;}
     header input:checked ~ nav > ul > li {opacity: 1;transition-delay: .3s;}
-    
+    .vb button {background:transparent url("../img/basket.svg");background-position-x: 49%;background-position-y: 35%;background-size: 17px;background-repeat: no-repeat;border:none;display: block;height: 50px;line-height: 54px;position: absolute;right:50px;top:20px;width: 40px;font-size: 0;color: #fff;}
+
     .hero h2 {font-size: 80px; line-height:80px; }
     
     .projects {display: table;grid-template-columns: auto; grid-template-rows: auto;  grid-gap: 0;}
