@@ -1,5 +1,4 @@
 <!doctype html>
-<!doctype html>
 <html lang="en">
 <head>
 <title>Super Alpine</title>
@@ -20,27 +19,21 @@
 <link rel="mask-icon" href="https://superalpine.co/img/safari-pinned-tab.svg" color="#E20613">
 <link rel="stylesheet" href="css/style.css">
 <style type="text/css">
-  body {background:#000 url(magazine/sa00/sa00-hero.jpg) top center no-repeat;background-size:cover;}
-  header ul li a {color:#fff;}
-  header input + label span { background: #000;}
-  section {height: 70vh;}
-  section div {text-align: center; background-color: rgba(0,0,0,.7); max-width: 340px; color: #fff; margin:5% auto 0 auto;}
-  section div h1 {font-family: MFred; font-size: 100px; line-height: 70px; margin:0 auto; color: #fff; padding: 20px 0 0 0;}
-  .sa {font-size:68px;}
-  .proto {font-size:89px;line-height: 89px;}
-  section div p {font-family: 'DIN-Regular';  margin:20px auto 40px auto; max-width: 260px;}
-  section div button {margin-bottom: 50px;}
+  body {background:#001233 url(projects/chamonix-travel-guide-book/img/hero-bg.jpg) center center no-repeat fixed;background-size:cover;}
+  header ul li a {color:#aaa;}
+  header input + label span { background: #aaa;}
+  .book-hero {background: none;}
+  footer {width: 100%; max-width: 100%;}
+  footer .three-col {background-color: #001233;}
 
-  @media screen and (min-width:1900px) { 
-    section div {max-width: 640px; margin:7% auto 0 auto;}
-    section div h1 {font-size: 150px; line-height: 120px;}
-    .sa {font-size:105px;}
-    .proto {font-size:130px;line-height: 130px;}
-    section div p {max-width: 100%;}
-  }
-  
-  @media screen and (max-width:690px) { 
-    section {min-height: 80vh;}
+  @media screen and (max-width:790px) { 
+    body {background-attachment: scroll;}
+    .book-hero {height:auto; margin:0 auto; }
+    .book-hero h1 {display: none;}
+     footer { margin:0 auto;}
+    }
+    footer .three-col {padding:20px 20px 50px 20px;}
+    footer div {margin:0 0 20px 0;}
   }
 </style>
 </head>
@@ -64,16 +57,17 @@
   </nav>
 </header>
 
-<section>
+<section class="book-hero">
+	<figure><a href="projects/chamonix-travel-guide-book/index.html"></a></figure>
+	<div class="book-hero-text">
 		<div>
-		<h1><span class="sa">Super Alpine</span> Magazine <span class="proto">Prototype</span></h1>
-		
-		<p>The original magazine is now available for the first time</p>
-		<a href="magazine/sa00/index.html"><button>Learn More</button></a>
+		<h1>Chamonix<br> Mont<br> Blanc </h1>
+		<h2>Travel Guide</h2>
+		<p>It's the Alps’ most famous mountain resort and the death-sport capital of the world, but there's much more to Chamonix than the rush of adrenaline. Find out more in this new book.</p>
+		<a href="projects/chamonix-travel-guide-book/index.html"><button>Shop Now</button></a>
 		</div>
-
+	</div>
 </section>
-
 <footer>
   <div class="three-col">
     <div><img src="img/super-alpine.png"></div>
