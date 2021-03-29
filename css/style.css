@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
-@font-face {font-family: "MFred"; src:url("../fonts/MFred.woff2") format("woff2"); font-stretch: normal; font-weight: normal;}
 @font-face {font-family: 'DIN';src: url('../fonts/din-bold-webfont.woff') format('woff');}
 @font-face {font-family: 'DIN-Regular';src: url('../fonts/din-regular-webfont.woff') format('woff');}
 
@@ -15,7 +14,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     h4 {font-size: 24px;}
     h5 {font-size: 18px;}
     h6 {font-size: 16px;}
-    p {font-size: 16px; line-height: 25px; margin:0 auto 20px auto;max-width: 660px;}
+    p {font-size: 16px; line-height: 25px; margin:0 auto 20px auto;max-width: 650px;}
     ul,ol {margin:0 auto 35px auto;max-width: 660px;}
     li {list-style-type: square; font-size: 15px; line-height: 23px;  margin:0 0 10px 20px;}
     small {display: block;margin:10px auto; line-height: 1.4em;max-width: 660px;}
@@ -67,13 +66,13 @@ position: absolute;right:400px;top:35px;width: 40px;font-size: 0;color: #fff; }
     footer .three-col a {color: #bbb; border-bottom: 1px solid #bbb!important;}
     footer .three-col a:hover {color: #fff!important; border-bottom: none;}
     
-    .hero {text-align: center;}
-    .hero h2 {font-size: 120px; line-height:110px; margin:0 auto 10px auto;font-family: MFred; max-width: 800px; font-weight: normal; color: #000;}
-    .hero h3 {font-size: 17px; padding-bottom: 20px; color: #000; letter-spacing: 1px; }
+    .hero {text-align: center;max-width:1140px; padding: 0 20px;}
+    .hero h2 {font-size: 70px; line-height:70px; margin:0 auto 10px auto; max-width: 800px; font-weight: normal; color: #000;}
+    .hero h3 {font-size: 16px; padding-bottom: 20px; color: #000; letter-spacing: 1px; }
     .hero h6 {font-family:"Helvetica Neue",Helvetica,sans-serif; font-weight: 500; font-size: 13px;margin:40px auto 10px auto; }
-    .hero p {font-style: italic; font-size: 18px;}
+    .hero p {font-style: italic; font-size: 16px;}
     .hero hr {background-color: #ddd; height: 3px; width: 200px;}
-    .hero img { padding: 0;}
+    
 
     .two-col {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 0 10px; max-width: 1100px; margin:0 auto; padding:0; }
     .three-col {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:20px 50px; margin:0 auto; padding:20px;}
@@ -86,7 +85,6 @@ position: absolute;right:400px;top:35px;width: 40px;font-size: 0;color: #fff; }
     .wide {width: 100%; height: 300px; margin-bottom: 30px; background-position: 50% 70%;}
     .wide img {width: 200px; position: absolute; bottom:140px; right:5%;}   
     .wide img:first-of-type{top:50px; left:2%;}
-    
 
     .square {float:left; width: 50vw; max-width: 800px; height: 85vh; max-height: 800px;}
     .dual-text {float:right; width: 42vw; max-width: 660px;margin-right: 1vw;}
@@ -122,7 +120,7 @@ position: absolute;right:400px;top:35px;width: 40px;font-size: 0;color: #fff; }
     
     .price {font-family:"Helvetica Neue",Helvetica,sans-serif;font-size: 48px; margin:15px auto 20px auto;font-weight: 700;max-width: 660px;}
 
-    .drop-cap p:first-of-type {font-size: 22px;line-height: 30px; font-weight: 500; color:#000; margin:0 auto 40px auto;}
+    .drop-cap p:first-of-type {font-size: 22px;line-height: 33px; font-weight: 500; color:#000; margin:0 auto 40px auto;}
     .drop-cap p:first-of-type::first-letter {font-size: 100px; float: left; margin:24px 6px 10px 0; font-weight: 500; color:#000;}
     
     .further-reading {display: grid; grid-template-columns: 1fr 2fr 2fr 2fr; grid-gap: 20px 20px; max-width:1600px; margin:0 auto; padding:0 20px;}
