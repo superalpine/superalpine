@@ -119,7 +119,7 @@ position: absolute;right:400px;top:35px;width: 40px;font-size: 0;color: #fff; }
     .giger { grid-area: 5 / 4 / 6 / 5; }
     
     .price {font-family:"Helvetica Neue",Helvetica,sans-serif;font-size: 48px; margin:15px auto 20px auto;font-weight: 700;max-width: 660px;}
-
+    .three-col .price {font-size: 15px;}
     .drop-cap p:first-of-type {font-size: 22px;line-height: 33px; font-weight: 500; color:#000; margin:0 auto 40px auto;}
     .drop-cap p:first-of-type::first-letter {font-size: 100px; float: left; margin:24px 6px 10px 0; font-weight: 500; color:#000;}
     
