@@ -82,7 +82,7 @@ background: linear-gradient(90deg,rgba(5,0,20,.7),transparent);}
 .social div {width: 23%; float: left; margin-right: 1%;}
 .social div img {width: 100%;}
 .social div p {display: block; clear: left; font-family: 'DIN-Regular'; font-size: 12px;}
-
+.social div a {border:none;}
 
 @media (min-aspect-ratio: 16/9) {
 video{width: 100vw; height:auto;}
