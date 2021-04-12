@@ -122,8 +122,8 @@ figure img:first-of-type {margin-left:0;float:none;}
 .three img:last-of-type {float: none;}
 .three-col {display: block;}
 footer .three-col div {padding: 0 0 20px 0;}
-.social {width: 97%;}
-.social div {width: 48%; float: left; margin:20px 1% 20px 1%;}
+.social {width: 90%;}
+.social div {width: 100%; float: none; margin:20px auto; max-width: 350px;}
 
 }
 
