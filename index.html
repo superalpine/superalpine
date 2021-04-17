@@ -19,21 +19,17 @@
 <link rel="mask-icon" href="https://superalpine.co/img/safari-pinned-tab.svg" color="#E20613">
 <link rel="stylesheet" href="css/style.css">
 <style type="text/css">
-  body {background:#001233 url(projects/chamonix-travel-guide-book/img/hero-bg.jpg) center center no-repeat fixed;background-size:cover;}
-  header ul li a {color:#aaa;}
-  header input + label span { background: #aaa;}
-  .book-hero {background: none;}
-  footer {width: 100%; max-width: 100%;}
-  footer .three-col {background-color: #001233;}
-
-  @media screen and (max-width:790px) { 
-    body {background-attachment: scroll;}
-    .book-hero {height:auto; margin:0 auto; }
-    .book-hero h1 {display: none;}
-     footer { margin:0 auto;}
-    }
-    footer .three-col {padding:20px 20px 50px 20px;}
-    footer div {margin:0 0 20px 0;}
+  section { padding: 0 20px; height: 50vh;}
+  .book-hero {height: inherit; width: inherit;}
+  .hero1 {background:url(img/hero1.jpg) no-repeat center center;background-size: cover; height:50vh; width: 49%; float:left; margin: 25px 0 0 0; padding:7% 5% 0 5%; color: #fff;}
+  .hero2 {background:url(img/hero2.jpg) center center;background-size: cover; height:50vh; width: 49%; float:right; margin: 25px 0 0 0; padding:7% 5% 0 5%; color: #fff;}
+  h1 {letter-spacing: normal!important;}
+  h2 {color: #fff;margin:0 0 10px 0;font-size: 36px;}
+  
+@media screen and (max-width:790px) { 
+  section, .hero1, .hero2 {height: auto; float: none; width: 100%;}
+  .hero1, .hero2 {padding: 3% 5%;}
+  h1, h2 {font-size:30px; letter-spacing: normal!important;margin:0;}
   }
 </style>
 </head>
@@ -57,18 +53,35 @@
   </nav>
 </header>
 
-<section class="book-hero">
+<section>
+<div class="book-hero">
 	<figure><a href="projects/chamonix-travel-guide-book/index.html"></a></figure>
 	<div class="book-hero-text">
 		<div>
-		<h1>Chamonix<br> Mont<br> Blanc </h1>
+		<h1>Chamonix</h1>
 		<h2>Travel Guide</h2>
-		<p>It's the Alps’ most famous mountain resort and the death-sport capital of the world, but there's much more to Chamonix than the rush of adrenaline. Find out more in this new book.</p>
+		<p>It's the death-sport capital of the world, but there's much more to Chamonix than the rush of adrenaline. Find out more in the new book.</p>
 		<a href="projects/chamonix-travel-guide-book/index.html"><button>Shop Now</button></a>
 		</div>
 	</div>
+</div>
 </section>
-<footer>
+
+<section>
+<div class="hero1">
+  <h2>Super Alpine magazine</h2>
+  <p>Speed, mountains and the high life in the prototype magazine</p>
+  <p><a href="store/magazine-prototype.html" class="button">Shop now</a></p>
+</div>
+<div class="hero2">
+  <h2>Col de Turini</h2>
+  <p>Last few sticker packs remaining</p>
+  <p><a href="store/col-de-turini-sticker.html" class="button">Shop now</a></p>
+</div>
+</section>
+
+<br clear="all">
+<footer style="margin-top: 25px;">
   <div class="three-col">
     <div><img src="img/super-alpine.png"></div>
     <div>

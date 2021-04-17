@@ -18,19 +18,11 @@
 </url>
 <url>
   <loc>https://superalpine.co/projects/swiss-passes/index.html</loc>
-  <priority>0.10</priority>
+  <priority>0.01</priority>
 </url>
 <url>
   <loc>https://superalpine.co/projects/route-des-grandes-alpes/index.html</loc>
-  <priority>0.10</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/projects/col-de-turini/sticker.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/projects/zermatt/sticker.html</loc>
-  <priority>0.80</priority>
+  <priority>0.01</priority>
 </url>
 <url>
   <loc>https://superalpine.co/projects/chamonix/index.html</loc>
@@ -62,7 +54,7 @@
 </url>
 <url>
   <loc>https://superalpine.co/projects/zermatt/index.html</loc>
-  <priority>0.70</priority>
+  <priority>0.50</priority>
 </url>
 <url>
   <loc>https://superalpine.co/projects/col-de-joux-plane/index.html</loc>
@@ -90,23 +82,27 @@
 </url>
 <url>
   <loc>https://superalpine.co/projects/aosta/index.html</loc>
-  <priority>0.50</priority>
+  <priority>0.40</priority>
 </url>
 <url>
   <loc>https://superalpine.co/projects/giger-museum/index.html</loc>
-  <priority>0.50</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/magazine/index.html</loc>
-  <priority>0.20</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/magazine/sa00/index.html</loc>
-  <priority>0.66</priority>
+  <priority>0.45</priority>
 </url>
 <url>
   <loc>https://superalpine.co/store/index.html</loc>
   <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/store/col-de-turini-sticker.html</loc>
+  <priority>0.71</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/store/magazine-prototype.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/store/zermatt-matterhorn-sticker.html</loc>
+  <priority>0.72</priority>
 </url>
 <url>
   <loc>https://superalpine.co/about/index.html</loc>

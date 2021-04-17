@@ -16,7 +16,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     h6 {font-size: 16px;}
     p {font-size: 16px; line-height: 25px; margin:0 auto 20px auto;max-width: 650px;}
     ul,ol {margin:0 auto 35px auto;max-width: 660px;}
-    li {list-style-type: square; font-size: 15px; line-height: 23px;  margin:0 0 10px 20px;}
+    li {list-style-type: square; font-size: 16px; line-height: 25px;  margin:0 0 10px 20px;}
     small {display: block;margin:10px auto; line-height: 1.4em;max-width: 660px;}
     blockquote {font-style: italic;font-size: 20px;line-height: 32px;margin:60px auto; padding:30px; border-top:1px solid #ccc; border-bottom:1px solid #ccc; text-align: center; max-width: 800px; }
     img {width: 100%; max-width: 100%; font-size: 0;}
@@ -60,7 +60,7 @@ position: absolute;right:400px;top:35px;width: 40px;font-size: 0;color: #fff; }
     .portrait-right {flex: 34%; max-width: 34%; height: 470px; }
     .landscape-left { flex: 65%; max-width: 65%; height: 470px;margin-right: 1%;}
     
-    footer {max-width:1600px; margin:100px auto; clear: all;  }
+    footer {max-width:1560px; margin:100px auto; clear: all;  }
     footer .three-col {padding:60px 50px 60px 30px; background-color: #000;clear: all; color: #ccc; font-size: 13px; line-height: 20px;}
     footer img {width: 90px;}
     footer .three-col a {color: #bbb; border-bottom: 1px solid #bbb!important;}
@@ -73,6 +73,14 @@ position: absolute;right:400px;top:35px;width: 40px;font-size: 0;color: #fff; }
     .hero p {font-style: italic; font-size: 16px;}
     .hero hr {background-color: #ddd; height: 3px; width: 200px;}
     
+    .store-header {background-color: #eee; padding: 50px; height: 500px; margin:0 auto 30px auto;}
+    .store-header-text {float: right; width:40%;  height: 400px;  overflow: hidden;margin:0; padding: 0;}
+    .store-header-image {float: left; width: 60%; height: 400px; overflow: hidden;text-align: center;}
+    .store-header-image img {width: auto; height: 100%;}
+    .store-body-fig {width: 45%; float: left;}
+    .store-body-art {width: 50%; float: right;}
+    #div1, #div2, #div3, #div4 {display: none;margin:30px 0;}
+    #div1 b, #div2 b, #div3 b, #div4 b {font-family:"Helvetica Neue",Helvetica,sans-serif; font-size: 18px;}
 
     .two-col {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 0 10px; max-width: 1100px; margin:0 auto; padding:0; }
     .three-col {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:20px 50px; margin:0 auto; padding:20px;}
@@ -118,7 +126,7 @@ position: absolute;right:400px;top:35px;width: 40px;font-size: 0;color: #fff; }
     .aosta { grid-area: 5 / 3 / 6 / 4; }
     .giger { grid-area: 5 / 4 / 6 / 5; }
     
-    .price {font-family:"Helvetica Neue",Helvetica,sans-serif;font-size: 48px; margin:15px auto 20px auto;font-weight: 700;max-width: 660px;}
+    .price {font-family:"Helvetica Neue",Helvetica,sans-serif;font-size: 40px; margin:15px auto 20px auto;font-weight: 700;max-width: 660px;}
     .three-col .price {font-size: 15px;}
     .drop-cap p:first-of-type {font-size: 22px;line-height: 33px; font-weight: 500; color:#000; margin:0 auto 40px auto;}
     .drop-cap p:first-of-type::first-letter {font-size: 100px; float: left; margin:24px 6px 10px 0; font-weight: 500; color:#000;}
@@ -128,7 +136,7 @@ position: absolute;right:400px;top:35px;width: 40px;font-size: 0;color: #fff; }
     .further-reading a:hover{opacity:.7;transition: opacity .4s ease-out;-moz-transition: opacity .4s ease-out;-webkit-transition: opacity .4s ease-out;}
     .further-reading h2 {position: absolute; bottom: 0; font-size: 24px; line-height: 26px; font-weight: 700;padding:0 15px;color:#fff;}
     
-    .book-hero {width: 100vw; height: 80vh; margin:0 auto;background: url(../projects/chamonix-travel-guide-book/img/hero-bg.jpg) center center;background-size:cover; padding: 20px;}
+    .book-hero {width: 100vw; height: 80vh; margin:0 auto;background: url(../projects/chamonix-travel-guide-book/img/hero-bg.jpg) center center;background-size:cover; padding: 20px; max-width: 1560px;}
     .book-hero h1 {font-family:DIN, sans-serif; font-size: 55px; font-weight: normal;line-height: 1.1em; letter-spacing: 5px; color:#fff; text-shadow: 1px 1px 3px #000; margin: 0;}
     .book-hero-text h2 {font-family: 'DIN-Regular'; color:#fff; font-size: 22px; line-height: 26px;  margin:10px 0;}
     .book-hero figure {width:40%; height: 100%; float: right; background:url(../projects/chamonix-travel-guide-book/img/cover.png) no-repeat center center; background-size: contain; margin:0;padding: 0;}
@@ -137,10 +145,10 @@ position: absolute;right:400px;top:35px;width: 40px;font-size: 0;color: #fff; }
     .book-hero-text div {display: table-cell; vertical-align: middle; color: #fff; }
     .book-hero figure a {display: block; width: 100%; height: 100%;border:none;}
     .book-hero figure a:hover {border:none;}
-    .cdt-hero {background:url(../store/cdt-bg.jpg) center center;background-size: cover;height: 300px;max-width: 900px;}
-    .matterhorn-hero {background:url(../store/matterhorn-bg.jpg) center center;background-size: cover;height: 300px;max-width:900px;}
-    .cdt-image {width:25%; height: 100%; float: right; background:url(../store/cdt-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 2;}
-    .matterhorn-image {width:25%; height:100%; float: right; background:url(../store/matterhorn-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 2;}
+    .cdt-hero {background:url(../store/img/cdt-bg.jpg) center center;background-size: cover;height: 300px;max-width: 900px;}
+    .matterhorn-hero {background:url(../store/img/matterhorn-bg.jpg) center center;background-size: cover;height: 300px;max-width:900px;}
+    .cdt-image {width:25%; height: 100%; float: right; background:url(../store/img/cdt-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 2;}
+    .matterhorn-image {width:25%; height:100%; float: right; background:url(../store/img/matterhorn-sticker.png) no-repeat center center; background-size: contain;position: relative;z-index: 2;}
     .half {width: 50%; float: left;}
     .red {color:#E20613;}
    
@@ -246,10 +254,21 @@ position: absolute;right:400px;top:35px;width: 40px;font-size: 0;color: #fff; }
     .cdt-hero, .matterhorn-hero {height: 200px;max-width:93%; padding: 20px;}
     .cdt-image, .matterhorn-image  {width:25%; height: 100%; float: right;}
     .cdt-hero p, .matterhorn-hero p {max-width: 100%;}
+
+    .store-header {background-color: #eee; padding: 20px; height: auto; margin:0 auto 30px auto;}
+    .store-header-text {float: none; width:100%;  height: auto;  }
+    .store-header-image {float: none; width: 100%; height: 300px; }
+    .store-header-image img {height: 250px;}
+    .store-body-fig {width: 90%; float: none; margin:10px auto;}
+    .store-body-art {width: 90%; float: none;margin:10px auto;}
+
    
     .half {float: none; width: 100%;}
     .square {float:none; width: 100%; height: 300px; margin-bottom: 20px;}
     .sabk img {width: 150px; position: absolute; bottom:10%; right:10%;}   
     .sabk img:first-of-type{top:0; left:0;}
     .dual-text {float:none; width:100%;}
+
+
+
     }
