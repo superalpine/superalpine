@@ -82,7 +82,7 @@ position: absolute;right:400px;top:35px;width: 40px;font-size: 0;color: #fff; }
     #div1, #div2, #div3, #div4 {display: none;margin:30px 0;}
     #div1 b, #div2 b, #div3 b, #div4 b {font-family:"Helvetica Neue",Helvetica,sans-serif; font-size: 18px;}
 
-    .two-col {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 0 10px; max-width: 1100px; margin:0 auto; padding:0; }
+    .two-col {display: grid; grid-template-columns: 1fr 1fr; grid-gap: 0 50px; max-width: 1100px; margin:0 auto; padding:0; }
     .three-col {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:20px 50px; margin:0 auto; padding:20px;}
     .three-col div a {border:none;}
     .noheader {padding-bottom: 50px;}
@@ -126,7 +126,7 @@ position: absolute;right:400px;top:35px;width: 40px;font-size: 0;color: #fff; }
     .aosta { grid-area: 5 / 3 / 6 / 4; }
     .giger { grid-area: 5 / 4 / 6 / 5; }
     
-    .price {font-family:"Helvetica Neue",Helvetica,sans-serif;font-size: 40px; margin:15px auto 20px auto;font-weight: 700;max-width: 660px;}
+    .price {font-family:"Helvetica Neue",Helvetica,sans-serif;font-size: 30px; margin:15px auto 20px auto;font-weight: 700;max-width: 660px;}
     .three-col .price {font-size: 15px;}
     .drop-cap p:first-of-type {font-size: 22px;line-height: 33px; font-weight: 500; color:#000; margin:0 auto 40px auto;}
     .drop-cap p:first-of-type::first-letter {font-size: 100px; float: left; margin:24px 6px 10px 0; font-weight: 500; color:#000;}
@@ -232,6 +232,8 @@ position: absolute;right:400px;top:35px;width: 40px;font-size: 0;color: #fff; }
     header input ~ nav > ul > li {font-size:28px;}
     header input ~ nav > ul > li > a {padding:0;}
 
+    .two-col {display: block; grid-template-columns: 1fr; grid-gap: 0; max-width: 93%;}
+    .two-col div {margin:0 0 50px 0;}
     .three-col {display: block;}
     footer { margin:70px auto;}
     footer .three-col {padding:0px 20px 50px 20px;}
