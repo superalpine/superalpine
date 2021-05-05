@@ -84,8 +84,8 @@ position: absolute;right:400px;top:35px;width: 40px;font-size: 0;color: #fff; }
     .store-header-image img {width: auto; height: 100%;}
     .store-body-fig {width: 45%; float: left;}
     .store-body-art {width: 50%; float: right;}
-    #div1, #div2, #div3, #div4 {display: none;margin:30px 0;}
-    #div1 b, #div2 b, #div3 b, #div4 b {font-family:"Helvetica Neue",Helvetica,sans-serif; font-size: 18px;}
+    #div1, #div2, #div3, #div4, #div5 {display: none;margin:30px 0;}
+    #div1 b, #div2 b, #div3 b, #div4 b, #div5 b {font-family:"Helvetica Neue",Helvetica,sans-serif; font-size: 18px;}
     .price {font-family:"Helvetica Neue",Helvetica,sans-serif;font-size: 30px; margin:15px auto 20px auto;font-weight: 700;max-width: 660px;}
     
     .sabk {background: url(../img/sabk.jpg) center center no-repeat;background-size:cover; position: relative;}

@@ -106,20 +106,22 @@ background: linear-gradient(90deg,rgba(5,0,20,.7),transparent);}
 		<li>Printed and bound in the United Kingdom on sustainably sourced paper and vegetable-based inks</li>
 	</ul>
 	
-	<h3 class="price">&pound;20.00</h3>
+	<h3 class="price">&pound;18.00</h3>
+	<small>Retail price: £20.00</small>
 	<p>Select your country for shipping price</p>	
 		<form>	
 		<select id="selectedOptions" onchange="showDivs('div',this)">
 			<option value="0">Country</option>
 			<option value="1">UK</option>
-			<option value="2">USA and Canada</option>
+			<option value="2">USA</option>
+			<option value="5">Canada</option>
 			<option value="3">Europe</option>
 			<option value="4">Rest of the World</option> 
 	    </select>
 	 	</form>
 	 	<div id="div0"></div>
 		 <div id="div1">
-		 	<p><b>&pound;22.00</b> including Royal Mail 1st class delivery <!--2.39--></p>
+		 	<p><b>&pound;20.00</b> including Royal Mail 1st class delivery <!-- UK 2.39--></p>
 		 	<form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 			<input type="hidden" name="cmd" value="_s-xclick">
 			<input type="hidden" name="hosted_button_id" value="ACQMKPEAQ2PX4">
@@ -127,7 +129,7 @@ background: linear-gradient(90deg,rgba(5,0,20,.7),transparent);}
 			</form>
 		</div>
 		 <div id="div2">
-			 <p><b>&pound;27.50</b> including Royal Mail International Standard delivery <!--8.10--> </p>
+			 <p><b>&pound;26.00</b> including Royal Mail International Standard delivery <!-- USA 8.10--> </p>
 			 <form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 			<input type="hidden" name="cmd" value="_s-xclick">
 			<input type="hidden" name="hosted_button_id" value="K2484US3NRBVA">
@@ -135,7 +137,7 @@ background: linear-gradient(90deg,rgba(5,0,20,.7),transparent);}
 		</form>
 		</div>
 		 <div id="div3">
-		 <p><b>&pound;25.00</b> including Royal Mail International Standard delivery <!--5.05--></p>
+		 <p><b>&pound;23.00</b> including Royal Mail International Standard delivery <!--EUR 5.05--></p>
 			 <form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 			<input type="hidden" name="cmd" value="_s-xclick">
 			<input type="hidden" name="hosted_button_id" value="ANKGPCKYAXUT4">
@@ -143,7 +145,7 @@ background: linear-gradient(90deg,rgba(5,0,20,.7),transparent);}
 			</form>
 		</div>
 		 <div id="div4">
-		 	<p><b>&pound;29.00</b> including Royal Mail International Standard delivery <!--9.65--></p>
+		 	<p><b>&pound;27.00</b> including Royal Mail International Standard delivery <!--ROW 9.65--></p>
 			 
 			 <form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 			<input type="hidden" name="cmd" value="_s-xclick">
@@ -151,9 +153,19 @@ background: linear-gradient(90deg,rgba(5,0,20,.7),transparent);}
 	 		<button>Add to basket</button>
 			</form>
 		 </div>
+
+		  <div id="div5">
+		 	<p><b>&pound;25.00</b> including Royal Mail International Standard delivery <!--CAN 7.80--></p>
+			<form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="JA3K5K83RDY9W">
+			<button>Add to basket</button>
+			</form>
+			</div>
 		
 		</div>
 		</div>
+
 	<div>
 
 	<h4>Digital Edition</h4>
@@ -210,7 +222,7 @@ background: linear-gradient(90deg,rgba(5,0,20,.7),transparent);}
     "@type": "Offer",
     "url": "https://superalpine.co/projects/chamonix-travel-guide-book/index.html",
     "priceCurrency": "GBP",
-    "price": "20.00",
+    "price": "18.00",
     "priceValidUntil": "2022-01-01",
     "itemCondition": "https://schema.org/NewCondition",
     "availability": "https://schema.org/InStock",
