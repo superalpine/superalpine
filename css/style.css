@@ -76,7 +76,10 @@ position: absolute;right:400px;top:35px;width: 40px;font-size: 0;color: #fff; }
     .hero h3 {font-size: 16px; padding-bottom: 20px; color: #000; letter-spacing: 1px; }
     .hero h6 {font-family:"Helvetica Neue",Helvetica,sans-serif; font-weight: 500; font-size: 13px;margin:40px auto 10px auto; }
     .hero p {font-style: italic; font-size: 16px;}
-    .hero hr {background-color: #ddd; height: 3px; width: 200px;}
+    .hero hr, .sub-head hr {background-color: #ddd; height: 3px; width: 200px;}
+    
+    .sub-head {text-align: center;margin:50px auto;}
+    .sub-head h3 {font-size: 40px;}
     
     .store-header {background-color: #eee; padding: 50px; height: 500px; margin:0 auto 30px auto;}
     .store-header-text {float: right; width:40%;  height: 400px;  overflow: hidden;margin:0; padding: 0;}

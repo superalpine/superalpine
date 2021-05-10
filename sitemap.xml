@@ -25,20 +25,8 @@
   <priority>0.01</priority>
 </url>
 <url>
-  <loc>https://superalpine.co/projects/chamonix/index.html</loc>
+  <loc>https://superalpine.co/projects/chamonix-travel-guide/index.html</loc>
   <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/projects/chamonix/bibliography.html</loc>
-  <priority>0.10</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/projects/aiguille-du-midi/index.html</loc>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/projects/montenvers/index.html</loc>
-  <priority>0.60</priority>
 </url>
 <url>
   <loc>https://superalpine.co/projects/cirque-du-fer-a-cheval/index.html</loc>
