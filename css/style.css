@@ -34,8 +34,8 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     header {max-width:1600px; height: 110px; padding: 20px 20px 0 20px; margin:0 auto; position: relative;}
     header h1 {float: left; font-size:0;margin:0;width: 0;height: 0; }
     header a, header a:hover {text-decoration: none; border-bottom:none;transition: background-color 0.5s ease;}
-    header h1 a {height: 70px; width:70px; display: block; background:url(../img/super-alpine.png) no-repeat center center;background-size: cover; }
-    header h1 a:hover {background:#ddd url(../img/super-alpine.png) no-repeat center center;background-size: cover;}
+    header h1 a {height: 70px; width:70px; display: block; background:url(../img/super-alpine.svg) no-repeat center center;background-size: cover; }
+    header h1 a:hover {background:#ddd url(../img/super-alpine.svg) no-repeat center center;background-size: cover;}
     header ul {display: block; float: right;}
     header ul li {display: inline-block; padding: 25px 0 0 30px; }
     header ul li a {color:#000;}
@@ -66,7 +66,7 @@ position: absolute;right:400px;top:35px;width: 40px;font-size: 0;color: #fff; }
 
     footer {max-width:1560px; margin:100px auto; clear: all;  }
     footer .three-col {padding:60px 50px 60px 30px; background-color: #000;clear: all; color: #ccc; font-size: 13px; line-height: 20px;}
-    footer img {width: 90px;}
+    footer img {width: 90px; filter: invert(100%);}
     footer .three-col a {color: #bbb; border-bottom: 1px solid #bbb!important;}
     footer .three-col a:hover {color: #fff!important; border-bottom: none;}
     
@@ -81,8 +81,8 @@ position: absolute;right:400px;top:35px;width: 40px;font-size: 0;color: #fff; }
     .sub-head h3 {font-size: 40px;}
     
     .store-header {background-color: #eee; padding: 50px; height: 500px; margin:0 auto 30px auto;}
-    .store-header-text {float: right; width:40%;  height: 400px;  overflow: hidden;margin:0; padding: 0;}
-    .store-header-image {float: left; width: 60%; height: 400px; overflow: hidden;text-align: center;}
+    .store-header-text {float: right; width:45%;  height: 400px;  overflow: hidden;margin:0; padding: 0;}
+    .store-header-image {float: left; width: 55%; height: 400px; overflow: hidden;text-align: center;}
     .store-header-image img {width: auto; height: 100%;}
     .store-body-fig {width: 45%; float: left;}
     .store-body-art {width: 50%; float: right;}
@@ -90,9 +90,9 @@ position: absolute;right:400px;top:35px;width: 40px;font-size: 0;color: #fff; }
     #div1 b, #div2 b, #div3 b, #div4 b, #div5 b {font-family:"Helvetica Neue",Helvetica,sans-serif; font-size: 18px;}
     .price {font-family:"Helvetica Neue",Helvetica,sans-serif;font-size: 30px; margin:15px auto 20px auto;font-weight: 700;max-width: 660px;}
     
-    .sabk {background: url(../img/sabk.jpg) center center no-repeat;background-size:cover; position: relative;}
+    .sabk {background: url(../img/sabk.jpg) center center no-repeat;background-size:cover; position: relative; }
     .sabk img {width: 200px; position: absolute; bottom:10%; right:10%;}   
-    .sabk img:first-of-type{top:2%; left:2%;}
+    .sabk img:first-of-type{top:2%; left:2%;filter: invert(100%);}
     .wide {width: 100%; height: 300px; background-position: 50% 70%;}
     .wide img {width: 200px; position: absolute; bottom:140px; right:5%;}   
     .wide img:first-of-type{top:50px; left:2%;}
