@@ -34,8 +34,8 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
     header {max-width:1600px; height: 110px; padding: 20px 20px 0 20px; margin:0 auto; position: relative;}
     header h1 {float: left; font-size:0;margin:0;width: 0;height: 0; }
     header a, header a:hover {text-decoration: none; border-bottom:none;transition: background-color 0.5s ease;}
-    header h1 a {height: 70px; width:70px; display: block; background:#E20613 url(../img/super-alpine.png) no-repeat center center;background-size: cover; }
-    header h1 a:hover {background:#000 url(../img/super-alpine.png) no-repeat center center;background-size: cover;}
+    header h1 a {height: 70px; width:70px; display: block; background:url(../img/super-alpine.png) no-repeat center center;background-size: cover; }
+    header h1 a:hover {background:#ddd url(../img/super-alpine.png) no-repeat center center;background-size: cover;}
     header ul {display: block; float: right;}
     header ul li {display: inline-block; padding: 25px 0 0 30px; }
     header ul li a {color:#000;}
