@@ -90,15 +90,13 @@ position: absolute;right:400px;top:35px;width: 40px;font-size: 0;color: #fff; }
     #div1 b, #div2 b, #div3 b, #div4 b, #div5 b {font-family:"Helvetica Neue",Helvetica,sans-serif; font-size: 18px;}
     .price {font-family:"Helvetica Neue",Helvetica,sans-serif;font-size: 30px; margin:15px auto 20px auto;font-weight: 700;max-width: 660px;}
     
-    .sabk {background: url(../img/sabk.jpg) center center no-repeat;background-size:cover; position: relative; }
+    .sabk {position: relative; background-color: #111; }
     .sabk img {width: 200px; position: absolute; bottom:10%; right:10%;}   
     .sabk img:first-of-type{top:2%; left:2%;filter: invert(100%);}
-    .wide {width: 100%; height: 300px; background-position: 50% 70%;}
-    .wide img {width: 200px; position: absolute; bottom:140px; right:5%;}   
-    .wide img:first-of-type{top:50px; left:2%;}
-    .square {float:left; width: 50vw; max-width: 800px; height: 85vh; max-height: 800px;}
-    .dual-text {float:right; width: 42vw; max-width: 660px;margin-right: 1vw;}
-
+    .wide {width: 100%; height: 200px; background-position: 50% 70%;}
+    .wide img {width: 200px; position: absolute; bottom:45%; right:5%;}   
+    .wide img:first-of-type{top:4%; left:2%;}
+    
     .drop-cap p:first-of-type {font-size: 22px;line-height: 33px; font-weight: 500; color:#000; margin:0 auto 40px auto;}
     .drop-cap p:first-of-type::first-letter {font-size: 100px; float: left; margin:24px 6px 10px 0; font-weight: 500; color:#000;}
     
@@ -182,9 +180,9 @@ position: absolute;right:400px;top:35px;width: 40px;font-size: 0;color: #fff; }
     .store-body-fig {width: 90%; float: none; margin:10px auto;}
     .store-body-art {width: 90%; float: none;margin:10px auto;}
 
-    .square {float:none; width: 100%; height: 300px; margin-bottom: 20px;}
+    
     .sabk img {width: 150px; position: absolute; bottom:10%; right:10%;}   
     .sabk img:first-of-type{top:0; left:0;}
-    .dual-text {float:none; width:100%;}
+
 
     }
