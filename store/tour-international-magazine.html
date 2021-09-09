@@ -1,53 +1,49 @@
 <!doctype html>
 <html lang="en">
-<head><title>Tour International - Super Alpine magazine</title>
+<head>
+<title>Tour International - Super Alpine magazine</title>
 <meta charset="utf-8">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 <link rel="canonical" href="https://superalpine.co/store/tour-international-magazine.html">
 <meta name="description" content="In Issue Three of Super Alpine magazine tour three countries in one day. Crossing the borders of France, Italy and Switzerland on legendary alpine passes and tunnels.">
 <meta property="og:title" content="Tour International">
-<meta propery="og:description" content="In Issue Three of Super Alpine magazine tour three countries in one day. Crossing the borders of France, Italy and Switzerland on legendary alpine passes and tunnels.">
 <meta property="og:site_name" content="Super Alpine">
 <meta property="og:url" content="https://superalpine.co/store/tour-international-magazine.html">
-<link rel="apple-touch-icon" sizes="180x180" href="https://superalpine.co/img/apple-touch-icon.png">
-<link rel="icon" type="image/png" href="https://superalpine.co/img/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="https://superalpine.co/img/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="https://superalpine.co/img/favicon-16x16.png" sizes="16x16">
-<link href="../css/style.css" rel="stylesheet">
+<meta property="og:description" content="In Issue Three of Super Alpine magazine tour three countries in one day. Crossing the borders of France, Italy and Switzerland on legendary alpine passes and tunnels.">
+<meta property="og:image" content="https://superalpine.co/store/img/tour-int-cover.jpg">
+<link rel="stylesheet" href="../style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="store.js"></script>
 </head>
 <body>
+
+<nav>
+	<ul>
+		<li><a href="../index.html">Home</a></li>
+		<li><a href="index.html">Store</a></li>
+		<li><a href="../journal/index.html">Journal</a></li>
+		<li><a href="../about/index.html">About</a></li>
+	</ul>
+</nav>
 <header>
- <h1><a href="../index.html" title="Super Alpine">Super Alpine</a></h1>
-  <input id="burger" type="checkbox" />
-  <label for="burger">
-      <span></span>
-      <span></span>
-      <span></span>
-  </label>
-<nav>    
-    <ul>
-    <li><a href="../index.html">Home</a></li>
-    <li><a href="../projects/index.html">Projects</a></li>
-    <li><a href="index.html">Store</a></li>
-    <li><a href="../about/index.html">About</a></li>
-    </ul>  
-  </nav>
+	<h1>Store</h1>
 </header>
-
-<section class="store-header">
-  <div class="store-header-image"></div>
-  <div class="store-header-text">
-	<h2>Tour International</h2>
-    <p class="price">&pound;15.00</p>
-      <p>Coming November 2021</p>
-  </div>
-</section>
-
-<section>
-<figure class="store-body-fig"></figure>
-  <article class="store-body-art">
+<section class="product">
+  <main>
+    <h2>Tour International</h2>
+  </main>
+  <figure>
+  <img src="img/ti1.jpg" alt="" id="main-img" />
+  <ul>
+    <li><img src="img/ti1.jpg" alt="" /></li>
+    <li><img src="img/am3.jpg" alt="" /></li>
+    <li><img src="img/am2.jpg" alt="" /></li>
+    <li><img src="img/am4.jpg" alt="" /></li>
+  </ul>
+  </figure>
+	<article>
   <h3>Super Alpine magazine Issue three</h3>
-  <p>In Issue Three of Super Alpine magazine tour three countries in one day. Crossing the borders of France, Italy and Switzerland on legendary alpine passes and tunnels.</p>
+  <p>In Issue Three of Super Alpine magazine we tour three countries in one day. Crossing the borders of France, Italy and Switzerland on legendary alpine passes and tunnels.</p>
 	<ul>
 		<li>195 × 260 mm (7.6 by 10.2 inches)</li>
 		<li>Softcover</li>
@@ -56,36 +52,85 @@
 		<li>120gsm uncoated inside pages</li>
 		<li>Printed and bound in the United Kingdom on sustainably sourced paper and vegetable-based inks</li>
 	</ul>
-	 </article>
-  </section>
+	<p class="price">&pound;15.00</p>
+  <p class="red">Pre order for November shipping</p>
+	<h5>Select your country for shipping</h5> 
+  <form>  
+    <select id="selectedOptions" onchange="showDivs('div',this)">
+      <option value="0">Country</option>
+      <option value="1">UK</option>
+      <option value="2">USA</option>
+      <option value="5">Canada</option>
+      <option value="3">Europe</option>
+      <option value="4">Rest of the World</option> 
+      </select>
+    </form>
+    
+    <div id="div0"></div>
+    
+    <div id="div1">
+      <p class="price">&pound;17.00</p><!-- UK 2.39-->
+      <p>including Royal Mail 1st class delivery </p>
+      <form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="W9M7QPQMH925E">
+      <button>Add to basket</button>
+      </form>
+    </div>
 
-<br clear="all">
-<footer>
-  <div class="three-col">
-    <div><img src="../img/super-alpine.svg"></div>
-    <div>
-      Sign up to the <a href="../newsletter/index.html">newsletter</a>
-      <br><br>
-      Read the <a href="../terms/index.html">terms and conditions</a>
-    <br><br>
-    <a href="#top">Top of page</a>
-  </div>
-  <div>
-    No part of this website may be reproduced or utilised in any form or by any means without the prior written permission of Super Alpine.
-  <br><br>
-  &copy; Copyright 2015-<script>document.write(Date().split(' ')[3])</script> SUPER ALPINE.
-  All rights reserved.
-  </div>
-  </div>
-</footer>
+    <div id="div2">
+      <p class="price">&pound;22.00</p> <!-- USA 8.10-->
+      <p>including Royal Mail International Standard delivery<br>
+      excludes US Sales Tax &amp; Customs </p>
+      <form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="N5JHGUG4JMFH8">
+      <button>Add to basket</button>
+      </form>
+    </div>
 
+     <div id="div3">
+      <p>Due to new EU VAT rules, we are unable to take payment on this website. Please visit our eBay store to purchase.</p> 
+      <a href="https://www.ebay.co.uk/itm/274768913396" class="button">eBay store</a>
+    </div>
+
+     <div id="div4">
+      <p class="price">&pound;24.00</p> <!--ROW 9.65-->
+      <p>including Royal Mail International Standard delivery<br>
+      excludes Sales Tax &amp; Customs</p>
+      <form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post">  
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="U3JTN2P7BWLPE">
+      <button>Add to basket</button>
+      </form>
+     </div>
+
+      <div id="div5">
+        <p class="price">&pound;21.00</p><!--CAN 7.80-->
+        <p>including Royal Mail International Standard delivery<br>
+        excludes Sales Tax &amp; Customs</p>
+        <form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="R83TR8W47SWDA">
+        <button>Add to basket</button>
+        </form>
+      </div>
+      
+    <small><a href="terms.html">Terms apply</a></small>
+    
+	</article>
+	<br clear="all">
+</section>
+
+<footer><p>Copyright &copy; Super Alpine. All rights reserved.</p></footer>
+<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "Alpes-Maritimes magazine",
+  "name": "Tour International magazine",
   "image": [
-    "https://superalpine.co/store/img/sa03-cover.jpg"
+    "https://superalpine.co/store/img/tour-int-cover.jpg"
    ],
   "description": "In Issue Three of Super Alpine magazine tour three countries in one day. Crossing the borders of France, Italy and Switzerland on legendary alpine passes and tunnels.",
   "sku": "SA03",
@@ -101,7 +146,7 @@
     "price": "15.00",
     "priceValidUntil": "2022-01-01",
     "itemCondition": "https://schema.org/NewCondition",
-    "availability": "https://schema.org/PreOrder",
+    "availability": "https://schema.org/InStock",
     "seller": {
       "@type": "Organization",
       "name": "SUPER ALPINE"

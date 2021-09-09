@@ -9,46 +9,42 @@
 <meta property="og:site_name" content="Super Alpine">
 <meta property="og:url" content="https://superalpine.co/store/alpes-maritimes-magazine.html">
 <meta property="og:description" content="In Issue Two of Super Alpine magazine we head to the South of France and the Alpes-Maritimes. From the coastline of the French Riviera to the hinterlands we explore everything from the region’s quiet roads, mountain summits and trails to the hedonistic pleasures of Monaco.">
-<meta property="og:image" content="https://superalpine.co/store/img/am-cover.jpg">
-<meta name="twitter:card" content="product">
-<meta name="twitter:title" content="Alpes-Maritimes magazine - Super Alpine">
-<meta name="twitter:description" content="In Issue Two of Super Alpine magazine we head to the South of France and the Alpes-Maritimes. From the coastline of the French Riviera to the hinterlands we explore everything from the region’s quiet roads, mountain summits and trails to the hedonistic pleasures of Monaco.">
-<link href="../css/style.css" rel="stylesheet">
-<script src="delivery.js"></script>
+<meta property="og:image" content="https://superalpine.co/store/img/am1.jpg">
+<link rel="stylesheet" href="../style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="store.js"></script>
 </head>
 <body>
-<header>
- <h1><a href="../index.html" title="Super Alpine">Super Alpine</a></h1>
-  <input id="burger" type="checkbox" />
-  <label for="burger">
-      <span></span>
-      <span></span>
-      <span></span>
-  </label>
-<nav>    
-    <ul>
+
+<nav>
+  <ul>
     <li><a href="../index.html">Home</a></li>
-    <li><a href="../projects/index.html">Projects</a></li>
     <li><a href="index.html">Store</a></li>
-    <li><a href="../about/index.html">About</a></li>
-    </ul>  
-  </nav>
+    <li><a href="../journal/index.html">Journal</a></li>
+<!--    <li><a href="../about/index.html">About</a></li> -->
+  </ul>
+</nav>
+<header>
+  <h1>Store</h1>
 </header>
 
-<section class="store-header">
-  <div class="store-header-image"><img src="img/am-cover.jpg"></div>
-  <div class="store-header-text">
-      <h2>Alpes-Maritimes</h2>
-       <p class="price">&pound;15.00</p>
-      <p>Second Edition coming October 2021</p>
-</div>
-</section>
-
-<section>
-<figure class="store-body-fig"><img src="img/am1.jpg"><img src="img/am2.jpg"></figure>
-  <article class="store-body-art">
-  <h3>Super Alpine magazine Issue two</h3>
-  <p>In Issue Two of Super Alpine magazine we head to the South of France and the Alpes-Maritimes. From the coastline of the French Riviera to the hinterlands we explore everything from the region’s quiet roads, mountain summits and trails to the hedonistic pleasures of Monaco.</p>
+<section class="product">
+  <main>
+    <h2>Alpes-Maritimes</h2>
+  </main>
+  <figure>
+  <img src="img/am1.jpg" alt="" id="main-img" alt="Alpes-Maritimes magazine">
+  <ul>
+    <li><img src="img/am1.jpg" alt="Alpes-Maritimes magazine" /></li>
+    <li><img src="img/am3.jpg" alt="Alpes-Maritimes magazine" /></li>
+    <li><img src="img/am2.jpg" alt="Alpes-Maritimes magazine" /></li>
+    <li><img src="img/am4.jpg" alt="Alpes-Maritimes magazine" /></li>
+  </ul>
+  </figure>
+  
+  <article>
+  <h3>Super Alpine magazine issue two</h3>
+    <p>In Issue Two of Super Alpine magazine we head to the South of France and the Alpes-Maritimes. From the coastline of the French Riviera to the hinterlands we explore everything from the region’s quiet roads, mountain summits and trails to the hedonistic pleasures of Monaco.</p>
   <ul>
     <li>195 × 260 mm (7.6 by 10.2 inches)</li>
     <li>Softcover</li>
@@ -58,38 +54,84 @@
     <li>Printed and bound in the United Kingdom on sustainably sourced paper and vegetable-based inks</li>
     <li>Second edition</li>
   </ul>
-  
-    </article>
-  </section>
+  <p class="price">&pound;15.00</p>
+  <p class="red">Ships in 2 weeks</p>
+  <h5>Select your country for shipping</h5> 
+  <form>  
+    <select id="selectedOptions" onchange="showDivs('div',this)">
+      <option value="0">Country</option>
+      <option value="1">UK</option>
+      <option value="2">USA</option>
+      <option value="5">Canada</option>
+      <option value="3">Europe</option>
+      <option value="4">Rest of the World</option> 
+      </select>
+    </form>
+   <div id="div0"></div>
 
+    <div id="div1">
+      <p class="price">&pound;17.00</p><!-- UK 2.39-->
+      <p>including Royal Mail 1st class delivery</p>
+      <form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="3LLTV84F42HKW">
+      <button>Add to basket</button>
+    </form>
+    </div>
+
+    <div id="div2">
+      <p class="price">&pound;22.00</p><!-- USA 8.10-->
+      <p>including Royal Mail International Standard delivery<br>
+      excludes US Sales Tax &amp; Customs</p>
+      <form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="YS6VKDLQWKG9S">
+      <button>Add to basket</button>
+      </form>
+    </div>
+
+    <div id="div3">
+      <p>Due to new EU VAT rules, we are unable to take payment on this website. Please visit our eBay store to purchase.</p> 
+      <a href="https://www.ebay.co.uk/itm/274768913396" class="button">eBay store</a>
+    </div>
+
+    <div id="div4">
+      <p class="price">&pound;24.00</p> <!--ROW 9.65-->
+      <p>including Royal Mail International Standard delivery<br>
+      excludes Sales Tax &amp; Customs</p>
+      <form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="TWVN9DTQCFPVQ">
+      <button>Add to basket</button>
+      </form>
+    </div>
+
+    <div id="div5">
+      <p class="price">&pound;21.00</p><!--CAN 7.80-->
+      <p>including Royal Mail International Standard delivery<br>
+      excludes Sales Tax &amp; Customs</p>
+      <form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="HLZBG6VM7G4KY">
+      <button>Add to basket</button>
+      </form>
+    </div>
+    
+    <small><a href="terms.html">Terms apply</a></small>
+    
+  </article>
 <br clear="all">
-<footer>
-  <div class="three-col">
-    <div><img src="../img/super-alpine.svg"></div>
-    <div>
-      Sign up to the <a href="../newsletter/index.html">newsletter</a>
-      <br><br>
-      Read the <a href="../terms/index.html">terms and conditions</a>
-    <br><br>
-    <a href="#top">Top of page</a>
-  </div>
-  <div>
-    No part of this website may be reproduced or utilised in any form or by any means without the prior written permission of Super Alpine.
-  <br><br>
-  &copy; Copyright 2015-<script>document.write(Date().split(' ')[3])</script> SUPER ALPINE.
-  All rights reserved.
-  </div>
-  </div>
-</footer>
+</section>
 
-
+<footer><p>Copyright &copy; Super Alpine. All rights reserved.</p></footer>
+<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
   "@type": "Product",
   "name": "Alpes-Maritimes magazine",
   "image": [
-    "https://superalpine.co/store/img/am-cover.jpg"
+    "https://superalpine.co/store/img/am1.jpg"
    ],
   "description": "In Issue Two of Super Alpine magazine we head to the South of France and the Alpes-Maritimes. From the coastline of the French Riviera to the hinterlands we explore everything from the region’s quiet roads, mountain summits and trails to the hedonistic pleasures of Monaco.",
   "sku": "SA02",
@@ -105,7 +147,7 @@
     "price": "15.00",
     "priceValidUntil": "2022-01-01",
     "itemCondition": "https://schema.org/NewCondition",
-    "availability": "https://schema.org/PreOrder",
+    "availability": "https://schema.org/InStock",
     "seller": {
       "@type": "Organization",
       "name": "SUPER ALPINE"
@@ -113,6 +155,5 @@
   }
 }
 </script>
-
 </body>
 </html>

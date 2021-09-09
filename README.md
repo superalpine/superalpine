@@ -13,7 +13,3 @@ The Super Alpine website.
 ## License
 
 Copyright Super Alpine. All rights reserved.
-
-## Acknowledgments
-
-* Julia Revitt Photography
