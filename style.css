@@ -56,6 +56,6 @@ button:hover, .button:hover{color:#fff;background-color: #000;border: 1px solid 
 
 @media screen and (max-width:600px) { 
 	.three-col {display: block; grid-template-columns: 1fr; grid-gap:auto; margin:0 auto; }
-	nav li {padding: 2px 8px; font-size: 11px; }
+	
 
 }
