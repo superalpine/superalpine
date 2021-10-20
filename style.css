@@ -38,7 +38,7 @@ iframe {max-width: 100%; width: 100%;}
 .product {max-width: 1300px; padding: 0 20px; }
 .product figure {width: 50.58333331%; float: left; margin: 0; }
 .product figure ul {list-style:none; display: block; margin: 20px 0;}
-.product figure li {display:inline-block;max-width: 23%; cursor: pointer;  }
+.product figure li {display:inline-block;max-width: 24%; cursor: pointer;  }
 .product article, .product main  {width: 45.24999999%; float: right;padding: 0 20px;}
 .price {font-size: 30px; line-height: 30px; font-weight: bold; color: #000; margin-bottom: 5px;}
 #div1, #div2, #div3, #div4, #div5 {display: none;margin:30px 0;}
