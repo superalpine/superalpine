@@ -46,16 +46,14 @@ select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip:
  button, .button {font-size: 14px;line-height:1em;font-weight: normal;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 15px 11px 15px; color: #fff;background-color:#c69f73;z-index:0;text-align: center;overflow: hidden; border: 1px solid #c69f73; border-radius: 3px; margin:0 auto; cursor: pointer;}
 button:hover, .button:hover{color:#fff;background-color: #000;border: 1px solid #000;}
 
-
 @media screen and (max-width:800px) { 
 	nav {height: 70px;}
 	.three-col {display: grid; grid-template-columns: 1fr 1fr; grid-gap:30px; margin:0 auto;}
 	.three-col div {padding-bottom: 20px; ;}
 	.product figure, .product article, .product main  {width: 95%; float: none; padding: 0;}
+	.journal article {margin: 20px auto 40px auto; box-shadow: none; padding: 10px;}
 }
 
 @media screen and (max-width:600px) { 
 	.three-col {display: block; grid-template-columns: 1fr; grid-gap:auto; margin:0 auto; }
-	
-
 }
