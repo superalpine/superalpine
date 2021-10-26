@@ -27,7 +27,10 @@ article {max-width: 650px; margin: 0 auto 20px auto; padding:0 20px;}
 figure {margin: 10px 0 20px 0;}
 footer {text-align: center; padding: 50px 0 30px 0;}
 iframe {max-width: 100%; width: 100%;}
-
+table {max-width: 100%; width: 100%; margin: 10px auto; border: 0;}
+tr:nth-child(even) {background-color: #f2f2f2;}
+th {background-color: #333; color: #c69f73; text-transform: uppercase;}
+td, th {text-align: left; padding: 7px 0 7px 7px;}
 .red {color:#900;}
 
 .journal article {margin: 20px auto 40px auto; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); padding:15px;}
