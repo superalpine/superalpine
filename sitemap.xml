@@ -29,8 +29,12 @@
   <priority>0.5</priority>
 </url>
 <url>
-  <loc>https://superalpine.co/journal/index.html</loc>
+  <loc>https://superalpine.co/podcast/index.html</loc>
   <priority>0.4</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/journal/index.html</loc>
+  <priority>0.3</priority>
 </url>
 <url>
   <loc>https://superalpine.co/about/index.html</loc>
