@@ -21,7 +21,7 @@
 <style type="text/css">
 body {background: url('img/bodybg.jpg') center center; background-size: cover; position: fixed; color: #fff;}
 h1 {font-size:0;width: 0;height: 0;margin:0 auto;display: block; padding-top: 25%;}
-p {font-size:15px;padding-top: 20px; text-shadow: 1px 1px 1px #000;}
+p {font-size:15px;padding-top: 20px; text-shadow: 1px 1px 3px #222;}
 nav {position: fixed; z-index: 2; }
 nav ul {border-top: 1px solid rgba(255, 255, 255, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.1);}
 nav li:first-of-type a {color: #c69f73;}
@@ -30,14 +30,15 @@ nav li:first-of-type a {color: #c69f73;}
 .parallax::after {content: ' ';position: absolute;top: 0;right: 0;bottom: 0;left: 0;transform: translateZ(-1px) scale(1.5);background-size: cover;z-index: -1;}
 .sa div {background: url('img/bg-cutout.png') bottom center no-repeat; background-size: cover; width: 100vw; height: 100vh;}
 .sa p {display: none;}
-.tour::after {background: url('img/sa03.jpg') center bottom; background-size: cover;}
-.tour div, .chx div, .mw div {max-width: 450px; max-height: 300px;position: absolute; top:0; bottom:0; left:0; right:0;margin: auto;padding: 0 25px;}
-.chx {background: url('img/chx.jpg') center bottom; background-size: cover;}
+.chx::after {background: url('img/chx.jpg') center bottom; background-size: cover;}
+.podcast div, .chx div, .mw div {max-width: 400px; max-height: 300px;position: absolute; top:0; bottom:0; left:0; right:0;margin: auto;padding: 0 25px;}
+.podcast div {max-width: 350px;}
+.podcast {background: #fff url(img/podcast.jpg) center bottom; background-size: cover;}
 .mw {background-color: #fff; }
 @media screen and (max-height:736px) { 
 .wrapper {perspective: 3px;}
 h1 {padding: 50% 20px 0 20px;}
-.tour img, .chx img {max-width: 90%;}
+.podcast img, .chx img {max-width: 90%;}
 }
 </style>
 </head>
@@ -57,17 +58,17 @@ h1 {padding: 50% 20px 0 20px;}
   <div><h1>Super Alpine</h1><p>Exploring the Alps</p></div>
   </section>
 
- <section class="fullheight parallax tour">
+  <section class="fullheight parallax chx">
     <div>
-    <a href="store/tour-international-magazine.html"><img src="img/tour-international.png" alt="Tour International"></a>
-    <p>Three countries in one day in the Issue Three of the Super Alpine magazine</p>
+    <a href="store/chamonix-travel-guide.html"><img src="img/chxtg.png" alt="Chamonix-Mont-Blanc Travel Guide"></a>
+    <p>Travel Guide</p>
     </div>
   </section>
 
-  <section class="fullheight chx">
+ <section class="fullheight podcast">
     <div>
-    <a href="store/chamonix-travel-guide.html"><img src="img/chxtg.png" alt="Chamonix-Mont-Blanc Travel Guide"></a>
-    <p>Discover Chamonix in this 180-page, all season guide book</p>
+    <a href="podcast/index.html"><img src="img/podcast.png" alt="Podcast"></a>
+     <p>A series of immersive audio podcasts created using binaural recordings</p>
     </div>
   </section>
 
