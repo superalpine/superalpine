@@ -16,16 +16,18 @@ hr {width:100%; margin:20px auto; background-color: #ddd; height: 1px; border: n
 a {color: #c69f73;transition: all 0.2s ease;  text-decoration: none;}
 a:hover {color: #000;}
 img {max-width: 100%;  font-size: 0;}
-nav {padding:20px 0;position: relative; width: 100%; height: 100px;text-align: center;}
-nav ul {list-style-type: none; text-align: center; display: block; margin: 0; border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;}
-nav li {display: inline-block;  text-transform: uppercase;text-align: center; padding: 2px 10px; font-size: 13px; }
-nav a {color: #ccc;}
+nav {padding:20px 0; height:70px;}
+nav ul {list-style-type: none; text-align: left; display: block; margin: 0;}
+nav li {display: inline-block;  text-transform: uppercase;text-align: center; padding:0 15px; font-size: 13px; border-right: 1px solid #ddd;}
+nav li:first-of-type {padding-left: 0;}
+nav li:last-of-type {border-right: none;}
+nav a {color: #777;}
 nav a:hover {color: #c69f73;}
-header {display: block; margin:0 auto; text-align: center; max-width: 1100px; padding-bottom: 20px;}
-section {max-width: 1100px; margin:0 auto;}
-article {max-width: 650px; margin: 0 auto 20px auto; padding:0 20px;}
+nav, header, section, main, footer {max-width: 2000px; width: 96%; margin:0 auto;}
+header { margin-bottom: 20px; }
+article {}
 figure {margin: 10px 0 20px 0;}
-footer {text-align: center; padding: 50px 0 30px 0;}
+footer {text-align: left; padding: 50px 0 30px 0;}
 iframe {max-width: 100%; width: 100%;}
 table {max-width: 100%; width: 100%; margin: 10px auto; border: 0;}
 tr:nth-child(even) {background-color: #f2f2f2;}
@@ -33,16 +35,19 @@ th {background-color: #333; color: #c69f73; text-transform: uppercase;}
 td, th {text-align: left; padding: 7px 0 7px 7px;}
 .red {color:#900;}
 .logo {background-color: #000; width: 70px; height: 70px; padding: 5px;}
-.journal article {margin: 20px auto 40px auto; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); padding:15px;}
-.three-col {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:50px; padding: 0 20px;}
+.two-col {display: grid; grid-template-columns: 1fr 1fr; grid-gap:30px; padding:0;}
+.three-col {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:30px; padding:0;}
 .three-col h4 {margin: 5px 0;}
 .three-col p { margin: 5px 0 20px 0; }
-.product {max-width: 1300px; padding: 0 20px; }
-.product figure {width: 50.58333331%; float: left; margin: 0; }
+
+.journal {max-width:800px; margin: 0 0 0 2%;}
+.journal article {padding-bottom: 50px;}
+.product figure {width: 55%; float: left; margin: 0; }
 .product figure ul {list-style:none; display: block; margin: 20px 0 0 0;}
 .product figure li {display:inline-block;max-width: 23%; margin: 0 10px 10px 0; cursor: pointer;  }
 .product figure li:nth-of-type(4); {margin: 0 0 10px 0;}
-.product article, .product main  {width: 45.24999999%; float: right;padding: 0 20px;}
+.product article  {width: 45%; float: left;padding:0 0 0 3%;}
+.product main  {width: 45%; float: right;padding:0 0 0 3%;}
 .price {font-size: 30px; line-height: 30px; font-weight: bold; color: #000; margin-bottom: 5px;}
 #div1, #div2, #div3, #div4, #div5 {display: none;margin:30px 0;}
 select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip: padding-box;background-image:url(store/img/arrow.png);background-position: right;background-repeat: no-repeat;background-size: contain;color: #222;background-color: #fff;border: 1px solid #c69f73;border-radius: 3px;cursor: default;display: block;font-family:"Helvetica Neue",Helvetica,sans-serif;font-size: 14px;font-weight: normal;line-height: 16px;margin:0 0 20px 0;padding:5px 30px 5px 10px;text-transform: uppercase;white-space: nowrap;width: 280px;height: 40px;outline: none;}
@@ -50,7 +55,7 @@ select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip:
 button:hover, .button:hover{color:#fff;background-color: #000;border: 1px solid #000;}
 
 @media screen and (max-width:800px) { 
-	nav {height: 70px;}
+	nav li {padding:0 5px; font-size: 12px;}
 	.three-col {display: grid; grid-template-columns: 1fr 1fr; grid-gap:30px; margin:0 auto;}
 	.three-col div {padding-bottom: 20px; ;}
 	.product figure, .product article, .product main  {width: 95%; float: none; padding: 0;}
@@ -60,5 +65,5 @@ button:hover, .button:hover{color:#fff;background-color: #000;border: 1px solid 
 }
 
 @media screen and (max-width:600px) { 
-	.three-col {display: block; grid-template-columns: 1fr; grid-gap:auto; margin:0 auto; }
+	.three-col, .two-col {display: block; grid-template-columns: 1fr; grid-gap:auto; margin:0 auto; }
 }

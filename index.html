@@ -19,65 +19,34 @@
 <link rel="mask-icon" href="https://superalpine.co/img/safari-pinned-tab.svg" color="#000000">
 <link rel="stylesheet" href="style.css">
 <style type="text/css">
-body {background: url('img/bodybg.jpg') center center; background-size: cover; position: fixed; color: #fff;}
-h1 {font-size:0;width: 0;height: 0;margin:0 auto;display: block; padding-top: 25%;}
-p {font-size:15px;padding-top: 20px; text-shadow: 1px 1px 3px #222;}
-nav {position: fixed; z-index: 2; }
-nav ul {border-top: 1px solid rgba(255, 255, 255, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.1);}
 nav li:first-of-type a {color: #c69f73;}
-.wrapper {width: 100vw;height: 100vh;overflow-x: hidden;overflow-y: auto;perspective: 2.3px;}
-.fullheight {max-width: 100vw;position: relative;height: 100vh;color: #fff;margin: 0;padding: 0;}
-.parallax::after {content: ' ';position: absolute;top: 0;right: 0;bottom: 0;left: 0;transform: translateZ(-1px) scale(1.5);background-size: cover;z-index: -1;}
-.sa div {background: url('img/bg-cutout.png') bottom center no-repeat; background-size: cover; width: 100vw; height: 100vh;}
-.sa p {display: none;}
-.chx::after {background: url('img/chx.jpg') center bottom; background-size: cover;}
-.podcast div, .chx div, .mw div {max-width: 400px; max-height: 300px;position: absolute; top:0; bottom:0; left:0; right:0;margin: auto;padding: 0 25px;}
-.podcast div {max-width: 350px;}
-.podcast {background: #fff url(img/podcast.jpg) center bottom; background-size: cover;}
-.mw {background-color: #fff; }
-@media screen and (max-height:736px) { 
-.wrapper {perspective: 3px;}
-h1 {padding: 50% 20px 0 20px;}
-.podcast img, .chx img {max-width: 90%;}
+main {width: 96%; margin: 0 auto; padding: 0;background: url(img/gsb.jpg) bottom center; background-size: cover;}
+section {display: block; float: left; padding:0;margin: 0; border-right: 10px solid #fff; position: relative;width: 33.33%; height: 89vh;}
+section:last-of-type {border-right: none;}
+section:first-of-type img {max-width: 150px;position: absolute; top:0; bottom:0; left:0; right:0;margin: auto; padding-top: 120px;}
+section:first-of-type img:first-of-type {max-width: 200px; padding-top: 0;}
+@media screen and (max-width:800px) { 
+main {height: 87vh;}
+section {display: none;float: none; width: 100%; border: none;}
+section:first-of-type {display: block;}
 }
 </style>
 </head>
 <body>
-<main class="wrapper">
   <nav>
   <ul>
-    <li><a href="index.html">Home</a></li>
+    <li><a href="index.html">Super Alpine</a></li>
     <li><a href="store/index.html">Store</a></li>
     <li><a href="journal/index.html">Journal</a></li>
     <li><a href="podcast/index.html">Podcast</a></li>
     <li><a href="about/index.html">About</a></li>
   </ul>
   </nav>
-
-  <section class="fullheight sa">
-  <div><h1>Super Alpine</h1><p>Exploring the Alps</p></div>
-  </section>
-
-  <section class="fullheight parallax chx">
-    <div>
-    <a href="store/chamonix-travel-guide.html"><img src="img/chxtg.png" alt="Chamonix-Mont-Blanc Travel Guide"></a>
-    <p>Travel Guide</p>
-    </div>
-  </section>
-
- <section class="fullheight podcast">
-    <div>
-    <a href="podcast/index.html"><img src="img/podcast.png" alt="Podcast"></a>
-     <p>A series of immersive audio podcasts created using binaural recordings</p>
-    </div>
-  </section>
-
-   <section class="fullheight mw">
-    <div>
-    <img src="img/mountain-words.jpg" alt="Super Alpine - Exploring the Alps">
-    </div>
-  </section>
-
+<main>
+<section><img src="img/super-alpine.svg"><img src="img/exploring.png"></section>
+<section></section>
+<section></section>
+<br clear="all">
 </main>
 </body>
 </html>
