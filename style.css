@@ -21,8 +21,9 @@ nav ul {list-style-type: none; text-align: left; display: block; margin: 0;}
 nav li {display: inline-block;  text-transform: uppercase;text-align: center; padding:0 15px; font-size: 13px; border-right: 1px solid #ddd;}
 nav li:first-of-type {padding-left: 0;}
 nav li:last-of-type {border-right: none;}
-nav a {color: #777;}
+nav a {color: #999;}
 nav a:hover {color: #c69f73;}
+nav li:first-of-type a {color: #000;}
 nav, header, section, main, footer {max-width: 2000px; width: 96%; margin:0 auto;}
 header { margin-bottom: 20px; }
 article {}
