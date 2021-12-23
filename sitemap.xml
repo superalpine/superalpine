@@ -14,16 +14,12 @@
   <priority>0.9</priority>
 </url>
 <url>
-  <loc>https://superalpine.co/store/alpes-maritimes-magazine.html</loc>
+  <loc>https://superalpine.co/podcast/index.html</loc>
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://superalpine.co/podcast/index.html</loc>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/index.html</loc>
   <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/store/tour-international-magazine.html</loc>
-  <priority>0.6</priority>
 </url>
 <url>
   <loc>https://superalpine.co/store/index.html</loc>
@@ -33,7 +29,6 @@
   <loc>https://superalpine.co/store/stickers.html</loc>
   <priority>0.4</priority>
 </url>
-
 <url>
   <loc>https://superalpine.co/journal/index.html</loc>
   <priority>0.3</priority>
