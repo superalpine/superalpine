@@ -12,13 +12,15 @@ h6 {font-size: 18px; ;text-transform: uppercase; text-align: center; letter-spac
 p {font-size: 16px; line-height: 1.7em; font-weight: 400; margin: 0 0 10px 0;}
 blockquote {font-style: italic; font-size:17px;line-height:1.6em; padding:0px 30px 10px 30px; text-align: center; color: #666;}
 hr {width:100%; margin:20px auto; background-color: #ddd; height: 1px; border: none;}
-sup {font-size:80%;line-height:1;vertical-align:top;padding: 2px;}
+sup {font-size:80%;line-height:1.7em;vertical-align:top;padding: 2px;}
 a[href*="#"] {text-decoration: underline; border: none; color: #c69f73;}
 a:hover[href*="#"] {color: #000;}
 em {font-style: italic; display: block; padding: 40px; font-size:  16px ;line-height: 1.7em;}
 img {max-width: 100%; width: 100%;}
 a {color: #000;transition: all 0.2s ease; text-decoration: none; border-bottom: 1px solid #ccc; }
 a:hover {color: #c69f73;}
+ol {margin: 10px 0 20px 60px;}
+ol li {margin: 10px 0; line-height: 1.7em;}
 nav {padding: 50px 0;}
 nav ul {}
 nav li {list-style-type: none; margin: 10px 0; line-height: 1.7em;}
