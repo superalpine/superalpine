@@ -13,3 +13,7 @@ a {color: #111; transition: all 0.2s ease;}
 @media screen and (max-width:600px) { 
 .three-col, .two-col, .four-col {display: block; grid-template-columns: 1fr; grid-gap:auto; margin:0 auto;  padding: 0 15px; }
 }
+
+@supports (-webkit-touch-callout: none) {
+   header {background-attachment: scroll!important; background-size: cover!important; background-repeat:no-repeat; background-position: center center;}
+}

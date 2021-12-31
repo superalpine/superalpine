@@ -14,7 +14,7 @@ blockquote {font-style: italic; font-size:17px;line-height:1.6em; padding:0px 30
 hr {width:100%; margin:20px auto; background-color: #ddd; height: 1px; border: none;}
 a {color: #fff;transition: all 0.2s ease; text-decoration: none; border-bottom: 1px solid #ccc; }
 a:hover {color: #c00;}
-header {width: 100vw; height: 90vh;background: url(img/header.jpg) no-repeat center center fixed; background-size: cover; display: table;}
+header {width: 100vw; height: 90vh;background-image: url(img/header.jpg); background-size: cover; background-repeat:no-repeat; background-position: center center;  background-attachment: fixed;display: table;}
 header div {display: table-cell;  margin: 0 auto;vertical-align: middle; padding: 0 10px;}
 header figure {max-width: 690px;margin: 0 auto 20px auto;}
 header h1, header p {margin: 0 auto 30px auto;}
@@ -34,5 +34,4 @@ h1 {font-size: 40px;}
 h2 {font-size: 36px;}
 h3 {font-size: 26px;}
 p,li, footer {font-size: 15px;}
-header {background: url(img/header.jpg) no-repeat center center scroll;background-size: cover;}
 }
