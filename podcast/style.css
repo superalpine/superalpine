@@ -23,7 +23,7 @@ section a:hover {border: none; filter: grayscale(0);}
 h1 {font-size: 40px;}
 h3 {font-size: 26px;}
 p, footer {font-size: 14px;}
-
+header {background: url(img/test.jpg) no-repeat center center scroll;background-size: cover;}
 }
 @keyframes LogoAnimate {
   0% {background: #CA2F3C;}
