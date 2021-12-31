@@ -34,4 +34,5 @@ h1 {font-size: 40px;}
 h2 {font-size: 36px;}
 h3 {font-size: 26px;}
 p,li, footer {font-size: 15px;}
+header {background: url(img/header.jpg) no-repeat center center scroll;}
 }
