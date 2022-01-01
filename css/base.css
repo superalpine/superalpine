@@ -15,5 +15,5 @@ a {color: #111; transition: all 0.2s ease;}
 }
 
 @supports (-webkit-touch-callout: none) {
-   header {background-attachment: scroll!important; background-size: cover!important; background-repeat:no-repeat; background-position: center center; height: 70vh;}
+   header {background-attachment: scroll!important; background-size: cover!important; background-repeat:no-repeat; background-position: center center;}
 }
