@@ -4,98 +4,36 @@
 <title>Super Alpine Journal</title>
 <meta charset="utf-8">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-<meta name="description" content="The Super Alpine journal, news and updates.">
-<link rel="stylesheet" href="../style.css">
+<meta name="description" content="The Super Alpine journal">
+<link rel="stylesheet" href="../css/base.css">
 <style type="text/css">
-nav li:nth-of-type(3) a {color: #c69f73;}
+@keyframes LogoAnimate {
+  0% {background: #59203B;}
+  25% {background: #5F192B;}
+  50% {background: #f50a46;}
+  75% {background: #61748C;}
+  100% {background: #8090A6;}
+}
+body {background-color: #111; color: #ddd;}
+header {width:100vw; height:100vh; background: url(../img/cover.jpg) no-repeat center center fixed; background-size: cover; display: table; position: relative;}
+header div {display: table-cell;  margin: 0 auto;vertical-align: middle; padding: 0 15px;}
+header figure  {max-width: 800px; margin: 0 auto 20px auto;}
+header img {background-color: #5F192B; animation-name: LogoAnimate;animation-duration: 15s;animation-iteration-count: infinite;animation-direction: alternate;animation-timing-function: linear;}
+h2, p {font-family: Menlo, Monaco, "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace; font-weight: normal;}
+h2 {font-size: 14px;  text-transform: uppercase; margin-bottom: 11px;}
+p {font-size: 14px; line-height: 1.5em; }
 </style>
 </head>
 <body>
-<nav>
-  <ul>
-    <li><a href="../index.html">Super Alpine</a></li>
-    <li><a href="../store/index.html">Store</a></li>
-    <li><a href="index.html">Journal</a></li>
-  </ul>
-</nav>
 <header>
-<h1>Journal</h1>
-<p>News and updates from Super Alpine</p>
+  <div>
+    <figure>
+    <a href="../index.html"><img src="../img/super-alpine.svg" alt="Super Alpine"></a>
+    <h2>Super Alpine Journal</h2>
+    <p>will be returning in 2022 ...</p>
+    </figure>
+    
+  </div>
 </header>
-<section class="three-col">
-  <article>
-  <a href="../scrambles-amongst-the-alps/index.html"><img src="../scrambles-amongst-the-alps/og.jpg" alt="Scrambles Amongst the Alps"></a>
-  <h3>Scrambles Amongst the Alps</h3>
-  <h6>December 2021</h6>
-  <p>We have recently developed a web version of the book <i>Scrambles Amongst the Alps</i> in the years 1860-69 by Edward Whymper. Also available as a ebook</p>
-  <p><a href="../scrambles-amongst-the-alps/index.html" class="button">Read now</a></p>
-  </article>
-  <article>
-  <a href="../podcast/index.html"><img src="img/podcast.jpg" alt="Podcast"></a>
-  <h3>Super Alpine Podcast</h3>
-  <h6>November 2021</h6>
-  <p>We have just launched a three episode series of immersive audio podcasts created using binaural recordings. If you listen with headphones on the spatial sound of what was heard and what you are hearing, should be the same. Take a walk in the Alps with us.</p>
-  <p><a href="../podcast/index.html" class="button">Listen now</a></p>
-  </article>
-  <article>
-  <a href="../store/tour-international-magazine.html"><img src="img/sa03.jpg" alt="Tour International Super Alpine magazine Issue Three"></a>
-  <h3>Super Alpine Magazine Issue Three</h3>
-  <h6>November 2021</h6>
-  <p>After a considerably delay... we are pleased to annouce Issue Three, Tour International, is now available to purchase. A frontier busting, pass storming edition marks the return of the magazine.</p>
-  <p><a href="../store/tour-international-magazine.html" class="button">Shop now</a></p>
-  </article>
-  <article>
-  <a href="../store/alpes-maritimes-magazine.html"><img src="img/sa02.jpg" alt="Alpes-Maritimes Super Alpine magazine Issue Two"></a>
-  <h3>Super Alpine Magazine Issue Two</h3>
-  <h6>October 2021</h6>
-  <p>A second edition of the Alpes-Maritimes magazine is now available. The original limited version sold out in 2019 and we have reprinted it with a new cover and updated layout to match future magazines.</p>
-  <p><a href="../store/alpes-maritimes-magazine.html" class="button">Shop now</a></p>
-  </article>
-  <article>
-  <img src="img/on-the-road.jpg" alt="Back to the Alps">
-  <h3>Back on the road</h3>
-  <h6>October 2021</h6>
-  <p>After a two year break thanks to a global pandemic and some bad timing, we finally made it back to the Alps. The new reality of border crossings, getting your passport stamped in and out of Europe and of course, vaccine passports, attestations of health and testing, all made this the most difficult trip we have ever taken.</p>
-  <p> Travelling to three alpine countries in September and October we have been working on Issue Three of the magazine (again) after abandoning the previous attempt. Look for the new issue this November. Hopefully. We also got to enjoy some spectacular autumn weather and clean alpine air before working on another exciting non-print project - more of that later.</p>
-  </article>
-  <article>
-  <img src="img/affinity-spotlight.jpg" alt="Chamonix-Mont-Blanc Travel Guide featured on Affinity Spotlight">
-  <h3>The Chamonix-Mont-Blanc Travel Guide featured on Affinity Spotlight</h3>
-  <h6>April 2021</h6>
-  <p>Affinity, makers of the Designer, Photo and Publisher apps, featured the process behind making the Chamonix Travel Guide book.</p>
-  <p><a href="https://affinityspotlight.com/article/creating-a-high-quality-travel-guide-in-affinity-publisher/" class="button">Read the story</a></p>
-  </article>
-  <article>
-  <a href="../store/chamonix-travel-guide.html"><img src="img/chxtg.jpg" alt="Chamonix-Mont-Blanc Travel Guide"></a>
-  <h3>The Chamonix-Mont-Blanc Travel Guide</h3>
-  <h6>April 2021</h6>
-  <p>A new guide book from Super Alpine. In the Chamonix-Mont-Blanc travel guide, we share our 20 years of experience of the valley to help travellers make the most informed use of their time.</p>
-  <p><a href="../store/chamonix-travel-guide.html" class="button">Shop Now</a></p>
-  </article>
-  <article>
-  <a href="https://www.hodinkee.com/articles/the-grey-nato-episode-81-tgn-film-club-2"><img src="img/tgn2.jpg"></a>
-  <h3>Super Alpine on TGN again...</h3>
-  <h6>March 2019</h6>
-  <p>Issue Two of the Super Alpine magazine, Alpes-Maritimes was featured on The Grey NATO podcast.</p>
-  <p><a href="https://www.hodinkee.com/articles/the-grey-nato-episode-81-tgn-film-club-2" class="button">Listen to the podcast</a></p>
-  
-  </article>
-  <article>
-  <a href="https://www.hodinkee.com/articles/the-grey-nato-episode-68-what-watch-should-i-get"><img src="img/tgn.jpg"></a>
-  <h3>Super Alpine on TGN</h3>
-  <h6>November 2018</h6>
-  <p>Issue One of the Super Alpine magazine, the Chamonix special launch edition was featured on The Grey NATO podcast.</p>
-  <p><a href="https://www.hodinkee.com/articles/the-grey-nato-episode-68-what-watch-should-i-get" class="button">Listen to the podcast</a></p>
-  </article>
-  <article>
-    <a href="https://www.instagram.com/p/BKhELOGAm5D/"><img src="img/vsco-50k.jpg" alt="VSCO Instagram"></a>
-    <h3>Super Alpine on VSCO</h3>
-    <h6>September 2016</h6>
-    <p>VSCO featured one of our images on their Instagram page gaining 50k likes - unfortunatley they failed to give a link to our Instagram ...</p>
-     <p><a href="https://www.instagram.com/p/BKhELOGAm5D/" class="button">See the post</a></p>
-  </article>
-</section>
-
-<footer><p>Copyright &copy; Super Alpine. All rights reserved.</p></footer>
-</body>
 </html>
+</body>
