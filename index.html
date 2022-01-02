@@ -4,11 +4,10 @@
 <title>Super Alpine</title>
 <meta charset="utf-8">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-<meta name="theme-color" content="#393939">
 <link rel="canonical" href="https://superalpine.co">
-<meta name="description" content="Exploring the Alps">
+<meta name="description" content="A journal from high altitude">
 <meta property="og:title" content="Super Alpine">
-<meta property="og:description" content="Exploring the Alps">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="Super Alpine">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://superalpine.co">
@@ -17,36 +16,70 @@
 <link rel="icon" type="image/png" href="https://superalpine.co/img/favicon-32x32.png" sizes="32x32">
 <link rel="icon" type="image/png" href="https://superalpine.co/img/favicon-16x16.png" sizes="16x16">
 <link rel="mask-icon" href="https://superalpine.co/img/safari-pinned-tab.svg" color="#000000">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/base.css">
 <style type="text/css">
-nav li:first-of-type a {color: #c69f73;}
-main {width: 96%; margin: 0 auto; padding: 0;background: url(img/gsb.jpg) bottom center; background-size: cover;}
-section {display: block; float: left; padding:0;margin: 0; border-right: 10px solid #fff; position: relative;width: 33.33%; height: 89vh;}
-section:last-of-type {border-right: none;}
-section:first-of-type img {max-width: 150px;position: absolute; top:0; bottom:0; left:0; right:0;margin: auto; padding-top: 120px;}
-section:first-of-type img:first-of-type {max-width: 200px; padding-top: 0;}
-@media screen and (max-width:800px) { 
-main {height: 87vh;}
-section {display: none;float: none; width: 100%; border: none;}
-section:first-of-type {display: block;}
+@keyframes LogoAnimate {
+  0% {background: #59203B;}
+  25% {background: #5F192B;}
+  50% {background: #f50a46;}
+  75% {background: #61748C;}
+  100% {background: #8090A6;}
+}
+body {background-color: #111;color: #ddd;}
+header {width:100vw; height:100vh!important; background-image: url(img/cover.jpg);background-attachment:fixed; background-position: center center; background-repeat: no-repeat; background-size: cover; display: table; position: relative;}
+header div {display: table-cell;  margin: 0 auto;vertical-align: middle; padding: 0 15px;}
+header figure, section {max-width: 800px;margin: 0 auto 20px auto;}
+header img {background-color: #5F192B; animation-name: LogoAnimate;animation-duration: 15s;animation-iteration-count: infinite;animation-direction: alternate;animation-timing-function: linear;}
+footer {position: absolute; bottom: 30px; max-width: 100%; width: 100%; margin: 0; padding: 10px 0; text-align: left;}
+h2, h3, p, small {font-family: Menlo, Monaco, "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace; font-weight: normal;}
+h2 {font-size: 14px;  text-transform: uppercase; margin-bottom: 11px;}
+h3 {font-size: 12px; text-transform: uppercase; float: left; padding-left: 50px;}
+p {font-size: 14px; line-height: 1.5em; }
+small {font-size: 12px; color: #eee; float: right; padding-right: 50px;}
+a {color: #fff; text-decoration: none; padding-bottom: 3px;border-bottom: 1px solid #900!important; }
+a:hover {border-bottom: 1px dotted #fff!important;}
+@media screen and (max-width:700px) { 
+header div {display: block;  margin: 15px auto;vertical-align: auto;}
+footer {text-align: center; }
+h3, small {float: none; padding: 0 0 20px 0;}
+.three-col {padding: 0;}
 }
 </style>
 </head>
 <body>
-  <nav>
-  <ul>
-    <li><a href="index.html">Super Alpine</a></li>
-    <li><a href="store/index.html">Store</a></li>
-    <li><a href="journal/index.html">Journal</a></li>
-    <li><a href="podcast/index.html">Podcast</a></li>
-    <li><a href="about/index.html">About</a></li>
-  </ul>
-  </nav>
-<main>
-<section><img src="img/super-alpine.svg"><img src="img/exploring.png"></section>
-<section></section>
-<section></section>
-<br clear="all">
-</main>
-</body>
+<header>
+  <div>
+    <figure>
+    <img src="img/super-alpine.svg" alt="Super Alpine">
+    </figure>
+    
+    <section class="three-col">
+      <section>
+      <h2><a href="chamonix-travel-guide/index.html">Chamonix Travel Guide</a></h2>
+      <p>The complete guide to Chamonix Mont-Blanc</p>
+      </section>
+      <section>
+      <h2><a href="podcast/index.html">Super Alpine Podcast</a></h2>
+      <p>A series of immersive audio podcasts</p>
+      </section>
+      <section>
+      <h2><a href="scrambles-amongst-the-alps/index.html">Scrambles Amongst the Alps</a></h2>
+      <p>A web version of the Edward Whympers book</p>
+      </section>
+      <section>
+      <h2><a href="swiss-passes/index.html">Swiss Passes</a></h2>
+      <p>A new project coming in 2022</p>
+      </section>
+     <!-- <section>
+      <h2><a href="ultimate-alps/index.html">Ultimate Alps</a></h2>
+      <p>Discover the best of the Alps</p>
+      </section> -->
+    </section>
+  </div>
+</header>
+
+<footer>
+    <h3><a href="store/index.html">Store</a> | <a href="about/index.html">About </a></h3>
+    <small>Copyright &copy; Super Alpine. All rights reserved </small>
+</footer>
 </html>
