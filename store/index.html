@@ -10,64 +10,38 @@
 <meta property="og:site_name" content="Super Alpine">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://superalpine.co/store/index.html">
-<link rel="stylesheet" href="../style.css">
-<style type="text/css">nav li:nth-of-type(2) a {color: #c69f73;}</style>
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav>
-	<ul>
-		<li><a href="../index.html">Super Alpine</a></li>
-		<li><a href="index.html">Store</a></li>
-		<li><a href="../journal/index.html">Journal</a></li>
-		<li><a href="../podcast/index.html">Podcast</a></li>
-		<li><a href="../about/index.html">About</a></li>
-	</ul>
-	<form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post" class="vb">
-  <input type="hidden" name="cmd" value="_s-xclick">
-    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-    <button style=" float: right;">View basket</button>
-    </form>
-</nav>
-
-	<header>
-	<h1>Store</h1>
-	<p>The Super Alpine magazine and Chamonix Travel Guide</p>
+<header>
+<a href="../index.html"><img src="../img/super-alpine.svg"></a>
+<h1>Store</h1>
+<p>The Super Alpine magazine Issues 1, 2 and 3 are sold out.</p>
 </header>
+
 <section class="three-col">
 	<div>
 		<a href="chamonix-travel-guide.html"><img src="img/ctg.jpg" alt="Buy the Chamonix-Mont-Blanc Travel Guide"></a>
 		<h4>Chamonix Travel Guide</h4>
-		<p>From £9.00</p>
+		<p>Print and eBook</p>
 		<a href="chamonix-travel-guide.html" class="button">Shop now</a>
 	</div>
 
 	<div>
-		<a href="tour-international-magazine.html"><img src="img/sa03.jpg" alt="Super Alpine magazine Tour International"></a>
-		<h4>Issue Three</h4>
-		<p>Sold out</p>
-		<a href="tour-international-magazine.html" class="button">More info</a>
+		<a href="https://revitt.gumroad.com/l/scrambles"><img src="img/sata.jpg" alt=""></a>
+		<h4>Scrambles Amongst the Alps</h4>
+		<p>ePub</p>
+		<a href="https://revitt.gumroad.com/l/scrambles" class="button">Shop Now</a>
 	</div>
 
 	<div>
-		<a href="alpes-maritimes-magazine.html"><img src="img/sa02.jpg" alt="Super Alpine magazine alpes-Maritimes"></a>
-		<h4>Issue Two</h4>
-		<p>Sold out</p>
-		<a href="alpes-maritimes-magazine.html" class="button">More info</a>
-	</div>
-	
-	<div>
-		<a href="chamonix-magazine.html"><img src="img/sa01.jpg" alt="Super Alpine magazine Chamonix"></a>
-		<h4>Issue One Special Edition</h4>
-		<p>Sold out</p>
-		<a href="chamonix-magazine.html" class="button">More info</a>
+		<a href="https://books.apple.com/us/book/scrambles-amongst-the-alps/id1602359980?ls=1"><img src="img/sata.jpg" alt=""></a>
+		<h4>Scrambles Amongst the Alps</h4>
+		<p>Apple Books</p>
+		<a href="https://books.apple.com/us/book/scrambles-amongst-the-alps/id1602359980?ls=1" class="button">Shop Now</a>
 	</div>
 
-<div>
-		<a href="stickers.html"><img src="img/stickers.jpg" alt="Super Alpine stickers"></a>
-		<h4>Stickers</h4>
-		<p>Find out more</p>
-		<a href="stickers.html" class="button">More info</a>
-	</div>
 
 </section>
 <br clear="all">
