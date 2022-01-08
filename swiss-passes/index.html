@@ -4,7 +4,18 @@
 <title>Swiss Passes - Super Alpine</title>
 <meta charset="utf-8">
 <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-<meta name="description" content="Swiss Passes">
+<link rel="canonical" href="https://superalpine.co/swiss-passes/index.html">
+<meta name="description" content="The Super Alpine manual of Switzerland's mountain passes.The great road passes of Switzerland are explosort with stories, maps, elevation profiles and photography.">
+<meta property="og:title" content="Swiss Passes">
+<meta property="og:site_name" content="Super Alpine">
+<meta property="og:url" content="https://superalpine.co/swiss-passes/index.html">
+<meta property="og:description" content="The Super Alpine manual of Switzerland's mountain passes.The great road passes of Switzerland are explosort with stories, maps, elevation profiles and photography.">
+<meta property="og:image" content="https://superalpine.co/swiss-passes/img/og.jpg">
+<link rel="apple-touch-icon" sizes="180x180" href="https://superalpine.co/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="https://superalpine.co/img/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="https://superalpine.co/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://superalpine.co/img/favicon-16x16.png" sizes="16x16">
+<link rel="mask-icon" href="https://superalpine.co/img/safari-pinned-tab.svg" color="#000000">
 <link rel="stylesheet" href="../css/base.css">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -13,23 +24,36 @@
 	<div>
 		<figure>
 		<a href="../index.html"><img src="../img/super-alpine.svg" alt="Super Alpine"></a>
-		<h1><img src="flag.svg" style="padding: 0; display: inline-block; height: 33px; width: 33px; margin:0 1px 1px 0;">
+		<h1><img src="img/flag.svg" class="flag">
 			Swiss<span style="display: block; padding-left:88px;">Passes</span></h1>
 		<p>Coming in 2022 ...</p>
 		</figure>
 	</div>
 </header>
+<article>
+  <h2>Introduction</h2>
+  <p>Mountain passes come in all shapes and sizes and have been traversed by all possible means. Crossing the Alps used to be an epic struggle against nature, often with loss of life, but over the years the Alps became increasingly easier to transit thanks, in part, to conquering armies such as Napoleon’s, who brought trails, tracks and later roads. </p>
+  <p>At the heart of the Alps, Switzerland is one of the most diverse countries in Europe thanks to its formation of people from different valleys, speaking different languages with different cultures. It was a mountain pass that brought together the communities that became Switzerland. The Saint Gotthard pass was created in 1220 and the lucrative trade with the Mediterranean that came from it saw the local farmers join together to exploit this opportunity. It was in August 1291 that the first three cantons joined together and the Helvetic Confederation (still the official name of Switzerland) was formed. </p>
+  <p>Today the 26 cantons that make up Switzerland are home to over 90 road passes, 50 of which are over 1200m in elevation - this is in addition to the many trail and rail passes. Many of the higher road passes also have a rail or tunnel alternative and plenty of others feature road covers to limit disruption by snow. The higher sections of many of today's passes remain only as remnants of the past, with hostels used by ancient travellers becoming abandoned or converted into trinket shops or museums.</p>
+  <p>Many of the passes with strategic locations have hidden military installations, underground bunkers for planes and tank traps designed either to repel the Germans during the World Wars or the Russians during the cold war. Some of these installations are still in use today and others have been repurposed to such diverse activities as museums, server farms and even giant safes.</p>
+  <p>In modern-day Switzerland, some of the passes are still used for trade but increasingly they are now only used for leisure and sport. Thankfully the challenge of getting from one valley to another, and from one country to another, is an ongoing fascination for some.</p>
+  <figure>
+    <blockquote>To climb a peak is to make an expedition, but to cross a pass is to travel ... You leave one area behind and you enter another; you come down amongst new people and into fresh surroundings. You shut out all that was familiar yesterday and open up another world</blockquote>
+    <figcaption>William Conway</figcaption>
+  </figure>
+</article>
+<section><img src="img/swiss-passes.png" alt="Swiss Passes"></section>
 <section>
-<h2>Swiss passes above 1500m</h2>
+  <h2>Swiss passes above 1500m</h2>
 
-<p>A list of paved mountain passes above 1500m where both ends of the pass are connected to the Swiss/Italian/French road network.</p>
-<p>Sort by clicking the title</p>
+  <p>A list of paved mountain passes above 1500m where both ends of the pass are connected to the Swiss/Italian/French road network.</p>
+  <p>Sort by clicking the title <span class="sort">&#8597;</span></p>
 
 <table cellpadding="0" cellspacing="0" id="Passes">
   <tr>
-   <th onclick="sortTable(0)">Pass&#8597;</th>
-   <th onclick="sortTable(1)">Elevation&#8597;</th>
-   <th onclick="sortTable(2)">Canton&#8597;</th>
+   <th onclick="sortTable(0)">Pass <span class="sort">&#8597;</span></th>
+   <th onclick="sortTable(1)">Elevation <span class="sort">&#8597;</span></th>
+   <th onclick="sortTable(2)">Canton <span class="sort">&#8597;</span></th>
   </tr>
   <tr>
    <td>Umbrail</td>
@@ -269,5 +293,6 @@ function sortTable(n) {
   }
 }
 </script>
+<footer>Copyright &copy; Super Alpine. All rights reserved | <a href="#top">Top of Page</a></footer>
 </body>
 </html>
