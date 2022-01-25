@@ -18,6 +18,10 @@
 </url>
 <url>
   <loc>https://superalpine.co/podcast/index.html</loc>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/route-napoleon/index.html</loc>
   <priority>0.7</priority>
 </url>
 <url>
@@ -126,7 +130,7 @@
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/index.html</loc>
-  <priority>0.5</priority>
+  <priority>0.4</priority>
 </url>
 <url>
   <loc>https://superalpine.co/ultimate-alps/index.html</loc>
