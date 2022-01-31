@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,400&family=Playfair+Display:wght@700&display=swap');
 body {font-size: 16px; font-family: 'Merriweather', serif;  color: #333; background-color: #eee;}
 h1,h2,h3,h4,h5,h6 {font-weight: 900; line-height: 1em; color: #111; margin: 10px 0 30px 0;}
-h1 {font-size: 90px; line-height: 80px;max-width: 400px;}
+h1 {font-size: 20px; margin-bottom: 10px;}
 h2 {font-size: 30px;}
 h3 {font-size: 50px; text-align: center; line-height: 55px; margin: 0 0 60px 0;}
 h4 {font-size: 30px; margin: 30px 0 30px 0;text-align: center;}
@@ -23,7 +23,6 @@ nav ul {}
 nav li {list-style-type: none; margin: 10px 0; line-height: 1.7em;}
 section {max-width: 860px; margin: 0 auto; padding:20px 90px; background-color: #fff; box-shadow: 1px 1px 15px #ddd;}
 header {margin: 20px 0; text-align: center;}
-header h5 {margin-bottom: 10px;}
 article {margin: 50px 0; padding: 50px 0; border-bottom:1px solid #ccc;}
 article p {text-indent: 40px;}
 article p:first-of-type {text-indent: 0;}
@@ -33,11 +32,9 @@ figcaption {font-size: 13px; font-style: italic; margin-bottom: 60px; text-align
 footer {text-align: center;}
 .button {font-size: 14px;line-height:1em;font-weight: 700;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 15px 11px 15px; color: #fff; background-color:#000;z-index:0;text-align: center;overflow: hidden; border: 1px solid #000; border-radius: 3px; margin:0 auto; cursor: pointer; margin: 20px 0 0 0; letter-spacing: 1px;}
 .button:hover{color:#fff;background-color: #c69f73;border: 1px solid #c69f73;}
-.the {font-size: 60px;}
+
 @media screen and (max-width:800px) { 
-h1 {font-size: 60px; line-height: 60px; max-width: 250px;}
 h2 {font-size: 26px;}
 h3 {font-size: 40px;}
-.the {font-size: 40px;}
 section {padding: 25px;}
 }
