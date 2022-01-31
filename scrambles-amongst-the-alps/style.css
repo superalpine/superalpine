@@ -7,7 +7,7 @@ h3 {font-size: 50px; text-align: center; line-height: 55px; margin: 0 0 60px 0;}
 h4 {font-size: 30px; margin: 30px 0 30px 0;text-align: center;}
 h5 {font-size: 20px;}
 h6 {font-size: 18px; ;text-transform: uppercase; text-align: center; letter-spacing: 5px; color: #c69f73;}
-p {font-size: 16px; line-height: 1.7em; font-weight: 400; margin: 0 0 10px 0;}
+p {font-size: 16px; line-height: 1.6em; font-weight: 400; margin: 0 0 20px 0;}
 blockquote {font-style: italic; font-size:17px;line-height:1.6em; padding:0px 30px 10px 30px; text-align: center; color: #666;}
 hr {width:100%; margin:20px auto; background-color: #ddd; height: 1px; border: none;}
 sup {font-size:80%;line-height:1.7em;vertical-align:top;padding: 2px;}
@@ -18,20 +18,20 @@ a {color: #000; transition: all 0.2s ease; text-decoration: none; border-bottom:
 a:hover {color: #c69f73;}
 ol {margin: 10px 0 20px 60px;}
 ol li {margin: 10px 0; line-height: 1.7em;}
-nav {padding: 50px 0;}
-nav ul {}
-nav li {list-style-type: none; margin: 10px 0; line-height: 1.7em;}
-section {max-width: 860px; margin: 0 auto; padding:20px 90px; background-color: #fff; box-shadow: 1px 1px 15px #ddd;}
+section {max-width: 800px; margin: 0 auto; padding:20px 70px; background-color: #fff; box-shadow: 1px 1px 15px #ddd;}
 header {margin: 20px 0; text-align: center;}
 article {margin: 50px 0; padding: 50px 0; border-bottom:1px solid #ccc;}
-article p {text-indent: 40px;}
+article p {text-indent: 30px; }
 article p:first-of-type {text-indent: 0;}
 article p:first-of-type::first-letter {font-size: 90px; float: left; margin:28px 6px 10px 0; font-weight: 500; color:#000;}
 figure {max-width: 100%; margin: 30px auto 0 auto;}
 figcaption {font-size: 13px; font-style: italic; margin-bottom: 60px; text-align: center; color: #666;}
 footer {text-align: center;}
-.button {font-size: 14px;line-height:1em;font-weight: 700;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 15px 11px 15px; color: #fff; background-color:#000;z-index:0;text-align: center;overflow: hidden; border: 1px solid #000; border-radius: 3px; margin:0 auto; cursor: pointer; margin: 20px 0 0 0; letter-spacing: 1px;}
+footer p {font-size: 14px;}
+nav {display: table; padding:0 0 20px 0; margin: 0 auto;}
+.button {font-family: 'Merriweather', serif; font-size: 14px;line-height:16px; display:table-cell; padding: 10px 15px 11px 15px; color: #111; text-align: center; border: 1px solid #c69f73; border-radius: 3px; cursor: pointer; }
 .button:hover{color:#fff;background-color: #c69f73;border: 1px solid #c69f73;}
+select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip: padding-box;background-image:url(../store/img/arrow.png);background-position: right;background-repeat: no-repeat;background-size: contain;color: #222;background-color: #fff;border: 1px solid #c69f73;border-radius: 3px;cursor: default;display: table-cell;font-family: 'Merriweather', serif;font-size: 14px;font-weight: normal;line-height: 16px;padding:5px 30px 5px 10px;white-space: nowrap;width: 200px;height: 40px;outline: none; margin: 0 10px;}
 
 @media screen and (max-width:800px) { 
 h2 {font-size: 26px;}
