@@ -14,15 +14,23 @@
 </url>
 <url>
   <loc>https://superalpine.co/chamonix-travel-guide/index.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/podcast/index.html</loc>
-  <priority>0.75</priority>
+  <priority>0.9</priority>
 </url>
 <url>
   <loc>https://superalpine.co/route-napoleon/index.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/swiss-passes/index.html</loc>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/swiss-passes/great-saint-bernard-pass.html</loc>
   <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/podcast/index.html</loc>
+  <priority>0.65</priority>
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/index.html</loc>
@@ -127,10 +135,6 @@
 <url>
   <loc>https://superalpine.co/store/index.html</loc>
   <priority>0.5</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/index.html</loc>
-  <priority>0.4</priority>
 </url>
 <url>
   <loc>https://superalpine.co/ultimate-alps/index.html</loc>
