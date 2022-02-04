@@ -1,15 +1,15 @@
-body {font-size: 16px; font-family:"Helvetica Neue", Helvetica, Arial, Roboto; font-size: 13px; line-height: 20px; color: #666; background-color: #fff;}
+body {font-size: 15px; font-family:"Helvetica Neue", Helvetica, Arial, Roboto; line-height: 23px; color: #333; background-color: #fff;}
 h1,h2,h3,h4,h5,h6 {font-weight: bold; color: #222;}
 h1 {font-size: 50px; line-height: 50px; letter-spacing: -2px;}
 h2 {font-size: 32px; line-height: 34px; margin:10px 0; letter-spacing:-0.01em;}
 h3 {font-size: 24px; line-height: 30px; margin: 10px 0;}
-h4 {font-size: 20px; line-height: 20px;  margin: 10px 0;}
+h4 {font-size: 20px; line-height: 20px;}
 h5 {font-size: 18px; line-height: 18px;  margin: 10px 0;}
 h6 {font-size: 14px; line-height: 14px;  margin: 10px 0; text-transform: uppercase;}
-p {margin:0 0 10px 0;}
+p {margin:0 0 20px 0; font-family: 'Playfair Display', serif;}
 b {color: #000;}
-ul,ol {margin: 20px 0 30px 20px;}
-li {margin: 10px 0;}
+ul,ol {margin: 20px 0 20px 20px;}
+li {margin: 10px 0;font-family: 'Playfair Display', serif;}
 hr {width:100%; margin:20px auto; background-color: #ddd; height: 1px; border: none;}
 a {color: #c69f73;transition: all 0.2s ease;  text-decoration: none;}
 a:hover {color: #000;}
@@ -17,6 +17,7 @@ header {width:100vw; height: 250px; text-align: center; position: relative;}
 header h1 {padding: 120px 0 20px 0;}
 section, main {max-width: 1600px; margin:0 auto; clear: both;}
 .red {color:#900;}
+.three-col {padding:0 20px;}
 .three-col h4 {margin: 5px 0;}
 .three-col p { margin: 5px 0 20px 0; }
 .product { padding: 0 15px;}
@@ -26,7 +27,7 @@ section, main {max-width: 1600px; margin:0 auto; clear: both;}
 .product figure li:nth-of-type(4); {margin: 0 0 10px 0;}
 .product article  {width: 45%; float: left;padding:0 0 0 3%;}
 .product main  {width: 45%; float: right;padding:0 0 0 3%;}
-.price {font-size: 30px; line-height: 30px; font-weight: bold; color: #000; margin-bottom: 5px;}
+.price {font-family:"Helvetica Neue", Helvetica, Arial, Roboto;font-size: 30px; line-height: 30px; font-weight: bold; color: #000; margin:30px 0 5px 0;}
 #div1, #div2, #div3, #div4, #div5 {display: none;margin:30px 0;}
 select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip: padding-box;background-image:url(store/img/arrow.png);background-position: right;background-repeat: no-repeat;background-size: contain;color: #222;background-color: #fff;border: 1px solid #c69f73;border-radius: 3px;cursor: default;display: block;font-family:"Helvetica Neue",Helvetica,sans-serif;font-size: 14px;font-weight: normal;line-height: 16px;margin:0 0 20px 0;padding:5px 30px 5px 10px;text-transform: uppercase;white-space: nowrap;width: 280px;height: 40px;outline: none;}
  button, .button {font-size: 14px;line-height:1em;font-weight: normal;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 15px 11px 15px; color: #fff;background-color:#c69f73;z-index:0;text-align: center;overflow: hidden; border: 1px solid #c69f73; border-radius: 3px; margin:0 auto; cursor: pointer;}
