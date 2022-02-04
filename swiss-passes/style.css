@@ -35,7 +35,7 @@ a {color: #111;}
 a:hover {color: #900;}
 .flag {padding: 0; display: inline-block; height: 35px; width: 35px; margin:0 1px 1px 0;}
 .sort {color: #c00;font-family: 'Merriweather', serif; }
-
+.passes {display: block; padding-left:90px;}
 @media screen and (max-width:940px) { 
 article h2 {font-size: 40px; line-height: 40px;}
 section h2 {font-size: 30px; line-height: 30px;}
