@@ -12,13 +12,13 @@ ul {padding: 0 0 30px 20px;}
 li {font-size: 16px; line-height: 1.7em;}
 blockquote {font-style: italic; font-size:17px;line-height:1.6em; padding:0px 30px 10px 30px; text-align: center; color: #666;}
 hr {width:100%; margin:20px auto; background-color: #ddd; height: 1px; border: none;}
-a {color: #fff;transition: all 0.2s ease; text-decoration: none; border-bottom: 1px solid #ccc; }
+section a, footer a {color: #fff;transition: all 0.2s ease; text-decoration: none; border-bottom: 1px solid #ccc; }
 a:hover {color: #c00;}
 header {width: 100vw; height: 98vh;background-image: url(img/header.jpg); background-size: cover; background-repeat:no-repeat; background-position: center center;  background-attachment: fixed;display: table;}
 header div {display: table-cell;  margin: 0 auto;vertical-align: middle; padding: 0 10px;}
 header figure {max-width: 690px;margin: 0 auto 20px auto;}
 header h1, header p {margin: 0 auto 30px auto; text-shadow: 1px 1px 1px #111;}
-header figure img {background-color: #c00;}
+nav img {background-color: #c00;}
 article, section {max-width: 800px; margin: 0 auto 90px auto; padding: 0 15px 30px 15px;border-bottom: 1px solid #333;}
 article p {text-indent: 30px;}
 article p:first-of-type {text-indent: 0;}
@@ -33,5 +33,5 @@ section img {max-width: 500px}
 h1 {font-size: 40px;}
 h2 {font-size: 36px;}
 h3 {font-size: 26px;}
-p,li, footer {font-size: 15px;}
+p,li {font-size: 15px;}
 }

@@ -26,35 +26,48 @@
   100% {background: #8090A6;}
 }
 body {background-color: #111;color: #ddd;}
+nav img {background-color: #5F192B; animation-name: LogoAnimate;animation-duration: 15s;animation-iteration-count: infinite;animation-direction: alternate;animation-timing-function: linear;}
 header {width:100vw; height:100vh!important; background-image: url(img/cover.jpg);background-attachment:fixed; background-position: center center; background-repeat: no-repeat; background-size: cover; display: table; position: relative;}
 header div {display: table-cell;  margin: 0 auto;vertical-align: middle; padding: 0 15px;}
-header figure, section {max-width: 800px;margin: 0 auto 20px auto;}
-header img {background-color: #5F192B; animation-name: LogoAnimate;animation-duration: 15s;animation-iteration-count: infinite;animation-direction: alternate;animation-timing-function: linear;}
+section {max-width: 800px;margin: 0 auto 20px auto;}
 footer {position: absolute; bottom: 30px; max-width: 100%; width: 100%; margin: 0; padding: 10px 0; text-align: left;}
 h1 {display: none; font-size: 0;}
-h2, h3, p, small {font-family: Menlo, Monaco, "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace; font-weight: normal;}
+h2, p, small {font-family: Menlo, Monaco, "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace; font-weight: normal;}
 h2 {font-size: 14px;  text-transform: uppercase; margin-bottom: 11px;}
-h3 {font-size: 12px; text-transform: uppercase; float: left; padding-left: 50px;}
 p {font-size: 14px; line-height: 1.5em; }
 small {font-size: 12px; color: #eee; float: right; padding-right: 50px;}
-a {color: #fff; text-decoration: none; padding-bottom: 3px;border-bottom: 1px solid #900!important; }
-a:hover {border-bottom: 1px dotted #fff!important;}
+section a {color: #fff; text-decoration: none; padding-bottom: 3px;border-bottom: 1px solid #900!important; }
+section a:hover {border-bottom: 1px dotted #fff!important;}
 @media screen and (max-width:700px) { 
-header div {display: block;  margin: 15px auto;vertical-align: auto;}
-footer {text-align: center; }
+header div {padding-top: 120px;}
 h3, small {float: none; padding: 0 0 20px 0;}
 .three-col {padding: 0;}
+footer {text-align: center; position: relative; padding-top: 40px; }
 }
 </style>
 </head>
 <body>
+<nav>
+    <a href="https://superalpine.co"><img src="img/super-alpine.svg" alt="Super Alpine"></a>
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+    <ul class="menu__box">
+      <li><a href="index.html">Super Alpine</a></li>
+      <li><a href="chamonix-travel-guide/index.html">Chamonix Travel Guide</a></li>
+      <li><a href="podcast/index.html">Super Alpine Podcast</a></li>
+      <li><a href="route-napoleon/index.html">Route Napoléon</a></li>
+      <li><a href="scrambles-amongst-the-alps/index.html">Scrambles Amongst the Alps</a></li>
+      <li><a href="swiss-passes/index.html">Swiss Passes</a></li>
+      <li><a href="ultimate-alps/index.html">Ultimate Alps</a></li>
+      <li><a href="store/index.html">Store</a></li>
+      <li><a href="about/index.html">About</a></li>
+    </ul>
+</nav>
 <header>
+  <h1>Super Alpine - The High Life</h1>
   <div>
-    <figure>
-    <h1>Super Alpine - The High Life</h1>
-    <img src="img/super-alpine.svg" alt="Super Alpine">
-    </figure>
-    
     <section class="three-col">
       <section>
         <h2><a href="chamonix-travel-guide/index.html">Chamonix Travel Guide</a></h2>
@@ -85,7 +98,6 @@ h3, small {float: none; padding: 0 0 20px 0;}
 </header>
 
 <footer>
-    <h3><a href="store/index.html">Store</a> | <a href="about/index.html">About </a></h3>
     <small>Copyright &copy; Super Alpine. All rights reserved </small>
 </footer>
 </html>

@@ -5,13 +5,13 @@ h1 {font-size: 58px; margin: 0 0 30px 0; text-transform: uppercase;}
 h3 {font-size: 30px; margin: 20px 0 40px 0; text-align: center;}
 h6 {font-size: 18px;text-transform: uppercase; margin: 20px auto 0 auto; color: #CA2F3C; text-align: center; letter-spacing: 1px;}
 p {font-size: 16px; line-height: 1.7em; font-weight: 400; margin: 0 0 30px 0;}
-a {color: #111; text-decoration: none; border-bottom: 1px solid #333; }
+section a {color: #111; text-decoration: none; border-bottom: 1px solid #333; }
 a:hover {color: #CA2F3C;}
 header {width: 100vw; height: 90vh;background-image: url(img/test.jpg); background-repeat:no-repeat; background-position: center center; background-size: cover; background-attachment: fixed;display: table;}
 header div {display: table-cell;  margin: 0 auto;vertical-align: middle; padding: 0 15px;}
 header figure {max-width: 700px;margin: 0 auto 20px auto;}
 header h1, header p {margin: 0 auto 30px auto; text-shadow: 1px 1px 1px #111; color: #fff;}
-header figure img {animation-name: LogoAnimate;animation-duration: 15s;animation-iteration-count: infinite;animation-direction: alternate;animation-timing-function: linear;}
+nav img {animation-name: LogoAnimate;animation-duration: 15s;animation-iteration-count: infinite;animation-direction: alternate;animation-timing-function: linear;}
 article {max-width: 600px; margin: 0 auto; padding: 60px 15px;}
 section {max-width: 600px; margin: 20px auto;}
 section div {padding-top: 20px;}
@@ -22,7 +22,7 @@ section a:hover {border: none; filter: grayscale(0);}
 @media screen and (max-width:800px) { 
 h1 {font-size: 40px;}
 h3 {font-size: 26px;}
-p, footer {font-size: 14px;}
+p  {font-size: 14px;}
 }
 @keyframes LogoAnimate {
   0% {background: #CA2F3C;}

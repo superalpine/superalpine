@@ -1,9 +1,9 @@
 body {font-size: 16px; font-family: 'Playfair Display', serif; font-weight: 400; color: #333; background-color: #fefefe;}
 header {width: 100vw; height: 100vh;display: table;  padding: 0 10px; background-image: url(img/la-rencontre.jpg); background-repeat: no-repeat; background-position: center center; background-size: cover; background-attachment: fixed;}
 header div {display: table-cell;  margin: 0 auto; vertical-align: middle; text-align: center;}
-header figure{margin: 0; padding: 0;}
-header figure img {background-color: #4C5D69; width: 60px; height: 60px;}
-header h1 {font-size: 76px; line-height: 1em; font-weight: 700; color: #fff;  text-shadow: 0px 0px 1px #000; letter-spacing: -1px;}
+
+nav img {background-color: #4C5D69;}
+header h1 {font-size: 72px; line-height: 1em; font-weight: 700; color: #fff;  text-shadow: 0px 0px 1px #000; letter-spacing: -1px;}
 header p {color: #fff;  max-width: 590px; margin: 10px auto; text-shadow: 1px 1px 1px #000;}
 section {max-width: 660px; margin: 40px auto;  padding: 0 20px; }
 h3 {font-size: 28px; font-weight: 700; color: #4C5D69; margin-bottom: 20px;}
@@ -14,6 +14,5 @@ blockquote {font-style: italic; font-size:23px;line-height:1.6em; padding:20px; 
 blockquote:after {position: absolute;content: ''; width: 10%;height: 3px;border-bottom: 3px solid #CEA93A; bottom: 1px; left: 55%;margin-left: -10%;}
 figure {margin: 60px auto;}
 figcaption {font-size: 15px;  margin:10px 0 60px 0; text-align: center;}
-footer {font-size: 13px;}
 section p:first-of-type::first-letter {font-size: 90px; float: left; margin:28px 6px 10px 0; font-weight: 500; color:#4C5D69;}
 a {color: #4C5D69;text-decoration: none;}
