@@ -19,20 +19,24 @@
 <link rel="stylesheet" href="../css/base.css">
 <link rel="stylesheet" href="style.css">
 <style type="text/css">
-body {background-color: #fff;}
-header {width: 100vw; height: 90vh;background-image: url(img/cover.jpg); background-repeat:no-repeat; background-position: center center; background-size: cover; background-attachment: fixed; display: table; text-align: left; ;}
-header div {display: table-cell;  margin: 0 auto;vertical-align: middle; padding: 0 10px;}
-header figure {max-width: 700px;margin: 0 auto 20px auto;}
-section {box-shadow: none; padding-top: 60px;}
-ol {margin: 10px 10px 20px 20px;}
-header h1 {font-family: 'Playfair Display', serif;  letter-spacing: -2px; position: relative; font-weight: 900;color: #c69f73;font-size: 90px; line-height: 80px; max-width: 400px; text-align: left;}
+body {background: #fff url(img/cover.jpg) no-repeat top center; background-size: cover;}
 nav a {border: none;}
+header {display: table; text-align: left; padding: 100px 0 0 0; max-width: 380px; margin: 0 auto;}
+header h1 {font-family: 'Playfair Display', serif;  letter-spacing: -2px; position: relative; font-weight: 900;color: #c69f73;font-size: 90px; line-height: 80px; max-width: 400px; text-align: left;}
+section {box-shadow: none; background-color: transparent; margin:0; padding:150px 20px 20px 50px;}
+h3 {text-align: left; margin: 0;}
+ol {margin: 20px 10px 20px 20px; max-width:600px;}
+ol li {text-shadow: 1px 1px 2px #ddd;}
+ol p {margin-left: -20px;}
 .the {font-size: 60px;}
-@media screen and (max-width:800px) { 
+.book {max-width: 300px; float: left; padding:0 20px;}
+.book img {border: 1px solid #ddd; margin-bottom: 10px; box-shadow: 2px 1px 5px #ddd;}
+@media screen and (max-width:700px) { 
+body {background: #fff url(img/cover.jpg) no-repeat -250px 0; background-size: cover;}
+header {margin: 0 0 0 50px;}
 h1 {font-size: 60px!important; line-height: 55px!important; max-width: 220px!important;}
 h2 {font-size: 20px;}
 .the {font-size: 40px;}
-section img {width: 300px;}
 }
 </style>
 </head>
@@ -93,24 +97,25 @@ section img {width: 300px;}
 <p><a href="appendix.html">Appendix</a></p>
 </ol>
 </section>
-<br><hr><br>
-<section class="three-col">
-	<div>
-		<a href="https://revitt.gumroad.com/l/scrambles" style="border:none;"><img src="img/cover-small.jpg" style="border: 1px solid #ddd;" alt="Scrambles Amongst the Alps ePub"></a>
-		<p><a href="https://revitt.gumroad.com/l/scrambles">Download an ePub<br>£1.99</a></p>
+<section>
+<h5>eBooks</h5>
+	<div class="book">
+		<img src="img/cover-small.jpg" alt="Scrambles Amongst the Alps ePub">
+		<p>ePub £1.99</p>
+		<script src="https://gumroad.com/js/gumroad.js"></script>
+<a class="gumroad-button" href="https://revitt.gumroad.com/l/scrambles?wanted=true">Buy Now</a>
+
 	</div>
 	
-	<div>
-		<a href="https://books.apple.com/us/book/scrambles-amongst-the-alps/id1602359980?ls=1" style="border:none;"><img src="img/cover-small.jpg" style="border: 1px solid #ddd;" alt="Scrambles Amongst the Alps Apple Books"></a>
-		<p><a href="https://books.apple.com/us/book/scrambles-amongst-the-alps/id1602359980?ls=1">Apple Books<br>£1.99</a></p>
+	<div class="book">
+		<img src="img/cover-small.jpg" alt="Scrambles Amongst the Alps Apple Books">
+		<p>£1.99</p>
+		<a href="https://books.apple.com/us/book/scrambles-amongst-the-alps/id1602359980?ls=1" class="button">Apple Books</a>
 	</div>
 	
-	<div>
-		<img src="img/cover-small.jpg" style="border: 1px solid #ddd;" alt="Scrambles Amongst the Alps book">
-		<p>Amazon printed book<br><a href="https://www.amazon.com/dp/B09Q6SZFF1">USA</a> | <a href="https://www.amazon.co.uk/dp/B09Q6SZFF1">UK</a> | <a href="https://www.amazon.ca/dp/B09Q6SZFF1">CA</a> | <a href="https://www.amazon.de/dp/B09Q6SZFF1">DE</a> | <a href="https://www.amazon.fr/dp/B09Q6SZFF1">FR</a> | <a href="https://www.amazon.es/dp/B09Q6SZFF1">ES</a> | <a href="https://www.amazon.it/dp/B09Q6SZFF1">IT</a> | <a href="https://www.amazon.ca/dp/B09Q6SZFF1">JP</a> | <a href="https://www.amazon.com.au/dp/B09Q6SZFF1">AU</a></p>
-	</div>
+	
 </section>
-<br><hr><br>
+<br clear="all">
 <section>
 <h5>About this version</h5>
 <p><i>Scrambles Amongst the Alps</i> describes the nine years from 1860 to 1869 that Edward Whymper spent climbing in the Alps. Whymper made dozens of first ascents and acquired a reputation as one of the best in the field of alpine mountaineering. Whymper made seven attempts at summiting mountaineering's Holy Grail of the time - the Matterhorn. He succeeded on his eighth attempt becoming the first to reach its peak. This success came at a terrible cost, as four of his companions fell to their deaths on the descent. It was a tragedy that would cast a shadow over the remainder of his life. </p>
