@@ -20,7 +20,7 @@ header div {display: table-cell;  margin: 0 auto;vertical-align: middle; padding
 header figure {max-width: 690px;margin: 0 auto 20px auto;}
 header h1, header p {margin: 0 auto 30px auto; text-shadow: 1px 1px 1px #111;}
 nav img {background-color: #c00;}
-article, section {max-width: 800px; margin: 0 auto 90px auto; padding: 0 15px 30px 15px;border-bottom: 1px solid #333;}
+article, section {max-width: 800px; margin: 0 auto 90px auto; padding: 0 15px 30px 15px;}
 article p {text-indent: 30px;}
 article p:first-of-type {text-indent: 0;}
 article p:first-of-type::first-letter {font-size: 90px; float: left; margin:28px 6px 10px 0; font-weight: 500; color:#fff;}
