@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; text-transform: 
 h1 {font-size: 46px; line-height: 46px; margin-bottom: 10px;}
 p {font-family: 'Playfair Display';text-align: justify; font-size: 14px;}
 
-ol li {counter-increment: ua;text-align: left; min-height: 500px; position: relative; }
+ol li {counter-increment: ua;text-align: left; min-height: 500px; position: relative; font-family: 'Playfair Display'}
 ol li:before {content: counter(ua) "";font-weight: 700;font-size: 120px;}
 ol li:nth-child(odd):before {width:350px; text-align: center; vertical-align: top;  top:-30px;display: table-cell;}
 ol li:nth-child(even):before {width: 350px; float: right; text-align: center;} 
