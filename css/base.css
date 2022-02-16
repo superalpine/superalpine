@@ -7,17 +7,17 @@
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 body, html {width: 100%;height: 100%;}
 img {max-width: 100%; width: 100%; font-size: 0;}
-.two-col {display: grid; grid-template-columns: 1fr 1fr; grid-gap:30px; padding:0;}
-.three-col {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:30px; padding:0;}
-.four-col {display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-gap:30px; padding:0;}
+.two-col {display: grid; grid-template-columns: 1fr 1fr; grid-gap:30px; padding:0 20px;}
+.three-col {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:30px; padding:0 20px;}
+.four-col {display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-gap:20px; padding:0 20px;}
 header a {border: none;}
-footer {max-width: 800px; margin: 50px auto; padding: 20px 15px 40px 15px; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 15px; line-height: 26px; text-align: center; color:#999;}
+footer {max-width: 800px; margin: 50px auto; padding: 20px 15px 40px 15px; font-size: 13px; line-height: 26px; text-align: center; color:#999;}
 footer a {border-bottom: 1px solid #ccc; text-decoration: none;}
 iframe {max-width: 100%; width: 100%;}
 table {border-collapse: collapse;}
 a {color: #111; transition: all 0.2s ease;}
 nav {width: 100%; height: 70px; position: absolute; z-index: 1;}
-nav img {background-color: #111; width: 70px; height: 70px; padding: 5px; margin: 20px 0 0 20px;}
+nav img {background-color: #111; width: 60px; height: 60px; padding: 5px; margin: 20px 0 0 20px;}
 #menu__toggle {opacity: 0;}
 #menu__toggle:checked + .menu__btn > span { transform: rotate(45deg); background-color: #000;}
 #menu__toggle:checked + .menu__btn > span::before {top: 0;transform: rotate(0deg);background-color: #000;}
@@ -31,17 +31,17 @@ nav img {background-color: #111; width: 70px; height: 70px; padding: 5px; margin
 .menu__btn > span::after {content: "";top: 8px;}
 .menu__box {background-color: #fff; box-shadow: -2px -2px 25px rgba(0,0,0,.1);font-family: 'Playfair Display', serif; display: block;position: fixed;top: 0;right: -100%;width: 400px;height: 100%;margin: 0;padding: 80px 0;list-style: none;transition-duration: 0.25s;}
 .menu__box li {font-size: 16px; line-height: 1.7em; padding: 0 0 10px 50px; }
-.menu__box li:first-of-type {text-transform: uppercase; font-weight: bold; font-family: Futura,'Helvetica Neue', Helvetica, sans-serif;;}
+.menu__box li:first-of-type {text-transform: uppercase; font-weight: bold; font-family: Futura,'Helvetica Neue', Helvetica, sans-serif;}
 .menu__box li:nth-child(8) {margin-top: 100px; font-size: 13px; text-transform: uppercase;}
 .menu__box li:nth-child(9) {font-size: 13px; text-transform: uppercase;}
 .menu__box a {display: block;color: #666;text-decoration: none;transition-duration: 0.25s;border: none!important;}
 .menu__box a:hover {color: #000; text-decoration: underline;}
 .menu__box li:first-of-type a {color: #000;}
 
-@media screen and (max-width:600px) { 
-nav img { width: 60px; height: 60px;}
-.three-col, .two-col, .four-col {display: block; grid-template-columns: 1fr; grid-gap:auto; margin:0 auto;  padding: 0 15px; }
+@media screen and (max-width:800px) { 
+.three-col, .two-col, .four-col {display: block; grid-template-columns: 1fr; margin:0 auto; grid-gap:20px; padding: 0 15px; }
 .menu__box {width: 100%;}
+nav img {background-color: #111; width: 50px; height: 50px; padding: 5px; margin: 15px 0 0 15px;}
 }
 
 @supports (-webkit-touch-callout: none) {

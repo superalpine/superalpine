@@ -8,8 +8,8 @@ h5 {font-size: 18px; line-height: 18px;  margin: 10px 0;}
 h6 {font-size: 14px; line-height: 14px;  margin: 10px 0; text-transform: uppercase;}
 p {margin:0 0 20px 0; font-family: 'Playfair Display', serif;}
 b {color: #000;}
-ul,ol {margin: 20px 0 20px 20px;}
-li {margin: 10px 0;font-family: 'Playfair Display', serif;}
+.product ul, .product ol {margin: 20px 0 20px 20px;}
+.product li {margin: 10px 0;font-family: 'Playfair Display', serif;}
 hr {width:100%; margin:20px auto; background-color: #ddd; height: 1px; border: none;}
 a {color: #c69f73;transition: all 0.2s ease;  text-decoration: none;}
 a:hover {color: #000;}

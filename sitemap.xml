@@ -6,146 +6,154 @@
             //www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://superalpine.co/</loc>
-  <priority>1.0</priority>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>https://superalpine.co/store/chamonix-travel-guide.html</loc>
-  <priority>0.95</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/chamonix-travel-guide/index.html</loc>
-  <priority>0.9</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/route-napoleon/index.html</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/index.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/great-saint-bernard-pass.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/podcast/index.html</loc>
-  <priority>0.65</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/index.html</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/preface.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter1.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter2.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter3.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter4.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter5.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter6.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter7.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter8.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter9.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter10.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter11.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter12.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter13.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter14.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter15.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter16.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter17.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter18.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter19.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter20.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter21.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter22.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/appendix.html</loc>
-  <priority>0.59</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/store/index.html</loc>
-  <priority>0.5</priority>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://superalpine.co/ultimate-alps/index.html</loc>
-  <priority>0.3</priority>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/ultimate-alps/destinations.html</loc>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/ultimate-alps/experiences.html</loc>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/route-napoleon/index.html</loc>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/swiss-passes/index.html</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/swiss-passes/great-saint-bernard-pass.html</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/swiss-passes/col-de-la-forclaz.html</loc>
+  <priority>0.55</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/podcast/index.html</loc>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/index.html</loc>
+  <priority>0.40</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/preface.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter1.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter2.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter3.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter4.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter5.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter6.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter7.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter8.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter9.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter10.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter11.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter12.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter13.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter14.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter15.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter16.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter17.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter18.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter19.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter20.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter21.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter22.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/appendix.html</loc>
+  <priority>0.35</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/store/index.html</loc>
+  <priority>0.30</priority>
 </url>
 <url>
   <loc>https://superalpine.co/about/index.html</loc>
-  <priority>0.2</priority>
+  <priority>0.20</priority>
 </url>
 <url>
   <loc>https://superalpine.co/journal/index.html</loc>
-  <priority>0.1</priority>
+  <priority>0.10</priority>
 </url>
 </urlset>
