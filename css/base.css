@@ -45,5 +45,5 @@ nav img {background-color: #111; width: 50px; height: 50px; padding: 5px; margin
 }
 
 @supports (-webkit-touch-callout: none) {
-   header {background-attachment: scroll!important; background-size: cover!important; background-repeat:no-repeat; background-position: center center;}
+   header, header:before  {background-attachment: scroll!important; background-size: cover!important; background-repeat:no-repeat; background-position: center center;}
 }
