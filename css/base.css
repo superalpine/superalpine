@@ -33,7 +33,7 @@ nav img {background-color: #111; width: 60px; height: 60px; padding: 5px; margin
 .menu__box li {font-size: 16px; line-height: 1.7em; padding: 0 0 10px 50px; }
 .menu__box li:first-of-type {text-transform: uppercase; font-weight: bold; font-family: Futura,'Helvetica Neue', Helvetica, sans-serif;}
 .menu__box li:nth-child(8) {margin-top: 100px; font-size: 13px; text-transform: uppercase;}
-.menu__box li:nth-child(9) {font-size: 13px; text-transform: uppercase;}
+.menu__box li:nth-child(9), .menu__box li:nth-child(10)  {font-size: 13px; text-transform: uppercase;}
 .menu__box a {display: block;color: #666;text-decoration: none;transition-duration: 0.25s;border: none!important;}
 .menu__box a:hover {color: #000; text-decoration: underline;}
 .menu__box li:first-of-type a {color: #000;}
