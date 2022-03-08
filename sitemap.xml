@@ -10,7 +10,15 @@
 </url>
 <url>
   <loc>https://superalpine.co/store/chamonix-travel-guide.html</loc>
+  <priority>0.95</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/chamonix-travel-guide/index.html</loc>
   <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/chamonix-travel-guide/resources.html</loc>
+  <priority>0.85</priority>
 </url>
 <url>
   <loc>https://superalpine.co/ultimate-alps/index.html</loc>
