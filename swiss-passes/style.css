@@ -55,7 +55,8 @@ button:hover{color:#fff;background-color: #000;border: 1px solid #000;}
 article h2 {font-size: 40px; line-height: 40px;}
 section h2 {font-size: 30px; line-height: 30px;}
 article h3 {font-size: 14px;}
-figure {margin: 60px 0;}
+article {margin-bottom: 0;}
+figure {margin: 40px -10px;}
 article p:first-of-type {font-size: 18px; line-height: 26px;}
 .book {padding:30px;}
 .pass p {font-size: 24px; line-height: 30px; padding:40px 20px 0 20px; }
