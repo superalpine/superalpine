@@ -1,5 +1,5 @@
 @import "../css/merriweather.css";
-body {font-size: 16px; font-family: 'Helvetica Neue', Helvetica, sans-serif; color: #222; background-color: #F3F1F1; }
+body {font-size: 16px; font-family: 'Helvetica Neue', Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: #222; background-color: #F3F1F1; }
 h1,h2,h3,h4,h5,h6 {color: #111;}
 h1 {font-size: 50px; line-height: 42px;  text-transform: uppercase; text-shadow: 1px 1px 3px #333; color: #fff;}
 h2 {text-transform: uppercase; letter-spacing: -1px; position: relative;}
@@ -7,7 +7,7 @@ h2:after {position: absolute;content: ''; width:3px; height: auto; border-left: 
 h3 {font-size: 16px; text-transform: uppercase; margin: 10px 0 20px 0; font-weight: normal; letter-spacing: 1px;}
 h4 {font-size: 26px; text-transform: uppercase; margin: 20px 0 20px 0;}
 p,li {font-family: 'Merriweather', serif; font-size: 16px; line-height: 1.6em; font-weight: 400; margin:20px 0;}
-ol li {display: inline-block; margin: 0; font-family:'Helvetica Neue', Helvetica, sans-serif; text-transform: uppercase; font-size: 12px;}
+ol li {display: inline-block; margin: 0; font-family:'Helvetica Neue', Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; text-transform: uppercase; font-size: 12px;}
 ol li:after { content: " -";}
 ol li:last-of-type:after { content: "";}
 header {height: 60vh; width: 100vw; position: relative;display: table;}
@@ -43,7 +43,7 @@ a:hover {color: #900;}
 .home{background-image:url(img/furka.jpg); background-repeat:no-repeat; background-position: center; center; background-size: cover; background-attachment: fixed; height: 100vh;}
 .pass {width: 100%;height: 130px;background: url(img/gsb.jpg) no-repeat;background-size: cover; background-position: center center;filter: grayscale(100%); margin: 0 0 10px 0;display: block;}      
 .pass:hover {filter: grayscale(0%);}
-.pass p {font-family: 'Helvetica Neue', Helvetica, sans-serif;font-size: 28px; line-height: 36px; font-weight: bold; padding: 40px 0 0 50px; color: #999;}
+.pass p {font-family: 'Helvetica Neue', Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;font-size: 28px; line-height: 36px; font-weight: bold; padding: 40px 0 0 50px; color: #999;}
 .pass a {color: #fff; display: block; width: 100%; height: 120px;  text-decoration: none;}
 .pass a:hover {color: #c00;}
 .book {text-align: center; background-color:#ddd; padding:50px 90px 30px 90px; margin-bottom: 100px;}

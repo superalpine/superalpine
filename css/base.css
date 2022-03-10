@@ -31,7 +31,7 @@ nav img {background-color: #111; width: 60px; height: 60px; padding: 5px; margin
 .menu__btn > span::after {content: "";top: 8px;}
 .menu__box {background-color: #fff; box-shadow: -2px -2px 25px rgba(0,0,0,.1);font-family: 'Playfair Display', serif; display: block;position: fixed;top: 0;right: -100%;width: 400px;height: 100%;margin: 0;padding: 80px 0;list-style: none;transition-duration: 0.25s;}
 .menu__box li {font-size: 16px; line-height: 1.7em; padding: 0 0 10px 50px; }
-.menu__box li:first-of-type {text-transform: uppercase; font-weight: bold; font-family: Futura,'Helvetica Neue', Helvetica, sans-serif;}
+.menu__box li:first-of-type {text-transform: uppercase; font-weight: bold; font-family: Futura,'Helvetica Neue', Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;}
 .menu__box li:nth-child(8) {margin-top: 100px; font-size: 13px; text-transform: uppercase;}
 .menu__box li:nth-child(9), .menu__box li:nth-child(10)  {font-size: 13px; text-transform: uppercase;}
 .menu__box a {display: block;color: #666;text-decoration: none;transition-duration: 0.25s;border: none!important;}
