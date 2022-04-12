@@ -10,6 +10,17 @@ img {max-width: 100%; width: 100%; font-size: 0;}
 .two-col {display: grid; grid-template-columns: 1fr 1fr; grid-gap:30px; padding:0 20px;}
 .three-col {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:30px; padding:0 20px;}
 .four-col {display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-gap:20px; padding:0 20px;}
+.template {font-size: 15px; font-family:'Helvetica Neue', Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 23px; color: #333; background-color: #fff;}
+.template header {width:100vw; height: 250px; text-align: center; position: relative;}
+.template header p {padding: 15px 0;}
+.template section {max-width: 600px; margin: 20px auto; padding: 20px 20px 40px 20px;}
+.template a:hover {color: #900;}
+.template h1,h2,h3,h4,h5,h6 {font-weight: bold; color: #222;}
+.template h1 {font-size: 50px; line-height: 50px; letter-spacing: -2px;padding: 120px 0 0 0;}
+.template h3 {font-size: 30px; line-height: 36px; margin:10px 0 20px 0; text-align: center;}
+.template h6 {font-size: 15px; text-transform: uppercase; margin: 20px auto 0 auto; text-align: center; letter-spacing: 1px;}
+.template p {margin:0 0 20px 0; font-family: 'Playfair Display', serif;line-height: 1.6em;}
+
 header a {border: none;}
 footer {max-width: 800px; margin: 50px auto; padding: 20px 15px 40px 15px; font-size: 13px; line-height: 26px; text-align: center; color:#999;}
 footer a {border-bottom: 1px solid #ccc; text-decoration: none;}
