@@ -37,7 +37,7 @@ ol li:nth-of-type(even) img {max-width: 600px; position: absolute; left: 0; }
 
 .two-col {margin-top: 50px;}
 .two-col div {margin-bottom: 10px; width: 100%; min-height: 400px; text-align: center;}
-.two-col div h2 {font-size: 36px;line-height: 36px; padding: 60px;}
+.two-col div h2 {font-size: 36px;line-height: 36px; padding: 60px; color: #fff;}
 .two-col div a {display: block; height: 400px; text-decoration: none; color: #fff;}
 .two-col div a:hover {color: #C69F73;}
 
