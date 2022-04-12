@@ -30,7 +30,7 @@
 }
 body {background-color: #111;color: #ddd;}
 nav img {background-color: #2E303D; animation-name: LogoAnimate;animation-duration: 15s;animation-iteration-count: infinite;animation-direction: alternate;animation-timing-function: linear;}
-header {width:100vw; height:100vh!important; background-image: url(img/cover.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover; display: table; position: relative;}
+header {width:100vw; height:calc(100vh - env(safe-area-inset-bottom)); background-image: url(img/cover.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover; display: table; position: relative;}
 header div {display: table-cell;  margin: 0 auto;vertical-align: bottom; padding: 0 15px 60px 15px;}
 section {max-width: 700px;padding-bottom:20px; margin: auto;}
 h1 {display: none; font-size: 0;}
@@ -41,6 +41,7 @@ section a {color: #fff; text-decoration: none; padding-bottom: 3px;border-bottom
 section a:hover {border-bottom: 1px dotted #fff!important;}
 @media screen and (max-width:700px) { 
 .three-col {padding: 0;}
+header div {padding: 0 15px 0 15px;}
 }
 </style>
 </head>
