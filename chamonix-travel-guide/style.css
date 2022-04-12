@@ -15,7 +15,7 @@ blockquote {font-style: italic; font-size:17px;line-height:1.6em; padding:0px 30
 hr {width:100%; margin:20px auto; background-color: #ddd; height: 1px; border: none;}
 section a, footer a {color: #fff;transition: all 0.2s ease; text-decoration: none; border-bottom: 1px solid #ccc; }
 a:hover {color: #c00;}
-header {width: 100vw; height: 98vh;background-image: url(img/header.jpg); background-size: cover; background-repeat:no-repeat; background-position: center center;  background-attachment: fixed;display: table;}
+header {width: 100vw; height:calc(100vh - env(safe-area-inset-bottom));background-image: url(img/header.jpg); background-size: cover; background-repeat:no-repeat; background-position: center center;  background-attachment: fixed;display: table;}
 header div {display: table-cell;  margin: 0 auto;vertical-align: middle; padding: 0 10px;}
 header figure {max-width: 690px;margin: 0 auto 20px auto;}
 header h1, header p {margin: 0 auto 30px auto; text-shadow: 1px 1px 1px #111;}
