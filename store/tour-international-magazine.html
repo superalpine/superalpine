@@ -16,6 +16,18 @@
 <link rel="stylesheet" href="style.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 <script src="store.js"></script>
+<!-- MailerLite Universal -->
+<script>
+(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+
+var ml_account = ml('accounts', '3417106', 'p2k4w3s5z6', 'load');
+</script>
+<!-- End MailerLite Universal -->
+
 <body>
     <nav>
       <a href="https://superalpine.co"><img src="../img/super-alpine.svg" alt="Super Alpine"></a>
@@ -49,6 +61,7 @@
     <li><img src="img/ti2.jpg" alt="Tour International magazine" /></li>
     <li><img src="img/ti3.jpg" alt="Tour International magazine" /></li>
     <li><img src="img/ti4.jpg" alt="Tour International magazine" /></li>
+    <li><img src="img/ti5.jpg" alt="Tour International magazine" /></li>
     
   </ul>
   </figure>
@@ -65,7 +78,10 @@
 		<li>Printed and bound in the United Kingdom on sustainably sourced paper and vegetable-based inks</li>
     <li>No Adverts</li>
 	</ul>
-  <h5 class="red">Sold out</h5>
+  <div class="ml-form-embed"
+  data-account="3417106:p2k4w3s5z6"
+  data-form="4950014:t5b8m2">
+</div>
 	</article>
 	<br clear="all">
 </section>
