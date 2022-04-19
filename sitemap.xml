@@ -25,6 +25,10 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://superalpine.co/store/tour-international-magazine.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://superalpine.co/ultimate-alps/destinations.html</loc>
   <priority>0.75</priority>
 </url>
@@ -42,6 +46,14 @@
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/col-de-la-forclaz.html</loc>
+  <priority>0.65</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/swiss-passes/col-de-la-gueulaz.html</loc>
+  <priority>0.65</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/swiss-passes/col-de-champex.html</loc>
   <priority>0.65</priority>
 </url>
 <url>
@@ -159,6 +171,10 @@
 <url>
   <loc>https://superalpine.co/store/index.html</loc>
   <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/store/stickers.html</loc>
+  <priority>0.10</priority>
 </url>
 <url>
   <loc>https://superalpine.co/about/index.html</loc>
