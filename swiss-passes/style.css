@@ -36,9 +36,15 @@ a:hover {color: #900;transition-duration: 0s;}
 .sort {color: #c00;font-family: 'Playfair Display', serif; }
 .passes {display: block; padding-left:90px;}
 .home{background-image:url(img/furka.jpg); background-repeat:no-repeat; background-position: center; center; background-size: cover; background-attachment: fixed; height: 70vh;}
-.pass {width:50vw;height: 50vh; float: left; display:block; margin: 0; padding: 0; position: relative;background: url(img/gsb.jpg) no-repeat;background-size: cover; background-position: center center;filter: grayscale(70%);}      
-.pass p {font-size: 38px; line-height: 46px; font-weight: bold; padding: 40px 0 0 50px; color: #fff;}
-.pass a {display: block; width: 100vw; height:100%;  text-decoration: none;}
+.pass {width:50vw;height: 50vh; float: left; display:block; margin: 0; padding: 0; position: relative;}
+.pass::before {content: "";position: absolute;top: 0; left: 0;width: 100%; height: 100%;background-image: url(img/gsb.jpg);background-size: cover; background-position: center center; filter: grayscale(100%);}      
+.pass:nth-of-type(2)::before {background-image: url(img/forclaz.jpg);}      
+.pass:nth-of-type(3)::before {background-image: url(../ultimate-alps/img/fp.jpg);}     
+.pass:nth-of-type(4)::before {background-image: url(img/emosson.jpg);}      
+.pass:nth-of-type(5)::before {background-image: url(img/champex.jpg);}      
+.pass:nth-of-type(6)::before {background-image: url(img/furka.jpg);}      
+.pass a {display: inline-block; width: 100%; height:100%;  text-decoration: none;font-size: 38px; line-height: 46px; font-weight: bold;  color: #fff;  position: absolute; top: 50px; left: 50px;}
+.pass a:hover {color: #f00;}
 
 button {font-size: 14px;line-height:1em;font-weight: normal;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 15px 11px 15px; color: #fff;background-color:#cc0000;z-index:0;text-align: center;overflow: hidden; border: 1px solid #cc0000; border-radius: 3px; margin:10px auto 0 auto; cursor: pointer;}
 button:hover{color:#fff;background-color: #000;border: 1px solid #000;}
