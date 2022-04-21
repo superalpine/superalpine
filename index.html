@@ -38,6 +38,9 @@ h2 {font-size: 16px;   margin-bottom: 11px;}
 p {font-size: 14px; line-height: 1.6em; }
 section a {color: #fff; text-decoration: none; padding-bottom: 3px;border-bottom: 1px solid #900!important; }
 section a:hover {border-bottom: 1px dotted #fff!important;}
+@supports (-webkit-touch-callout: none) {
+  header {height: -webkit-fill-available;}
+}
 @media screen and (max-width:800px) { 
 header article {padding-bottom: 20px;}
 .three-col {padding: 0;}
