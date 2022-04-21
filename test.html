@@ -3,7 +3,7 @@
 <head>
 <title>Super Alpine</title>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 <link rel="canonical" href="https://superalpine.co">
 <meta name="description" content="Super Alpine - The high life">
 <meta property="og:title" content="Super Alpine">
@@ -19,8 +19,13 @@
 <link rel='mask-icon' href='img/logo.svg' color='white'>
 <link rel="stylesheet" href="css/base.css">
 <style type="text/css">
-header {width:100vw; height:calc(100vh - env(safe-area-inset-bottom)); background-image: url(img/cover.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover; display: table; position: relative;}
-
+header {width:100vw;  height: 100vh; background-image: url(img/cover.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover; display: table; position: relative;}
+@supports (-webkit-touch-callout: none) {
+  body {
+    /* The hack for Safari */
+    height: -webkit-fill-available;
+  }
+}
 </style>
 </head>
 <body>
