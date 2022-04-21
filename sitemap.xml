@@ -13,20 +13,32 @@
   <priority>0.95</priority>
 </url>
 <url>
-  <loc>https://superalpine.co/store/stickers.html</loc>
-  <priority>0.10</priority>
-</url>
-<url>
   <loc>https://superalpine.co/store/chamonix-travel-guide.html</loc>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://superalpine.co/store/tour-international-magazine.html</loc>
-  <priority>0.85</priority>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/store/alpes-maritimes-magazine.html</loc>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/store/chamonix-magazine.html</loc>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/store/stickers.html</loc>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/store/terms.html</loc>
+  <priority>0.10</priority>
 </url>
 <url>
   <loc>https://superalpine.co/chamonix-travel-guide/index.html</loc>
-  <priority>0.80</priority>
+  <priority>0.85</priority>
 </url>
 <url>
   <loc>https://superalpine.co/chamonix-travel-guide/resources.html</loc>
@@ -66,27 +78,27 @@
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/swiss-passes.html</loc>
-  <priority>0.70</priority>
+  <priority>0.10</priority>
 </url>
 <url>
   <loc>https://superalpine.co/ultimate-alps/index.html</loc>
-  <priority>0.65</priority>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://superalpine.co/ultimate-alps/destinations.html</loc>
-  <priority>0.65</priority>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://superalpine.co/ultimate-alps/experiences.html</loc>
-  <priority>0.65</priority>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://superalpine.co/route-napoleon/index.html</loc>
-  <priority>0.60</priority>
+  <priority>0.65</priority>
 </url>
 <url>
   <loc>https://superalpine.co/podcast/index.html</loc>
-  <priority>0.50</priority>
+  <priority>0.60</priority>
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/index.html</loc>
