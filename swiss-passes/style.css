@@ -7,10 +7,10 @@ h3 {font-size: 16px; text-transform: uppercase; margin: 10px 0 20px 0; font-weig
 h4 {font-size: 26px; text-transform: uppercase; margin: 20px 0 20px 0;}
 p {font-size: 16px; line-height: 28px; font-weight: 400; margin:25px 0;}
 header {height: 45vh; width: 100vw; position: relative;display: table;}
-header:before {content: "";position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-attachment: fixed;background-position: center center;  background-repeat: none;  background-size: cover;  filter: grayscale(100%);}
+header:before {content: "";position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-attachment: fixed;background-position: center center;  background-repeat: none;  background-size: cover;  filter: brightness(0.5);}
 header div {display: table-cell;  margin: 0 auto; vertical-align: middle; padding: 0 10px; position: relative;}
-header figure {max-width: 740px; margin: 0 auto;}
-header h6 {position: absolute; top: 30px; left: 50%;transform: translate(-50%, 0); z-index: 1; text-align: center; color: #fff; text-transform: uppercase; margin: 0; font-size: 18px;}
+header figure {max-width: 95%; margin: 0 auto; text-align: center;}
+header h6 {position: absolute; top: 30px; left: 50%;transform: translate(-50%, 0); z-index: 1; color: #fff; text-transform: uppercase; margin: 0; font-size: 18px;}
 header h3 {color: #fff; text-shadow: 1px 1px 3px #333;text-align: center; }
 nav img { background-color: #f00;}
 header p {color: #fff; text-align: center;}
