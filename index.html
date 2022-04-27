@@ -20,32 +20,20 @@
 <link rel='mask-icon' href='img/logo.svg' color='white'>
 <link rel="stylesheet" href="css/base.css">
 <style type="text/css">
-@keyframes LogoAnimate {
-  0% {background: #92B4CD;}
-  25% {background: #878682;}
-  50% {background: #BC9D81;}
-  75% {background: #6F645E;}
-  100% {background: #2E303D;}
-}
-body {background-color: #111;color: #ddd;}
-nav img {background-color: #2E303D; animation-name: LogoAnimate;animation-duration: 15s;animation-iteration-count: infinite;animation-direction: alternate;animation-timing-function: linear;}
-header {width:100vw; height:100vh; background-image: url(img/cover.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover; display: table; position: relative;}
-header article {display: table-cell;  margin: 0 auto; vertical-align: bottom; padding: 0 15px 100px 15px;}
-.three-col {max-width: 800px; margin: 0 auto;}
-h1 {display: none; font-size: 0;}
-h2, p {font-family: 'Playfair Display', serif;}
-h2 {font-size: 16px;   margin-bottom: 11px;}
-p {font-size: 14px; line-height: 1.6em; }
-section a {color: #fff; text-decoration: none; padding-bottom: 3px;border-bottom: 1px solid #900!important; }
-section a:hover {border-bottom: 1px dotted #fff!important;}
-@supports (-webkit-touch-callout: none) {
-  header {height: -webkit-fill-available;}
-}
-@media screen and (max-width:800px) { 
-header article {padding-bottom: 20px;}
-.three-col {padding: 0;}
-.three-col div {padding: 0 0 20px 0;}
-}
+body {background-color: #fff; color: #000; font-family: 'Playfair Display', serif;}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {background-color: #000;}
+h2 {font-family:'Helvetica Neue', Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 32px; margin-bottom: 10px; color: #fff; text-transform: uppercase; }
+p { font-size: 13px; line-height: 20px; max-width: 230px; margin: auto; color: #eee; }
+header {width: 100vw; height: 100px;}
+div {width:50vw; height: 60vh; display: table;}
+div a {text-decoration: none; color: #fff;}
+article {display: table-cell; vertical-align: middle; text-align:center;}
+footer { margin:0 auto; padding: 20px 10px; color:#111;}
+@media screen and (max-width:760px) { 
+  div {width: 100%; height: 50vh; float: none;}
+  }
 </style>
 </head>
 <body>
@@ -68,23 +56,40 @@ header article {padding-bottom: 20px;}
       <li><a href="about/index.html">About</a></li>
     </ul>
 </nav>
-<header>
-  <h1>Super Alpine - The high life</h1>
+<header><h1 style="display: none;">Super Alpine - The high life</h1></header>
+  
+  <a href="chamonix-travel-guide/index.html">
+  <div style="float:left; background-color: #111;">
   <article>
-    <section class="three-col">
-     <div>
-        <h2><a href="chamonix-travel-guide/index.html">Chamonix Travel Guide</a></h2>
-        <p>The complete guide to Chamonix Mont-Blanc</p>
-      </div>
-     <div>
-        <h2><a href="ultimate-alps/index.html">Ultimate Alps</a></h2>
-        <p>Discover the best destinations and experiences in the Alps</p>
-      </div>
-     <div>
-        <h2><a href="swiss-passes/index.html">Swiss Passes</a></h2>
-        <p>We explore the great mountain passes of Switzerland</p>
-      </div>
-    </section>
+  <h2>Chamonix Travel Guide</h2>
+  <p>The complete guide to Chamonix Mont-Blanc</p>
   </article>
-</header>
+  </div>
+  <div style="float:left; background:url(ultimate-alps/img/adm.jpg) center center; background-size: cover;">
+  </div>
+  </a>
+
+  <a href="swiss-passes/index.html">
+  <div style="float:right;  background-color: #111;">
+  <article>
+  <h2>Swiss Passes</h2>
+  <p>We explore the great mountain passes of Switzerland</p>
+  </article>  
+  </div>
+  <div style="float:right; background:url(ultimate-alps/img/fp.jpg) center center; background-size: cover;">
+  </div>
+  </a>
+
+  <a href="ultimate-alps/index.html">
+  <div style="float:left;  background-color: #111;">
+  <article>
+  <h2>Ultimate Alps</h2>
+  <p>Discover the best destinations and experiences in the Alps</p>
+  </article>
+  </div>
+  <div style="float:left; background:url(ultimate-alps/img/dolomites.jpg) center center; background-size: cover;">
+  </div>
+  </a>
+<br clear="all">
+<footer>Copyright &copy; Super Alpine. All rights reserved. <a href="store/terms.html">Terms &amp; Conditions</a></footer>
 </html>
