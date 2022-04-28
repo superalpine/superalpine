@@ -38,6 +38,7 @@ h1 {font-size: 40px;}
 h2 {font-size: 36px;}
 h3 {font-size: 26px;}
 p,li {font-size: 15px;}
+.book { border: none; box-shadow: none;}
 .bookcover {float:none; width:70%;margin:0 auto;}
 .booktext {float:none; width:90%; margin:0;}
 }

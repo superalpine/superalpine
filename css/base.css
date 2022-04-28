@@ -51,6 +51,7 @@ nav img {background-color: #111; width: 60px; height: 60px; padding: 5px; margin
 
 @media screen and (max-width:800px) { 
 .three-col, .two-col, .four-col {display: block; grid-template-columns: 1fr; margin:0 auto; grid-gap:20px; padding: 0 15px; }
+.menu__btn {top: 40px;}
 .menu__box {width: 100%;}
 nav img {background-color: #111; width: 50px; height: 50px; padding: 5px; margin: 15px 0 0 15px;}
 }
