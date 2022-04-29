@@ -42,7 +42,7 @@ ol li:nth-of-type(even) img {max-width: 610px; position: absolute; left: 0; }
 .two-col div a {display: block; height: 400px; text-decoration: none; color: #fff;}
 .two-col div a:hover {color: #C69F73;}
 
-@media screen and (max-width:1000px) { 
+@media screen and (max-width:1040px) { 
 
 header {height: 310px;}
 main h1 {font-size: 40px;}
