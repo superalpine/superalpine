@@ -15,7 +15,7 @@ h1 {font-size: 46px; line-height: 46px; margin-bottom: 10px;}
 p {font-family: 'Playfair Display';text-align: justify; font-size: 14px; margin-bottom: 5px;}
 p a {text-decoration: none; border-bottom: 1px solid #c69f73; color: #c69f73;}
 p a:hover {text-decoration: none; border-bottom: 1px solid #000;}
-ol li {counter-increment: ua;text-align: left; min-height: 500px; position: relative; font-family: 'Playfair Display'}
+ol li {counter-increment: ua;text-align: left; min-height: 510px; position: relative; font-family: 'Playfair Display'}
 ol li:before {content: counter(ua) "";font-weight: 700;font-size: 120px;}
 ol li:nth-child(odd):before {width:350px; text-align: center; vertical-align: top;  top:-30px;display: table-cell;}
 ol li:nth-child(even):before {width: 350px; float: right; text-align: center;} 
@@ -28,9 +28,9 @@ ol li h3 {font-size: 17px; line-height: 20px; margin:0px 0 20px 0; text-align: c
 ol li:nth-of-type(odd) div {float: left;}
 ol li:nth-of-type(even) div {float: right; clear: right;}
 
-ol li img {top: 70px;}
-ol li:nth-of-type(odd) img {max-width: 600px; position: absolute; right: 0; }
-ol li:nth-of-type(even) img {max-width: 600px; position: absolute; left: 0; }
+ol li img {top: 60px;}
+ol li:nth-of-type(odd) img {max-width: 610px; position: absolute; right: 0; }
+ol li:nth-of-type(even) img {max-width: 610px; position: absolute; left: 0; }
 
 .menu__btn > span,
 .menu__btn > span::before,
