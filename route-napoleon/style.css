@@ -1,6 +1,6 @@
 body {font-size: 16px; font-family: 'Playfair Display', serif; font-weight: 400; color: #333; background-color: #fefefe;}
 nav img {background-color: #4C5D69;}
-header {width: 100vw; height:calc(100vh - env(safe-area-inset-bottom));display: table;  padding: 0 10px; background-image: url(img/la-rencontre.jpg); background-repeat: no-repeat; background-position: center center; background-size: cover; background-attachment: fixed;}
+header {width: 100%; height:calc(100vh - env(safe-area-inset-bottom));display: table;  padding: 0 10px; background-image: url(img/la-rencontre.jpg); background-repeat: no-repeat; background-position: center center; background-size: cover; background-attachment: fixed;}
 header div {display: table-cell;  margin: 0 auto; vertical-align: middle; text-align: center;}
 header p {color: #fff;  max-width: 520px; margin: 10px auto; text-shadow: 1px 1px 1px #000;}
 section {max-width: 660px; margin: 40px auto;  padding: 0 20px; }
