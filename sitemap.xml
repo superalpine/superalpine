@@ -10,15 +10,19 @@
 </url>
 <url>
   <loc>https://superalpine.co/store/index.html</loc>
-  <priority>0.95</priority>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://store.superalpine.co</loc>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://superalpine.co/store/chamonix-travel-guide.html</loc>
-  <priority>0.90</priority>
+  <priority>0.95</priority>
 </url>
 <url>
   <loc>https://superalpine.co/store/tour-international-magazine.html</loc>
-  <priority>0.90</priority>
+  <priority>0.95</priority>
 </url>
 <url>
   <loc>https://superalpine.co/store/alpes-maritimes-magazine.html</loc>
