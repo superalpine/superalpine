@@ -56,14 +56,15 @@ a:hover {color: #900;transition-duration: 0s;}
 .passlist li:nth-of-type(10) {background-image: url(img/grimsel.jpg);}     
 .passlist li:nth-of-type(11) {background-image: url(img/pass.jpg);}   
 .passlist li:nth-of-type(12) {background-image: url(img/julier.jpg);}
-.passlist li:nth-of-type(13) {background-image: url(img/pass.jpg);}     
-.passlist li:nth-of-type(14) {background-image: url(img/maloja.jpg);}     
-.passlist li:nth-of-type(15) {background-image: url(img/nufenen.jpg);}
-.passlist li:nth-of-type(16) {background-image: url(img/oberalp.jpg);}       
-.passlist li:nth-of-type(17) {background-image: url(img/simplon.jpg);}     
-.passlist li:nth-of-type(18) {background-image: url(img/susten.jpg);}     
-.passlist li:nth-of-type(19) {background-image: url(img/pass.jpg);}     
-.passlist li:nth-of-type(20) {background-image: url(img/furka.jpg);}     
+.passlist li:nth-of-type(13) {background-image: url(img/pass.jpg);}  
+.passlist li:nth-of-type(14) {background-image: url(img/pass.jpg);}     
+.passlist li:nth-of-type(15) {background-image: url(img/maloja.jpg);}     
+.passlist li:nth-of-type(16) {background-image: url(img/nufenen.jpg);}
+.passlist li:nth-of-type(17) {background-image: url(img/oberalp.jpg);}       
+.passlist li:nth-of-type(18) {background-image: url(img/simplon.jpg);}     
+.passlist li:nth-of-type(19) {background-image: url(img/susten.jpg);}     
+.passlist li:nth-of-type(20) {background-image: url(img/pass.jpg);}     
+.passlist li:nth-of-type(21) {background-image: url(img/furka.jpg);}     
 .passlist li a {display:block; width: 100%; height: 100%; text-decoration: none; color: #fff; background-color: rgba(0,0,0,0.4); padding: 50px; border: none;}
 .passlist li a:hover {color: #f00; background-color: transparent; transition: 0.5s all;}
 .passlist li a p {font-size: 30px; line-height: 30px; font-weight: bold;}
