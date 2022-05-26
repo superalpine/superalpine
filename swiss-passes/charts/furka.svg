@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1868 751" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-276.613,-946.718)">
+        <g id="furka" transform="matrix(0.931565,0,0,0.931565,140.83,-949.1)">
+            <g transform="matrix(0.961506,0,0,0.489947,-156.818,1080.55)">
+                <path d="M408.773,2775.46L470.723,2767.38L520.733,2736.01L586.207,2699.04L665.635,2653.72L727.156,2621.08L791.226,2615.54L898.989,2571.25L1018.1,2549.01L1094.16,2525.53L1171.04,2507.06L1227.98,2491.91L1270.61,2488.24L1341.06,2488.24L1399.38,2520.86L1465.96,2555.01L1520.83,2582.61L1594.55,2612.2L1697.74,2657.89L1774.61,2681.72L1836.7,2696.76L1876.95,2722.24L1949.95,2743.8L2008.78,2762.14L2062.85,2788.95L2103.85,2814.95L2136.75,2863.3L2203.49,2902.41L2258.22,2931.79L2312.77,2960.24L2312.77,3480.89L408.878,3480.89L408.773,2775.46Z" style="fill:rgb(226,226,226);"/>
+            </g>
+            <g transform="matrix(0.961506,0,0,0.489947,-156.818,1078.81)">
+                <path d="M408.773,2775.46L470.723,2767.38L520.733,2736.01L586.207,2699.04L665.635,2653.72L727.156,2629.85L791.226,2624.3L850.856,2596.42L890.218,2577.63L1021.41,2551.92L1098.42,2528.43L1171.04,2507.06L1227.98,2491.91L1270.61,2488.24L1341.06,2488.24L1399.38,2520.86L1465.96,2555.01L1520.83,2582.61L1594.55,2612.2L1697.74,2657.89L1774.61,2681.72L1836.7,2696.76L1876.95,2722.24L1949.95,2743.8L2008.78,2762.14L2062.85,2788.95L2103.85,2814.95L2136.75,2863.3L2203.49,2902.41L2258.22,2931.79L2312.77,2960.24" style="fill:none;stroke:rgb(227,6,19);stroke-width:5.86px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,1069.89,2840.51)">
+                <text x="-33.331px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:26.837px;">10km</text>
+            </g>
+            <g transform="matrix(1,0,0,1,2066.49,2840.51)">
+                <text x="-33.331px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:26.837px;">31km</text>
+            </g>
+            <g transform="matrix(1,-2.44929e-16,2.44929e-16,1,-226.285,-33.0896)">
+                <text x="399px" y="2088px" style="font-family:'Helvetica';font-size:26.837px;fill:rgb(29,29,27);">GLETSCH</text>
+                <text x="421.349px" y="2114.84px" style="font-family:'Helvetica';font-size:26.837px;fill:rgb(29,29,27);">1757m</text>
+            </g>
+            <g transform="matrix(1,-2.44929e-16,2.44929e-16,1,586.883,-33.1323)">
+                <text x="399px" y="2088px" style="font-family:'Helvetica';font-size:26.837px;fill:rgb(29,29,27);">FURKA PASS</text>
+                <text x="442.976px" y="2114.84px" style="font-family:'Helvetica';font-size:26.837px;fill:rgb(29,29,27);">2429m</text>
+            </g>
+            <g transform="matrix(1,-2.44929e-16,2.44929e-16,1,1623.78,-33.6593)">
+                <text x="359.512px" y="2088px" style="font-family:'Helvetica';font-size:26.837px;fill:rgb(29,29,27);">ANDERMATT</text>
+                <text x="401.975px" y="2114.84px" style="font-family:'Helvetica';font-size:26.837px;fill:rgb(29,29,27);">1444m</text>
+            </g>
+            <g transform="matrix(2.27344e-17,0.371282,-0.319935,1.95904e-17,1977.13,2018.59)">
+                <path d="M236.22,2834.65L2066.93,2834.65" style="fill:none;stroke:rgb(29,29,27);stroke-opacity:0.2;stroke-width:6.45px;stroke-linecap:round;stroke-linejoin:round;"/>
+            </g>
+        </g>
+        <g id="V" transform="matrix(0.931565,0,0,0.931565,175.935,-954.1)">
+            <g transform="matrix(1,0,0,1,169.907,2799.12)">
+                <text x="-18.906px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:26.837px;">0m</text>
+            </g>
+            <g transform="matrix(1,0,0,1,155.065,2699.12)">
+                <text x="-33.828px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:26.837px;">500m</text>
+            </g>
+            <g transform="matrix(1,0,0,1,148.718,2599.2)">
+                <text x="-41.288px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:26.837px;">1000m</text>
+            </g>
+            <g transform="matrix(1,0,0,1,148.718,2499.34)">
+                <text x="-41.288px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:26.837px;">1500m</text>
+            </g>
+            <g transform="matrix(1,0,0,1,148.718,2399.34)">
+                <text x="-41.288px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:26.837px;">2000m</text>
+            </g>
+            <g transform="matrix(1,0,0,1,148.718,2298.78)">
+                <text x="-41.288px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:26.837px;">2500m</text>
+            </g>
+            <g transform="matrix(1,0,0,1,148.718,2198.74)">
+                <text x="-41.288px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:26.837px;">3000m</text>
+            </g>
+        </g>
+        <g id="H">
+            <g transform="matrix(0.931565,0,0,0.931565,361.277,1697.02)">
+                <text x="-25.87px" y="0px" style="font-family:'HelveticaNeue', 'Helvetica Neue';font-size:26.837px;">0km</text>
+            </g>
+            <g transform="matrix(0.933154,0,0,0.931565,140.455,-1088.84)">
+                <path d="M236.22,2834.65L2066.93,2834.65" style="fill:none;stroke:rgb(170,170,170);stroke-width:2.24px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:2.24,2.24,2.24,2.24;"/>
+            </g>
+            <g transform="matrix(0.933154,0,0,0.931565,140.455,-1181.99)">
+                <path d="M236.22,2834.65L2066.93,2834.65" style="fill:none;stroke:rgb(170,170,170);stroke-width:2.24px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:2.24,2.24,2.24,2.24;"/>
+            </g>
+            <g transform="matrix(0.933154,0,0,0.931565,140.455,-1275.15)">
+                <path d="M236.22,2834.65L2066.93,2834.65" style="fill:none;stroke:rgb(170,170,170);stroke-width:2.24px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:2.24,2.24,2.24,2.24;"/>
+            </g>
+            <g transform="matrix(0.933154,0,0,0.931565,140.455,-1368.3)">
+                <path d="M236.22,2834.65L2066.93,2834.65" style="fill:none;stroke:rgb(170,170,170);stroke-width:2.24px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:2.24,2.24,2.24,2.24;"/>
+            </g>
+            <g transform="matrix(0.933154,0,0,0.931565,140.455,-1461.78)">
+                <path d="M236.22,2834.65L2066.93,2834.65" style="fill:none;stroke:rgb(170,170,170);stroke-width:2.24px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:2.24,2.24,2.24,2.24;"/>
+            </g>
+            <g transform="matrix(0.933154,0,0,0.931565,140.455,-1554.93)">
+                <path d="M236.22,2834.65L2066.93,2834.65" style="fill:none;stroke:rgb(170,170,170);stroke-width:2.24px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:2.24,2.24,2.24,2.24;"/>
+            </g>
+        </g>
+        <g id="Axis">
+            <g transform="matrix(0.931565,0,0,0.931565,140.83,-995.679)">
+                <path d="M234.336,2834.65L2069.08,2834.65" style="fill:none;stroke:rgb(170,170,170);stroke-width:2.24px;stroke-linejoin:round;"/>
+            </g>
+            <g transform="matrix(2.12046e-17,0.344217,-0.298406,1.81623e-17,1205.01,933.958)">
+                <path d="M236.22,2834.65L2064.04,2834.65" style="fill:none;stroke:rgb(170,170,170);stroke-width:6.47px;stroke-linecap:butt;stroke-linejoin:round;"/>
+            </g>
+            <g transform="matrix(2.12046e-17,0.344217,-0.298406,1.81623e-17,2914.18,934.952)">
+                <path d="M236.22,2834.65L2061.15,2834.65" style="fill:none;stroke:rgb(170,170,170);stroke-width:6.47px;stroke-linecap:butt;stroke-linejoin:round;"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -121,7 +121,15 @@
   <priority>0.75</priority>
 </url>
 <url>
+  <loc>https://superalpine.co/swiss-passes/san-bernardino-pass.html</loc>
+  <priority>0.75</priority>
+</url>
+<url>
   <loc>https://superalpine.co/swiss-passes/simplon-pass.html</loc>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://superalpine.co/swiss-passes/splugen-pass.html</loc>
   <priority>0.75</priority>
 </url>
 <url>
