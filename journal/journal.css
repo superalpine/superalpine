@@ -1,0 +1,53 @@
+
+.template section {max-width: 100%; margin: 20px auto; padding: 20px 10px 40px 10px;}
+
+.grid {
+  transition: all .5s ease-in-out;
+  column-gap: 20px;
+  column-fill: initial;
+}
+
+/* Masonry item */
+.grid .item {
+  margin-bottom: 20px;
+  display: inline-block; /* Fix the misalignment of items */
+  vertical-align: top; /* Keep the item on the very top */
+  font-size: 13px;
+}
+
+/* Masonry image effects */
+.grid .item img {
+  transition: all .5s ease-in-out;
+  backface-visibility: hidden; /* Remove Image flickering on hover */
+}
+
+.grid .item:hover img {
+  opacity: .75;
+}
+
+
+/* Masonry on tablets */
+@media only screen and (min-width: 760px) and (max-width: 1023px) {
+
+  .grid {
+    column-count: 2;
+    column-gap: 10px;
+  }
+}
+
+
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+  
+  .grid {
+    column-count: 3;
+  }
+  .template section { padding: 20px 20px 40px 20px;}
+}
+/* Desktop + */
+@media only screen and (min-width: 2500px) {
+  
+  .grid {
+    column-count: 4;
+  }
+}
