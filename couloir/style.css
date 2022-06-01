@@ -4,12 +4,12 @@ img {max-width: 100%; width: 100%; font-size: 0;}
 header img {background-color: #111; width: 60px; height: 60px; padding: 5px; float: left; }
 header, article, footer {max-width: 620px; margin: 20px auto; min-height: 50px; padding: 0 10px;}
 h1, h2, h3, h4,h5,h6 {font-family: 'Helvetica neue', helvetica, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #000;}
-h1 {font-size: 26px; margin-bottom: 10px;}
-h2 {font-size: 23px;}
+h1 {font-size: 26px; margin-bottom: 10px; letter-spacing: -0.9px;}
+h2 {font-size: 23px;letter-spacing: -0.4px;}
 h3 {font-size: 20px; margin: 10px 0;}
 h6 {font-size: 16px;}
 .month {font-weight: normal; font-style: italic; font-family: Georgia,sans-serif; color: #555;}
-p { font-size: 16px; line-height: 26px; margin: 18px 0;}
+p { font-size: 16px; line-height: 24px; margin: 18px 0;}
 blockquote {font-family: Georgia, serif; font-size: 17px; line-height: 27px; margin: 20px 0; font-style: italic; padding: 0 30px; border-left: 3px solid #ddd;}
 a {text-underline-offset: 2px; color: #000;}
 ul {margin: 10px 0 10px 20px;}
