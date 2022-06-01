@@ -2,7 +2,7 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,ad
 body {background-color: #fff; color: #222; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif}
 img {max-width: 100%; width: 100%; font-size: 0;}
 header img {background-color: #111; width: 60px; height: 60px; padding: 5px; float: left; }
-header, article, footer {max-width: 600px; margin: 20px auto; min-height: 50px;}
+header, article, footer {max-width: 620px; margin: 20px auto; min-height: 50px; padding: 0 10px;}
 h1, h2, h3, h4,h5,h6 {font-family: 'Helvetica neue', helvetica, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #000;}
 h1 {font-size: 26px; margin-bottom: 10px;}
 h2 {font-size: 23px;}
@@ -17,7 +17,7 @@ li { font-size: 16px; line-height: 28px;}
 hr {margin: 40px auto; width: 100%; border: none; background-color: #ddd; height: 1px;}
 form {margin:10px 0;}
 select  {color: #222;background-color: #fff; font-family:'Helvetica Neue',Helvetica,sans-serif;font-size: 14px;font-weight: normal;line-height: 14px; text-transform: uppercase; border: none; float: right; width: 200px; height: 30px; border: 1px solid #ccc; outline: none; border-radius: 3px; box-shadow: none; display: block;}
-button, .button {font-family:'Helvetica Neue', Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;font-size: 14px;line-height:1em;font-weight: normal;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 15px 11px 15px; color: #fff;background-color:#c69f73;z-index:0;text-align: center;overflow: hidden; border: 1px solid #c69f73; border-radius: 3px; margin:0 auto; cursor: pointer;}
+button, .button {font-family:'Helvetica Neue', Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;font-size: 14px;line-height:1em;font-weight: normal;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 15px 11px 15px; color: #fff;background-color:#00C3EF;z-index:0;text-align: center;overflow: hidden; border: 1px solid #00C3EF; border-radius: 3px; margin:0 auto; cursor: pointer;}
 button:hover, .button:hover{color:#fff;background-color: #000;border: 1px solid #000;}
-input {font-family:'Helvetica Neue', Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;font-size: 14px;line-height:1em;font-weight: normal; padding: 9px 15px 9px 15px; color: #fff;background-color:#fff;overflow: hidden; border: 1px solid #c69f73; border-radius: 3px; margin:0 auto; cursor: pointer; display: inline-block; width: 200px;}
+input {font-family:'Helvetica Neue', Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;font-size: 14px;line-height:1em;font-weight: normal; padding: 8px 15px 8px 15px; color: #fff;background-color:#fff;overflow: hidden; border: 1px solid #00C3EF; border-radius: 3px; margin:0 auto; cursor: pointer; display: inline-block; width: 200px;}
 select  {color: #222;background-color: #fff; font-family:'Helvetica Neue',Helvetica,sans-serif;font-size: 14px;font-weight: normal;line-height: 14px; text-transform: uppercase; border: none; float: right; width: 200px; height: 30px; border: 1px solid #ccc; outline: none; border-radius: 3px; box-shadow: none; display: block;}
