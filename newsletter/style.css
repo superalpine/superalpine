@@ -1,0 +1,24 @@
+html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+body {background-color: #fff; color: #222; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, sans-serif}
+img {max-width: 100%; width: 100%; font-size: 0;}
+header img {background-color: #111; width: 60px; height: 60px; padding: 5px; float: left; }
+header, article, footer {max-width: 600px; margin: 20px auto; min-height: 50px;}
+h1, h2, h3, h4,h5,h6 {font-family: 'Helvetica neue', helvetica, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #000;}
+h1 {font-size: 30px; margin-bottom: 10px;}
+h2 {font-size: 25px;}
+h3 {font-size: 20px; margin: 10px 0;}
+h6 {font-size: 16px;}
+p { font-size: 16px; line-height: 26px; margin: 18px 0;}
+blockquote {font-family: Georgia, serif; font-size: 17px; line-height: 27px; margin: 20px 0; font-style: italic; padding: 0 30px; border-left: 3px solid #ddd;}
+a {text-underline-offset: 2px; color: #000;}
+ul {margin: 10px 0 10px 20px;}
+li { font-size: 16px; line-height: 28px;}
+em {font-family: Georgia, serif; font-size: 16px;}
+hr {margin: 40px auto; width: 100%; border: none; background-color: #ddd; height: 1px;}
+table {width: 100%;border: none; border-collapse: collapse;}
+form {margin:10px 0;}
+select  {color: #222;background-color: #fff; font-family:'Helvetica Neue',Helvetica,sans-serif;font-size: 14px;font-weight: normal;line-height: 14px; text-transform: uppercase; border: none; float: right; width: 200px; height: 30px; border: 1px solid #ccc; outline: none; border-radius: 3px; box-shadow: none; display: block;}
+button, .button {font-family:'Helvetica Neue', Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;font-size: 14px;line-height:1em;font-weight: normal;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 15px 11px 15px; color: #fff;background-color:#c69f73;z-index:0;text-align: center;overflow: hidden; border: 1px solid #c69f73; border-radius: 3px; margin:0 auto; cursor: pointer;}
+button:hover, .button:hover{color:#fff;background-color: #000;border: 1px solid #000;}
+input {font-family:'Helvetica Neue', Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;font-size: 14px;line-height:1em;font-weight: normal; padding: 9px 15px 9px 15px; color: #fff;background-color:#fff;overflow: hidden; border: 1px solid #c69f73; border-radius: 3px; margin:0 auto; cursor: pointer; display: inline-block; width: 200px;}
+select  {color: #222;background-color: #fff; font-family:'Helvetica Neue',Helvetica,sans-serif;font-size: 14px;font-weight: normal;line-height: 14px; text-transform: uppercase; border: none; float: right; width: 200px; height: 30px; border: 1px solid #ccc; outline: none; border-radius: 3px; box-shadow: none; display: block;}
