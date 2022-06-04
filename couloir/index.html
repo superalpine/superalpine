@@ -7,12 +7,14 @@
 <meta name="description" content="In COULOIR the Super Alpine monthly newsletter get a new story, follow the Alps in modern culture, get interesting links and subscriber-only offers.">
 <link rel="stylesheet" href="style.css">
 <style type="text/css">
-  header {max-width: 100%; height:300px; margin: 0; background:url(img/background.jpg); background-size: cover;  margin-bottom: 30px;}
-  header a img {background-color: #00C3EF; width: 60px; height: 60px; padding: 5px; position: absolute; top:20px; left:20px;}
-  header figure { max-width:300px; padding-top: 120px; margin: 0 auto; }
-  header figure img {width: 150px; height: auto; display: block; margin: 0 auto 20px auto; background-color: transparent; float: none; padding: 0;}
-  header small {color:#fff; display: block; text-align: center; margin: 10px auto;}
-
+  section {width: 50vw; height: 100vh; display: table; background: url(img/background-square.jpg) no-repeat center center; background-size: cover; margin: 0; float: left; padding: 0 15%;}
+  section:nth-of-type(2) {background: none;  padding: 0 10%;}
+  section a img {background-color: #000; width: 60px; height: 60px; padding: 5px; position: absolute; top:20px; left:20px;}
+  section div {display: table-cell; text-align: center; vertical-align: middle;}
+  section div img {width: 160px; height: auto; display: block; margin: 0 auto 20px auto; background-color: transparent; float: none; padding: 0;}
+  section small {color:#fff; display: block; text-align: center; margin: 10px auto; font-size: 12px; font-family: monospace;-webkit-font-smoothing: antialiased; }
+  section p {font-size: 14px; line-height: 18px; font-family: monospace; -webkit-font-smoothing: antialiased; }
+  h2 {font-size: 18px;}
   .ml-form-embedSubmitLoad{display:inline-block;width:20px;height:20px}
   .g-recaptcha{transform:scale(1);-webkit-transform:scale(1);transform-origin:0 0;-webkit-transform-origin:0 0}
   .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
@@ -113,26 +115,30 @@
 
   @media only screen and (max-width:400px){.ml-form-formContent.horozintalForm .ml-form-horizontalRow .horizontal-fields{margin-bottom:10px!important;width:100%!important}}
 
-  @media screen and (max-width:800px) { 
-header a img {width: 50px; height: 50px;}
-h1 {font-size: 20px;}
-h2 {font-size: 20px;}
+  
+</style>
+<style type="text/css">
+@media screen and (max-width:1024px) { 
+section {float: none; height: auto; width: 100%; min-height: 300px;}
+section {background: url(img/background.jpg) no-repeat center center; background-size: cover; padding-top: 20px;}
+section:nth-of-type(2) {background: none; }
+section a img {width: 50px; height: 50px;}
 small {font-size: 11px;}
+
 }
 </style>
 </head>
 <body>
-<header>
+<section>
 	<a href="https://superalpine.co"><img src="../img/super-alpine.svg" alt="Super Alpine"></a>
-  <figure><img src="img/couloir.png" alt="Couloir">
+  <div><img src="img/couloir.png" alt="Couloir">
   <small><b>Couloir</b> - cou·loir  (ko͞ol-wär′) <i>noun</i><br>A steep mountainside gully, especially one forming a break in a cliff face.<br>
-French - from couler, to slide, to flow.</small>
-</figure>
-</header>
-<article>
-<h1>COULOIR</h1>
-<h2>The Super Alpine newsletter starts this September</h2>
-<p>Once a month, get a new story, follow the Alps in modern culture - starting with a series about James Bond's history with the Alps. Get links to interesting articles, podcasts or videos and enjoy subscriber-only offers.</p>
+French - from couler, to slide, to flow.</small></div>
+</section>
+<section>
+  <div>
+<h2>Starting this September</h2>
+<p>Once a month, get a new story, follow the Alps in modern culture - beginning with a series about James Bond in the Alps. Get links to interesting articles, podcasts or videos and enjoy subscriber-only offers.</p>
 <p>Subscribe now and bring the mountains to your inbox.</p>
 <div id="mlb2-4660828" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-4660828">
   <div class="ml-form-align-left">
@@ -144,7 +150,7 @@ French - from couler, to slide, to flow.</small>
               <div class="ml-input-horizontal">
                 <div style="width:100%" class="horizontal-fields">
                   <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
-                    <input type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email">
+                    <input type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email" style="width:300px;">
                   </div>
                 </div>
               </div>
@@ -185,10 +191,6 @@ French - from couler, to slide, to flow.</small>
 </script>
 <img src="https://track.mailerlite.com/webforms/o/4660828/o6x7u0?v1651065679" width="1" height="1" style="max-width:1px;max-height:1px;visibility:hidden;padding:0;margin:0;display:block" alt="." border="0">
 <script src="https://static.mailerlite.com/js/w/webforms.min.js?v9b62042f798751c8de86a784eab23614" type="text/javascript"></script>
-</article>
-<footer>
-<hr>
-<small>Copyright &copy; Super Alpine. All rights reserved.</small>
-</footer>
-</body>
+</div>
+</section>
 </html>
