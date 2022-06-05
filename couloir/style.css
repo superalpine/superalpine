@@ -14,7 +14,7 @@ h1 {font-size: 26px; margin-bottom: 10px; letter-spacing: -0.9px;}
 h2 {font-size: 23px;letter-spacing: -0.4px;}
 h3 {font-size: 20px; margin: 10px 0;}
 h6 {font-size: 16px; float: left; margin: 20px 0;}
-.month {font-weight: normal; font-style: italic; font-family: Georgia,sans-serif; color: #555;}
+.issue {font-weight: normal; font-style: italic; font-family: Georgia,sans-serif; color: #555;}
 p { font-size: 16px; line-height: 26px; margin: 18px 0;}
 blockquote {font-family: Georgia, serif; font-size: 16px; line-height: 27px; margin: 20px 0; font-style: italic; padding: 0 30px; border-left: 3px solid #ddd;}
 a {text-underline-offset: 2px; color: #000;}
