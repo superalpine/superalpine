@@ -69,8 +69,8 @@
   .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-button-horizontal.labelsOn{padding-top:25px}
   .ml-form-formContent.horozintalForm .ml-form-horizontalRow .horizontal-fields{width: 100%;box-sizing:border-box;float:left;padding-right:10px}
   #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input{background-color:#fff;color:#333;border-color:#ccc;border-radius:0;border-style:solid;border-width:1px;font-size:14px;line-height:20px;margin-bottom:0;margin-top:0;padding:10px 10px;width:300px;box-sizing:border-box;overflow-y:initial}
-  #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button{background-color:#aaa!important;border-color:#aaa;border-style:solid;border-width:1px;border-radius:3px;box-shadow:none;color:#fff!important;cursor:pointer;margin:0!important;padding:10px!important;width:100%;height:auto}
-  #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button:hover{background-color:#000!important;border-color:#333!important}
+  #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button{}
+  #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button:hover{}
   #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type=checkbox]{box-sizing:border-box;padding:0;position:absolute;z-index:-1;opacity:0;margin-top:5px;margin-left:-1.5rem;overflow:visible}
   #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description{display:block;font-size:12px;text-align:left;margin-bottom:0;position:relative;vertical-align:top}
   #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label{font-weight:400;margin:0;padding:0;position:relative;display:block;min-height:24px;padding-left:24px}
@@ -78,16 +78,16 @@
   #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label p{important;font-weight:400!important;line-height:18px!important;padding:0!important;margin:0 5px 0 0!important}
   #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label p:last-child{margin:0}
   #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit{margin:0 0 20px 0;float:left;width:100%}
-  #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button{background-color:#d1d3d3!important;border:none!important;border-radius:3px!important;box-shadow:none!important;color:#fff!important;cursor:pointer;line-height:21px!important;height:auto;padding:10px!important;width:100%!important;box-sizing:border-box!important}
+  #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button{}
   #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button.loading{display:none}
-  #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover{background-color:#333!important}
+  #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover{}
   .ml-subscribe-close{width:30px;height:30px;background:url(https://cdn.mailerlite.com/images/default/modal_close.png) no-repeat;background-size:30px;cursor:pointer;margin-top:-10px;margin-right:-10px;position:absolute;top:0;right:0}
   .ml-error input,.ml-error select,.ml-error textarea{border-color:red!important}
   .ml-error .custom-checkbox-radio-list{border:1px solid red!important;border-radius:0;padding:10px}
   .ml-error .label-description,.ml-error .label-description p,.ml-error .label-description p a,.ml-error label:first-child{color:red!important}
   #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow.ml-error .label-description p,#mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow.ml-error .label-description p:first-letter{color:red!important;}
 
-@media only screen and (max-width:400px)
+@media only screen and (max-width:800px)
 {
     .ml-form-embedWrapper.embedDefault,.ml-form-embedWrapper.embedPopup{width:100%!important}
     .ml-form-formContent.horozintalForm{float:left!important}
@@ -99,9 +99,9 @@
 }
 
   .ml-mobileButton-horizontal{display:none}
-  #mlb2-4660828 .ml-mobileButton-horizontal button{background-color:#d1d3d3!important;border-color:#d1d3d3!important;border-style:solid!important;border-width:1px!important;border-radius:3px!important;box-shadow:none!important;color:#fff!important;cursor:pointer;line-height:20px!important;padding:10px!important;width:100%!important;}
+  #mlb2-4660828 .ml-mobileButton-horizontal button{}
 
-@media only screen and (max-width:400px)
+@media only screen and (max-width:800px)
 {
     #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent.horozintalForm{padding:0 0 10px 0!important}
     .ml-hide-horizontal{display:none!important}
@@ -110,7 +110,7 @@
   .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal>div{padding-bottom:0!important;}
 }
 
-@media only screen and (max-width:400px)
+@media only screen and (max-width:800px)
 {
     .ml-form-formContent.horozintalForm .ml-form-horizontalRow .horizontal-fields {margin-bottom:10px!important;width:100%!important;}
 }
