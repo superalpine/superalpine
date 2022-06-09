@@ -11,7 +11,7 @@
   #mlb2-4660828.ml-form-embedContainer{box-sizing:border-box;display:table;margin:0 auto;position:static;width:100%!important}#mlb2-4660828.ml-form-embedContainer button,#mlb2-4660828.ml-form-embedContainer h4,#mlb2-4660828.ml-form-embedContainer p,#mlb2-4660828.ml-form-embedContainer span {text-transform:none!important;letter-spacing:normal!important}#mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper{background-color:transparent;border-width:0;border-color:transparent;border-radius:0;border-style:solid;box-sizing:border-box;display:inline-block!important;margin:0;padding:0;position:relative}#mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper.embedDefault,#mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper.embedPopup{width:100%}
   #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper.embedForm{max-width:100%;width:100%}#mlb2-4660828.ml-form-embedContainer .ml-form-align-left{text-align:left}#mlb2-4660828.ml-form-embedContainer .ml-form-align-center{text-align:center}#mlb2-4660828.ml-form-embedContainer .ml-form-align-default{display:table-cell!important;vertical-align:middle!important;text-align:center!important}#mlb2-4660828.ml-form-embedContainer .ml-form-align-right{text-align:right}
   #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedHeader img{border-top-left-radius:0;border-top-right-radius:0;height:auto;margin:0 auto!important;max-width:100%;width:undefinedpx}
-  #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody,#mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody{padding:0}
+  #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody,#mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody{padding:0 20px 0 0}
   #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody.ml-form-embedBodyHorizontal{padding-bottom:0}
   #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent,#mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent{text-align:left;margin:0 0 20px 0}
   #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4,#mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4{color:#000;font-family:Helvetica,sans-serif;font-size:20px;font-weight:700;margin:0 0 10px 0;text-align:left;word-break:break-word}
@@ -82,7 +82,11 @@
   }
 
   .ml-mobileButton-horizontal{display:none}
-  #mlb2-4660828 .ml-mobileButton-horizontal button{background-color:#fff!important;border-color:#fff!important;border-style:solid!important;border-width:1px!important;border-radius:20px!important;box-shadow:none!important;color:#111!important;cursor:pointer;font-family:Helvetica,sans-serif!important;font-size:14px!important;font-weight:700!important;line-height:20px!important;padding:10px!important;width:100%!important}@media only screen and (max-width:400px){#mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent.horozintalForm{padding:0 0 10px 0!important}.ml-hide-horizontal{display:none!important}.ml-form-formContent.horozintalForm .ml-button-horizontal{display:none!important}.ml-mobileButton-horizontal{display:inline-block!important;margin-bottom:20px;width:100%}.ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal>div{padding-bottom:0!important}}
+  #mlb2-4660828 .ml-mobileButton-horizontal button{}
+  @media only screen and (max-width:100px)
+  {
+    #mlb2-4660828.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent.horozintalForm{padding:0 0 10px 0!important}.ml-hide-horizontal{display:none!important}.ml-form-formContent.horozintalForm .ml-button-horizontal{display:none!important}.ml-mobileButton-horizontal{display:inline-block!important;margin-bottom:20px;width:100%}.ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal>div{padding-bottom:0!important}
+}
 
   @media only screen and (max-width:400px)
   {
