@@ -33,7 +33,8 @@ input:hover {border: 1px solid #000;}
 
 @media screen and (max-width:1020px) { 
 nav {margin: 0;}
-section {width: 100%;  height: 300px; display: block; float: none; position: relative; padding-top: 40px;}
+section {width: 100%;  height: 150px; display: block; float: none; position: relative; padding-top: 40px;}
+.landing {width: 100%;  height: 300px; display: block; float: none; position: relative; padding-top: 40px;}
 section:nth-of-type(2) {width: 100%;height: auto;background: none; position: relative; float: none; padding-top: 0;}
 section div {display: block; text-align: center; }
 section div.signup {padding:20px 10px; margin-top: 20px;}
