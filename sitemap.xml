@@ -272,8 +272,4 @@
   <loc>https://superalpine.co/about/index.html</loc>
   <priority>0.20</priority>
 </url>
-<url>
-  <loc>https://superalpine.co/journal/index.html</loc>
-  <priority>0.10</priority>
-</url>
 </urlset>
