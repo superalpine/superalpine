@@ -9,267 +9,27 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://superalpine.co/store/index.html</loc>
-  <priority>0.85</priority>
-</url>
-<url>
   <loc>https://store.superalpine.co</loc>
-  <priority>0.85</priority>
+  <priority>0.90</priority>
 </url>
 <url>
   <loc>https://superalpine.co/store/chamonix-travel-guide.html</loc>
-  <priority>0.95</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/store/tour-international-magazine.html</loc>
-  <priority>0.95</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/store/alpes-maritimes-magazine.html</loc>
-  <priority>0.10</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/store/chamonix-magazine.html</loc>
-  <priority>0.10</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/store/stickers.html</loc>
-  <priority>0.10</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/store/terms.html</loc>
-  <priority>0.10</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/chamonix-travel-guide/index.html</loc>
-  <priority>0.85</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/chamonix-travel-guide/resources.html</loc>
-  <priority>0.10</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/index.html</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://superalpine.co/swiss-passes/albula-pass.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/bernina-pass.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/col-de-champex.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/col-de-la-forclaz.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/col-des-mosses.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/col-du-pillon.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/fluela-pass.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/furka-pass.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/great-saint-bernard-pass.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/gotthard-pass.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/grimsel-pass.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/jaun-pass.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/julier-pass.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/livigno-pass.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/lukmanier-pass.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/maloja-pass.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/nufenen-pass.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/oberalp-pass.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/san-bernardino-pass.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/simplon-pass.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/splugen-pass.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/susten-pass.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/swiss-passes/umbrail-pass.html</loc>
-  <priority>0.75</priority>
-</url>
-  <url>
-  <loc>https://superalpine.co/swiss-passes/swiss-passes.html</loc>
-  <priority>0.75</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/ultimate-alps/index.html</loc>
+  <loc>https://superalpine.co/store/tour-international-magazine.html</loc>
   <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://superalpine.co/ultimate-alps/destinations.html</loc>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/ultimate-alps/experiences.html</loc>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/route-napoleon/index.html</loc>
-  <priority>0.65</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/podcast/index.html</loc>
+  <loc>https://superalpine.co/chamonix-travel-guide/index.html</loc>
   <priority>0.60</priority>
 </url>
 <url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/index.html</loc>
-  <priority>0.40</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/preface.html</loc>
-  <priority>0.35</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter1.html</loc>
-  <priority>0.35</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter2.html</loc>
-  <priority>0.35</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter3.html</loc>
-  <priority>0.35</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter4.html</loc>
-  <priority>0.35</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter5.html</loc>
-  <priority>0.35</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter6.html</loc>
-  <priority>0.35</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter7.html</loc>
-  <priority>0.35</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter8.html</loc>
-  <priority>0.35</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter9.html</loc>
-  <priority>0.35</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter10.html</loc>
-  <priority>0.35</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter11.html</loc>
-  <priority>0.35</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter12.html</loc>
-  <priority>0.35</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter13.html</loc>
-  <priority>0.35</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter14.html</loc>
-  <priority>0.35</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter15.html</loc>
-  <priority>0.35</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter16.html</loc>
-  <priority>0.35</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter17.html</loc>
-  <priority>0.35</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter18.html</loc>
-  <priority>0.35</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter19.html</loc>
-  <priority>0.35</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter20.html</loc>
-  <priority>0.35</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter21.html</loc>
-  <priority>0.35</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter22.html</loc>
-  <priority>0.35</priority>
-</url>
-<url>
-  <loc>https://superalpine.co/scrambles-amongst-the-alps/appendix.html</loc>
-  <priority>0.35</priority>
+  <loc>https://superalpine.co/swiss-passes/index.html</loc>
+  <priority>0.50</priority>
 </url>
 <url>
   <loc>https://superalpine.co/about/index.html</loc>
-  <priority>0.20</priority>
+  <priority>0.10</priority>
 </url>
 </urlset>
