@@ -46,3 +46,6 @@ p,li {font-size: 15px;}
 .bookcover {float:none; width:70%;margin:0 auto;}
 .booktext {float:none; width:90%; margin:0;}
 }
+@supports (-webkit-touch-callout: none) {
+   header, header:before  {background-attachment: scroll!important; background-size: cover!important; background-repeat:no-repeat; background-position: center center;height: -webkit-fill-available;}
+}
