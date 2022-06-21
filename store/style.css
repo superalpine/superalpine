@@ -13,13 +13,14 @@ b {color: #000;}
 hr {width:100%; margin:20px auto; background-color: #ddd; height: 1px; border: none;}
 a {color: #c69f73;transition: all 0.2s ease;  text-decoration: none;}
 a:hover {color: #000;}
-header {width:100vw; height: 250px; text-align: center; position: relative;}
+header {width:100%; height: 250px; text-align: center; position: relative;}
 header h1 {padding: 120px 0 20px 0;}
 section, main {max-width: 1600px; margin:0 auto; clear: both;}
 .red {color:#900;}
 .three-col {padding:0 20px;}
 .three-col h4 {margin: 5px 0;}
 .three-col p { margin: 5px 0 20px 0; }
+.three-col a {color: #222;}
 .product { padding: 0 15px;}
 .product figure {width: 55%; float: left; margin: 0; }
 .product figure ul {list-style:none; display: block; margin: 20px 0 0 0;}
