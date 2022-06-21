@@ -49,7 +49,10 @@ nav img {background-color: #111; width: 60px; height: 60px; padding: 5px; margin
 .menu__box a:hover {color: #000; text-decoration: underline;}
 .menu__box li:first-of-type a {color: #000;}
 
-@media screen and (max-width:800px) { 
+@media screen and (max-width:960px) { 
+.three-col, .four-col {grid-template-columns: 1fr 1fr;}
+}
+@media screen and (max-width:700px) { 
 .three-col, .two-col, .four-col {display: block; grid-template-columns: 1fr; margin:0 auto; grid-gap:20px; padding: 0 15px; }
 .menu__btn {top: 40px;}
 .menu__box {width: 100%;}

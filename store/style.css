@@ -34,9 +34,7 @@ select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip:
  button, .button {font-family:'Helvetica Neue', Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;font-size: 14px;line-height:1em;font-weight: normal;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 15px 11px 15px; color: #fff;background-color:#c69f73;z-index:0;text-align: center;overflow: hidden; border: 1px solid #c69f73; border-radius: 3px; margin:0 auto; cursor: pointer;}
 button:hover, .button:hover{color:#fff;background-color: #000;border: 1px solid #000;}
 .so {background-color: #999;}
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {background-color: #000;}
+
 @media screen and (max-width:800px) { 
 	h1 {font-size: 40px; line-height: 40px; letter-spacing: -1px;}
 	.three-col div {padding-bottom: 20px; ;}
