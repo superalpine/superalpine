@@ -40,9 +40,9 @@ footer nav {width: auto;display: table; padding:0 0 20px 0; margin: 0 auto; posi
 .button {font-family: 'Merriweather', serif; font-size: 14px;line-height:16px; display:table-cell; padding: 10px 15px 11px 15px; color: #111; text-align: center; border: 1px solid #c69f73; border-radius: 3px; cursor: pointer; background-color: #fff; }
 .button:hover{color:#fff;background-color: #c69f73;border: 1px solid #c69f73;}
 select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip: padding-box;background-image:url(../store/img/arrow.png);background-position: right;background-repeat: no-repeat;background-size: contain;color: #222;background-color: #fff;border: 1px solid #c69f73;border-radius: 3px;cursor: default;display: table-cell;font-family: 'Merriweather', serif;font-size: 14px;font-weight: normal;line-height: 16px;padding:5px 30px 5px 10px;white-space: nowrap;width: 200px;height: 40px;outline: none; margin: 0 10px;}
-.book {border:1px solid #ccc; background-color: #fff; padding: 10px 30px 10px 10px; max-width: 500px;height: 180px; margin: 10px auto;}
+.book {border:1px solid #ccc; background-color: #fff; padding: 10px 30px 10px 10px; max-width: 500px;height: 180px; margin: 10px auto; clear: all;}
 .book img {width:110px; float: left;}
-.book div {float: right;}
+.book div {float: right; max-width: 300px; text-align: left;}
 .book h5 {margin-bottom: 15px;}
 
 @media screen and (max-width:1000px) { 
@@ -56,6 +56,10 @@ h4 {font-size: 24px; line-height: 26px;}
 h6 {font-size: 16px;}
 select {width: 120px; margin: 0 5px;}
 ol {margin: 0 0 50px 20px;}
+.book {padding: 10px 10px; max-width: 100%;height: auto; margin: 10px; clear: all;}
+.book img {width:100%; float: none;}
+.book div {float: none; max-width: 100%;}
+
 }
 
 @media screen and (min-width:1600px) { 
