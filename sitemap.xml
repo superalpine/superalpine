@@ -32,4 +32,8 @@
   <loc>https://superalpine.co/about/index.html</loc>
   <priority>0.10</priority>
 </url>
+<url>
+  <loc>https://superalpine.co/podcast/index.html</loc>
+  <priority>0.10</priority>
+</url>
 </urlset>
