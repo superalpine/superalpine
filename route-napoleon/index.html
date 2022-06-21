@@ -17,34 +17,31 @@
 <link rel="icon" type="image/png" href="https://superalpine.co/img/favicon-32x32.png" sizes="32x32">
 <link rel="icon" type="image/png" href="https://superalpine.co/img/favicon-16x16.png" sizes="16x16">
 <link rel="stylesheet" href="../css/base.css">
-<link rel="stylesheet" href="style.css">
+<style type="text/css">
+header.page {width: 50%; height: 100vh; display: table; position: fixed; left: 0; top: 0; background: url(img/map.jpg) center center; background-size: cover;}
+header.page h1 {position: absolute; bottom: 70px; left: 20px;}
+section {width: 50%; height: auto; display:inline-block; position: relative; float: right;}
+nav a {position: fixed;}
+ol {margin-left: 30px; font-family: 'Playfair Display', serif;}
+blockquote { font-family: 'Playfair Display', serif; font-style: italic; padding:20px 50px 50px 20px; font-size: larger; line-height: 1.5em;}
+h2 {margin-bottom: 20px;}
+@media screen and (max-width:1020px) { 
+nav a {position: relative;}
+header.page {width: 95%; height:150px!important; position: relative; background-image: none;}
+section {width: 100%; float: none;}
+header.page h1 {position: relative; font-size: 30px; text-align: left; margin-top: 30px;}
+}
+</style>
 </head>
-<body>
-<nav>
-    <a href="https://superalpine.co"><img src="../img/super-alpine.svg" alt="Super Alpine"></a>
-    <input id="menu__toggle" type="checkbox" />
-    <label class="menu__btn" for="menu__toggle">
-      <span></span>
-    </label>
-    <ul class="menu__box">
-      <li><a href="../index.html">Super Alpine</a></li>
-      <li><a href="../chamonix-travel-guide/index.html">Chamonix Travel Guide</a></li>
-      <li><a href="../store/index.html">Store</a></li>
-      <li><a href="../podcast/index.html">Podcast</a></li>
-      <li><a href="../about/index.html">About</a></li>
-    </ul>
-</nav>
-<header>
-  <div>
+<body class="template">
+<nav><a href="https://superalpine.co"><img src="../img/super-alpine.svg" alt="Super Alpine"></a></nav>
+<header class="page">
     <h1>Route Napoléon</h1>
-    <p>Route Napoléon is a road in Southern France celebrating the exiled Emperor’s legendary march from the Côte d’Azur, through the Alps, back to the throne of France.</p>
-  </div>
 </header>
 <section>
-<img src="img/rn-logo.png" style="max-width:150px; margin:60px auto; display:block;" alt="Route Napoléon">
+<p style="font-size:larger;">Route Napoléon is a road in Southern France celebrating the exiled Emperor’s legendary march from the Côte d’Azur, through the Alps, back to the throne of France.</p>
 <p>Napoléon's journey today is a series of roads that in 1932 officially became Route Napoléon RN 85. Previously called the Winter Alps Route, the 314-kilometre tourist route is marked along the way with commemorative plaques and monuments and is open all year. While today the route is on modern roads and takes various diversions from the original, it still passes through the beauty of the Alpes-Maritimes, Alpes-de-Haute-Provence, Hautes-Alpes and Isère departments.</p>
 <h2>History</h2>
-<img src="img/np.jpg" style="float: right; max-width: 220px; margin:30px 0 20px 30px;" alt="Napoléon Bonaparte">
 <p>Napoléon Bonaparte was a French military and political leader born on the 15th of August 1769. He rose to prominence during the French Revolution eventually becoming emperor of the French from 1804 until 1814, and again in 1815. As emperor, he dominated global affairs during his reign and led France in the Napoléonic Wars against other countries and coalitions. He was victorious in the majority of these wars, building a large empire that ruled over continental Europe before its collapse in 1815.</p>
 <p>Napoléon was one of the greatest commanders in history and his campaigns are studied at military schools worldwide. He died on the 5th May 1821 whilst exiled to the island of Saint Helena off the coast of Africa. In 1840 his body was returned to Paris, where it was interred in the Hotel des Invalides.</p>
 <h2>Exile to Elba</h2>
@@ -53,8 +50,7 @@
 <h2>Return to France</h2>
 <p>Less than a year into his exile Napoléon made a dramatic escape, slipping away from Portoferraio on board the brig 'l'Inconstant' with 1,200 men, evading the patrolling English and French fleet that surrounded the island.</p>
 <p>On the Ist March, 1815 l'Inconstant approached the coast of France under cover of darkness. Avoiding the garrisoned port of Antibes the brig made landfall on the largely uninhabited Golfe du Juan. On disembarking, Napoléon exclaimed 'Hail, France, land of heroes'. Napoléon's goal was to reach Paris as soon as possible and regain his throne. To do this he avoided going through the hostile regions of Provence and Dauphiné instead of crossing the lower passes of the Southern Alps.</p>
-<figure><blockquote>Before I reached Grenoble they thought me a soldier of fortune. When I got there I became a prince</blockquote><figcaption>Napoléon Bonaparte</figcaption></figure>
-<img src="img/plaque.jpg" style="margin:10px auto 30px auto; display:block;" alt="plaque">
+<blockquote>Before I reached Grenoble they thought me a soldier of fortune. When I got there I became a prince</blockquote>
 <h2>The Route</h2>
 <p>Beginning at Golfe Juan the road takes us to Antibes before heading inland to Grasse, the capital of Perfume and through the Southern Alps via Digne to Grenoble. Col Bayard is the highest pass at 1,246 metres. The 314-kilometres is around a 7-hour drive although splitting it over two days is ideal as there are many notable viewpoints. The route is marked in places by the French Imperial Eagle, carried at the head of Napoléon’s army.</p>
 <p>Historically run from south to north it works well in both directions.</p>
@@ -77,9 +73,7 @@
   <li>Vizille</li>
   <li>Grenoble</li>
 </ol>
+<footer>Copyright &copy; Super Alpine. All rights reserved</footer>
 </section>
-<figure><img src="img/map.png" alt="Map of Route Napoléon"></figure>
-<footer>Copyright &copy; Super Alpine. All rights reserved | <a href="#top">Top of Page</a></footer>
-
 </body>
 </html>
