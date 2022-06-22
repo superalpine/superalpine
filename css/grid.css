@@ -27,7 +27,7 @@
 
 
 /* Masonry on tablets */
-@media only screen and (min-width: 760px) and (max-width: 1023px) {
+@media only screen and (min-width: 399px) and (max-width: 1023px) {
 
   .grid {
     column-count: 2;
@@ -44,6 +44,7 @@
   }
   .template section { padding: 20px 20px 40px 20px;}
 }
+
 /* Desktop + */
 @media only screen and (min-width: 2500px) {
   
