@@ -26,7 +26,7 @@ ol li {margin: 10px 0; line-height: 1.7em;}
 header {width: 50%; height: 100vh; position: fixed; top: 0; left: 0; background: url(img/cover.jpg) center center; background-size: cover;}
 header div {margin:0 20px;}
 .sa a {border: none;}
-.sa img {background-color: #111; width: 60px; height: 60px; padding: 5px; margin:20px 0 ;}
+.sa img {background-color: #111; width: 50px; height: 50px; padding: 5px; margin:20px 0 ;}
 section {width: 50%; float: right; position: relative;}
 article {margin: 50px 0; padding:30px; border-bottom:1px solid #ccc;}
 article p {text-indent: 30px; }
