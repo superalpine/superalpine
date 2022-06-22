@@ -12,8 +12,9 @@
   margin-bottom: 10px;
   display: inline-block; /* Fix the misalignment of items */
   vertical-align: top; /* Keep the item on the very top */
-  font-size: 13px;
 }
+
+.grid .item p {font-family:'Helvetica Neue', Helvetica, Arial, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 5px 0; font-size: 13px; line-height: 13px;}
 
 /* Masonry image effects */
 .grid .item img {
