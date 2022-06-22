@@ -22,6 +22,7 @@ img {max-width: 100%; width: 100%; font-size: 0;}
 .template p {margin:0 0 20px 0; font-family: 'Playfair Display', serif;line-height: 1.6em;}
 header a {border: none;}
 footer {max-width: 800px; margin: 50px auto; padding: 20px 15px 40px 15px; font-size: 13px; line-height: 26px; text-align: center; color:#999;font-family:'Helvetica Neue', Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+footer p {font-family:'Helvetica Neue', Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;}
 footer a {border-bottom: 1px solid #ccc; text-decoration: none;}
 iframe {max-width: 100%; width: 100%;}
 table {border-collapse: collapse;}
