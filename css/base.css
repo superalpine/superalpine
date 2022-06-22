@@ -1,47 +1,79 @@
 @font-face {font-family: 'Playfair Display'; font-style: normal; font-weight: 400; src: local(''),
-       url('../fonts/playfair-display-v28-latin-regular.woff2') format('woff2'), url('../fonts/playfair-display-v28-latin-regular.woff') format('woff'); }
+url('../fonts/playfair-display-v28-latin-regular.woff2') format('woff2'), url('../fonts/playfair-display-v28-latin-regular.woff') format('woff'); }
 @font-face {font-family: 'Playfair Display'; font-style: normal; font-weight: 700; src: local(''),
-       url('../fonts/playfair-display-v28-latin-700.woff2') format('woff2'), url('../fonts/playfair-display-v28-latin-700.woff') format('woff'); }
+url('../fonts/playfair-display-v28-latin-700.woff2') format('woff2'), url('../fonts/playfair-display-v28-latin-700.woff') format('woff'); }
 @font-face {font-family: 'Playfair Display'; font-style: italic;font-weight: 400;src: local(''),
-       url('../fonts/playfair-display-v28-latin-italic.woff2') format('woff2'), url('../fonts/playfair-display-v28-latin-italic.woff') format('woff'); }
-html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+url('../fonts/playfair-display-v28-latin-italic.woff2') format('woff2'), url('../fonts/playfair-display-v28-latin-italic.woff') format('woff'); }
+html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,cite,em,img,small,strong,sub,sup,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,nav,section,audio,video {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 body, html {width: 100%;height: 100%;}
+body {font-family:'Helvetica Neue', Helvetica, Arial, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 23px; color: #313131; background-color: #fff;}
+h1,h2,h3,h4,h5,h6 {font-weight: bold; color: #111; letter-spacing: -0.5px;}
+h1 {font-size: 50px; line-height: 50px; letter-spacing: -2px; padding: 120px 0 0 0;}
+h2 {font-size: 30px; line-height: 36px; margin-bottom: 10px; }
+h3 {font-size: 30px; line-height: 36px; margin:10px 0 20px 0;}
+h4 {font-size: 20px; line-height: 22px; margin: 10px 0; text-transform: uppercase;}
+h5 {font-size: 18px; line-height: 18px;  margin: 10px 0;}
+h6 {font-size: 16px;  margin: -10px 0 10px 0;}
+p,li {font-family: 'Playfair Display', serif; font-size: 15px; line-height: 1.6em; margin:0 0 20px 0; }
+b {color: #000;}
+ul,ol {margin: 7px 0 20px 20px;}
+li {margin: 7px 0; }
+hr {width:100%; margin:20px auto; background-color: #ddd; height: 1px; border: none;}
+iframe {max-width: 100%; width: 100%;}
+table {border-collapse: collapse;}
 img {max-width: 100%; width: 100%; font-size: 0;}
+a {color: #111; transition: all 0.2s ease;}
+a:hover {color: #900;}
+select, input, button, .button {font-family:'Helvetica Neue', Helvetica, Arial, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;font-size: 14px;line-height:1em;font-weight: normal;text-transform: uppercase; -webkit-appearance: none; text-decoration: none; color: #666;background-color:#fff;border: 1px solid #666;}
+select  {-webkit-box-direction: normal;background-clip: padding-box; background-image:url(../store/img/arrow.png);background-position: right;background-repeat: no-repeat;background-size: contain;cursor: default;display: inline-block;padding:5px 30px 5px 10px;text-transform: uppercase;white-space: nowrap;width: 280px;height: 37px;outline: none; position: relative; margin-right: 5px;}
+button, .button {position: relative;display:inline-block; padding: 10px 20px 10px 20px; z-index:0;text-align: center;overflow: hidden;  border-radius: 20px; margin:0 auto; cursor: pointer;}
+button:hover, .button:hover{color:#fff;background-color: #000;border: 1px solid #000;}
+
+header {width:100%; height: 250px; text-align: center; position: relative;}
+header p {padding: 15px;}
+nav {width: 100%; height: 70px; position: absolute; z-index: 1;}
+nav a {text-decoration: none;}
+nav img {background-color: #111; width: 60px; height: 60px; padding: 5px; margin: 20px 0 0 20px;}
+nav p {float: right; padding: 20px;}
+section, main {max-width: 1600px; margin:0 auto; padding: 0 20px; clear: both;}
+article {max-width: 620px; margin: 0 auto;}
+footer {max-width: 660px; margin: 50px auto; padding: 20px 20px 40px 20px;}
+footer p {font-family:'Helvetica Neue', Helvetica, Arial, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px;}
+
 .two-col {display: grid; grid-template-columns: 1fr 1fr; grid-gap:30px; padding:0 20px;}
 .three-col {display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap:30px; padding:0 20px;}
 .four-col {display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-gap:20px; padding:0 20px;}
-.template {font-size: 15px; font-family:'Helvetica Neue', Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 23px; color: #333; background-color: #fff;}
-.template header {width:100%; height: 250px; text-align: center; position: relative;}
-.template header p {padding: 15px;}
-.template section {max-width: 600px; margin: 20px auto; padding: 20px 20px 40px 20px;}
-.template a:hover {color: #900;}
-.template h1,h2,h3,h4,h5,h6 {font-weight: bold; color: #222;}
-.template h1 {font-size: 50px; line-height: 50px; letter-spacing: -2px;padding: 120px 0 0 0;}
-.template h3 {font-size: 30px; line-height: 36px; margin:10px 0 20px 0; text-align: center;}
-.template h6 {font-size: 15px; text-transform: uppercase; margin: 20px auto 0 auto; text-align: center; letter-spacing: 1px;}
-.template p {margin:0 0 20px 0; font-family: 'Playfair Display', serif;line-height: 1.6em;}
-header a {border: none;}
-footer {max-width: 800px; margin: 50px auto; padding: 20px 15px 40px 15px; font-size: 13px; line-height: 26px; text-align: center; color:#999;font-family:'Helvetica Neue', Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-footer p {font-family:'Helvetica Neue', Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;}
-footer a {border-bottom: 1px solid #ccc; text-decoration: none;}
-iframe {max-width: 100%; width: 100%;}
+.three-col a {text-decoration: none;}
+
+.product figure {width: 55%; float: left; margin: 0; }
+.product figure ul {list-style:none; display: block; margin: 20px 0 0 0;}
+.product figure li {display:inline-block;max-width: 23%; margin: 0 10px 10px 0; cursor: pointer;  }
+.product figure li:nth-of-type(4); {margin: 0 0 10px 0;}
+.product article  {width: 45%; float: left;padding:0 0 0 3%;}
+.product main  {width: 45%; float: right;padding:0 0 0 3%;}
+
+.price {font-family:'Helvetica Neue', Helvetica, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;font-size: 30px; line-height: 30px; font-weight: bold; color: #000; margin:30px 0 5px 0;}
+#div1, #div2, #div3, #div4, #div5 {display: none;margin:30px 0;}
+.so {background-color: #999;}
+.red {color:#900;}
 .sc {font-variant: small-caps; font-size: larger;}
 
-table {border-collapse: collapse;}
-a {color: #111; transition: all 0.2s ease;}
-nav {width: 100%; height: 70px; position: absolute; z-index: 1;}
-nav a {border-bottom:none;}
-nav img {background-color: #111; width: 60px; height: 60px; padding: 5px; margin: 20px 0 0 20px;}
-nav p {float: right; padding: 20px;}
 
-@media screen and (max-width:960px) { 
-.three-col, .four-col {grid-template-columns: 1fr 1fr;}
-}
-@media screen and (max-width:700px) { 
-.three-col, .two-col, .four-col {display: block; grid-template-columns: 1fr; margin:0 auto; grid-gap:20px; padding: 0 15px; }
-nav img {background-color: #111; width: 50px; height: 50px; padding: 5px; margin: 15px 0 0 15px;}
+@media screen and (max-width:960px) 
+{ 
+       .three-col, .four-col {grid-template-columns: 1fr 1fr;}
 }
 
-@supports (-webkit-touch-callout: none) {
-   header, header:before  {background-attachment: scroll!important; background-size: cover!important; background-repeat:no-repeat; background-position: center center;height: -webkit-fill-available;}
+@media screen and (max-width:700px) 
+{ 
+       .three-col, .two-col, .four-col {display: block; grid-template-columns: 1fr; margin:0 auto; grid-gap:20px; padding: 0 15px; }
+       .product figure, .product article, .product main  {width: 95%; float: none; padding: 0;}
+       .product figure li {display:inline-block;max-width: 23%; margin: 0 3px 3px 0; cursor: pointer; }
+       nav img {background-color: #111; width: 50px; height: 50px; padding: 5px; margin: 15px 0 0 20px;}
+       li {line-height: 18px;}
+}
+
+@supports (-webkit-touch-callout: none) 
+{
+       header, header:before  {background-attachment: scroll!important; background-size: cover!important; background-repeat:no-repeat; background-position: center center;height: -webkit-fill-available;}
 }
