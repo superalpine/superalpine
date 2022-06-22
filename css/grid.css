@@ -1,5 +1,5 @@
 
-.mason section {max-width: 100%; margin: 20px auto; padding: 20px 10px 40px 10px;}
+.mason section {max-width: 100%;}
 
 .grid {
   transition: all .5s ease-in-out;
@@ -9,7 +9,7 @@
 
 /* Masonry item */
 .grid .item {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   display: inline-block; /* Fix the misalignment of items */
   vertical-align: top; /* Keep the item on the very top */
   font-size: 13px;
@@ -42,7 +42,6 @@
   .grid {
     column-count: 3;
   }
-  .mason section { padding: 20px 20px 40px 20px;}
 }
 
 /* Desktop + */
