@@ -65,5 +65,8 @@ article h3 {font-size: 14px;}
 article {margin-bottom: 0;}
 figure {margin: 40px -10px;}
 article p:first-of-type {font-size: 18px; line-height: 26px;}
-
+}
+@supports (-webkit-touch-callout: none) 
+{
+       header, header:before  {background-attachment: scroll!important; background-size: cover!important; background-repeat:no-repeat; background-position: center center;height: -webkit-fill-available;}
 }
