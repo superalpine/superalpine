@@ -30,7 +30,7 @@ select  {-webkit-box-direction: normal;background-clip: padding-box; background-
 button, .button {position: relative;display:inline-block; padding: 10px 20px 10px 20px; z-index:0;text-align: center;overflow: hidden;  border-radius: 20px; margin:0 auto; cursor: pointer;}
 button:hover, .button:hover{color:#fff;background-color: #000;border: 1px solid #000;}
 
-header {width:100%; height: 250px; text-align: center; position: relative;}
+header {width:100%;  text-align: center; position: relative;}
 header p {padding: 15px;}
 nav {width: 100%; height: 70px; position: absolute; z-index: 1;}
 nav a {text-decoration: none;}
@@ -67,7 +67,6 @@ footer p {font-family:'Helvetica Neue', Helvetica, Arial, system-ui, -apple-syst
 
 @media screen and (max-width:700px) 
 { 
-       header {height: 150px;}
        .three-col, .two-col, .four-col {display: block; grid-template-columns: 1fr; margin:0 auto; grid-gap:20px; padding: 0 15px; }
        .product figure, .product article, .product main  {width: 95%; float: none; padding: 0;}
        .product figure li {display:inline-block;max-width: 23%; margin: 0 3px 3px 0; cursor: pointer; }
