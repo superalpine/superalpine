@@ -67,6 +67,7 @@ footer p {font-family:'Helvetica Neue', Helvetica, Arial, system-ui, -apple-syst
 
 @media screen and (max-width:700px) 
 { 
+       header {height: 150px;}
        .three-col, .two-col, .four-col {display: block; grid-template-columns: 1fr; margin:0 auto; grid-gap:20px; padding: 0 15px; }
        .product figure, .product article, .product main  {width: 95%; float: none; padding: 0;}
        .product figure li {display:inline-block;max-width: 23%; margin: 0 3px 3px 0; cursor: pointer; }
