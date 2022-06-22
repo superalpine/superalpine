@@ -18,27 +18,35 @@
 <link rel="icon" type="image/png" href="https://superalpine.co/img/favicon-16x16.png" sizes="16x16">
 <link rel="stylesheet" href="../css/base.css">
 <style type="text/css">
-header.page {width: 50%; height: 100vh; display: table; position: fixed; left: 0; top: 0; background: url(img/map.jpg) center center; background-size: cover;}
-header.page h1 {position: absolute; bottom: 70px; left: 20px;}
-section {width: 50%; height: auto; display:inline-block; position: relative; float: right;}
-nav a {position: fixed;}
-ol {margin-left: 30px; font-family: 'Playfair Display', serif;}
-blockquote { font-family: 'Playfair Display', serif; font-style: italic; padding:20px 50px 50px 20px; font-size: larger; line-height: 1.5em;}
-h2 {margin-bottom: 20px;}
-@media screen and (max-width:1020px) { 
-nav a {position: relative;}
-header.page {width: 95%; height:150px!important; position: relative; background-image: none;}
-section {width: 100%; float: none;}
-header.page h1 {position: relative; font-size: 30px; text-align: left; margin-top: 30px;}
+.page {width: 50%; height: 100vh;  position: fixed; left: 0; top: 0; background-color: #4C5D69; }
+.page h1 {color: #fff; padding: 20px 0 0 0;}
+.page img {max-width: 50%; padding-top: 130px;}
+section {width: 50%; height: auto; display:inline-block; position: relative; float: right; padding: 20px;}
+nav img {position: fixed; background-color: #000;}
+h2 {margin: 100px 0 20px 0;}
+
+@media screen and (max-width:1020px) 
+{ 
+  nav img {position: relative;}
+  .page {width: 100%; height: 200px; position: relative; }
+  .page img {display: none;}
+  .page h1 {padding-top: 90px;}
+  section {width: 100%; float: none;}
+  
 }
 </style>
 </head>
 <body>
-<nav><a href="https://superalpine.co"><img src="../img/super-alpine.svg" alt="Super Alpine"></a></nav>
+<nav>
+  <a href="https://superalpine.co"><img src="../img/super-alpine.svg" alt="Super Alpine"></a>
+  <p><a href="../store/index.html">Store</a> | <a href="../about/index.html">About</a> | <a href="https://instagram.com/super.alpine">Instagram</a></p>
+</nav>
 <header class="page">
+  <img src="img/np.jpg">
     <h1>Route Napoléon</h1>
 </header>
 <section>
+<h2>Introduction</h2>
 <p style="font-size:larger;">Route Napoléon is a road in Southern France celebrating the exiled Emperor’s legendary march from the Côte d’Azur, through the Alps, back to the throne of France.</p>
 <p>Napoléon's journey today is a series of roads that in 1932 officially became Route Napoléon RN 85. Previously called the Winter Alps Route, the 314-kilometre tourist route is marked along the way with commemorative plaques and monuments and is open all year. While today the route is on modern roads and takes various diversions from the original, it still passes through the beauty of the Alpes-Maritimes, Alpes-de-Haute-Provence, Hautes-Alpes and Isère departments.</p>
 <h2>History</h2>
@@ -52,6 +60,7 @@ header.page h1 {position: relative; font-size: 30px; text-align: left; margin-to
 <p>On the Ist March, 1815 l'Inconstant approached the coast of France under cover of darkness. Avoiding the garrisoned port of Antibes the brig made landfall on the largely uninhabited Golfe du Juan. On disembarking, Napoléon exclaimed 'Hail, France, land of heroes'. Napoléon's goal was to reach Paris as soon as possible and regain his throne. To do this he avoided going through the hostile regions of Provence and Dauphiné instead of crossing the lower passes of the Southern Alps.</p>
 <blockquote>Before I reached Grenoble they thought me a soldier of fortune. When I got there I became a prince</blockquote>
 <h2>The Route</h2>
+<img src="img/map.jpg" alt="Route Napoléon map">
 <p>Beginning at Golfe Juan the road takes us to Antibes before heading inland to Grasse, the capital of Perfume and through the Southern Alps via Digne to Grenoble. Col Bayard is the highest pass at 1,246 metres. The 314-kilometres is around a 7-hour drive although splitting it over two days is ideal as there are many notable viewpoints. The route is marked in places by the French Imperial Eagle, carried at the head of Napoléon’s army.</p>
 <p>Historically run from south to north it works well in both directions.</p>
 <p>From south to north:</p>
@@ -73,7 +82,7 @@ header.page h1 {position: relative; font-size: 30px; text-align: left; margin-to
   <li>Vizille</li>
   <li>Grenoble</li>
 </ol>
-<footer>Copyright &copy; Super Alpine. All rights reserved</footer>
+<footer><p>Copyright &copy; Super Alpine. All rights reserved</p></footer>
 </section>
 </body>
 </html>

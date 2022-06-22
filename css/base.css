@@ -15,6 +15,7 @@ h4 {font-size: 20px; line-height: 22px; margin: 10px 0; text-transform: uppercas
 h5 {font-size: 18px; line-height: 18px;  margin: 10px 0;}
 h6 {font-size: 16px;  margin: -10px 0 10px 0;}
 p,li {font-family: 'Playfair Display', serif; font-size: 15px; line-height: 1.6em; margin:0 0 20px 0; }
+blockquote {font-family: 'Playfair Display', serif; font-style: italic; padding:20px 50px 60px 20px; font-size: larger; line-height: 1.5em;}
 b {color: #000;}
 ul,ol {margin: 7px 0 20px 20px;}
 li {margin: 7px 0; }
