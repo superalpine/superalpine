@@ -37,6 +37,10 @@
   <priority>0.40</priority>
 </url>
 <url>
+  <loc>https://superalpine.co/stories/col-de-turini/index.html</loc>
+  <priority>0.40</priority>
+</url>
+<url>
   <loc>https://superalpine.co/about/index.html</loc>
   <priority>0.10</priority>
 </url>
