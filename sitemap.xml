@@ -48,4 +48,8 @@
   <loc>https://superalpine.co/podcast/index.html</loc>
   <priority>0.10</priority>
 </url>
+<url>
+  <loc>https://superalpine.co/scrambles-amongst-the-alps/index.html</loc>
+  <priority>0.10</priority>
+</url>
 </urlset>

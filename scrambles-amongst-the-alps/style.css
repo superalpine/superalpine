@@ -1,10 +1,10 @@
-@font-face {font-family: 'Merriweather';font-style: normal;font-weight: 400;src: local(''),url('../fonts/merriweather-v28-latin-regular.woff2') format('woff2'),url('../fonts/merriweather-v28-latin-regular.woff') format('woff');}
-@font-face {font-family: 'Merriweather';font-style: italic;font-weight: 400;src: local(''),url('../fonts/merriweather-v28-latin-italic.woff2') format('woff2'),url('../fonts/merriweather-v28-latin-italic.woff') format('woff');}
-@font-face {font-family: 'Merriweather';font-style: normal;font-weight: 900;src: local(''),url('../fonts/merriweather-v28-latin-900.woff2') format('woff2'),url('../fonts/merriweather-v28-latin-900.woff') format('woff');}
+@font-face {font-family: 'Merriweather';font-style: normal;font-weight: 400;src: local(''),url('fonts/merriweather-v28-latin-regular.woff2') format('woff2'),url('fonts/merriweather-v28-latin-regular.woff') format('woff');}
+@font-face {font-family: 'Merriweather';font-style: italic;font-weight: 400;src: local(''),url('fonts/merriweather-v28-latin-italic.woff2') format('woff2'),url('fonts/merriweather-v28-latin-italic.woff') format('woff');}
+@font-face {font-family: 'Merriweather';font-style: normal;font-weight: 900;src: local(''),url('fonts/merriweather-v28-latin-900.woff2') format('woff2'),url('fonts/merriweather-v28-latin-900.woff') format('woff');}
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 body, html {width: 100%;height: 100%;}
 img {max-width: 100%; width: 100%; font-size: 0;}
-body {font-size: 16px; font-family: 'Merriweather', serif;  color: #313131; background-color: #f3eee7;}
+body {font-size: 16px; font-family: 'Merriweather', Charter, Georgia, serif;  color: #313131; background-color: #f3eee7;}
 h1,h2,h3,h4,h5,h6 {font-weight: 900; line-height: 1em; color: #111; margin: 10px 0 30px 0;}
 h1 {font-size: 40px; line-height: 56px; max-width: 210px;}
 h2 {font-size: 30px;}
@@ -37,9 +37,9 @@ figcaption {font-size: 13px; font-style: italic; margin-bottom: 60px; text-align
 footer {text-align: center;}
 footer p {font-size: 14px;}
 footer nav {width: auto;display: table; padding:0 0 20px 0; margin: 0 auto; position: relative; height:auto; position:relative;}
-.button {font-family: 'Merriweather', serif; font-size: 14px;line-height:16px; display:table-cell; padding: 10px 15px 11px 15px; color: #111; text-align: center; border: 1px solid #c69f73; border-radius: 3px; cursor: pointer; background-color: #fff; }
+.button {font-family: 'Merriweather', Charter, Georgia, serif; font-size: 14px;line-height:16px; display:table-cell; padding: 10px 15px 11px 15px; color: #111; text-align: center; border: 1px solid #c69f73; border-radius: 3px; cursor: pointer; background-color: #fff; }
 .button:hover{color:#fff;background-color: #c69f73;border: 1px solid #c69f73;}
-select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip: padding-box;background-image:url(../store/img/arrow.png);background-position: right;background-repeat: no-repeat;background-size: contain;color: #222;background-color: #fff;border: 1px solid #c69f73;border-radius: 3px;cursor: default;display: table-cell;font-family: 'Merriweather', serif;font-size: 14px;font-weight: normal;line-height: 16px;padding:5px 30px 5px 10px;white-space: nowrap;width: 200px;height: 40px;outline: none; margin: 0 10px;}
+select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip: padding-box;background-image:url(../store/img/arrow.png);background-position: right;background-repeat: no-repeat;background-size: contain;color: #222;background-color: #fff;border: 1px solid #c69f73;border-radius: 3px;cursor: default;display: table-cell;font-family:'Merriweather', Charter, Georgia, serif;font-size: 14px;font-weight: normal;line-height: 16px;padding:5px 30px 5px 10px;white-space: nowrap;width: 200px;height: 40px;outline: none; margin: 0 10px;}
 .book {border:1px solid #ccc; background-color: #fff; padding: 10px 30px 10px 10px; max-width: 500px;height: 180px; margin: 10px auto; clear: all;}
 .book img {width:110px; float: left;}
 .book div {float: right; max-width: 300px; text-align: left;}
