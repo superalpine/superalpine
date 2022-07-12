@@ -56,6 +56,7 @@ h4 {font-size: 24px; line-height: 26px;}
 h6 {font-size: 16px;}
 select {width: 120px; margin: 0 5px;}
 ol {margin: 0 0 50px 20px;}
+.book {max-width: 90%;}
 .book img {width:100%; float: none;}
 .book div {float: none; max-width: 100%;}
 
