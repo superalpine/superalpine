@@ -1,23 +1,17 @@
-@font-face {font-family: 'Playfair Display'; font-style: normal; font-weight: 400; src: local(''),
-url('../fonts/playfair-display-v28-latin-regular.woff2') format('woff2'), url('../fonts/playfair-display-v28-latin-regular.woff') format('woff'); }
-@font-face {font-family: 'Playfair Display'; font-style: normal; font-weight: 700; src: local(''),
-url('../fonts/playfair-display-v28-latin-700.woff2') format('woff2'), url('../fonts/playfair-display-v28-latin-700.woff') format('woff'); }
-@font-face {font-family: 'Playfair Display'; font-style: italic;font-weight: 400;src: local(''),
-url('../fonts/playfair-display-v28-latin-italic.woff2') format('woff2'), url('../fonts/playfair-display-v28-latin-italic.woff') format('woff'); }
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,cite,em,img,small,strong,sub,sup,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,nav,section,audio,video {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 body, html {width: 100%;height: 100%;}
 body {font-family:'Helvetica Neue', Helvetica, Arial, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 23px; color: #444; background-color: #fff;}
 h1,h2,h3,h4,h5,h6 {font-weight: bold; color: #111;}
-h1 {font-size: 50px; line-height: 50px; letter-spacing: -2px; padding: 120px 0 0 0;}
+h1 {font-size: 48px; line-height: 48px; letter-spacing: -2px; padding: 120px 0 0 0;}
 h2 {font-size: 30px; line-height: 36px; margin-bottom: 10px; letter-spacing: -1px; }
 h3 {font-size: 28px; line-height: 34px; margin:10px 0 20px 0;}
 h4 {font-size: 18px; line-height: 20px; margin: 10px 0; text-transform: uppercase;}
 h5 {font-size: 17px; line-height: 18px;  margin: 10px 0; letter-spacing: normal;}
-h6 {font-size: 16px;  margin: -10px 0 10px 0;letter-spacing: normal;}
-p,li {font-family: 'Playfair Display', serif; font-size: 15px; line-height: 1.6em; margin:0 0 20px 0; }
-blockquote {font-family: 'Playfair Display', serif; font-style: italic; font-size: larger; line-height: 1.5em; background-color: #eee; box-shadow: 1px 1px 1px #ccc; padding:40px; margin: 50px auto;}
+h6 {text-transform: uppercase; font-family: monospace, ui-monospace, 'Courier New', courier; font-weight: normal; font-size: 12px; margin: 10px 0 -5px 0; color: #a89177; letter-spacing: 1px; border-bottom: 1px solid #a89177; display: inline-block;}
+p,li {font-family:Charter,Georgia,sans-serif; -webkit-text-size-adjust: 100%; -webkit-font-smoothing:antialiased; font-size: 17px;line-height: 26px; margin: 20px 0;}
+blockquote {font-family:Charter,Georgia,sans-serif;  font-size:23px;line-height: 32px;font-style: italic;margin: 40px 0;padding: 0 30px;border-left: 5px solid #a89177;}
 cite {font-size: 13px; display: block; font-style: normal; padding: 5px 0;}
-figcaption {font-family: 'Playfair Display', serif;  font-size: 13px; padding-bottom: 40px;}
+figcaption {font-family:Charter,Georgia,sans-serif;  font-size: 13px; padding-bottom: 40px;}
 b {color: #000;}
 ul,ol {margin: 7px 0 20px 20px;}
 li {margin: 7px 0; }
@@ -27,17 +21,17 @@ table {border-collapse: collapse;}
 img {max-width: 100%; width: 100%; font-size: 0;}
 a {color: #444; text-decoration-color: #aaa; transition: all 0.2s ease;}
 a:hover {color: #000; text-decoration-color: #000;}
-select, input, button, .button {font-family:'Helvetica Neue', Helvetica, Arial, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;font-size: 14px;line-height:1em;font-weight: normal;text-transform: uppercase; -webkit-appearance: none; text-decoration: none; color: #666;background-color:#fff;border: 1px solid #666;}
+select, input, button, .button {font-family: monospace, ui-monospace, 'Courier New', courier;font-size: 14px; line-height: 14px;font-weight: normal;text-transform: uppercase; -webkit-appearance: none; text-decoration: none; color: #666;background-color:#fff;border: 1px solid #a89177;}
 select  {-webkit-box-direction: normal;background-clip: padding-box; background-image:url(../store/img/arrow.png);background-position: right;background-repeat: no-repeat;background-size: contain;cursor: default;display: inline-block;padding:5px 30px 5px 10px;text-transform: uppercase;white-space: nowrap;width: 280px;height: 37px;outline: none; position: relative; margin-right: 5px;}
-button, .button {position: relative;display:inline-block; padding: 10px 20px 10px 20px; z-index:0;text-align: center;overflow: hidden;  border-radius: 20px; margin:0 auto; cursor: pointer;}
-button:hover, .button:hover{color:#fff;background-color: #000;border: 1px solid #000;}
+button, .button {position: relative;display:inline-block; padding: 10px 27px;  z-index:0;text-align: center;overflow: hidden;  border: 1px solid #a89177; border-radius: 20px;color: #a89177; margin:0 auto; cursor: pointer; letter-spacing: 2px;}
+button:hover, .button:hover{border: 1px solid #000; color: #000;}
 
 header {width:100%;  text-align: center; position: relative;}
-header p {padding: 15px; font-size: 17px;}
+header p {padding: 15px;}
 nav {width: 100%; height: 70px; position: absolute; z-index: 1; color: #aaa;}
-nav a {padding: 0 3px;}
+nav a {padding: 0 3px;font-family: monospace, ui-monospace, 'Courier New', courier; }
 nav img {background-color: #111; width: 60px; height: 60px; padding: 5px; margin: 20px 0 0 20px;}
-nav p {float: right; padding: 20px;}
+nav p {float: right; padding: 20px; font-size: 14px;font-weight: normal; text-transform: uppercase;}
 section, main {max-width: 1600px; margin:0 auto; padding: 0 20px; clear: both;}
 article {max-width: 620px; margin: 0 auto;}
 footer {max-width: 660px; margin: 50px auto; padding: 20px 20px 40px 20px;}
@@ -58,7 +52,7 @@ footer {max-width: 660px; margin: 50px auto; padding: 20px 20px 40px 20px;}
 #div1, #div2, #div3, #div4, #div5 {display: none;margin:30px 0;}
 .so {background-color: #999;}
 .red {color:#900;}
-.sc {font-variant: small-caps; font-size: 17px;}
+.sc {font-variant: small-caps; font-size: larger;}
 
 
 @media screen and (max-width:960px) 
