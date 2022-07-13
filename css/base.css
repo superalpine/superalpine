@@ -1,5 +1,4 @@
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,cite,em,img,small,strong,sub,sup,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,nav,section,audio,video {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
-body, html {width: 100%;height: 100%;}
 body {font-family:'Helvetica Neue', Helvetica, Arial, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 23px; color: #444; background-color: #fff;}
 h1,h2,h3,h4,h5,h6 {font-weight: bold; color: #111;}
 h1 {font-size: 48px; line-height: 48px; letter-spacing: -2px; padding: 120px 0 0 0;}
