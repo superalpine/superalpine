@@ -2,11 +2,7 @@
 
 The Super Alpine website.
 
-## Built With
-
-* [Sublime Text](http://www.sublimetext.com) - Hand coded, no frameworks used.
-
-## Authors
+## Author
 
 * **Andrew Revitt**
 
