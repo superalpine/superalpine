@@ -29,7 +29,7 @@ header nav a {padding: 0 10px; text-decoration: none; color: #ccc;}
 header nav a:hover {color: #a89177;}
 article  {max-width: 680px; padding:0 20px; margin:0 auto 60px auto;}
 article li {margin:5px 0;}
-article.post h2 {font-size: 28px; line-height: 32px; margin-bottom: 20px; font-style: italic;}
+article.post h2 {font-size: 28px; line-height: 32px; margin-bottom: 20px;font-weight: 200;}
 article.post p:first-of-type{font-size: 19px;line-height: 27.3px;}
 figure  {margin: 30px -150px 0 -150px;}
 figcaption {font-size: 12px; margin: 10px 0 30px 0;}
