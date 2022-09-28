@@ -1,6 +1,6 @@
-# Super Alpine
+# SUPER ALPINE
 
-The Super Alpine website.
+The SUPER ALPINE website.
 
 ## Author
 
@@ -8,4 +8,4 @@ The Super Alpine website.
 
 ## License
 
-Copyright Super Alpine. All rights reserved.
+Copyright SUPER ALPINE. All rights reserved.
