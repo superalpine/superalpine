@@ -58,6 +58,7 @@ aside {width: 30%; float: right; background-color: #eee; padding: 20px;}
 .op li {display: inline-block; list-style-type: none; margin: 0 5px 20px 0;}
 .op li a {text-decoration: none; border: 1px solid #a89177; border-radius: 20px; padding: 6px 18px; font-family: monospace, ui-monospace, 'courier new', courier; color: #a89177; text-transform: uppercase; font-size: 11px; line-height: 11px; letter-spacing: 1px; background-color: transparent;}
 .op li a:hover { border: 1px solid #000; color: #000;}
+.op li:first-of-type a {background-color: #fff; color: #000; border-color: #000;}
 
 .about section {width: 50%; height: 90vh;  display: table; float: left; background-color: #111; margin: 0;}
 .about section div {vertical-align: middle; display: table-cell; padding: 20px;}
