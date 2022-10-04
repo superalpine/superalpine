@@ -49,7 +49,7 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
 .articles section img, aside img {margin-bottom: 10px;}
 .articles section h2, aside h3 {font-size: 24px; line-height: 26px; margin: 0;}
 .articles section p, aside p {margin-top: 0;}
-.articles section {width: 50%; padding:0 20px 0 0;  float: left;}
+.articles section {width:50%; min-height: 510px; padding:0 20px 0 0;  float: left;}
 aside {width: 30%; float: right; background-color: #eee; padding: 20px;}
 .compact  {margin: 20px 0 0 0;}
 .grid {column-gap: 20px; column-fill: initial;column-count: 2; page-break-inside: avoid; break-inside: avoid;}
@@ -79,22 +79,27 @@ aside {width: 30%; float: right; background-color: #eee; padding: 20px;}
 .magazines section h2 {font-size: 60px; line-height:50px; margin: 0;color: #000;}
 .magazines section p  {color: #222; font-size: 15px; font-family: "Helvetica Neue", HelveticaNeue, HNB; margin: 10px 0 20px 0; max-width: 500px;}
 
-@media (max-width: 1112px) 
+@media (min-width: 2000px) 
+{
+ .about section h1,.about section h2, .about section h3{font-size: 70px; line-height:60px; }   
+ .about section div {padding: 50px;}
+}
+@media (max-width: 1024px) 
 {
     figure  {margin: 20px 0 0 0px;}
     .grid {column-count: 1;}
     .about section, .about figure {width: 100%; height: auto;  position: relative; display: block; float: none; }
     .about figure {width: 100%; height: 500px;}
-    .about section:nth-of-type(2),.about section:nth-of-type(4) {float: none; }
-    .about figure:nth-of-type(2),.about figure:nth-of-type(4) {float: none;}
+    .about section:nth-of-type(2),.about section:nth-of-type(4) {float: none;text-align: left }
+    .about figure:nth-of-type(2),.about figure:nth-of-type(4) {float: none; ;}
     .about section h1,.about section h2, .about section h3{font-size: 30px; line-height:30px;}
     .about section div {vertical-align: middle; display: block; padding: 20px;}
     .magazines section,.magazines figure  {width: 100%; height: auto;  position: relative; display: block; float: none;}
     .magazines section:nth-of-type(2),.magazines section:nth-of-type(4) {float: none;}
     .magazines figure:nth-of-type(2),.magazines figure:nth-of-type(4) {float: none;}
     .magazines section h2 {font-size: 32px; line-height: 30px;}
-    .articles, aside {float: none; width: 100%; padding: 0;}
-    .articles section  {width:100%; float: none;}
+    .articles, aside {float: none; width: 100%; padding: 0; background-color: #fff;}
+    .articles section  {width:100%; float: none; min-height: auto; margin-bottom: 30px;}
     
     
 }    
