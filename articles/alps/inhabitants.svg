@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1870 895" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g transform="matrix(1,0,0,1,-33.71,-120.674)">
+        <g transform="matrix(0.972715,0,0,0.972715,0.919206,3.34881)">
+            <g transform="matrix(0,3.25835,-3.18959,0,1164.55,-191.696)">
+                <path d="M96.5,135.238L344.5,135.238" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:0.32px;"/>
+            </g>
+            <g transform="matrix(0,3.25835,-3.18959,0,1553.68,-589.215)">
+                <path d="M218.5,135.238L466.5,135.238" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:0.32px;"/>
+            </g>
+            <g transform="matrix(0,3.25835,-3.18959,0,1939.62,-983.476)">
+                <path d="M339.5,135.238L587.5,135.238" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:0.32px;"/>
+            </g>
+            <g transform="matrix(0,3.25835,-3.18959,0,2325.56,-1377.74)">
+                <path d="M460.5,135.238L708.5,135.238" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:0.32px;"/>
+            </g>
+            <g transform="matrix(0,-3.25835,3.18959,0,-83.067,850.978)">
+                <path d="M-24,135.238L223,135.238" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:0.32px;stroke-linecap:square;"/>
+            </g>
+            <g transform="matrix(6.2565,-3.831e-16,3.75015e-16,6.12446,499.009,70.1123)">
+                <path d="M-24,135.238L223,135.238" style="fill:none;fill-rule:nonzero;stroke:black;stroke-width:0.17px;stroke-linecap:square;"/>
+            </g>
+            <g transform="matrix(3.18959,0,0,3.25835,29.8938,86.119)">
+                <g>
+                    <g transform="matrix(1,0,0,-1,100,65.2378)">
+                        <rect x="0" y="0" width="464" height="44" style="fill:rgb(170,170,170);"/>
+                    </g>
+                    <g transform="matrix(1,0,0,-1,100,126.238)">
+                        <rect x="0" y="0" width="377" height="43" style="fill:rgb(119,119,119);"/>
+                    </g>
+                    <g transform="matrix(1,0,0,-1,100,188.238)">
+                        <rect x="0" y="0" width="335" height="44" style="fill:rgb(68,68,68);"/>
+                    </g>
+                    <g transform="matrix(1,0,0,-1,100,249.238)">
+                        <rect x="0" y="0" width="305" height="44"/>
+                    </g>
+                </g>
+            </g>
+            <g transform="matrix(3.18959,0,0,3.25835,29.8938,86.119)">
+                <text x="5.49px" y="46.314px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:10.096px;">G<tspan x="13.254px 17.101px 22.997px 29.085px 35.355px 41.625px 44.331px 50.227px 53.135px 56.043px 62.131px 66.159px 72.055px 78.144px 84.04px " y="46.314px 46.314px 46.314px 46.314px 46.314px 46.314px 46.314px 46.314px 46.314px 46.314px 46.314px 46.314px 46.314px 46.314px 46.314px ">renoble, France</tspan></text>
+            </g>
+            <g transform="matrix(3.18959,0,0,3.25835,29.8938,86.119)">
+                <text x="0.5px" y="108.152px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:10.096px;">I<tspan x="3.579px 9.668px 15.756px 21.278px 27.548px 31.577px 37.665px 43.561px 49.457px 52.365px 55.273px 62.29px 68.378px 73.901px 77.556px 81.584px 84.29px " y="108.152px 108.152px 108.152px 108.152px 108.152px 108.152px 108.152px 108.152px 108.152px 108.152px 108.152px 108.152px 108.152px 108.152px 108.152px 108.152px 108.152px ">nnsbruck, Austria</tspan></text>
+            </g>
+            <g transform="matrix(3.18959,0,0,3.25835,29.8938,86.119)">
+                <text x="31.79px" y="169.989px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:10.096px;">T<tspan x="37.131px 40.978px 46.874px 52.962px 56.617px 62.887px 65.795px 68.702px 71.782px 75.437px 81.333px 84.039px " y="169.989px 169.989px 169.989px 169.989px 169.989px 169.989px 169.989px 169.989px 169.989px 169.989px 169.989px 169.989px ">rento, Italy</tspan></text>
+            </g>
+            <g transform="matrix(3.18959,0,0,3.25835,29.8938,86.119)">
+                <text x="23.29px" y="231.827px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:10.096px;">B<tspan x="30.499px 36.769px 39.475px 44.815px 50.712px 56.8px 63.07px 65.978px 68.885px 71.965px 75.62px 81.516px 84.222px " y="231.827px 231.827px 231.827px 231.827px 231.827px 231.827px 231.827px 231.827px 231.827px 231.827px 231.827px 231.827px 231.827px ">olzano, Italy</tspan></text>
+            </g>
+            <g transform="matrix(3.18959,0,0,3.25835,29.8938,86.119)">
+                <text x="310.211px" y="292.634px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:10.096px;">I<tspan x="313.29px 319.378px 325.466px 331.363px 337.632px 340.338px 343.993px 349.889px 355.978px 359.633px " y="292.634px 292.634px 292.634px 292.634px 292.634px 292.634px 292.634px 292.634px 292.634px 292.634px ">nhabitants</tspan></text>
+            </g>
+            <g transform="matrix(3.18959,0,0,3.25835,29.8938,86.119)">
+                <text x="96.71px" y="272.561px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:10.096px;">0</text>
+            </g>
+            <g transform="matrix(3.18959,0,0,3.25835,29.8938,86.119)">
+                <text x="205.556px" y="272.561px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:10.096px;">4<tspan x="211.271px 216.986px 219.893px 225.608px 231.322px " y="272.561px 272.561px 272.561px 272.561px 272.561px ">2,500</tspan></text>
+            </g>
+            <g transform="matrix(3.18959,0,0,3.25835,29.8938,86.119)">
+                <text x="326.913px" y="272.561px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:10.096px;">8<tspan x="332.627px 338.342px 341.25px 346.964px 352.679px " y="272.561px 272.561px 272.561px 272.561px 272.561px ">5,000</tspan></text>
+            </g>
+            <g transform="matrix(3.18959,0,0,3.25835,29.8938,86.119)">
+                <text x="445.489px" y="272.561px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:10.096px;">1<tspan x="451.204px 456.918px 462.633px 465.54px 471.255px 476.97px " y="272.561px 272.561px 272.561px 272.561px 272.561px 272.561px ">27,500</tspan></text>
+            </g>
+            <g transform="matrix(3.18959,0,0,3.25835,29.8938,86.119)">
+                <text x="566.845px" y="272.561px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:10.096px;">1<tspan x="572.56px 578.275px 583.989px 586.897px 592.611px 598.326px " y="272.561px 272.561px 272.561px 272.561px 272.561px 272.561px ">70,000</tspan></text>
+            </g>
+            <g transform="matrix(3.18959,0,0,3.25835,29.8938,86.119)">
+                <text x="245.695px" y="170.776px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:15.145px;fill:white;">1<tspan x="254.267px 262.838px 271.41px 275.772px 284.344px 292.916px " y="170.776px 170.776px 170.776px 170.776px 170.776px 170.776px ">17,417</tspan></text>
+            </g>
+            <g transform="matrix(3.18959,0,0,3.25835,29.8938,86.119)">
+                <text x="230.752px" y="232.114px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:15.145px;fill:white;">1<tspan x="239.324px 247.896px 256.468px 260.829px 269.401px 277.973px " y="232.114px 232.114px 232.114px 232.114px 232.114px 232.114px ">06,951</tspan></text>
+            </g>
+            <g transform="matrix(3.18959,0,0,3.25835,29.8938,86.119)">
+                <text x="266.852px" y="109.439px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:15.145px;fill:white;">1<tspan x="275.424px 283.996px 292.568px 296.929px 305.501px 314.073px " y="109.439px 109.439px 109.439px 109.439px 109.439px 109.439px ">32,236</tspan></text>
+            </g>
+            <g transform="matrix(3.18959,0,0,3.25835,29.8938,86.119)">
+                <text x="310.46px" y="48.101px" style="font-family:'HelveticaNeue-Bold', 'Helvetica Neue';font-weight:700;font-size:15.145px;fill:white;">1<tspan x="319.032px 327.604px 336.176px 340.538px 349.109px 357.681px " y="48.101px 48.101px 48.101px 48.101px 48.101px 48.101px ">62,780</tspan></text>
+            </g>
+        </g>
+    </g>
+</svg>
