@@ -14,7 +14,6 @@ h5 {font-size: 17px; line-height: 20px; margin: 10px 0;}
 h6 {text-transform: uppercase; font-size: 12px; margin:0 0 5px 0; color: #a89177; letter-spacing: 1px; border-bottom: 1px solid; display: inline-block;}
 h6 a {text-decoration: none;}
 p {font-size: 17px; line-height: 1.6em; margin: 20px 0;}
-
 ul {margin: 30px 0 30px 20px;}
 ul ul {margin: 0 0 20px 20px;}
 ul li ul {margin: 0 0 0px 20px;}
@@ -33,7 +32,7 @@ sub {  bottom: -0.25em;}
 header {text-align: left; height: 60px; max-width: 2000px; margin: 0 auto; }
 header h1, header b {font-family: "Helvetica Neue", HelveticaNeue, HNB; font-size: 20px; line-height: 20px; font-weight: 700;padding: 20px 0 0 20px; float: left; margin: 0; }
 header a {text-decoration: none; color: #000;}
-header nav {width: auto; text-align: right;  padding:25px 20px 0 0; margin-bottom: 0px; border: none;background-color: #fff; float: right;}
+header nav {width: auto; text-align: right;  padding:25px 20px 0 0; margin-bottom: 0px; border: none;float: right;}
 header nav p {font-family: "Helvetica Neue", HelveticaNeue, HNB; text-transform: uppercase; font-size: 13px; line-height: 13px; margin: 0; color: #ccc;}
 header nav a:hover, header h1 a:hover {color: #a89177;}
 
@@ -49,11 +48,22 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
 .hero {max-width: 2000px; margin: 0 auto; padding: 0 20px; }
 .title {display: none; font-size: 0;}
 .sa {font-family: "Helvetica Neue", HelveticaNeue, HNB; text-transform: uppercase; font-weight: 700;}
+
 .home {max-width:2000px; height: 85vh; margin:0 auto; padding: 0 20px;}
 .home img {width: 100%;height: 100%;object-fit: cover;overflow: hidden;}
+.home-nav {max-width: 2000px; margin:0 auto; padding:20px;}
+.home-nav ul {list-style: none;margin:0; padding: 0;display: block; float:left; width: 25%;}
+.home-nav ul:first-of-type li {padding: 0;}
+.home-nav ul:last-of-type {float: right;}
+.home-nav ul:last-of-type li {padding: 0 0 0 50px;}
+.home-nav ul:nth-of-type(3) a,.home-nav ul:nth-of-type(4) a {font-weight: bold;}
+.home-nav li{font-size:13px;line-height:18px;margin:0 0 10px 0; padding: 0 25px;}
+.home-nav b, .home-nav a {text-transform: uppercase;}
+
+
 .compact  {margin: 20px 0 0 0;}
 .grid {column-gap: 20px; column-fill: initial;column-count: 2; page-break-inside: avoid; break-inside: avoid;}
-.grid .item {margin-bottom: 10px; display: block; vertical-align: top;}
+.grid .item {margin-bottom: 10px; display: block; vertical-align: top; break-inside: avoid;}
 .op {margin: 20px 0; padding: 10px 0;}
 .op li {display: inline-block; list-style-type: none; margin: 0 5px 20px 0;}
 .op li a {text-decoration: none; border: 1px solid #a89177; border-radius: 20px; padding: 6px 18px; font-family: monospace, ui-monospace, 'courier new', courier; color: #a89177; text-transform: uppercase; font-size: 11px; line-height: 11px; letter-spacing: 1px; background-color: transparent;}
@@ -102,10 +112,8 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
     .magazines section:nth-of-type(2),.magazines section:nth-of-type(4) {float: none;}
     .magazines figure:nth-of-type(2),.magazines figure:nth-of-type(4) {float: none;}
     .magazines section h2 {font-size: 32px; line-height: 30px;}
-    .articles, aside {float: none; width: 100%; padding: 0; background-color: #fff;}
-    .articles section  {width:100%; float: none; min-height: auto; margin-bottom: 30px;}
-    
-    
+     .home-nav ul:nth-of-type(2) {display: none;}
+     .home-nav ul:nth-of-type(1),.home-nav ul:nth-of-type(3),.home-nav ul:nth-of-type(4)  {width: 33%;}
 }    
 @media (max-width: 700px) 
 {
@@ -118,5 +126,8 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
     header nav a:nth-of-type(2) {padding-left: 0;}
     .home {height: 500px;}
     header h1, header b, footer, .hero, .home, header nav, article {padding-left: 10px; padding-right: 10px;}
-    
+    .home {max-width:2000px; height: 85vh; margin:0 auto; padding: 0 20px;}
+    .home-nav ul {list-style: none;margin:0; padding: 0;display: block; float:none; width: 100%;}
+    .home-nav ul:nth-of-type(2),.home-nav ul:nth-of-type(3),.home-nav ul:nth-of-type(4) {display: none;}
+    .home-nav li{padding: 0;}
 } 
