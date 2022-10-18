@@ -127,8 +127,14 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
     header nav a:nth-of-type(2) {padding-left: 0;}
     .home {height: 500px;}
     header h1, header b, footer, .hero, .home, header nav, article {padding-left: 10px; padding-right: 10px;}
-    .home {max-width:2000px; height: 80vh; margin:0 auto; padding: 0 10px;}
+    .home {max-width:2000px; height: 60vh; margin:0 auto; padding: 0 10px;}
     .home-nav ul:first-of-type {float:none; width: 100%;}
     .home-nav ul:nth-of-type(2),.home-nav ul:nth-of-type(3),.home-nav ul:nth-of-type(4) {display: none;}
     .home-nav li{padding: 0;}
 } 
+
+@media (min-height: 600px) 
+{
+    body {padding-top: 60px; position: relative;}
+    header {position: fixed; background-color: #fff; width: 100%; top: 0; z-index: 1; left: 50%;transform: translateX(-50%);}
+}
