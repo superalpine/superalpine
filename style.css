@@ -120,6 +120,7 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
     h1 {font-size: 32px; line-height: 36px; letter-spacing: normal;}
     h2 {font-size: 24px; line-height: 30px;}
     blockquote {font-size:18px;line-height: 28px;padding: 0 20px;}
+    article {padding-top: 15px;}
     header {height: 80px;}
     header nav {text-align: left; float: none; padding: 10px 0 10px 20px; width: 100%; clear: left;}
     header nav a:first-of-type, header nav span {display: none;}
