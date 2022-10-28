@@ -28,7 +28,7 @@ ol li {margin: 10px 0; line-height: 1.7em;}
 header {width: 50%; height: 100vh; position: fixed; top: 0; left: 0; background: url(img/cover.jpg) center center; background-size: cover;}
 header div {margin:0 20px;}
 .sa { padding: 20px 0;}
-.sa a {border: none; font-family: "Helvetica Neue", HelveticaNeue, HNB; text-transform: uppercase; font-weight: 700; font-size: 20px;}
+.sa a {border: none; font-family: "Helvetica Neue", HelveticaNeue, HNB; text-transform: uppercase; font-weight: 700; font-size: 18px;}
 section {width: 50%; float: right; position: relative;}
 article {margin: 50px 0; padding:30px; border-bottom:1px solid #ccc;}
 article p {text-indent: 30px; }
