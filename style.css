@@ -62,7 +62,7 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
 .grid {column-gap: 20px; column-fill: initial;column-count: 2; page-break-inside: avoid; break-inside: avoid;}
 .grid .item {margin-bottom: 10px; display: block; vertical-align: top; break-inside: avoid;}
 .op {margin: 20px 0; padding: 10px 0;}
-.op li {display: inline-block; list-style-type: none; margin: 0 5px 20px 0;}
+.op li {display: inline-block; list-style-type: none; margin: 0 10px 10px 0;}
 .op li a {text-decoration: none; border: 1px solid #a89177; border-radius: 20px; padding: 6px 18px; font-family: monospace, ui-monospace, 'courier new', courier; color: #a89177; text-transform: uppercase; font-size: 11px; line-height: 11px; letter-spacing: 1px; background-color: transparent;}
 .op li a:hover { border: 1px solid #000; color: #000;}
 .op li:first-of-type a {background-color: #fff; color: #000; border-color: #000;}
@@ -89,9 +89,12 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
 .footnotes ol {margin: 30px 0 30px 20px;}
 .footnotes li {font-size: 12px;font-family: charter, georgia, sans-serif;}
 
-.fixed-box {width: 40%; height: 90vh;  float: left; display:table;position: fixed;}
-.fixed-box div {vertical-align: middle; display: table-cell; padding:0 20px; position:relative;}
-.scroll-box {float:right; max-width: 50%;position: relative;}
+.fixed-box {width: 46vw; height: 90vh;  float: left; display:table;position: fixed; background-color: #000;}
+.fixed-box div {vertical-align: middle; display: table-cell; padding:0 50px; position:relative;}
+.fixed-box h1, .fixed-box p {color: #fff;}
+.fixed-box figcaption {position: absolute; bottom: 0; left: 20px;}
+.scroll-box {float:right; max-width: 47vw;position: relative;}
+.scroll-box article {padding: 0;}
 
 @media (min-width: 2000px) 
 {
@@ -115,6 +118,16 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
      .home-nav ul:nth-of-type(2) {display: none;}
      .home-nav ul:nth-of-type(1),.home-nav ul:nth-of-type(3),.home-nav ul:nth-of-type(4)  {width: 33%;}
 }    
+
+@media (max-width: 860px) 
+{
+
+    .fixed-box {width: 100%; height: auto;  float: none; display:block;position: relative; background: none;margin-bottom: 20px;}
+    .fixed-box div {display: block; padding:30px 0 0 0;}
+    .fixed-box h1, .fixed-box p {color: #000;}
+    .scroll-box {float:none; max-width:100%;}
+}
+
 @media (max-width: 700px) 
 {
     h1 {font-size: 32px; line-height: 36px; letter-spacing: normal;}
@@ -132,9 +145,7 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
     .home-nav ul:first-of-type {float:none; width: 100%;}
     .home-nav ul:nth-of-type(2),.home-nav ul:nth-of-type(3),.home-nav ul:nth-of-type(4) {display: none;}
     .home-nav li{padding: 0;}
-    .fixed-box {width: 100%; height: auto;  float: none; display:block;position: relative;}
-    .fixed-box div {display: block; padding:30px 0 0 0;}
-    .scroll-box {float:none; max-width:100%;}
+  
 
 } 
 

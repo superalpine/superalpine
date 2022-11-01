@@ -19,8 +19,15 @@
 <link rel="icon" type="image/png" href="https://superalpine.co/img/favicon-16x16.png" sizes="16x16">
 <link rel="stylesheet" href="../style.css">
 <style type="text/css">
-th {position: sticky; position: -webkit-sticky; top: 0px; z-index: 2;background:#111;white-space: nowrap; color: #fff;}
-.sort {color: #c00;font-family: Charter, Georgia, serif; }
+.spbk {background: linear-gradient(0deg, rgba(156,156,156,1) 0%, rgba(236,236,236,1) 100%);}
+.spbk img:first-of-type {padding: 50px 50px 0 50px;}
+.spbk img:nth-of-type(2) {position: absolute; left: 0; bottom: 0;}
+@media (max-width: 860px) 
+{
+  
+  .spbk img:first-of-type {padding:50px 20px 20px 20px; margin: 0 auto; display: block;}
+  .spbk img:nth-of-type(2) {display: none;}
+}
 </style>
 </head>
 <body>
@@ -29,221 +36,55 @@ th {position: sticky; position: -webkit-sticky; top: 0px; z-index: 2;background:
     <nav><p><a href="../index.html">Home</a> <span>|</span> <a href="../magazine/index.html">Magazine</a> | <a href="../articles/index.html">Articles</a> | <a href="https://store.superalpine.co">Store</a> | <a href="../about/index.html">About</a></p></nav>
   </header>
 
-
-<div class="hero"><img src="img/header.jpg" alt="Mountain passes of Switzerland"></div>
-
-<article>
-  <h6>Feature</h6>
-  <h1>Swiss Passes</h1>
-  <h5>It was a mountain pass that brought together the communities that became Switzerland.</h5>
-  <p>The Saint Gotthard pass was created in 1220 when the farmers of the region joined together to trade with the people of the Mediterranean. In August 1291 the first three cantons joined together to form the Helvetic Confederation - the official name of Switzerland. Thanks to the joining of these cantons, Switzerland is one of the most
+<div class="hero">
+  <div class="fixed-box spbk">
+    <img src="img/sp.png" alt="Swiss Passes">
+    <img src="img/road.png" alt="mountain roads">
+  </div>
+  <div class="scroll-box">
+    <article>
+    <h6>Feature</h6>
+    <h1>Swiss Passes</h1>
+    <h5>It was a mountain pass that brought together the communities that became Switzerland.</h5>
+    <p>The Saint Gotthard pass was created in 1220 when the farmers of the region joined together to trade with the people of the Mediterranean. In August 1291 the first three cantons joined together to form the Helvetic Confederation - the official name of Switzerland. Thanks to the joining of these cantons, Switzerland is one of the most
 diverse countries in Europe. Today the 26 cantons that make up Switzerland are home to over 90 road passes, 50 of which are over 1200m in elevation - this is in addition to the many trail and rail passes.</p>
-<p>Crossing the Alps used to be a life-threatening struggle against nature that has become increasingly easier thanks to conquering armies such as Napoleon's, wealthy landowners like Kasper Stockalper and the traders and farmers who helped build trails, tracks and later roads. All of today's passes have a hard surface with the Umbrail being the last to be fully surfaced in 2015. Many of the higher road passes have a rail or tunnel alternative and many feature road covers to limit disruption by the snow. The summits of today's passes are remnants of the past, with hostels used by ancient travellers becoming abandoned or converted into trinket shops or museums.</p>
-<p>Read more in the <a href="https://store.superalpine.co">Swiss Passes book</a> available with Issue 04 of the magazine</p>
-<hr>
-<table cellpadding="0" cellspacing="0" id="Passes">
-  <thead>
-  <p>A list of paved mountain passes above 1400m where both ends of the pass are connected to the Swiss/Italian/French road network.</p>
-  <p>Sort by clicking the title <span class="sort">&#8597;</span> or select a pass for more information</p>
-  </thead>
-  <tr>
-   <th onclick="sortTable(0)">Pass <span class="sort">&#8597;</span></th>
-   <th onclick="sortTable(1)">Elevation <span class="sort">&#8597;</span></th>
-   <th onclick="sortTable(2)">Canton <span class="sort">&#8597;</span></th>
-  </tr>
-  <tr>
-   <td><a href="umbrail-pass.html">Umbrail</a></td>
-   <td>2501m</td>
-   <td>Graubünden / Italy</td>
-  </tr>
-  <tr>
-   <td><a href="nufenen-pass.html">Nufenen</a></td>
-   <td>2478m</td>
-   <td>Valais / Ticino</td>
-  </tr>
-  <tr>
-   <td><a href="great-saint-bernard-pass.html">Great St. Bernard</a></td>
-   <td>2469m</td>
-   <td>Valais / Italy</td>
-  </tr>
-  <tr>
-   <td><a href="furka-pass.html">Furka</a></td>
-   <td>2427m</td>
-   <td>Valais / Uri</td>
-  </tr>
-  <tr>
-   <td><a href="fluela-pass.html">Flüela</a></td>
-   <td>2383m</td>
-   <td>Graubünden</td>
-  </tr>
-  <tr>
-   <td><a href="bernina-pass.html">Bernina</a></td>
-   <td>2328m</td>
-   <td>Graubünden</td>
-  </tr>
-  <tr>
-   <td><a href="albula-pass.html">Albula</a></td>
-   <td>2315m</td>
-   <td>Graubünden</td>
-  </tr>
-  <tr>
-   <td><a href="livigno-pass.html">Livigno</a></td>
-   <td>2315m</td>
-   <td>Graubünden / Italy</td>
-  </tr>
-  <tr>
-   <td><a href="julier-pass.html">Julier</a></td>
-   <td>2284m</td>
-   <td>Graubünden</td>
-  </tr>
-  <tr>
-   <td><a href="susten-pass.html">Susten</a></td>
-   <td>2224m</td>
-   <td>Bern / Uri</td>
-  </tr>
-  <tr>
-   <td><a href="grimsel-pass.html">Grimsel</a></td>
-   <td>2165m</td>
-   <td>Valais</td>
-  </tr>
-  <tr>
-   <td><a href="ofen-pass.html">Ofen</a></td>
-   <td>2149m</td>
-   <td>Graubünden</td>
-  </tr>
-  <tr>
-   <td><a href="splugen-pass.html">Splügen</a></td>
-   <td>2117m</td>
-   <td>Graubünden / Italy</td>
-  </tr>
-  <tr>
-   <td><a href="gotthard-pass.html">Gotthard</a></td>
-   <td>2106m</td>
-   <td>Uri / Ticino</td>
-  </tr>
-  <tr>
-   <td><a href="san-bernardino-pass.html">San Bernardino</a></td>
-   <td>2065m</td>
-   <td>Graubünden / Ticino</td>
-  </tr>
-  <tr>
-   <td><a href="oberalp-pass.html">Oberalp</a></td>
-   <td>2044m</td>
-   <td>Uri / Graubünden</td>
-  </tr>
-  <tr>
-   <td><a href="simplon-pass.html">Simplon</a></td>
-   <td>2008m</td>
-   <td>Valais / Italy</td>
-  </tr>
-  <tr>
-   <td><a href="klausen-pass.html">Klausen</a></td>
-   <td>1948m</td>
-   <td>Uri / Glarus</td>
-  </tr>
-  <tr>
-   <td><a href="lukmanier-pass.html">Lukmanier</a></td>
-   <td>1914m</td>
-   <td>Graubünden / Ticino</td>
-  </tr>
-  <tr>
-   <td><a href="maloja-pass.html">Maloja</a></td>
-   <td>1815m</td>
-   <td>Graubünden / Italy</td>
-  </tr>
-  <tr>
-   <td><a href="col-de-la-croix.html">Col de la Croix</a></td>
-   <td>1778m</td>
-   <td>Vaud</td>
-  </tr>
-  <tr>
-   <td><a href="col-du-pillon.html">Col du Pillon</a></td>
-   <td>1546m</td>
-   <td>Vaud</td>
-  </tr>
-  <tr>
-   <td><a href="col-de-la-forclaz.html">Col de la Forclaz</a></td>
-   <td>1527m</td>
-   <td>Valais / France</td>
-  </tr>
-  <tr>
-   <td><a href="jaun-pass.html">Jaun</a></td>
-   <td>1509m</td>
-   <td>Fribourg / Bern</td>
-  </tr>
-   <tr>
-   <td><a href="col-de-champex.html">Col de Champex</a></td>
-   <td>1490m</td>
-   <td>Valais</td>
-  </tr>
-  <tr>
-   <td><a href="col-du-marchairuz.html">Col du Marchairuz</a></td>
-   <td>1447m</td>
-   <td>Vaud</td>
-  </tr>
-  <tr>
-   <td><a href="col-des-mosses.html">Col des Mosses</a></td>
-   <td>1445m</td>
-   <td>Vaud</td>
-  </tr>
-</table>
+  <p>Crossing the Alps used to be a life-threatening struggle against nature that has become increasingly easier thanks to conquering armies such as Napoleon's, wealthy landowners like Kasper Stockalper and the traders and farmers who helped build trails, tracks and later roads. All of today's passes have a hard surface with the Umbrail being the last to be fully surfaced in 2015. Many of the higher road passes have a rail or tunnel alternative and many feature road covers to limit disruption by the snow. The summits of today's passes are remnants of the past, with hostels used by ancient travellers becoming abandoned or converted into trinket shops or museums.</p>
+  <p>Read more in the <a href="https://store.superalpine.co">Swiss Passes book</a> available with Issue 04 of the magazine</p>
+  <ul class="op">
+    <li><a href="index.html">Index</a></li>
+    <li><a href="albula-pass.html">Albula pass</a></li>
+    <li><a href="bernina-pass.html">Bernina pass</a></li>
+    <li><a href="col-de-champex.html">Col de Champex</a></li>
+    <li><a href="col-de-la-croix.html">Col de la Croix</a></li>
+    <li><a href="col-de-la-forclaz.html">Col de la Forclaz</a></li>
+    <li><a href="col-du-marchairuz.html">Col du Marchairuz</a></li>
+    <li><a href="col-des-mosses.html">Col des Mosses</a></li>
+    <li><a href="col-du-pillon.html">Col du Pillon</a></li>
+    <li><a href="fluela-pass.html">Flüela pass</a></li>
+    <li><a href="furka-pass.html">Furka pass</a></li>
+    <li><a href="great-saint-bernard-pass.html">Great Saint-Bernard pass</a></li>
+    <li><a href="gotthard-pass.html">Gotthard pass</a></li>
+    <li><a href="grimsel-pass.html">Grimsel pass</a></li>
+    <li><a href="jaun-pass.html">Jaun pass</a></li>
+    <li><a href="julier-pass.html">Julier pass</a></li>
+    <li><a href="klausen-pass.html">Klausen pass</a></li>
+    <li><a href="livigno-pass.html">Livigno pass</a></li>
+    <li><a href="lukmanier-pass.html">Lukmanier pass</a></li>
+    <li><a href="maloja-pass.html">Majola pass</a></li>
+    <li><a href="nufenen-pass.html">Nufenen pass</a></li>
+    <li><a href="oberalp-pass.html">Oberalp pass</a></li>
+    <li><a href="ofen-pass.html">Ofen pass</a></li>
+    <li><a href="san-bernardino-pass.html">San Bernardino pass</a></li>
+    <li><a href="simplon-pass.html">Simplon pass</a></li>
+    <li><a href="splugen-pass.html">Splügen pass</a></li>
+    <li><a href="susten-pass.html">Susten pass</a></li>
+    <li><a href="umbrail-pass.html">Umbrail pass</a></li>
+    <li><a href="pass-data.html">Pass Data</a></li>
+  </ul>
 </article>
-<script>
-function sortTable(n) {
-  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
-  table = document.getElementById("Passes");
-  switching = true;
-  // Set the sorting direction to ascending:
-  dir = "asc"; 
-  /* Make a loop that will continue until
-  no switching has been done: */
-  while (switching) {
-    // Start by saying: no switching is done:
-    switching = false;
-    rows = table.rows;
-    /* Loop through all table rows (except the
-    first, which contains table headers): */
-    for (i = 1; i < (rows.length - 1); i++) {
-      // Start by saying there should be no switching:
-      shouldSwitch = false;
-      /* Get the two elements you want to compare,
-      one from current row and one from the next: */
-      x = rows[i].getElementsByTagName("TD")[n];
-      y = rows[i + 1].getElementsByTagName("TD")[n];
-      /* Check if the two rows should switch place,
-      based on the direction, asc or desc: */
-      if (dir == "asc") {
-        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-          // If so, mark as a switch and break the loop:
-          shouldSwitch = true;
-          break;
-        }
-      } else if (dir == "desc") {
-        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
-          // If so, mark as a switch and break the loop:
-          shouldSwitch = true;
-          break;
-        }
-      }
-    }
-    if (shouldSwitch) {
-      /* If a switch has been marked, make the switch
-      and mark that a switch has been done: */
-      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-      switching = true;
-      // Each time a switch is done, increase this count by 1:
-      switchcount ++; 
-    } else {
-      /* If no switching has been done AND the direction is "asc",
-      set the direction to "desc" and run the while loop again. */
-      if (switchcount == 0 && dir == "asc") {
-        dir = "desc";
-        switching = true;
-      }
-    }
-  }
-}
-</script>
+</div>
+<br clear="all">
+</div>
 <footer>
 	<p>Copyright &copy; SUPER ALPINE. All rights reserved. <a href="../terms/index.html">Terms &amp; Conditions</a></p>
 	</footer>
