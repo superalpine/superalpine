@@ -2,7 +2,6 @@
 @font-face {font-family: 'Merriweather';font-style: italic;font-weight: 400;src: local(''),url('fonts/merriweather-v28-latin-italic.woff2') format('woff2'),url('fonts/merriweather-v28-latin-italic.woff') format('woff');}
 @font-face {font-family: 'Merriweather';font-style: normal;font-weight: 900;src: local(''),url('fonts/merriweather-v28-latin-900.woff2') format('woff2'),url('fonts/merriweather-v28-latin-900.woff') format('woff');}
 @font-face {font-family: 'HNB';src: url('../fonts/HelveticaNeue-Bold.woff') format('woff');font-weight: normal; font-style: normal;}
-
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 body, html {width: 100%;height: 100%;}
 img {max-width: 100%; width: 100%; font-size: 0;}
@@ -25,10 +24,16 @@ a {color: #000; transition: all 0.2s ease; text-decoration: none; border-bottom:
 a:hover {color: #c69f73;}
 ol {margin: 10px 0 60px 60px;}
 ol li {margin: 10px 0; line-height: 1.7em;}
-header {width: 50%; height: 100vh; position: fixed; top: 0; left: 0; background: url(img/cover.jpg) center center; background-size: cover;}
-header div {margin:0 20px;}
-.sa { padding: 20px 0;}
-.sa a {border: none; font-family: "Helvetica Neue", HelveticaNeue, HNB; text-transform: uppercase; font-weight: 700; font-size: 18px;}
+
+.header {width: 100%; text-align: left; height: 60px; max-width: 2000px; margin: 0 auto; position: absolute;z-index: 3; }
+.header h1, .header b {font-family: "Helvetica Neue", HelveticaNeue, HNB; font-size: 18px; line-height: 18px; font-weight: 700;padding: 22px 0 0 20px; float: left; margin: 0; z-index: 1; ;}
+.header a {text-decoration: none; color: #000;border: none!important}
+.header nav {width: auto; text-align: right;  padding:25px 20px 0 0; margin-bottom: 0px; border: none;float: right;}
+.header nav p {font-family: "Helvetica Neue", HelveticaNeue, HNB; text-transform: uppercase; font-size: 13px; line-height: 13px; margin: 0; color: #ccc;}
+.header nav a:hover, .header h1 a:hover {color: #a89177;}
+
+header {width: 50%; height: 100vh; position: fixed; top: 0; left: 0; background: url(img/cover.jpg) center center; background-size: cover; z-index: 2;}
+header div {margin:0 20px; padding-top: 100px;}
 section {width: 50%; float: right; position: relative;}
 article {margin: 50px 0; padding:30px; border-bottom:1px solid #ccc;}
 article p {text-indent: 30px; }
@@ -42,28 +47,27 @@ footer nav {width: auto;display: table; padding:0 0 20px 0; margin: 0 auto; posi
 .button {font-family: monospace, ui-monospace, 'courier new', courier; text-transform: uppercase; font-size: 14px;line-height:16px; display:table-cell; padding: 10px 15px 11px 15px; color: #111; text-align: center; border: 1px solid #c69f73; border-radius: 3px; cursor: pointer; background-color: #fff; }
 .button:hover{color:#fff;background-color: #c69f73;border: 1px solid #c69f73;}
 select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip: padding-box;background-image:url(../store/img/arrow.png);background-position: right;background-repeat: no-repeat;background-size: contain;color: #222;background-color: #fff;border: 1px solid #c69f73;border-radius: 3px;cursor: default;display: table-cell;font-family: monospace, ui-monospace, 'courier new', courier; text-transform: uppercase;font-size: 14px;font-weight: normal;line-height: 16px;padding:5px 30px 5px 10px;white-space: nowrap;width: 200px;height: 40px;outline: none; margin: 0 10px;}
-.book {border:1px solid #ccc; background-color: #fff; padding: 20px 10px 15px 10px; max-width: 460px; margin: 10px auto; clear: all;}
-.book img {width:120px; float: left;}
-.book div {float: right; max-width: 290px; text-align: left;}
-.book h5 {margin-bottom: 15px;}
 
 @media screen and (max-width:1000px) { 
-header  {width: 100%; height:220px; position: relative;background: url(img/cover.jpg) center top; background-size: cover;}
+header  {width: 100%; height:300px; position: relative;background: url(img/cover.jpg) center top; background-size: cover;}
 section {width: 100%; float: none;}
 article {margin-top: 10px;}
-h1 {font-size: 20px; margin: 0 100px 10px 0; line-height: 26px;}
+h1 {font-size: 24px; margin: 0 100px 10px 0; line-height: 30px;}
 h2 {font-size: 24px;line-height: 26px;}
 h3 {font-size: 24px; line-height: 30px;}
 h4 {font-size: 24px; line-height: 26px;}
 h6 {font-size: 16px;}
 select {width: 120px; margin: 0 5px;}
 ol {margin: 0 0 50px 20px;}
-.book {max-width: 90%;}
-.book img {width:100%; float: none;}
-.book div {float: none; max-width: 100%;}
-
 }
-
+@media screen and (max-width: 700px){
+.header {height: 80px;}
+.header h1, .header b {padding-left: 10px;}
+.header nav {text-align: left; float: none; padding: 10px 0 10px 10px; width: 100%; clear: left;}
+.header nav a:first-of-type, .header nav span {display: none;}
+.header nav a {padding: 0 10px;}
+.header nav a:nth-of-type(2) {padding-left: 0;}	
+}
 @media screen and (min-width:1600px) { 
 h1 {font-size: 70px; line-height: 86px; max-width: 320px;}
 article {padding: 50px 100px}
