@@ -5,27 +5,27 @@
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 body, html {width: 100%;height: 100%;}
 img {max-width: 100%; width: 100%; font-size: 0;}
-body {font-size: 16px; font-family: 'Merriweather', Charter, Georgia, serif;  color: #313131; background-color: #f3eee7;}
+body {font-size: 16px; font-family: 'Merriweather', Charter, Georgia, serif;  color: #333; background-color: #fff;}
 h1,h2,h3,h4,h5,h6 {font-weight: 900; line-height: 1em; color: #111; margin: 10px 0 30px 0;}
-h1 {font-size: 40px; line-height: 56px; max-width: 210px;}
+h1 {font-size: 44px; line-height: 56px; max-width: 210px;}
 h2 {font-size: 30px;}
-h3 {font-size: 40px; text-align: center; line-height: 45px; margin: 0 0 60px 0;}
+h3 {font-size: 40px; text-align: center; line-height: 45px; margin: -10px 0 60px 0;}
 h4 {font-size: 30px; margin: 30px 0 30px 0;text-align: center;}
 h5 {font-size: 20px;}
-h6 {font-size: 18px; ;text-transform: uppercase; text-align: center; letter-spacing: 5px; color: #c69f73;}
+h6 {font-size: 15px; ;text-transform: uppercase; text-align: center; letter-spacing: 6px; color: #a89177;}
 p {font-size: 16px; line-height: 1.7em; font-weight: 400; margin: 0 0 20px 0;}
 blockquote {font-style: italic; font-size:17px;line-height:1.6em; padding:0px 30px 10px 30px; text-align: center; color: #666;}
 hr {width:100%; margin:20px auto; background-color: #ddd; height: 1px; border: none;}
 sup {font-size:80%;line-height:1.7em;vertical-align:top;padding: 2px;}
-a[href*="#"] {text-decoration: underline; border: none; color: #c69f73;}
+a[href*="#"] {text-decoration: underline; border: none; color: #a89177;}
 a:hover[href*="#"] {color: #000;}
 em {font-style: italic; display: block; padding: 40px; font-size:  16px ;line-height: 1.7em;}
 a {color: #000; transition: all 0.2s ease; text-decoration: none; border-bottom: 1px solid #ccc; }
-a:hover {color: #c69f73;}
+a:hover {color: #a89177;}
 ol {margin: 10px 0 60px 60px;}
 ol li {margin: 10px 0; line-height: 1.7em;}
 
-.header {width: 100%; text-align: left; height: 60px; max-width: 2000px; margin: 0 auto; position: absolute;z-index: 3; }
+.header {width: 100%; text-align: left; height: 60px; max-width: 2000px; margin: 0 auto; position: fixed;z-index: 3; background-color: #fff; }
 .header h1, .header b {font-family: "Helvetica Neue", HelveticaNeue, HNB; font-size: 18px; line-height: 18px; font-weight: 700;padding: 22px 0 0 20px; float: left; margin: 0; z-index: 1; ;}
 .header a {text-decoration: none; color: #000;border: none!important}
 .header nav {width: auto; text-align: right;  padding:25px 20px 0 0; margin-bottom: 0px; border: none;float: right;}
@@ -34,6 +34,8 @@ ol li {margin: 10px 0; line-height: 1.7em;}
 
 header {width: 50%; height: 100vh; position: fixed; top: 0; left: 0; background: url(img/cover.jpg) center center; background-size: cover; z-index: 2;}
 header div {margin:0 20px; padding-top: 100px;}
+header h6 {font-family: "Helvetica Neue", HelveticaNeue, HNB;text-transform: uppercase; font-size: 12px; margin:0 0 5px 0; color: #a89177; letter-spacing: 1px; border-bottom: 1px solid; display: inline-block;}
+
 section {width: 50%; float: right; position: relative;}
 article {margin: 50px 0; padding:30px; border-bottom:1px solid #ccc;}
 article p {text-indent: 30px; }
@@ -44,9 +46,9 @@ figcaption {font-size: 13px; font-style: italic; margin-bottom: 60px; text-align
 footer {text-align: center;}
 footer p {font-size: 14px;}
 footer nav {width: auto;display: table; padding:0 0 20px 0; margin: 0 auto; position: relative; height:auto; position:relative;}
-.button {font-family: monospace, ui-monospace, 'courier new', courier; text-transform: uppercase; font-size: 14px;line-height:16px; display:table-cell; padding: 10px 15px 11px 15px; color: #111; text-align: center; border: 1px solid #c69f73; border-radius: 3px; cursor: pointer; background-color: #fff; }
-.button:hover{color:#fff;background-color: #c69f73;border: 1px solid #c69f73;}
-select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip: padding-box;background-image:url(../store/img/arrow.png);background-position: right;background-repeat: no-repeat;background-size: contain;color: #222;background-color: #fff;border: 1px solid #c69f73;border-radius: 3px;cursor: default;display: table-cell;font-family: monospace, ui-monospace, 'courier new', courier; text-transform: uppercase;font-size: 14px;font-weight: normal;line-height: 16px;padding:5px 30px 5px 10px;white-space: nowrap;width: 200px;height: 40px;outline: none; margin: 0 10px;}
+.button {font-family: monospace, ui-monospace, 'courier new', courier; text-transform: uppercase; font-size: 14px;line-height:16px; display:table-cell; padding: 10px 15px 11px 15px; color: #111; text-align: center; border: 1px solid #a89177; border-radius: 3px; cursor: pointer; background-color: #fff; }
+.button:hover{color:#fff;background-color: #a89177;border: 1px solid #a89177;}
+select  {-webkit-appearance: none;-webkit-box-direction: normal;background-clip: padding-box;background-image:url(../store/img/arrow.png);background-position: right;background-repeat: no-repeat;background-size: contain;color: #222;background-color: #fff;border: 1px solid #a89177;border-radius: 3px;cursor: default;display: table-cell;font-family: monospace, ui-monospace, 'courier new', courier; text-transform: uppercase;font-size: 14px;font-weight: normal;line-height: 16px;padding:5px 30px 5px 10px;white-space: nowrap;width: 200px;height: 40px;outline: none; margin: 0 10px;}
 
 @media screen and (max-width:1000px) { 
 header  {width: 100%; height:300px; position: relative;background: url(img/cover.jpg) center top; background-size: cover;}
