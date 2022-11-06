@@ -93,7 +93,7 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
 .fixed-box div {vertical-align: middle; display: table-cell; padding:0 50px; position:relative;}
 .fixed-box h1, .fixed-box p {color: #fff;}
 .fixed-box figcaption {position: absolute; bottom: 0; left: 20px;}
-.scroll-box {float:right; max-width: 47vw;position: relative;}
+.scroll-box {float:right; width: 47vw;position: relative;}
 .scroll-box article {padding: 0;}
 
 @media (min-width: 2000px) 
