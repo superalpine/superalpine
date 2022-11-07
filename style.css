@@ -125,7 +125,7 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
     .fixed-box {width: 100%; height: auto;  float: none; display:block;position: relative; background: none;margin-bottom: 20px;}
     .fixed-box div {display: block; padding:30px 0 0 0;}
     .fixed-box h1, .fixed-box p {color: #000;}
-    .scroll-box {float:none; max-width:100%;}
+    .scroll-box {float:none; width:100%;}
 }
 
 @media (max-width: 700px) 
