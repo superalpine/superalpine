@@ -34,7 +34,6 @@ header a {text-decoration: none; color: #000;}
 header nav {width: auto; text-align: right;  padding:25px 20px 0 0; margin-bottom: 0px; border: none;float: right;}
 header nav p {font-family: "Helvetica Neue", HelveticaNeue, HNB; text-transform: uppercase; font-size: 13px; line-height: 13px; margin: 0; color: #ccc;}
 header nav a:hover, header h1 a:hover {color: #a89177;}
-
 article  {max-width: 700px; margin:0 auto; padding: 0 20px;}
 .hero + article {margin:20px auto;}
 figure {margin: 0 -150px 20px -150px;}
@@ -47,17 +46,8 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
 .hero {max-width: 2000px; margin: 0 auto; padding: 0 20px; }
 .title {display: none; font-size: 0;}
 .sa {font-family: "Helvetica Neue", HelveticaNeue, HNB; text-transform: uppercase; font-weight: 700;}
-
-.home {max-width:2000px; height: 80vh; margin:0 auto; padding: 0 20px;}
+.home {max-width:2000px; height: 90vh; margin:0 auto; padding: 0 20px;}
 .home img {width: 100%;height: 100%;object-fit: cover;overflow: hidden;}
-.home-nav {max-width: 2000px; margin:0 auto; padding:20px;}
-.home-nav ul {list-style: none;margin:0; padding: 0;display: block; float:left; width: 25%;}
-.home-nav ul:first-of-type li {padding: 0;}
-.home-nav ul:last-of-type {float: right;}
-.home-nav ul:last-of-type li {padding: 0 0 0 50px;}
-.home-nav ul:nth-of-type(3) a,.home-nav ul:nth-of-type(4) a {font-weight: bold;}
-.home-nav li{font-size:13px;line-height:18px;margin:0 0 10px 0;}
-.home-nav b, .home-nav a {text-transform: uppercase;}
 .compact  {margin: 20px 0 0 0;}
 .grid {column-gap: 20px; column-fill: initial;column-count: 2; page-break-inside: avoid; break-inside: avoid;}
 .grid .item {margin-bottom: 10px; display: block; vertical-align: top; break-inside: avoid;}
@@ -66,7 +56,6 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
 .op li a {text-decoration: none; border: 1px solid #a89177; border-radius: 20px; padding: 6px 18px; font-family: monospace, ui-monospace, 'courier new', courier; color: #a89177; text-transform: uppercase; font-size: 11px; line-height: 11px; letter-spacing: 1px; background-color: transparent;}
 .op li a:hover { border: 1px solid #000; color: #000;}
 .op li:first-of-type a {background-color: #fff; color: #000; border-color: #000;}
-
 .about section {width: 50%; height: 90vh;  display: table; float: left; background-color: #111; margin: 0;}
 .about section div {vertical-align: middle; display: table-cell; padding: 20px;}
 .about figure {width: 50%; height: 90vh; float: right; position: relative; margin: 0;}
@@ -76,7 +65,6 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
 .about section h1,.about section h2, .about section h3{font-size: 60px; line-height:55px; margin: 0;color: #fff;}
 .about section p  {color: #fff; font-size: 15px; font-family: "Helvetica Neue", HelveticaNeue, HNB;}
 .about section a:hover {color: #fff;}
-
 .magazines section {width: 50%; height: 90vh;  display: table; float: left; background-color: #fff; margin: 0;}
 .magazines section div {vertical-align: middle; display: table-cell; padding: 0;}
 .magazines figure {width: 50%; height: 90vh; float: right; position: relative; margin: 0;}
@@ -85,17 +73,14 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
 .magazines figure:nth-of-type(2),.magazines figure:nth-of-type(4) {float: left;}
 .magazines section h2 {font-size: 60px; line-height:50px; margin: 0;color: #000;}
 .magazines section p  {color: #222; font-size: 15px; font-family: "Helvetica Neue", HelveticaNeue, HNB; margin: 10px 0 20px 0; max-width: 500px;}
-
 .footnotes ol {margin: 30px 0 30px 20px;}
 .footnotes li {font-size: 12px;font-family: charter, georgia, sans-serif;}
-
 .fixed-box {width: 46vw; height: 90vh;  float: left; display:table;position: fixed; background-color: #000;}
 .fixed-box div {vertical-align: middle; display: table-cell; padding:0 50px; position:relative;}
 .fixed-box h1, .fixed-box p {color: #fff;}
 .fixed-box figcaption {position: absolute; bottom: 0; left: 20px;}
 .scroll-box {float:right; width: 47vw;position: relative;}
 .scroll-box article {padding: 0;}
-
 @media (min-width: 2000px) 
 {
  .about section h1,.about section h2, .about section h3{font-size: 70px; line-height:60px; }   
@@ -115,19 +100,14 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
     .magazines section:nth-of-type(2),.magazines section:nth-of-type(4) {float: none;}
     .magazines figure:nth-of-type(2),.magazines figure:nth-of-type(4) {float: none;}
     .magazines section h2 {font-size: 32px; line-height: 30px;}
-     .home-nav ul:nth-of-type(2) {display: none;}
-     .home-nav ul:nth-of-type(1),.home-nav ul:nth-of-type(3),.home-nav ul:nth-of-type(4)  {width: 33%;}
-}    
-
+}       
 @media (max-width: 860px) 
 {
-
     .fixed-box {width: 100%; height: auto;  float: none; display:block;position: relative; background: none;margin-bottom: 20px;}
     .fixed-box div {display: block; padding:30px 0 0 0;}
     .fixed-box h1, .fixed-box p {color: #000;}
     .scroll-box {float:none; width:100%;}
 }
-
 @media (max-width: 700px) 
 {
     h1 {font-size: 32px; line-height: 36px; letter-spacing: normal;}
@@ -139,16 +119,8 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
     header nav a:first-of-type, header nav span {display: none;}
     header nav a {padding: 0 10px;}
     header nav a:nth-of-type(2) {padding-left: 0;}
-    .home {height: 500px;}
     header h1, header b, footer, .hero, .home, header nav, article {padding-left: 10px; padding-right: 10px;}
-    .home {max-width:2000px; height: 60vh; margin:0 auto; padding: 0 10px;}
-    .home-nav ul:first-of-type {float:none; width: 100%;}
-    .home-nav ul:nth-of-type(2),.home-nav ul:nth-of-type(3),.home-nav ul:nth-of-type(4) {display: none;}
-    .home-nav li{padding: 0;}
-  
-
 } 
-
 @media (min-height: 600px) 
 {
     body {padding-top: 60px; position: relative;}
