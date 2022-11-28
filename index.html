@@ -24,12 +24,52 @@
 <meta name="twitter:image:src" content="https://superalpine.co/img/og.jpg">
 <meta name="twitter:card" content="summary_large_image"/>
 <link rel="stylesheet" href="style.css">
+<style type="text/css">
+.hbox {width:32%; float: left; background: url(img/sa04-2.jpg); background-size: cover;}
+.hbox:nth-of-type(2) {background: url(img/ctg2.jpg); background-size: cover; margin: 0 2%;}
+.hbox:nth-of-type(3) {background: url(img/sp2.jpg); background-size: cover;}
+div a img {display: block;}
+div a img:hover {opacity: 0; transition: 1s all ease;}
+.hero p {width: 34%; float: left; font-family: "Helvetica Neue", HelveticaNeue, HNB;  font-size: 14px;}
+.hero p:nth-of-type(2) {width: 32%;}
+.hero p:nth-of-type(3) {width: 32%; padding-left: 2%;}
+@media (max-width: 800px) 
+{
+	.hbox {width: 100%; margin:0 0 20px 0;}
+	.hbox:nth-of-type(2) {margin:0 0 20px 0;}
+	div a img {opacity: 0;}
+	.hero p {display: none;}
+}
+
+</style>
 </head>
 <body>
 <header>
 	<h1>SUPER ALPINE</h1>
 	<nav><p><a href="index.html">Home</a> <span>|</span> <a href="magazine/index.html">Magazine</a> | <a href="articles/index.html">Articles</a> | <a href="https://store.superalpine.co">Store</a> | <a href="about/index.html">About</a></p></nav>
 </header>
-<div class="home"><img src="img/les-drus.jpg" alt="SUPER ALPINE"></div>
+<div class="hero">
+
+<div class="hbox">
+<a href="magazine/issue04.html"><img src="img/sa04-1.jpg" alt="SUPER ALPINE magazine Issue 04 Switzerland"></a>
+</div>
+
+<div class="hbox">
+<a href="chamonix-travel-guide/index.html"><img src="img/ctg1.jpg" alt="Chamonix-Mont-Blanc Travel Guide"></a>
+</div>
+
+<div class="hbox">
+<a href="swiss-passes/index.html"><img src="img/sp1.jpg" alt="Swiss Passes"></a>
+</div>
+<br clear="all">
+<p>Switzerland - Issue 04</p>
+<p>Chamonix Travel Guide</p>
+<p>Swiss passes</p>
+</div>
+
+<footer>
+<p>Copyright &copy; SUPER ALPINE. All rights reserved. <a href="terms/index.html">Terms &amp; Conditions</a></p>
+</footer>
+
 </body>
 </html>
