@@ -1,26 +1,27 @@
-@font-face {font-family:'Hubot-Bold';src: url('fonts/Hubot-Sans-Bold.otf') format('truetype');font-weight: normal; font-style: normal;}
-@font-face {font-family:'Hubot';src: url('fonts/Hubot-Sans-Regular.otf') format('truetype');font-weight: normal; font-style: normal;}
-@font-face {font-family:'Hubot-Italic';src: url('fonts/Hubot-Sans-RegularItalic.otf') format('truetype');font-weight: normal; font-style: normal;}
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,cite,blockquote,em,img,small,strong,sub,sup,b,i,dl,dt,dd,ol,ul,li,form,label,table,tr,th,td,article,figure,footer,header,nav,section,video {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
-body {color: #444; background-color:#fff; -webkit-text-size-adjust: 100%;font-smooth: always;-webkit-font-smoothing:antialiased; }
+body {color: #444; background-color:#fff; -webkit-text-size-adjust: 100%;}
 img {max-width: 100%; width: 100%; font-size: 0;}
-iframe {margin: 30px auto;}
+iframe {margin:20px -}
 hr {margin: 40px auto; width: 100%; border: none; background-color: #ccc; height: 1px; border: none;}
 
 /* FONTS */
-h1,h2,h3,h4,h5,h6,input,nav p,footer p {font-family:ui-sans-serif, BlinkMacSystemFont, sans-serif;}
-th,td, .button,.op li  {font-family:ui-monospace,  'SF Mono', Menlo, monospace;}
-p, li, small {font-family: ui-serif, 'NewYork-Regular', Georgia, serif;}
-header h1, header b {font-family:'Helvetica Neue',Helvetica, ui-sans-serif, BlinkMacSystemFont, sans-serif;font-size: 17px; line-height: 17px;padding: 22px 0 0 20px; float: left; margin:0; letter-spacing: normal;}
+h1,h2,h3,h4,h5,h6,input,p,li,small {font-family:ui-sans-serif, BlinkMacSystemFont, sans-serif;}
+th,td,.button,.op li  {font-family:ui-monospace,  'SF Mono', Menlo, monospace;}
+header b {font-family:'Helvetica Neue',Helvetica, ui-sans-serif, BlinkMacSystemFont, sans-serif;}
 
-h1,h2,h3,h4,h5,h6 {color: #000;}
-h1 {font-size: 50px; line-height: 50px; margin-bottom: 10px; letter-spacing: -1px;}
-h2 {font-size: 32px; line-height: 34px; margin:30px 0; color:#a89177; border-left:5px solid #ccc; padding:0 0 0 20px;}
+/* SITE WIDTH */
+header, figure, footer, article {max-width: 1000px; margin: 0 auto;}
+article, footer {padding: 0 20px 20px 20px;}
+header {height: 60px; border-bottom:1px solid #eee;}
+
+h1,h2,h3,h4,h5,h6 {color: #000; max-width: 700px;}
+h1 {font-size: 50px; line-height: 50px; margin-bottom: 10px; letter-spacing: -1.5px;}
+h2 {font-size: 32px; line-height: 34px; margin:30px 0; color:#a89177; border-left:5px solid #ccc; padding:0 0 0 20px;letter-spacing: -1px;}
 h3 {font-size: 30px; line-height: 32px; margin:10px 0;  }
 h4 {font-size: 26px; line-height: 30px;}
 h6 {text-transform: uppercase; font-size: 13px; margin:0; color: #a89177; border-bottom: 1px solid; display: inline-block; font-weight: normal; letter-spacing: 1px;}
 h6 + h1 {margin-top: 15px;}
-p {font-size: 16px; line-height: 1.6em; margin: 25px 0;}
+p {font-size: 16px; line-height: 1.6em; margin: 25px 0; max-width: 700px;}
 ul {margin: 30px 0 30px 20px;}
 ul ul {margin: 0 0 20px 20px;}
 ul li ul {margin: 0 0 0px 20px;}
@@ -29,28 +30,23 @@ li {font-size: 16px; line-height: 1.6em; margin: 5px 0;}
 table {margin: 20px 0 30px 0; width: 100%; border: none;}
 th,td {font-size: 14px;  text-align: left; padding: 7px; border-bottom: 1px solid #eee;}
 th {text-transform: uppercase;}
-blockquote {font-size:20px; line-height: 28px;margin: 40px 0;padding: 0 30px;border-left: 5px solid #a89177; font-style: italic;}
+blockquote {font-size:20px; line-height: 28px;margin: 40px 0;padding: 0 30px;border-left: 5px solid #a89177; font-style: italic; max-width: 700px; font-family: ui-serif, Georgia, sans-serif;}
 cite {font-size: 12px; display: block; font-style: normal; padding: 5px 0; text-transform: uppercase;}
 a {color: #a89177;}
 a:hover {color: #000;} 
 sub, sup {font-size: 75%; line-height: 0;  position: relative;  vertical-align: baseline; font-weight: normal;}
-sup { top: -0.5em;}
-sub {  bottom: -0.25em;}
-header {text-align: left; height: 60px; max-width: 2000px; margin: 0 auto; }
+sup {top: -0.5em;}
+sub {bottom: -0.25em;}
+
+header b {font-size: 17px; line-height: 17px;padding: 22px 0 0 0; float: left; margin:0; }
 header a {text-decoration: none; color: #333;}
-header nav {width: auto; text-align: right;  padding:25px 20px 0 0; margin-bottom: 0px; border: none;float: right;}
+header nav {width: auto; text-align: right;  padding:25px 0 0 0; margin-bottom: 0px; border: none;float: right; color: #ccc;}
 header nav p {text-transform: uppercase; font-size: 14px; line-height: 14px; margin: 0;}
-header nav a:hover, header h1 a:hover {color: #a89177;}
-article  {max-width: 700px; margin:0 auto; padding: 0 20px;}
-.hero + article {margin:20px auto;}
-figure {margin: 0 -150px 20px -150px;}
-figcaption {font-size: 13px; margin: 10px 0 30px 0; font-style: italic;}
-footer  {max-width: 2000px; margin: 0 auto; padding: 50px 20px;}
-footer p {font-size: 14px; line-height: 14px;}
-article > footer {padding: 50px 0;}
+header nav a:hover {color: #a89177;}
+figcaption {font-size: 13px; margin: 10px 0 30px 20px; font-style: italic;}
+footer p {font-size: 14px;}
 input[type=submit], .button {display: inline-block; text-decoration: none; border: 1px solid #a89177; border-radius: 20px; padding: 10px 27px;  color: #a89177; text-transform: uppercase; font-size: 14px; line-height: 14px; letter-spacing: 1px; background-color: transparent;}
 .button:hover { border: 1px solid #000; color: #000;}
-.hero {max-width: 2000px; margin: 0 auto; padding: 0 20px; }
 .compact  {margin: 20px 0 0 0;}
 .grid {column-gap: 20px; column-fill: initial;column-count: 2; page-break-inside: avoid; break-inside: avoid;}
 .grid .item {margin-bottom: 10px; display: block; vertical-align: top; break-inside: avoid;}
@@ -59,50 +55,18 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
 .op li a {text-decoration: none; border: 1px solid #a89177; border-radius: 20px; padding: 6px 18px; color: #a89177; text-transform: uppercase; font-size: 11px; line-height: 11px; letter-spacing: 1px; background-color: transparent;}
 .op li a:hover { border: 1px solid #000; color: #000;}
 .op li:first-of-type a {background-color: #fff; color: #000; border-color: #000;}
-.magazines section {width: 50%; height: 90vh;  display: table; float: left; background-color: #fff; margin: 0;}
-.magazines section div {vertical-align: middle; display: table-cell; padding: 0;}
-.magazines figure {width: 50%; height: 90vh; float: right; position: relative; margin: 0;}
-.magazines figure img {width: 100%;height: 100%;object-fit: cover;overflow: hidden;}
-.magazines section:nth-of-type(2),.magazines section:nth-of-type(4) {float: right; }
-.magazines figure:nth-of-type(2),.magazines figure:nth-of-type(4) {float: left;}
-.magazines section h2 {font-size: 60px; line-height:50px; margin: 0;color: #000;}
-.magazines section p  {color: #222; font-size: 15px; margin: 10px 0 20px 0; max-width: 500px;}
 .footnotes ol {margin: 30px 0 30px 20px;}
 .footnotes li {font-size: 12px;}
-.fixed-box {width: 48%; max-width: 1000px; height: 90vh;  float: left; display:table; position: fixed; background-color: #000;}
-.fixed-box div {vertical-align: middle; display: table-cell; padding:0 50px; position:relative;}
-.fixed-box h1, .fixed-box p {color: #fff;}
-.fixed-box figcaption {position: absolute; bottom: 0; left: 20px;}
-.scroll-box {width: 48%; max-width: 1000px; float:right;position: relative;}
-.scroll-box article {padding: 0; max-width: 655px;}
 
-@media (max-width: 1024px) 
+@media (max-width: 800px) 
 {
-    figure  {margin: 20px 0 0 0px;}
     .grid {column-count: 1;}
-    .magazines section,.magazines figure  {width: 100%; height: auto;  position: relative; display: block; float: none;}
-    .magazines section:nth-of-type(2),.magazines section:nth-of-type(4) {float: none;}
-    .magazines figure:nth-of-type(2),.magazines figure:nth-of-type(4) {float: none;}
-    .magazines section h2 {font-size: 32px; line-height: 30px;}
-}       
-@media (max-width: 860px) 
-{
-    .fixed-box {width: 100%; height: auto;  float: none; display:block;position: relative; background: none;margin-bottom: 20px;}
-    .fixed-box div {display: block; padding:30px 0 0 0;}
-    .fixed-box h1, .fixed-box p {color: #000;}
-    .scroll-box {float:none; width:100%;}
-}
-@media (max-width: 700px) 
-{
-    h1 {font-size: 32px; line-height: 36px; letter-spacing: normal;}
-    h2 {font-size: 24px; line-height: 30px;}
-    article {padding-top: 15px;}
-    header {height: 80px;}
-    header nav {text-align: left; float: none; padding: 10px 0 10px 20px; width: 100%; clear: left;}
+    header {height: 80px; padding: 0 0 0 10px;}
+    header nav {text-align: left; float: none; padding: 10px 0 10px 0; width: 100%; clear: left;}
     header nav a:first-of-type, header nav span {display: none;}
     header nav a {padding: 0 10px;}
     header nav a:nth-of-type(2) {padding-left: 0;}
-    header h1, header b, footer, .hero, .home, header nav, article {padding-left: 10px; padding-right: 10px;}
+    h1 {font-size: 40px; line-height: 40px; letter-spacing: -1px;}
 } 
 @media (min-height: 600px) 
 {
