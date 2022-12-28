@@ -6,8 +6,9 @@ hr {margin: 40px auto; width: 100%; border: none; background-color: #ccc; height
 
 /* FONTS */
 h1,h2,h3,h4,h5,h6,input,p,li,small {font-family:ui-sans-serif, BlinkMacSystemFont, sans-serif;}
-th,td,.button,.op li  {font-family:ui-monospace,  'SF Mono', Menlo, monospace;}
+th,td,.button,.op li  {font-family:ui-monospace, 'SF Mono', Menlo, monospace;}
 header b {font-family:'Helvetica Neue', Helvetica, ui-sans-serif, BlinkMacSystemFont, sans-serif;}
+figcaption, blockquote {font-family:-apple-system-ui-serif, ui-serif, serif;}
 
 /* SITE WIDTH */
 header, figure, footer, article {max-width: 1000px; margin: 0 auto;}
