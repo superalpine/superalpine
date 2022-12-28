@@ -7,7 +7,7 @@ hr {margin: 40px auto; width: 100%; border: none; background-color: #ccc; height
 /* FONTS */
 h1,h2,h3,h4,h5,h6,input,p,li,small {font-family:ui-sans-serif, BlinkMacSystemFont, sans-serif;}
 th,td,.button,.op li  {font-family:ui-monospace,  'SF Mono', Menlo, monospace;}
-header b {font-family:'Helvetica Neue',Helvetica, ui-sans-serif, BlinkMacSystemFont, sans-serif;}
+header b {font-family:'Helvetica Neue', Helvetica, ui-sans-serif, BlinkMacSystemFont, sans-serif;}
 
 /* SITE WIDTH */
 header, figure, footer, article {max-width: 1000px; margin: 0 auto;}
@@ -45,8 +45,8 @@ header nav p {text-transform: uppercase; font-size: 14px; line-height: 14px; mar
 header nav a:hover {color: #a89177;}
 figcaption {font-size: 13px; margin: 10px 0 30px 20px; font-style: italic;}
 footer p {font-size: 14px;}
-input[type=submit], .button {display: inline-block; text-decoration: none; border: 1px solid #a89177; border-radius: 20px; padding: 10px 27px;  color: #a89177; text-transform: uppercase; font-size: 14px; line-height: 14px; letter-spacing: 1px; background-color: transparent;}
-.button:hover { border: 1px solid #000; color: #000;}
+input[type=submit], .button {display: inline-block; text-decoration: none; border: 1px solid #a89177; border-radius: 20px; padding: 10px 27px;  color: #fff; text-transform: uppercase; font-size: 14px; line-height: 14px; letter-spacing: 1px; background-color: #a89177;}
+.button:hover {color: #000; background-color: #fff;}
 .compact  {margin: 20px 0 0 0;}
 .grid {column-gap: 20px; column-fill: initial;column-count: 2; page-break-inside: avoid; break-inside: avoid;}
 .grid .item {margin-bottom: 10px; display: block; vertical-align: top; break-inside: avoid;}
