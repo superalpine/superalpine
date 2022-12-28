@@ -1,5 +1,5 @@
 html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,cite,blockquote,em,img,small,strong,sub,sup,b,i,dl,dt,dd,ol,ul,li,form,label,table,tr,th,td,article,figure,footer,header,nav,section,video {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
-body {color: #444; background-color:#fff; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;
+body {color: #333; background-color:#fff; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;}
 img,video {max-width: 100%; width: 100%; font-size: 0; display: block;}
 iframe {margin:20px -}
