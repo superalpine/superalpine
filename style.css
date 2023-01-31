@@ -3,7 +3,7 @@ body {color: #333; background-color:#fff; -webkit-text-size-adjust: 100%; -webki
 -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
 /* SITE WIDTH */
 header, figure, footer, article {max-width: 1200px; margin: 0 auto;}
-article, footer {padding: 0 20px 20px 20px;}
+article, footer {padding: 0 0 20px 0;}
 header {height: 60px;}
 /* FONTS */
 h1,h2,h3,h4,h5,h6,input,p,li,small,cite {font-family:ui-sans-serif, BlinkMacSystemFont, sans-serif;text-rendering: optimizeLegibility;}
@@ -62,10 +62,11 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
 
 @media (max-width: 1210px) 
 {
-    header b {padding-left: 10px;}
-    header nav a:last-of-type {padding-right: 10px;}
+    header b {padding-left: 20px;}
+    header nav a:last-of-type {padding-right: 20px;}
     .grid3 {column-gap: 20px; column-fill: initial;column-count: 2; page-break-inside: avoid; break-inside: avoid;}
     figure p {padding-left: 10px;}
+    article,footer {padding: 0 20px 20px 20px;}
 }
 @media (max-width: 800px) 
 {
