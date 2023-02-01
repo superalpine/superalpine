@@ -1,0 +1,38 @@
+<rss version="2.0">
+<channel>
+<title>Super Alpine</title>
+<link>http://superalpine.co/rss.xml</link>
+<description>
+Stories and photography from the Super Alpine magazine, the Chamonix Travel Guide, Swiss Passes and more
+</description>
+<language>en-gb</language>
+
+<item>
+<title>The remarkable and tragic life of Jean Vuarnet</title>
+<link>https://superalpine.co/articles/jean-vuarnet/index.html</link>
+<guid>https://superalpine.co/articles/jean-vuarnet/index.html</guid>
+<pubDate>Wed, 01 Feb 2023 09:00:00 GMT</pubDate>
+<dc:creator>Andrew Revitt</dc:creator>
+<description><![CDATA[
+Olympic ski champion Jean Vuarnet's success was overshadowed by tragedy when his wife & son died in a cult's mass suicide.
+]]></description>
+<enclosure url="http://superalpine.co/articles/jean-vuarnet/vuarnet.jpg" length="1000" type="image/jpeg" />
+<category>Alps</category>
+</item>
+
+<item>
+<title>Bond in the Alps</title>
+<link>http://superalpine.co/articles/bond-in-the-alps/index.html</link>
+<guid>http://superalpine.co/articles/bond-in-the-alps/index.html</guid>
+<pubDate>Wed, 01 Feb 2023 09:00:00 GMT</pubDate>
+<dc:creator>Andrew Revitt</dc:creator>
+<description><![CDATA[
+We take a look at the how the Alps came to define the James Bond character, what impact they had on Ian Fleming and the locations used in the book and film series.
+]]></description>
+<enclosure url="http://superalpine.co/articles/bond-in-the-alps/img/bond-in-the-alps.jpg" length="1000" type="image/jpeg" />
+<category>Alps</category>
+</item>
+
+
+</channel>
+</rss>
