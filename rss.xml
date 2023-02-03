@@ -1,7 +1,7 @@
 <rss version="2.0">
 <channel>
 <title>Super Alpine</title>
-<link>http://superalpine.co/rss.xml</link>
+<link>https://superalpine.co/rss.xml</link>
 <description>
 Stories and photography from the Super Alpine magazine, the Chamonix Travel Guide, Swiss Passes and more
 </description>
@@ -14,51 +14,51 @@ Stories and photography from the Super Alpine magazine, the Chamonix Travel Guid
 <description><![CDATA[
 Olympic ski champion Jean Vuarnet's success was overshadowed by tragedy when his wife & son died in a cult's mass suicide.
 ]]></description>
-<enclosure url="http://superalpine.co/articles/jean-vuarnet/vuarnet.jpg" length="1000" type="image/jpeg" />
+<enclosure url="https://superalpine.co/articles/jean-vuarnet/vuarnet.jpg" length="1000" type="image/jpeg" />
 <category>Alps</category>
 </item>
 <item>
 <title>Bond in the Alps</title>
-<link>http://superalpine.co/articles/bond-in-the-alps/index.html</link>
-<guid>http://superalpine.co/articles/bond-in-the-alps/index.html</guid>
+<link>https://superalpine.co/articles/bond-in-the-alps/index.html</link>
+<guid>https://superalpine.co/articles/bond-in-the-alps/index.html</guid>
 <pubDate>Wed, 02 Nov 2022 09:00:00 GMT</pubDate>
 <description><![CDATA[
 We take a look at the how the Alps came to define the James Bond character, what impact they had on Ian Fleming and the locations used in the book and film series.
 ]]></description>
-<enclosure url="http://superalpine.co/articles/bond-in-the-alps/img/bond-in-the-alps.jpg" length="1000" type="image/jpeg" />
+<enclosure url="https://superalpine.co/articles/bond-in-the-alps/img/bond-in-the-alps.jpg" length="1000" type="image/jpeg" />
 <category>Alps</category>
 </item>
 <item>
 <title>The Alps</title>
-<link>http://superalpine.co/articles/alps/index.html</link>
-<guid>http://superalpine.co/articles/alps/index.html</guid>
+<link>https://superalpine.co/articles/alps/index.html</link>
+<guid>https://superalpine.co/articles/alps/index.html</guid>
 <pubDate>Wed, 05 Oct 2022 09:00:00 GMT</pubDate>
 <description><![CDATA[
 A guide to the Alpine region of Europe with facts and figures about area, population, cities and mountains.
 ]]></description>
-<enclosure url="http://superalpine.co/articles/alps/img/alps.jpg" length="1000" type="image/jpeg" />
+<enclosure url="https://superalpine.co/articles/alps/img/alps.jpg" length="1000" type="image/jpeg" />
 <category>Alps</category>
 </item>
 <item>
 <title>Swiss Passes</title>
-<link>http://superalpine.co/swiss-passes/index.html</link>
-<guid>http://superalpine.co/swiss-passes/index.html</guid>
+<link>https://superalpine.co/swiss-passes/index.html</link>
+<guid>https://superalpine.co/swiss-passes/index.html</guid>
 <pubDate>Wed, 07 Sep 2022 09:00:00 GMT</pubDate>
 <description><![CDATA[
 Switzerland is home to over 90 mountain pass roads that offer breathtaking views and challenging driving or cycling routes. These mountain passes were once an important part of Switzerland's transportation network and are now popular tourist attraction, offering a glimpse into the country's history.
 ]]></description>
-<enclosure url="http://superalpine.co/swiss-passes/img/sp.jpg" length="1000" type="image/jpeg" />
+<enclosure url="https://superalpine.co/swiss-passes/img/sp.jpg" length="1000" type="image/jpeg" />
 <category>Alps</category>
 </item>
 <item>
 <title>Chamonix Travel Guide</title>
-<link>http://superalpine.co/chamonix-travel-guide/index.html</link>
-<guid>http://superalpine.co/chamonix-travel-guide/index.html</guid>
+<link>https://superalpine.co/chamonix-travel-guide/index.html</link>
+<guid>https://superalpine.co/chamonix-travel-guide/index.html</guid>
 <pubDate>Wed, 06 Jul 2022 09:00:00 GMT</pubDate>
 <description><![CDATA[
 Looking to explore Chamonix in the French Alps? Our Chamonix Mont Blanc Travel Guide has everything you need to know for a successful trip, including tips on what to do, where to stay, and how to get around. Don't miss out on all that this stunning region has to offer - start planning your trip today!
 ]]></description>
-<enclosure url="http://superalpine.co/chamonix-travel-guide/img/chamonix.jpg" length="1000" type="image/jpeg" />
+<enclosure url="https://superalpine.co/chamonix-travel-guide/img/chamonix.jpg" length="1000" type="image/jpeg" />
 <category>Alps</category>
 </item>
 </channel>
