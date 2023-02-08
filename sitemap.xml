@@ -6,269 +6,358 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://superalpine.co/</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/magazine/index.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/magazine/issue04.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/magazine/issue03.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/magazine/issue02.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/magazine/issue01.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/about/index.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/index.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/alps/index.html</loc>
+  <lastmod>2022-12-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/bond-in-the-alps/index.html</loc>
+  <lastmod>2022-11-02</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/bond-in-the-alps/from-russia-with-love.html</loc>
+  <lastmod>2022-11-02</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/bond-in-the-alps/goldfinger.html</loc>
+  <lastmod>2022-11-02</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/bond-in-the-alps/on-her-majestys-secret-service.html</loc>
+  <lastmod>2022-11-02</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/bond-in-the-alps/you-only-live-twice.html</loc>
+  <lastmod>2022-11-02</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/bond-in-the-alps/octopussy.html</loc>
+  <lastmod>2022-11-02</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/bond-in-the-alps/the-spy-who-loved-me.html</loc>
+  <lastmod>2022-11-02</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/bond-in-the-alps/for-your-eyes-only.html</loc>
+  <lastmod>2022-11-02</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/bond-in-the-alps/a-view-to-a-kill.html</loc>
+  <lastmod>2022-11-02</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/bond-in-the-alps/the-world-is-not-enough.html</loc>
+  <lastmod>2022-11-02</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/bond-in-the-alps/goldeneye.html</loc>
+  <lastmod>2022-11-02</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/bond-in-the-alps/casino-royale.html</loc>
+  <lastmod>2022-11-02</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/bond-in-the-alps/quantum-of-solace.html</loc>
+  <lastmod>2022-11-02</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/bond-in-the-alps/spectre.html</loc>
+  <lastmod>2022-11-02</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/monaco/index.html</loc>
+  <lastmod>2022-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/aosta/index.html</loc>
+  <lastmod>2022-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/col-de-l-iseran/index.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/col-de-turini/index.html</loc>
+  <lastmod>2022-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/saas-fee-glacier-bike-1999/index.html</loc>
+  <lastmod>2022-12-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/nietzsche-trail/index.html</loc>
+  <lastmod>2022-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/col-de-joux-plane/index.html</loc>
+  <lastmod>2021-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/porsche-museum/index.html</loc>
+  <lastmod>2021-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/articles/jean-vuarnet/index.html</loc>
+  <lastmod>2023-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/chamonix-travel-guide/index.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/index.html</loc>
+  <lastmod>2023-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/albula-pass.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/bernina-pass.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/col-de-champex.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/col-de-la-croix.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/col-de-la-forclaz.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/col-du-marchairuz.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/col-des-mosses.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/col-du-pillon.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/fluela-pass.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/furka-pass.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/great-saint-bernard-pass.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/gotthard-pass.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/grimsel-pass.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/jaun-pass.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/ofen-pass.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/julier-pass.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/klausen-pass.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/livigno-pass.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/lukmanier-pass.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/maloja-pass.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/nufenen-pass.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/oberalp-pass.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/san-bernardino-pass.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/simplon-pass.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/splugen-pass.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/susten-pass.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/umbrail-pass.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/swiss-passes/pass-data.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/index.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/preface.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter1.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter2.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter3.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter4.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter5.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter6.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter7.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter8.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter9.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter10.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter11.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter12.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter13.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter14.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter15.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter16.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter17.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter18.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter19.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter20.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter21.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/chapter22.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/scrambles-amongst-the-alps/appendix.html</loc>
+  <lastmod>2021-02-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/newsletter/index.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 <url>
   <loc>https://superalpine.co/terms/index.html</loc>
+  <lastmod>2023-01-01</lastmod> 
 </url>
 </urlset>
