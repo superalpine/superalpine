@@ -53,10 +53,11 @@ footer p {font-size: 14px;}
 input[type=submit], .button {display: inline-block; text-decoration: none; border: 1px solid #ff4127; border-radius: 20px; padding: 10px 27px;  color: #fff; text-transform: uppercase; font-size: 14px; line-height: 14px; letter-spacing: 1px; background-color: #ff4127;}
 .button:hover {color: #000; background-color: #fff;}
 .compact  {margin: 20px 0 0 0; max-width: 670px;}
-.grid {column-gap: 20px; column-fill: initial;column-count: 2; page-break-inside: avoid; break-inside: avoid;}
-.grid3 {column-gap: 20px; column-fill: initial;column-count: 3; page-break-inside: avoid; break-inside: avoid;}
-.item {margin-bottom: 20px; display: block; vertical-align: top; break-inside: avoid;}
-.item h3 {margin: 0;}
+.grid, .grid3 {display: flex; align-items: left; justify-content: left; flex-direction: row; flex-wrap: wrap; flex-flow: row wrap;align-content: flex-end; gap:20px; row-gap: 20px;}
+.item {display: inline-block; display: box;vertical-align: top;width: calc(50% - 40px); flex-grow: 1;}
+.grid3 .item {width: calc(33.333% - 40px);}
+.item p {margin: 10px 0;}
+figure .item p {font-size: 16px;}
 .op {margin: 20px 0; padding: 10px 0;}
 .op li {display: inline-block; list-style-type: none; margin: 0 5px 15px 0; letter-spacing: normal;}
 .op li a {text-decoration: none; border: 1px solid #ff4127; border-radius: 20px; padding: 6px 18px; color: #ff4127; text-transform: uppercase; font-size: 12px; line-height: 12px; letter-spacing: 1px; background-color: transparent;}
@@ -69,8 +70,9 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
 {
     header b {padding-left: 20px;}
     header nav a:last-of-type {padding-right: 20px;}
-    .grid3 {column-gap: 20px; column-fill: initial;column-count: 2; page-break-inside: avoid; break-inside: avoid;}
-    figure p {padding-left: 10px;}
+    .grid, .grid3 {gap: 10px; row-gap: 10px;}
+    .grid3 .item {width: calc(50% - 40px);}
+    figcaption {margin-left: 20px;}
     article,footer {padding: 0 20px 20px 20px;}
 }
 @media (max-width: 760px) 
@@ -85,9 +87,7 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
     h1 {font-size: 42px; line-height: 42px;}
     h2 {font-size: 28px; line-height: 28px;}
     video {margin-bottom: -30px;}
-    .grid,.grid3 {column-count: 1;}
-    .grid,.grid3 {column-gap: 10px;}
-    .item {margin-bottom: 10px;}
+    .item,.grid3 .item {display: inline-block; width: 100%;}
     .hero {display: none;}
 
 } 
