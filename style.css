@@ -30,8 +30,8 @@ li {font-size: 16px; line-height: 1.6em; margin: 5px 0;}
 table {margin: 20px 0 30px 0; width: 100%; border: none;}
 th,td {font-size: 14px;  text-align: left; padding: 7px;}
 th {text-transform: uppercase;}
-blockquote {font-size:20px; line-height: 28px; margin: 40px 0;padding: 0 30px;border-left: 5px solid #ff4127; font-style: italic; max-width: 700px; font-weight: 400; }
-cite {font-size: 13px; display: block; font-style: normal; padding: 5px 0; text-transform: uppercase;}
+blockquote {font-size:30px; line-height: 40px; margin: 40px 0;padding: 0 30px;border-left: 5px solid #ff4127; font-style: italic; max-width: 700px; font-weight: 400; }
+cite {font-size: 13px; display: block; font-style: normal; padding: 5px 0; text-transform: uppercase; left: 2px;}
 a {color: #ff4127;}
 
 sub, sup {font-size: 75%; line-height: 0;  position: relative;  vertical-align: baseline; font-weight: normal;}
