@@ -65,7 +65,10 @@ figure .item p {font-size: 16px;}
 .footnotes li {font-size: 12px; max-width: 670px;}
 .hero {margin-bottom: 20px;}
 .sa {font-size: 26px;line-height: 26px; letter-spacing: normal;}
-
+.centered {text-align: center;}
+.centered h3,.centered h5, .centered p {max-width: 100%;}
+.coffee {text-align: center;background-color: #222; color: #fff; padding: 20px; margin: 30px auto; max-width: 600px;}
+.button a:hover {color: #fff;}
 @media (max-width: 1210px) 
 {
     header b {padding-left: 20px;}
