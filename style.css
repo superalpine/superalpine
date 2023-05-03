@@ -57,14 +57,15 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
 .grid, .grid3 {display: flex; align-items: left; justify-content: left; flex-direction: row; flex-wrap: wrap; flex-flow: row wrap;align-content: flex-end; gap:20px; row-gap: 20px;}
 .item {display: inline-block; vertical-align: top;width: calc(50% - 40px); flex-grow: 1;}
 .grid3 .item {width: calc(33.333% - 40px);}
-.item p {margin: 10px 0;}
+.grid3 .hero {width: 100%;  margin:0;}
+.grid3 .hero p {margin:10px 0 -10px 0;}
+.item p {margin: 10px 0 -10px 0;}
 figure .item p {font-size: 16px;}
 .op {margin: 20px 0; padding: 10px 0;}
 .op li {display: inline-block; list-style-type: none; margin: 0 5px 15px 0; letter-spacing: normal;}
 .op li a {text-decoration: none; border: 1px solid #ff4127; border-radius: 20px; padding: 6px 18px; color: #ff4127; text-transform: uppercase; font-size: 12px; line-height: 12px; letter-spacing: 1px; background-color: transparent;}
 .footnotes ol {margin: 30px 0 30px 20px;}
 .footnotes li {font-size: 12px; max-width: 670px;}
-.hero {margin-bottom: 20px;}
 .sa {font-size: 26px;line-height: 26px; letter-spacing: normal;}
 .centered {text-align: center;}
 .centered h3,.centered h5, .centered p {max-width: 100%;}
