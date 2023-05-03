@@ -58,7 +58,6 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
 .item {display: inline-block; vertical-align: top;width: calc(50% - 40px); flex-grow: 1;}
 .grid3 .item {width: calc(33.333% - 40px);}
 .grid3 .hero {width: 100%;  margin:0;}
-.grid3 .hero p {margin:10px 0 -10px 0;}
 .item p {margin: 10px 0 -10px 0;}
 figure .item p {font-size: 16px;}
 .op {margin: 20px 0; padding: 10px 0;}
