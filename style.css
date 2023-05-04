@@ -5,13 +5,13 @@ html,body,main,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,cite,blockquote,em,img
 body {color: #333; background-color:#fff; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;
 -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
 /* SITE WIDTH */
-header, figure, footer, article {max-width: 1200px; margin: 0 auto;}
+header, figure, footer, article {max-width: 1080px; margin: 0 auto;}
 article, footer {padding: 0 0 20px 0;}
 header {height: 65px;}
 /* FONTS */
 input,p,li,small,cite,address {font-family:ui-sans-serif, BlinkMacSystemFont, sans-serif;text-rendering: optimizeLegibility;}
 th,td,.button,.op li  {font-family:ui-monospace, 'SF Mono', Menlo, monospace;}
-header b, .sa {font-family:'Helvetica Neue', Helvetica, ui-sans-serif, BlinkMacSystemFont, sans-serif;}
+header b, .sa {font-family:'Helvetica Neue', Helvetica, ui-sans-serif, BlinkMacSystemFont, Arial, sans-serif;}
 figcaption, blockquote {font-family:-apple-system-ui-serif, ui-serif, serif;}
 h1,h2,h3,h4,h5,h6 { max-width: 700px; font-weight: 700; font-family: CabinetGrotesk-Extrabold;ui-sans-serif, BlinkMacSystemFont, sans-serif;text-rendering: optimizeLegibility;} 
 h1 {font-size: 56px; line-height: 56px; margin-bottom: 10px; letter-spacing: -1px;}
@@ -70,11 +70,11 @@ figure .item p {font-size: 16px;}
 .centered h3,.centered h5, .centered p {max-width: 100%;}
 .coffee {text-align: center;background-color: #222; color: #fff; padding: 20px; margin: 30px auto; max-width: 600px;}
 .button a:hover {color: #fff;}
-@media (max-width: 1210px) 
+@media (max-width: 1110px) 
 {
     header b {padding-left: 20px;}
     header nav a:last-of-type {padding-right: 20px;}
-    .grid, .grid3 {gap: 10px; row-gap: 10px;}
+    .grid, .grid3 {gap: 10px; row-gap: 20px;}
     .grid3 .item {width: calc(50% - 40px);}
     figcaption {margin-left: 20px;}
     article,footer {padding: 0 20px 20px 20px;}
@@ -93,8 +93,6 @@ figure .item p {font-size: 16px;}
     video {margin-bottom: -30px;}
     .item,.grid3 .item {display: block; width: 100%;}
     .grid3 .hero {display: none;}
-
-
 } 
 
 @media (min-height: 600px) 
