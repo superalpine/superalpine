@@ -12,7 +12,7 @@ article, footer {padding: 20px 0;}
 input,p,li,small,cite,address {font-family:ui-sans-serif, BlinkMacSystemFont, sans-serif;text-rendering: optimizeLegibility;}
 th,td,.button,.op li  {font-family:ui-monospace, 'SF Mono', Menlo, monospace;}
 figcaption, blockquote {font-family:-apple-system-ui-serif, ui-serif, serif;}
-h1,h2,h3,h4,h5,h6 { max-width: 700px; font-weight: 700; font-family: CabinetGrotesk-Extrabold;ui-sans-serif, BlinkMacSystemFont, sans-serif;text-rendering: optimizeLegibility;} 
+h1,h2,h3,h4,h5,h6 { max-width: 700px; font-weight: 700; font-family: CabinetGrotesk-Extrabold,ui-sans-serif, BlinkMacSystemFont, sans-serif;text-rendering: optimizeLegibility;} 
 h1 {font-size: 56px; line-height: 56px; margin-bottom: 10px; letter-spacing: -1px;}
 h2 {font-size: 36px; line-height: 36px; margin:30px 0; color:#ff4127; border-left:5px solid #ccc; padding:0 0 0 20px;letter-spacing: -.8px;}
 h3 {font-size: 32px; line-height: 32px; margin:10px 0;  }
