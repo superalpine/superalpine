@@ -43,7 +43,7 @@ iframe {margin:20px 0;}
 hr {margin: 40px auto; width: 100%; border: none;  height: 1px; border: none;}
 header {height: 90px; border-bottom: 1px solid #EAE8E4;}
 header b {float: left;font-size: 0; margin: 37px 0 0 0; }
-header b a {display: block;background: url(img/sa.svg) no-repeat center center; width:120px; height:19px;background-size: contain;}
+header b a {display: block;background: url(img/super-alpine.svg) no-repeat center center; width:120px; height:19px;background-size: contain;}
 header a {text-decoration: none;}
 header nav {width: auto; text-align: right;  padding:40px 0 0 0; margin-bottom: 0px; border: none;float: right; color: #ccc;}
 header nav p {text-transform: uppercase; font-size: 14px; line-height: 14px; margin: 0;}
@@ -81,7 +81,7 @@ figure .item p {font-size: 16px;}
 }
 @media (max-width: 760px) 
 {
-    header {height: 95px;}
+    header {height: 85px;}
     header b {float: none; width: 100px; margin:15px auto 0 auto; display: block;}
     header nav {text-align: center; float: none; padding: 15px 0 0 0; width: 100%; clear: left;}
     header nav a:first-of-type, header nav span {display: none;}
