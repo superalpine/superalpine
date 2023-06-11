@@ -1,0 +1,77 @@
+@font-face {font-family: 'DIN';
+src: url('din-bold.ttf') format('truetype');
+font-weight:normal;font-display: swap;font-style: normal;}
+
+html,body,main,div,span,object,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,menu,nav,section,menu,time,mark,audio,video 
+{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+html {scroll-behavior: smooth;}
+html, body {height: 100%;}
+body{font-size:16px; line-height: 1.6em; background-color: #fff; color: #111;}
+img {width: 100%; max-width: 100%;}
+header{ color:#fff; position: relative; overflow: hidden;} 
+video {width: 100vw; height: auto;margin: auto;display: block;z-index: 1;position: absolute;}
+section {width: 100vw; height: 100vh; position: relative;}
+footer {clear: all; width: 100vw; margin: 50px auto; padding:50px 70px; }
+p, li {font-family:ui-sans-serif, BlinkMacSystemFont, sans-serif;margin:10px 0 20px 0;font-size: 16px; line-height: 24px;}
+ul {margin: 20px;}
+h1, h2, h3, .button {font-family:DIN,ui-sans-serif, BlinkMacSystemFont, sans-serif;font-weight: normal;font-stretch: normal; line-height: 1.1em; text-transform: uppercase;}
+h1 {font-size: 60px; line-height: 1em; text-transform: uppercase; letter-spacing: 2px; color: #fff; letter-spacing: 10px;text-shadow: 0px 0px 0 rgb(135,-81,0), 1px 1px  0 rgb(40,-176,0), 2px 2px 1px rgba(0,0,0,0), 2px 2px 1px rgba(0,0,0,0.5);}
+h2 {font-size: 20px; font-weight: 300; margin-bottom: 50px;  line-height: 36px;  margin:5px 0 10px 0; letter-spacing: 5px;}
+h3 {font-size: 23px; line-height: 28px; margin: 20px 0 10px 0;}
+blockquote {font-family:DIN,ui-sans-serif, BlinkMacSystemFont, sans-serif;color: #fff; max-width: 75%;font-size: 26px;line-height: 44px; text-align: center;position: absolute; text-transform: uppercase;  top: 50%;left: 50%;transform: translate(-50%, -50%); z-index: 10;}
+a {text-decoration: none; color: #000;}
+.button {font-size: 15px;line-height:1em;font-weight: 500;text-transform: uppercase;position: relative;display:inline-block; padding: 10px 20px; color: #fff;background-color:#f00;z-index:0;text-align: center;overflow: hidden; border: 1px solid #c00; border-radius: 3px; margin:0 auto; cursor: pointer;}
+.button:hover {color:#000;background-color: #fff;border: 1px solid #ccc;transition: background-color 0.5s ease;}
+.logo {width: 60px; height: 60px; position: absolute; z-index: 999; top:30px; left: 70px; background:#ff0000;}
+.logo:hover { background:#000;transition: background-color 0.5s ease;}
+.left-text {width: 40%; height: 100%; display: table; float: left; padding: 0 0 0 70px;}
+.middle-align {display: table-cell; vertical-align: middle; color: #fff; }
+ .full-screen-video {min-height: 100%; height: 100vh;width: 100vw;background-color: gray;position: relative;z-index: 100;}
+.video-title {position: absolute; bottom: 80px; left: 70px; z-index: 10;}
+.gradient {width: 100vw;height: 100vh;min-height: 100%;object-fit: cover;position: relative;z-index: 2;
+	background: linear-gradient(90deg,rgba(5,0,20,.7),transparent);}
+.dark-bg {background: linear-gradient(110deg, rgb(10, 12, 27) 0%, rgb(37, 45, 68) 100%); margin:0 auto;  color: #fff;}
+.book-cover {width:40%; height: 100%; float: right; background:url(img/cover.png) no-repeat center center; background-size: contain;z-index: 99;position: relative;}
+.chx-town {width:40%; height: 100%; float: right; background:url(img/chx-town1.jpg) no-repeat center center; background-size: contain;z-index: 99;position: relative; margin-right: 70px;}
+.icon-scroll,.icon-scroll:before {position: absolute;left: 50%;z-index: 999;}
+.icon-scroll {width: 30px;height: 50px;margin-left: -20px;top: 90%;margin-top: -35px;box-shadow: inset 0 0 0 1px #fff;border-radius: 25px;}
+.icon-scroll:before { content: ''; width: 8px; height: 8px; background: #fff; margin-left: -4px; top: 8px; border-radius: 4px; -webkit-animation-duration: 1.5s;animation-duration: 1.5s;  -webkit-animation-iteration-count: infinite;          animation-iteration-count: infinite; -webkit-animation-name: scroll;animation-name: scroll;}
+}
+
+@media (min-aspect-ratio: 16/9) {
+  video{width: 100vw; height:auto;}
+}
+
+@media (max-aspect-ratio: 16/9) {
+  video {height: 100vh; width:auto;margin-left: 50vw;transform: translate(-50%);}
+}
+
+@media screen and (max-width:790px) { 
+
+.logo {position: absolute; z-index: 999; top:20px; left: 20px;}
+.video-title {width: 100%; height: 100%;position: absolute; top: 30%; left: 20px; z-index: 10;}
+.dark-bg {height: auto; }
+.left-text {width: 100%; height: auto; display: block; float: none; padding: 0 20px;}
+.book-cover {width:100%; height: 400px; float: right; background:url(img/cover.png) no-repeat center center; background-size: contain;z-index: 99;position: relative;}
+.dark-bg .gradient {display: none;}
+.spec, footer {padding: 50px 20px;}
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(46px);
+  }
+}
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(46px);
+  }
+}
