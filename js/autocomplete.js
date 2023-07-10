@@ -20,7 +20,7 @@
             { value: "Innsbruck", url: 'austria/innsbruck/index.html' },
             { value: "Ischgl", url: 'austria/ischgl/index.html' },
             { value: "Chamonix Travel Guide", url: 'chamonix-travel-guide/index.html' },
-            { value: "Cirque du fer a Cheval", url: 'france/cirque-du-fer-a-cheval/index.html' },
+            { value: "Cirque du fer à Cheval", url: 'france/cirque-du-fer-a-cheval/index.html' },
             { value: "Col de Joux Plane", url: 'france/col-de-joux-plane/index.html' },
             { value: "Col de l'Iseran", url: 'france/col-de-l-iseran/index.html' },
             { value: "Col de Turini", url: 'france/col-de-turini/index.html' },
