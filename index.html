@@ -1,47 +1,268 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>SUPER ALPINE</title>
-<meta charset="utf-8">
-<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<title>Super Alpine</title>
+<link rel="preload" href="https://superalpine.co/fonts/SaolDisplay-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 <link rel="canonical" href="https://superalpine.co">
-<link rel="alternate" type="application/rss+xml" title="Super Alpine RSS Feed" href="https://superalpine.co/rss.xml">
-<meta name="description" content="Stories and photography from the Super Alpine magazine, the Chamonix Travel Guide, Swiss Passes and more">
-<meta name="keywords" content="SUPER ALPINE, Alps">
-<meta property="og:title" content="SUPER ALPINE">
-<meta property="og:description" content="Stories and photography from the Super Alpine magazine, the Chamonix Travel Guide, Swiss Passes and more">
-<meta property="og:site_name" content="SUPER ALPINE">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://superalpine.co">
-<meta property="og:image" content="https://superalpine.co/img/og.jpg">
+<link rel="stylesheet" href="https://superalpine.co/style.css">
 <link rel="apple-touch-icon" sizes="180x180" href="https://superalpine.co/img/apple-touch-icon.png">
 <link rel="icon" type="image/png" href="https://superalpine.co/img/favicon-512x512.png" sizes="512x512">
 <link rel="icon" type="image/png" href="https://superalpine.co/img/favicon-192x192.png" sizes="192x192">
 <link rel="icon" type="image/png" href="https://superalpine.co/img/favicon-96x96.png" sizes="96x96">
 <link rel="icon" type="image/png" href="https://superalpine.co/img/favicon-32x32.png" sizes="32x32">
 <link rel="icon" type="image/png" href="https://superalpine.co/img/favicon-16x16.png" sizes="16x16">
-<meta property="twitter:title" content="SUPER ALPINE">
-<meta name="twitter:description" content="Stories and photography from the Super Alpine magazine, the Chamonix Travel Guide, Swiss Passes and more">
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<meta name="description" content="Super Alpine presents the Alps of France, Italy, Switzerland and Monaco.">
+<meta name="keywords" content="Super Alpine, Alps">
+<meta property="og:title" content="Super Alpine">
+<meta property="og:description" content="Super Alpine presents the Alps of France, Italy, Switzerland and Monaco.">
+<meta property="og:site_name" content="Super Alpine">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://superalpine.co">
+<meta property="og:image" content="https://superalpine.co/img/og.jpg">
+<meta property="twitter:title" content="Super Alpine">
+<meta name="twitter:description" content="Super Alpine presents the Alps of France, Italy, Switzerland and Monaco.">
 <meta name="twitter:image:src" content="https://superalpine.co/img/og.jpg">
 <meta name="twitter:card" content="summary_large_image"/>
-<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+<script src="https://superalpine.co/js/autocomplete.js"></script>
 </head>
 <body>
 <header>
-	<b><a href="../index.html">Super Alpine<img src="img/super-alpine.png" alt="Super Alpine"></a></b>
-	<nav><p><a href="magazine/index.html">Magazine</a> | <a href="articles/index.html">Articles</a> | <a href="about/index.html">About</a> | <a href="https://store.superalpine.co">Store</a></p></nav>
+<b><a href="index.html">Super Alpine<img src="img/super-alpine.png" alt="Super Alpine"></a></b>
+<nav><p><a href="newsletter/index.html">Newsletter</a> | <a href="about/index.html">About</a> | <a href="https://store.superalpine.co">Store</a></p></nav>
 </header>
-<article class="grid3">
-	<div class="hero"><img src="img/hero.jpg" alt="Eagle on the Susten pass, Switzerland"></div>
-	<div class="item"><a href="chamonix-travel-guide/index.html"><img src="img/ctg.jpg" alt="Chamonix Mont Blanc Travel Guide"></a><p>Chamonix Travel Guide</p></div>
-	<div class="item"><a href="swiss-passes/index.html"><img src="img/sp.jpg" alt="A guide to Switzerland's mountain pass roads"></a><p>Swiss Passes</p></div>
-	<div class="item"><a href="hotel-reviews/radisson-blu-andermatt-review.html"><img src="img/radisson.jpg" alt="Radisson Blu Hotel Reussen Andermatt Review"></a><p>Radisson Blu Hotel Andermatt Review</p></div>	
-	<div class="item"><a href="articles/bond-in-the-alps/index.html"><img src="img/bond.jpg" alt="Bond in the Alps"></a><p>Bond in the Alps</p></div>
-	<div class="item"><a href="newsletter/index.html"><img src="img/newsletter.jpg" alt="Super Alpine newsletter"></a><p>Newsletter</p></div>
-	<div class="item"><a href="articles/jean-vuarnet/index.html"><img src="img/vuarnet.jpg" alt="The remarkable and tragic life of Jean Vuarnet"></a><p>The remarkable and tragic life of Jean Vuarnet</div>
+
+<img src="img/hero.jpg" style="max-width:1280px;margin:0 auto;padding:0 15px;" alt="Super Alpine">
+<div class="title">	
+	<ul class="op">
+	<li><a href="#Alps">Alps</a></li>
+	<li><a href="#Austria">Austria</a></li>
+	<li><a href="#France">France</a></li>
+	<li><a href="#Italy">Italy</a></li>
+	<li><a href="#Monaco">Monaco</a></li>
+	<li><a href="#Switzerland">Switzerland</a></li>
+	</ul>
+	<input id="autocomplete" value="" placeholder="Search">
+	
+</div>
+<article>
+<ul class="list">
+	<li id="Alps">
+	<a href="alps/index.html">
+	<h6>Alps</h6>
+	<div class="description"><h3>The Alps</h3><p>Facts and figures about area, population, cities and mountains.</p></div>
+	</a>
+	</li>
+
+	<li>
+	<a href="alps/bond-in-the-alps/index.html">
+	<h6>Alps</h6>
+	<div class="description"><h3>Bond in the Alps</h3><p>We take a look at the how the Alps came to define the James Bond character.</p></div>
+	</a>
+	</li> 
+
+	<li>
+	<a href="scrambles-amongst-the-alps/index.html">
+	<h6>Alps</h6>
+	<div class="description"><h3>Scrambles Amongst the Alps</h3><p>The book of the nine years from 1860 to 1869 that Edward Whymper spent climbing in the Alps.</p></div>
+	</a>
+	</li>
+
+	<li id="Austria">
+	<a href="austria/innsbruck/index.html">
+	<h6>Austria</h6>
+	<div class="description"><h3>Innsbruck</h3><p>Known for its mix of alpine scenery and rich historical heritage.</p></div>
+	</a>
+	</li>
+
+	<li>
+	<a href="austria/ischgl/index.html">
+	<h6>Austria</h6>
+	<div class="description"><h3>Ischgl</h3><p>A village nestled in the picturesque Paznaun Valley</p></div>
+	</a>
+	</li>
+
+	<li id="France">
+	<a href="chamonix-travel-guide/index.html">
+	<h6>France</h6>
+	<div class="description"><h3>Chamonix Travel Guide</h3><p>Discover Chamonix Mont-Blanc - home to Europe's highest mountains.</p></div>
+	</a>
+	</li>
+
+	<li>
+	<a href="france/cirque-du-fer-a-cheval/index.html">
+	<h6>France</h6>
+	<div class="description"><h3>Cirque du fer a Cheval</h3><p>At one end of the Giffre valley in the French Alps lies a horseshoe of mountains.</p></div>
+	</a>
+	</li>
+
+	<li>
+	<a href="france/col-de-joux-plane/index.html">
+	<h6>France</h6>
+	<div class="description"><h3>Col de Joux Plane</h3><p>An often forgotten mountain pass that links the villages of Samoens and Morzine.</p></div>
+	</a>
+	</li>
+
+	<li>
+	<a href="france/col-de-l-iseran/index.html">
+	<h6>France</h6>
+	<div class="description"><h3>Col de l'Iseran</h3><p>The highest paved pass in the Alps.</p></div>
+	</a>
+	</li>
+
+	<li>
+	<a href="france/col-de-turini/index.html">
+	<h6>France</h6>
+	<div class="description"><h3>Col de Turini</h3><p>The legendary stage of the Monte Carlo Rally.</p></div>
+	</a>
+	</li>
+
+	<li>
+	<a href="france/col-du-petit-saint-bernard/index.html">
+	<h6>France</h6>
+	<div class="description"><h3>Col du Petit Saint-Bernard</h3><p>The frontier between Italy & France has long been fought over.</p></div>
+	</a>
+	</li>
+
+	<li>
+	<a href="hotel-reviews/cristal-de-jade-chamonix-review.html">
+	<h6>France</h6>
+	<div class="description"><h3>Cristal de Jade</h3><p>A review of the Residences in Chamonix Mont-Blanc.</p></div>
+	</a>
+	</li>
+
+	<li>
+	<a href="france/fort-de-la-redoute-ruinee/index.html">
+	<h6>France</h6>
+	<div class="description"><h3>Fort de la Redoute Ruinée</h3><p>From French Garrison to Italian Occupation</p></div>
+	</a>
+	</li>
+
+	<li>
+	<a href="france/la-grave/index.html">
+	<h6>France</h6>
+	<div class="description"><h3>La Grave</h3><p>Famed for its view of La Meije, forbidding terrain and Girose glacier.</p></div>
+	</a>
+	</li>
+
+	<li>
+	<a href="france/nietzsche-trail/index.html">
+	<h6>France</h6>
+	<div class="description"><h3>Nietzsche Trail</h3><p>A trail so beloved by Friedrich Wilhelm Nietzsche that they named it after him.</p></div>
+	</a>
+	</li>
+
+	<li>
+	<a href="france/route-des-grandes-alpes/index.html">
+	<h6>France</h6>
+	<div class="description"><h3>Route des Grandes Alpes</h3><p>From Lac Leman to the French Riviera, a journey through the French Alps.</p></div>
+	</a>
+	</li>
+
+	<li>
+	<a href="france/route-napoleon/index.html">
+	<h6>France</h6>
+	<div class="description"><h3>Route Napoléon</h3><p>The Emperor's legendary march from the Côte d'Azur, through the Alps, back to the throne of France.</p></div>
+	</a>
+	</li>
+
+	<li>
+	<a href="france/saint-jean-cap-ferrat/index.html">
+	<h6>France</h6>
+	<div class="description"><h3>Saint-Jean-Cap-Ferrat</h3><p>A peninsula of secluded beaches, coves and elegant houses on the Côte d'Azur.</p></div>
+	</a>
+	</li>
+
+	<li>
+	<a href="france/alpine-line/index.html">
+	<h6>France</h6>
+	<div class="description"><h3>The Alpine Line</h3><p>The Maginot Line's mountain fortifications.</p></div>
+	</a>
+	</li>
+
+	<li>
+	<a href="france/vanoise-national-park/index.html">
+	<h6>France</h6>
+	<div class="description"><h3>Vanoise National Park</h3><p>Preserving biodiversity and alpine ecosystems: A look into France's first national park.</p></div>
+	</a>
+	</li>
+
+	<li id="Italy">
+	<a href="italy/aosta/index.html">
+	<h6>Italy</h6>
+	<div class="description"><h3>Aosta</h3><p>Coffee and ruins in the valley of Augustus.</p></div>
+	</a>
+	</li>
+
+	<li id="Monaco">
+	<a href="monaco/index.html">
+	<h6>Monaco</h6>
+	<div class="description"><h3>Monaco</h3><p>The principality on the Côte d'Azur is one of the most densely populated places in the world.</p>
+	</a>
+	</li>
+
+	<li>
+	<a href="monaco/oceanographic-museum-monaco/index.html">
+	<h6>Monaco</h6>
+	<div class="description"><h3>Oceanographic Museum of Monaco</h3><p>Experience the breathtaking architecture, marine life and cultural offerings.</p></div>
+	</a>
+	</li>
+
+	<li id="Switzerland">
+	<a href="switzerland/andermatt/index.html">
+	<h6>Switzerland</h6>
+	<div class="description"><h3>Andermatt</h3><p>The lodestar of mountain passes</p></div>
+	</a>
+	</li>
+
+	<li>
+	<a href="switzerland/crans-montana/index.html">
+	<h6>Switzerland</h6>
+	<div class="description"><h3>Crans Montana</h3><p>Two villages joined in an enviable view of the Rhône valley.</p></div>
+	</a>
+	</li>
+
+	<li>
+	<a href="hotel-reviews/radisson-blu-andermatt-review.html">
+	<h6>Switzerland</h6>
+	<div class="description"><h3>Radisson Blu Reussen</h3><p>A review of the hotel in Andermatt, Switzerland</p></div>
+	</a>
+	</li>
+
+	<li>
+	<a href="hotel-reviews/revier-mountain-lodge-lenzerheide-review.html">
+	<h6>Switzerland</h6>
+	<div class="description"><h3>Revier Mountain Lodge</h3><p>A review of the Lodge in Lenzerheide, Switzerland</p></div>
+	</a>
+	</li>
+
+	<li>
+	<a href="switzerland/saas-fee-glacier-bike-1999/index.html">
+	<h6>Switzerland</h6>
+	<div class="description"><h3>Saas Fee Glacier Bike 1999</h3><p>The bike race from the Mittelallalin to the village won by René Wildhaber.</p></div>
+	</a>
+	</li>
+
+	<li>
+	<a href="swiss-passes/index.html">
+	<h6>Switzerland</h6>
+	<div class="description"><h3>Swiss Passes</h3><p>A manual of Switzerlands mountain roads.</p></div>
+	</a>
+	</li>
+
+	<li>
+	<a href="switzerland/zermatt/index.html">
+	<h6>Switzerland</h6>
+	<div class="description"><h3>Zermatt</h3><p>An old Swiss village or Disneyland of the Alps?</p></div>
+	</a>
+	</li>
+
 </article>
 <footer>
-<p>Copyright &copy; SUPER ALPINE. All rights reserved | <a href="terms/index.html">Terms &amp; Conditions</a> | <a href="sitemap.html">Sitemap</a></p>
+<p>Copyright &copy; Super Alpine. All rights reserved | <a href="terms/index.html">Terms &amp; Conditions</a></p>
 </footer>
 </body>
 </html>
