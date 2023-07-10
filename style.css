@@ -3,7 +3,7 @@ body {-webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;-moz-o
 
 html {scroll-behavior: smooth;}
 /* SITE WIDTH */
-main, header, figure, footer, article {max-width: 1280px; margin: 0 auto;}
+main, header, figure, footer, article, .title, .hero {max-width: 1280px; margin: 0 auto;}
 
 /* FONTS */
 @font-face {font-family: 'Saol';
@@ -85,10 +85,10 @@ footer {margin-top: 100px; padding: 50px 0;}
 .logo {width: 60px; height: 60px; position: absolute; z-index: 999; top:30px; left: 70px; background:var(--orange);}
 .logo:hover {background:var(--black);transition: all 0.5s ease;}
 .grid3 .hero {width: 100%;}
-
-/* TWO COLUMN LAYOUT */
+.hero {margin:20px auto -50px auto;padding:0 15px;}
 .title {text-align: center; display: block; width: 100%; min-height: 270px; padding: 70px 20px 20px 20px;}
 .title h1, .title h2 {max-width: 100%; border: none;}
+/* TWO COLUMN LAYOUT */
 main {display: flex; gap: 50px;}
 main article {flex: 40%; }
 main section {flex: 60%;}
@@ -124,7 +124,6 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
     .grid3 .hero {margin-top: 0;}
     .grid, .grid3 {gap: 20px; row-gap: 20px;}
     .grid3 .item {width: calc(50% - 40px);}
-    figcaption {margin-left: 20px;}
     article {padding: 0 20px 20px 20px;}
     footer p {padding: 20px;}
 
@@ -142,15 +141,13 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
     h1 {font-size: 3rem;}
     h2 {font-size: 1rem;}
     blockquote {font-size:1.8rem; line-height: 1.4em;}
-    figcaption {padding-left: 1px;}
+    figcaption {padding-left: 5px;}
     video {margin-bottom: -30px;}
     .item,.grid3 .item {display: block; width: 100%;}
     .grid3 .hero {display: none;}
     .textcolumn  {flex: unset;height: auto;padding: 10px;margin: 5px; text-align: center; border: none!important;}
     .list h6,.description { display:block; width: 100%;}
     .list h3 {font-size: 2.5rem; margin-top: 10px; letter-spacing: 0;}
-
-
 
     /* TWO COLUMN LAYOUT */
     .title { min-height: 150px; padding:40px 20px;}
@@ -160,7 +157,6 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
     main section figure {margin-bottom: 10px;}
     main section .grid {display: flex;gap:10px; row-gap: 10px;}
     main section .grid .item {display: inline-block; vertical-align: top;width: calc(50% - 20px); flex-grow: 1;}
-
 } 
 
 @media (prefers-color-scheme: dark) {
