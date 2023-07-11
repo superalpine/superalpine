@@ -69,7 +69,6 @@ footer {margin-top: 100px; padding: 50px 0;}
 .op li a {text-decoration: none; border: 1px solid var(--orange); border-radius: 20px; padding: 6px 18px; color: var(--orange); text-transform: uppercase; font-size: 12px; line-height: 12px; letter-spacing: 1px; background-color: transparent;}
 .footnotes ol {margin: 30px 0 30px 20px;}
 .footnotes li {font-size: 12px; max-width: 670px;}
-
 .list {margin:0;}
 .list li {margin: 0 auto; padding: 50px 0; border-bottom:1px solid #ccc; display: block; width: 100%; min-height: 150px;}
 .list li:first-of-type {border-top:1px solid #ccc;}
@@ -80,14 +79,13 @@ footer {margin-top: 100px; padding: 50px 0;}
 .description {display:inline-block; width: 70%;}
 .description h3 {font-size: 3.5rem; line-height: 1em; letter-spacing: -1px;  margin:0;}
 .description p {font-size: .85rem; line-height: 1.35em;margin: 10px 0;}
-
 .button a:hover {color:var(--white);}
 .logo {width: 60px; height: 60px; position: absolute; z-index: 999; top:30px; left: 70px; background:var(--orange);}
 .logo:hover {background:var(--black);transition: all 0.5s ease;}
-.grid3 .hero {width: 100%;}
-.hero {margin:20px auto -50px auto;padding:0 15px;}
+.hero {margin:20px auto; padding:0 15px;}
 .title {text-align: center; display: block; width: 100%; min-height: 270px; padding: 70px 20px 20px 20px;}
-.title h1, .title h2 {max-width: 100%; border: none;}
+.title h1, .title h2, .title p {max-width: 100%; border: none;}
+
 /* TWO COLUMN LAYOUT */
 main {display: flex; gap: 50px;}
 main article {flex: 40%; }
@@ -95,12 +93,8 @@ main section {flex: 60%;}
 main article p:first-of-type:first-letter {float: left; font-size: 3.5rem; line-height:.9em; padding-top: 0; padding-right: 2px;}
 
 /* GRID LAYOUT */
-.grid, .grid3 {display: flex; align-items: left; justify-content: left; flex-direction: row; flex-wrap: wrap; flex-flow: row wrap;align-content: flex-end; gap:20px; row-gap: 20px;}
+.grid {display: flex; align-items: left; justify-content: left; flex-direction: row; flex-wrap: wrap; flex-flow: row wrap;align-content: flex-end; gap:20px; row-gap: 20px;}
 .item {display: inline-block; vertical-align: top;width: calc(50% - 40px); flex-grow: 1;}
-.grid3 .item {width: calc(33.333% - 40px);}
-.grid .item p {margin: 10px 0;}
-.grid3 .item p {margin: 10px 0 -10px 0;}
-figure .item p {font-size: 16px;}
 
 /* TEXT COLUMNS */
 .textcolumn  {flex: 33.33%;min-height: 150px;padding:0 10px;margin:10px auto;}
@@ -121,13 +115,8 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
 {
     header b {margin-left: 20px;}
     header nav{padding-right: 20px;}
-    .grid3 .hero {margin-top: 0;}
-    .grid, .grid3 {gap: 20px; row-gap: 20px;}
-    .grid3 .item {width: calc(50% - 40px);}
     article {padding: 0 20px 20px 20px;}
     footer p {padding: 20px;}
-
-    /* TWO COLUMN LAYOUT */
     main {padding: 0 20px;}
     main article {padding: 0;}
 }
@@ -143,13 +132,10 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
     blockquote {font-size:1.8rem; line-height: 1.4em;}
     figcaption {padding-left: 5px;}
     video {margin-bottom: -30px;}
-    .item,.grid3 .item {display: block; width: 100%;}
-    .grid3 .hero {display: none;}
+    .item {display: block; width: 100%;}
     .textcolumn  {flex: unset;height: auto;padding: 10px;margin: 5px; text-align: center; border: none!important;}
     .list h6,.description { display:block; width: 100%;}
     .list h3 {font-size: 2.5rem; margin-top: 10px; letter-spacing: 0;}
-
-    /* TWO COLUMN LAYOUT */
     .title { min-height: 150px; padding:40px 20px;}
     main {display: block; gap: 0; }
     main article {flex: unset;padding: 0;}
