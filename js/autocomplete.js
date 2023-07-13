@@ -41,6 +41,7 @@ source: [
 { value: "Andermatt", url: 'https://superalpine.co/switzerland/andermatt/index.html' },
 { value: "Crans Montana", url: 'https://superalpine.co/switzerland/crans-montana/index.html' },
 { value: "Radisson Blu Reussen hotel, Andermatt", url: 'https://superalpine.co/hotel-reviews/radisson-blu-andermatt-review.html' },
+{ value: "Aparthotel Panorama Living Dolomites", url: 'https://superalpine.co/hotel-reviews/aparthotel-panorama-living-dolomites-review.html' },
 { value: "Revier Mountain Lodge hotel, Lenzerheide", url: 'https://superalpine.co/hotel-reviews/revier-mountain-lodge-lenzerheide-review.html' },
 { value: "Saas Fee Glacier Bike 1999", url: 'https://superalpine.co/switzerland/saas-fee-glacier-bike-1999/index.html' },
 { value: "Swiss Passes", url: 'https://superalpine.co/swiss-passes/index.html' },
