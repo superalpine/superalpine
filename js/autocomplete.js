@@ -35,7 +35,7 @@ source: [
 { value: "The Alpine Line", url: 'https://superalpine.co/france/alpine-line/index.html' },
 { value: "Vanoise National Park", url: 'https://superalpine.co/france/vanoise-national-park/index.html' },
 { value: "Aosta", url: 'https://superalpine.co/italy/aosta/index.html' },
-{ value: "Messner Mountain Museum Corones", url:'https://superalpine.co/italy/messner-mountain-museum-corones/index.html'},
+{ value: "Messner Mountain Museum Corones, Dolomites", url:'https://superalpine.co/italy/messner-mountain-museum-corones/index.html'},
 { value: "Monaco", url: 'https://superalpine.co/monaco/index.html' },
 { value: "Oceanographic Museum of Monaco", url: 'https://superalpine.co/monaco/oceanographic-museum-monaco/index.html' },
 { value: "Andermatt", url: 'https://superalpine.co/switzerland/andermatt/index.html' },

@@ -25,6 +25,17 @@ h1,h2,h3,h4,h5,h4,nav p,blockquote {font-weight: normal; font-family:Saol,ui-san
 --grey:#333333;
 --lightgrey:#cccccc;}
 
+body {color: var(--black); background-color:var(--beige);}
+a:hover {color:var(--black);} 
+header a {color: var(--black);}
+.op li a:hover { border: 1px solid var(--black); color:var(--black);}
+th, td {border-bottom: 1px solid var(--lightgrey);}
+footer {border-top:1px solid var(--lightgrey);}
+.textcolumn {border-right: 1px solid var(--lightgrey);}
+.list li {border-bottom:1px solid var(--lightgrey);}
+.list li:first-of-type {border-top:1px solid var(--lightgrey);}
+.list li a { color: var(--black);}
+
 h1 {font-size: 4.4rem; margin:0; letter-spacing:-1px;}
 h2 {font-size: 1.1rem; margin:20px 0; line-height: 1.2em; letter-spacing: 1px; text-transform: uppercase;}
 h3 {font-size: 2.3rem; margin:40px 0 20px 0;}
@@ -82,7 +93,7 @@ footer {margin-top: 100px; padding: 50px 0;}
 .button a:hover {color:var(--white);}
 .logo {width: 60px; height: 60px; position: absolute; z-index: 999; top:30px; left: 70px; background:var(--orange);}
 .logo:hover {background:var(--black);transition: all 0.5s ease;}
-.hero {margin:20px auto; padding:0 15px;}
+.hero {margin:20px auto;}
 .title {text-align: center; display: block; width: 100%; min-height: 270px; padding: 70px 20px 20px 20px;}
 .title h1, .title h2, .title p {max-width: 100%; border: none;}
 
@@ -101,9 +112,9 @@ main article p:first-of-type:first-letter {float: left; font-size: 3.5rem; line-
 .textcolumn:last-of-type {border: none;}
 
 /* FORMS */
-#autocomplete {width:100%; max-width: 350px; height: 1rem; padding: 10px 15px; font-size: 1rem;  margin:20px 0; outline: none; border-radius:20px; position:relative; border:none; }
-.ui-autocomplete { position: absolute; padding: 10px 0; z-index: 1000; display: none; width:auto; list-style: none;  border-radius:20px; border-top-right-radius: 0; border-top-left-radius: 0; background-color:var(--white);}
-.ui-menu-item {font-size: 1rem; line-height: 1.6em; margin:0; padding:0; width: 100%;}
+#autocomplete {width:100%; max-width: 350px; height: 1.2rem; padding: 10px 15px; font-size: 1.2rem;  margin:20px 0; outline: none; border-radius:20px; position:relative; border:1px solid var(--orange);}
+.ui-autocomplete { position: absolute; padding: 10px 0; z-index: 1000; display: none; width:auto; list-style: none;  border-radius:10px; border-top-right-radius: 0; border-top-left-radius: 0; background-color:var(--white);}
+.ui-menu-item {font-size: 1.2rem; line-height: 1.8em; margin:0; padding:0; width: 100%;}
 .ui-menu-item a {display: block; padding: 5px; width: auto; color: var(--black);}
 .ui-state-hover, .ui-state-active, .ui-menu-item a:hover {background-color: var(--orange);cursor: pointer; color: var(--white);}
 .ui-helper-hidden-accessible {display: none;}
@@ -144,30 +155,3 @@ input[type=submit], .button {display: inline-block; text-decoration: none; borde
     main section .grid {display: flex;gap:10px; row-gap: 10px;}
     main section .grid .item {display: inline-block; vertical-align: top;width: calc(50% - 20px); flex-grow: 1;}
 } 
-
-@media (prefers-color-scheme: dark) {
-    body {color: var(--white); background-color:var(--black); }
-    a:hover {color:var(--white);} 
-    header a {color:var(--white);}
-    .op li a:hover { border: 1px solid var(--white); color:var(--white);}
-    th, td {border-bottom: 1px solid var(--grey);}
-    footer {border-top:1px solid var(--grey);}
-    .textcolumn {border-right: 1px solid var(--grey); }
-    .list li {border-bottom:1px solid var(--grey);}
-    .list li:first-of-type {border-top:1px solid var(--grey);}
-    .list li a { color: var(--white);}
-
-}
-@media (prefers-color-scheme: light) {
-    body {color: var(--black); background-color:var(--beige); }
-    a:hover {color:var(--black);} 
-    header a {color: var(--black);}
-    .op li a:hover { border: 1px solid var(--black); color:var(--black);}
-    th, td {border-bottom: 1px solid var(--lightgrey);}
-    footer {border-top:1px solid var(--lightgrey);}
-    .textcolumn {border-right: 1px solid var(--lightgrey);}
-    .list li {border-bottom:1px solid var(--lightgrey);}
-    .list li:first-of-type {border-top:1px solid var(--lightgrey);}
-    .list li a { color: var(--black);}
-
-}
