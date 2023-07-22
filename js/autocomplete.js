@@ -37,6 +37,7 @@ source: [
 { value: "Aosta", url: 'https://superalpine.co/italy/aosta/index.html' },
 { value: "Lumen Mountain Photography Museum, Dolomites", url:'https://superalpine.co/italy/lumen-mountain-photography-museum/index.html' },
 { value: "Messner Mountain Museum Corones, Dolomites", url:'https://superalpine.co/italy/messner-mountain-museum-corones/index.html' },
+{ value: "Messner Mountain Museum Ripa, Dolomites", url:'https://superalpine.co/italy/messner-mountain-museum-ripa/index.html' },
 { value: "Monaco", url: 'https://superalpine.co/monaco/index.html' },
 { value: "Oceanographic Museum of Monaco", url: 'https://superalpine.co/monaco/oceanographic-museum-monaco/index.html' },
 { value: "Andermatt", url: 'https://superalpine.co/switzerland/andermatt/index.html' },
