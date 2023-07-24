@@ -13,9 +13,8 @@ src: url('fonts/SaolDisplay-Medium.woff2') format('woff2');font-weight:normal;fo
 
 input,p,li,small,cite,address {font-family:ui-sans-serif, BlinkMacSystemFont, sans-serif;}
 th,td,.button,.op li  {font-family:ui-monospace, 'SF Mono', Menlo, monospace;}
-figcaption {font-family:-apple-system-ui-serif, ui-serif, serif;}
+figcaption,i,em {font-family:-apple-system-ui-serif, ui-serif, serif;}
 h1,h2,h3,h4,h5,h4,nav p,blockquote {font-weight: normal; font-family:Saol,ui-sans-serif, BlinkMacSystemFont, sans-serif; max-width: 760px;line-height: .9em;} 
-
 /* COLOURS */
 :root {
 --beige:#E3DFD4;
