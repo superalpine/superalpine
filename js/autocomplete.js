@@ -43,6 +43,7 @@ source: [
 { value: "Andermatt", url: 'https://superalpine.co/switzerland/andermatt/index.html' },
 { value: "Crans Montana", url: 'https://superalpine.co/switzerland/crans-montana/index.html' },
 { value: "Davos", url: 'https://superalpine.co/switzerland/davos/index.html' },
+{ value: "HR Giger Museum", url: 'https://superalpine.co/switzerland/hr-giger-museum/index.html' },
 { value: "Grimentz", url: 'https://superalpine.co/switzerland/grimentz/index.html' },
 { value: "Pierre Gianadda Foundation Museum", url: 'https://superalpine.co/switzerland/pierre-gianadda-foundation/index.html' },
 { value: "Saas Fee Glacier Bike 1999", url: 'https://superalpine.co/switzerland/saas-fee-glacier-bike-1999/index.html' },
