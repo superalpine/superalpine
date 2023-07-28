@@ -19,7 +19,7 @@ source: [
 { value: "Scrambles Amongst the Alps", url: 'https://superalpine.co/scrambles-amongst-the-alps/index.html' },
 { value: "Innsbruck", url: 'https://superalpine.co/austria/innsbruck/index.html' },
 { value: "Ischgl", url: 'https://superalpine.co/austria/ischgl/index.html' },
-{ value: "Chamonix Travel Guide", url: 'https://superalpine.co/chamonix-travel-guide/index.html' },
+{ value: "Chamonix Travel Guide Book", url: 'https://store.superalpine.co/b/chamonix-mont-blanc-travel-guide' },
 { value: "Cirque du fer à Cheval", url: 'https://superalpine.co/france/cirque-du-fer-a-cheval/index.html' },
 { value: "Col de Joux Plane", url: 'https://superalpine.co/france/col-de-joux-plane/index.html' },
 { value: "Col de l'Iseran", url: 'https://superalpine.co/france/col-de-l-iseran/index.html' },
