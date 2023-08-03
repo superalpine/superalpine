@@ -63,7 +63,7 @@ img,video {max-width: 100%; width: 100%; font-size: 0; display: block;}
 video {margin-bottom: 20px;}
 iframe {margin:20px 0;}
 header {height: 90px;}
-header b {float: left; font-size: 0; width: 60px; height: 60px; margin-top:15px; }
+header b {float: left; font-size: 0; width: 60px; height: 60px; margin-top:20px; }
 header b a {background: var(--orange);display: block;}
 header b a:hover {background:var(--black); }
 header nav {width: auto; text-align: right;  padding:40px 0 0 0; margin-bottom: 0px; border: none;float: right;}
@@ -74,9 +74,9 @@ figcaption {font-size: 14px; margin: 10px 0 40px 0; font-style: italic; padding-
 figure {margin-bottom: 20px;}
 figure p,footer p {font-size: 0.85rem;}
 footer {margin-top: 100px; padding: 50px 0;}
-.op {margin: 20px 0; padding: 10px 0;}
-.op li {display: inline-block; list-style-type: none; margin: 0 5px 15px 0; letter-spacing: normal;}
-.op li a {text-decoration: none; border: 1px solid var(--orange); border-radius: 20px; padding: 6px 18px; color: var(--orange); text-transform: uppercase; font-size: 12px; line-height: 12px; letter-spacing: 1px; background-color: transparent;}
+.op {margin: 10px 0;}
+.op li {display: inline-block; list-style-type: none; margin: 0 5px 10px 0; letter-spacing: normal;}
+.op li a {text-decoration: none; border: 1px solid var(--orange); border-radius: 20px; padding: 5px 15px; color: var(--orange); text-transform: uppercase; font-size: 12px; line-height: 12px; background-color: transparent;}
 .footnotes ol {margin: 30px 0 30px 20px;}
 .footnotes li {font-size: 12px; max-width: 670px;}
 .list {margin:0;}
@@ -92,7 +92,7 @@ footer {margin-top: 100px; padding: 50px 0;}
 .button a:hover {color:var(--white);}
 .logo {width: 60px; height: 60px; position: absolute; z-index: 999; top:30px; left: 70px; background:var(--orange);}
 .logo:hover {background:var(--black);transition: all 0.5s ease;}
-.hero {margin:20px auto;}
+.hero {margin:0 auto;}
 .title {text-align: center; display: block; width: 100%; min-height: 270px; padding: 70px 20px 20px 20px;}
 .title h1, .title h2, .title p {max-width: 100%; border: none;}
 
