@@ -111,9 +111,9 @@ main article p:first-of-type:first-letter {float: left; font-size: 3.5rem; line-
 .textcolumn:last-of-type {border: none;}
 
 /* FORMS */
-#autocomplete {width:100%; max-width: 350px; height: 1.2rem; padding: 10px 15px; font-size: 1.2rem;  margin:20px 0; outline: none; border-radius:20px; position:relative; border:1px solid var(--orange);}
-.ui-autocomplete { position: absolute; padding: 10px 0; z-index: 1000; display: none; width:auto; list-style: none;  border-radius:10px; border-top-right-radius: 0; border-top-left-radius: 0; background-color:var(--white);}
-.ui-menu-item {font-size: 1.2rem; line-height: 1.8em; margin:0; padding:0; width: 100%;}
+#autocomplete {width:100%; max-width: 350px; height: 1.2rem; padding: 10px 15px; font-size: 1rem;  margin:20px 0; outline: none; border-radius:20px; position:relative; border:1px solid var(--lightgrey);}
+.ui-autocomplete { position: absolute; padding: 10px 0; z-index: 1000; display: none; width:auto; list-style: none;  border-radius:10px; border-top-right-radius: 0; border-top-left-radius: 0; background-color:var(--white);border:1px solid var(--lightgrey); border-top:none;}
+.ui-menu-item {font-size: 1rem; line-height: 1.6em; margin:0; padding:0; width: 100%;}
 .ui-menu-item a {display: block; padding: 5px; width: auto; color: var(--black);}
 .ui-state-hover, .ui-state-active, .ui-menu-item a:hover {background-color: var(--orange);cursor: pointer; color: var(--white);}
 .ui-helper-hidden-accessible {display: none;}
