@@ -70,6 +70,7 @@ header nav {width: auto; text-align: right;  padding:40px 0 0 0; margin-bottom: 
 header nav p {text-transform: uppercase; font-size: 15px; line-height: 15px; margin: 0; letter-spacing: .03em;}
 header nav a {text-decoration: none; padding: 0 2px;}
 header nav a:hover {color: var(--orange); }
+main {padding: 0 10px;}
 figcaption {font-size: 14px; margin: 10px 0 40px 0; font-style: italic; padding-left: 10px;}
 figure {margin-bottom: 20px;}
 figure p,footer p {font-size: 0.85rem;}
@@ -128,8 +129,6 @@ select {font-size: 1.1rem; line-height: 1.1em; outline: none; background-color: 
     header nav{padding-right: 20px;}
     article {padding: 0 20px 20px 20px;}
     footer p {padding: 20px;}
-    main {padding: 0 20px;}
-    main article {padding: 0;}
 }
 @media (max-width: 760px) 
 {
