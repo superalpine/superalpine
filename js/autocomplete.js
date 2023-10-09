@@ -66,7 +66,7 @@ source: [
 { value: "Col du Pillon",  url: 'https://superalpine.co/swiss-passes/col-du-pillon.html' },
 { value: "Flüela pass",  url: 'https://superalpine.co/swiss-passes/fluela-pass.html' },
 { value: "Furka pass",  url: 'https://superalpine.co/swiss-passes/furka-pass.html' },
-{ value: "Great Saint-Bernard pass",  url: 'https://superalpine.co/swiss-passes/great-saint-bernard-pass.html' },
+{ value: "Great Saint-Bernard pass",  url: 'https://superalpine.co/swiss-passes/col-du-grand-saint-bernard.html' },
 { value: "Gotthard pass",  url: 'https://superalpine.co/swiss-passes/gotthard-pass.html' },
 { value: "Grimsel pass",  url: 'https://superalpine.co/swiss-passes/grimsel-pass.html' },
 { value: "Jaun pass",  url: 'https://superalpine.co/swiss-passes/jaun-pass.html' },
