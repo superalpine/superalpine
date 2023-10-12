@@ -55,6 +55,7 @@ source: [
 { value: "Radisson Blu Reussen hotel, Andermatt", url: 'https://superalpine.co/hotel-reviews/radisson-blu-andermatt-review.html' },
 { value: "Aparthotel Panorama Living Dolomites", url: 'https://superalpine.co/hotel-reviews/aparthotel-panorama-living-dolomites-review.html' },
 { value: "Revier Mountain Lodge hotel, Lenzerheide", url: 'https://superalpine.co/hotel-reviews/revier-mountain-lodge-lenzerheide-review.html' },
+{ value: "Rochers de Naye", url: 'https://superalpine.co/switzerland/rochers-de-naye/index.html' },
 { value: "Swiss Passes", url: 'https://superalpine.co/swiss-passes/index.html' },
 { value: "Albula pass",  url: 'https://superalpine.co/swiss-passes/albula-pass.html' },
 { value: "Bernina pass",  url: 'https://superalpine.co/swiss-passes/bernina-pass.html' },
