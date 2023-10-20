@@ -1,5 +1,5 @@
 body {background-color: #fff;   }
-svg {font-family:ui-sans-serif, BlinkMacSystemFont, sans-serif;font-size:11rem; width: 95%; margin: -10px auto 20px auto;}
+svg {font-family:Neue, ui-sans-serif, BlinkMacSystemFont, sans-serif; font-size:11rem; width: 95%; margin: -10px auto 20px auto;}
 svg a {cursor: pointer; fill:#c01f17;}
 svg a:hover {fill:var(--black); }
 header b a {background:#C01F17;}
@@ -11,7 +11,7 @@ header nav a:hover, a:hover{color:#C01F17;}
 .book-text {width:100%; background-color: #C01F17; color: #fff;padding:100px 100px 50px 50px;}
 .book-image {width:60%; margin:0 auto; border:10px solid #fff;}
 .swiss-map {width: 100%; padding: 50px;}
-select {font-size: 1rem; line-height: 1em; outline: none;  border-color: var(--black); color: #900; -webkit-appearance: none; padding: 7px; margin-top: 10px;}
+select {font-family:Neue, ui-sans-serif, BlinkMacSystemFont, sans-serif; font-size: 1rem; line-height: 1em; outline: none;  border-color: var(--black); color: #900; -webkit-appearance: none; padding: 7px; margin-top: 10px;}
 
 
 @media (max-width: 760px) 
