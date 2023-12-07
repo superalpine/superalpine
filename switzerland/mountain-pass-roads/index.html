@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Switzerland's mountain pass roads</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Switzerland is home to over 90 mountain pass roads that offer breathtaking views and challenging driving or cycling routes">
+<link rel="stylesheet" href="../../style.css">
+<style type="text/css">
+th {background-color:#9c978a; color:#fff; padding:5px;}
+td{padding: 5px;}
+tr:nth-child(odd) {background-color: #fff;}
+tr:nth-child(even) {background-color: #ddd;}
+.sort {color: #fff; font-size:1rem; line-height:1em; cursor: pointer; font-weight: normal;}
+td a {text-decoration: underline;}
+</style>
+</head>
+<body>
+<header>
+<a href="../../index.html">Super Alpine</a>
+<nav><a href="../../search.html">Search</a></nav>
+</header>
+<div class="title">
+  <h1>Switzerland's mountain pass roads</h1>
+  <h2>Switzerland is home to over 90 mountain pass roads</h2>
+</div>
+<article>
+<h3>Map of Switzerland's mountain passes</h3>
+<p>A map of paved passes above 1400m where both ends of the pass are connected to the Swiss/Italian/French road network. </p>
+</article>
+<section>
+<img src="swiss-map-web.svg" alt="Map of Switzerland's mountain road passes">
+</section>
+
+<article>
+<h3>Switzerland's mountain pass figures</h3>
+<p>A list of paved mountain passes above 1400m where both ends of the pass are connected to the Swiss/Italian/French road network.</p>
+<p><b>Figures are in kilometres and metres.</b></p>
+<p>Sort by clicking the title &#8597; or select a pass for more information</p>
+</article>
+<section>
+<div style='overflow-x:auto;'>
+<table id="Passes">
+    <tr>
+        <th onclick="sortTable(0)">PASS <span class="sort">&#8597;</span></th>
+        <th onclick="sortTable(1)">DIS <span class="sort">&#8597;</span></th>
+        <th onclick="sortTable(2)">ALT <span class="sort">&#8597;</span></th>
+        <th>START</th>
+        <th>END</th>
+        <th>MIN</th>
+        <th>MAX</th>
+        <th>ASC</th>
+        <th>DES</th>
+        <th>START</th>
+        <th>END</th>
+        <th>CANTON</th>
+        <th>OPEN</th>
+    </tr>
+    <tr>
+        <td>Albula</td>
+        <td>23</td>
+        <td>2315</td>
+        <td>1367</td>
+        <td>1687</td>
+        <td>1367</td>
+        <td>2315</td>
+        <td>951</td>
+        <td>630</td>
+        <td>Bergun</td>
+        <td>La Punt</td>
+        <td>Graubünden</td>
+        <td>Jun > Oct</td>
+    </tr>
+    <tr>
+        <td>Bernina</td>
+        <td>33</td>
+        <td>2330</td>
+        <td>1805</td>
+        <td>1014</td>
+        <td>1014</td>
+        <td>2330</td>
+        <td>505</td>
+        <td>1302</td>
+        <td>Pontresina</td>
+        <td>Poschiavo</td>
+        <td>Graubünden</td>
+        <td>All year</td>
+    </tr>
+    <tr>
+        <td>Col de Champex</td>
+        <td>22</td>
+        <td>1490</td>
+        <td>887</td>
+        <td>613</td>
+        <td>613</td>
+        <td>1490</td>
+        <td>903</td>
+        <td>621</td>
+        <td>Orsières</td>
+        <td>Valettes</td>
+        <td>Valais</td>
+        <td>All year</td>
+    </tr>
+    <tr>
+        <td>Col de la Croix</td></td>
+        <td>17</td>
+        <td>1778</td>
+        <td>1258</td>
+        <td>1200</td>
+        <td>1200</td>
+        <td>1778</td>
+        <td>532</td>
+        <td>601</td>
+        <td>Villars</td>
+        <td>Les Diablerets</td>
+        <td>Vaud</td>
+        <td>Jun > Oct</td>
+    </tr>
+    <tr>
+        <td>Col de la Forclaz</td>
+        <td>22</td>
+        <td>1527</td>
+        <td>1116</td>
+        <td>471</td>
+        <td>471</td>
+        <td>1527</td>
+        <td>430</td>
+        <td>1076</td>
+        <td>Le Châtelard-Frontière</td>
+        <td>Martigny</td>
+        <td>Valais</td>
+        <td>All year</td>
+    </tr>
+    <tr>
+        <td>Col des Mosses</td>
+        <td>22</td>
+        <td>1445</td>
+        <td>950</td>
+        <td>958</td>
+        <td>950</td>
+        <td>1445</td>
+        <td>490</td>
+        <td>530</td>
+        <td>Le Sépey</td>
+        <td>Château-d'Œx</td>
+        <td>Vaud</td>
+        <td>All year</td>
+    </tr>
+    <tr>
+        <td>Col du Marchairuz</td>
+        <td>20</td>
+        <td>1447</td>
+        <td>698</td>
+        <td>1013</td>
+        <td>698</td>
+        <td>1447</td>
+        <td>748</td>
+        <td>411</td>
+        <td>Bière</td>
+        <td>Les Brassus</td>
+        <td>Vaud</td>
+        <td>All year</td>
+    </tr>
+    <tr>
+        <td>Col du Pillon</td>
+        <td>29</td>
+        <td>1546</td>
+        <td>950</td>
+        <td>1050</td>
+        <td>950</td>
+        <td>1546</td>
+        <td>501</td>
+        <td>507</td>
+        <td>Le Sépey</td>
+        <td>Gstaad</td>
+        <td>Vaud</td>
+        <td>Jun > Oct</td>
+    </tr>
+    <tr>
+        <td>Flüela</td>
+        <td>28</td>
+        <td>2383</td>
+        <td>1560</td>
+        <td>1438</td>
+        <td>1438</td>
+        <td>2383</td>
+        <td>841</td>
+        <td>978</td>
+        <td>Davos</td>
+        <td>Susch</td>
+        <td>Graubünden</td>
+        <td>Jun > Oct</td>
+    </tr>
+    <tr>
+        <td><a href="../furka-pass/index.html">Furka</a></td>
+        <td>22</td>
+        <td>2436</td>
+        <td>1538</td>
+        <td>1757</td>
+        <td>1538</td>
+        <td>2429</td>
+        <td>881</td>
+        <td>661</td>
+        <td>Realp</td>
+        <td>Gletsch</td>
+        <td>Uri / Valais</td>
+        <td>Jun > Oct</td>
+    </tr>
+    <tr>
+        <td>Gotthard</td>
+        <td>23</td>
+        <td>2106</td>
+        <td>1493</td>
+        <td>1175</td>
+        <td>1175</td>
+        <td>2106</td>
+        <td>606</td>
+        <td>943</td>
+        <td>Hospental</td>
+        <td>Airolo</td>
+        <td>Uri / Ticino</td>
+        <td>Jun > Oct</td>
+    </tr>
+    <tr>
+        <td><a href="../col-du-grand-st-bernard/index.html">Grand St.Bernard</a></td>
+        <td>82</td>
+        <td>2469</td>
+        <td>471</td>
+        <td>583</td>
+        <td>471</td>
+        <td>2469</td>
+        <td>2641</td>
+        <td>2568</td>
+        <td>Martigny</td>
+        <td>Aosta</td>
+        <td>Valais</td>
+        <td>Jun > Oct</td>
+    </tr>
+    <tr>
+        <td>Grimsel</td>
+        <td>32</td>
+        <td>2165</td>
+        <td>1757</td>
+        <td>625</td>
+        <td>625</td>
+        <td>2180</td>
+        <td>402</td>
+        <td>1536</td>
+        <td>Gletsch</td>
+        <td>Innertkirchen</td>
+        <td>Valais / Bern</td>
+        <td>Jun > Oct</td>
+    </tr>
+    <tr>
+        <td>Jaun</td>
+        <td>14</td>
+        <td>1508</td>
+        <td>843</td>
+        <td>1047</td>
+        <td>843</td>
+        <td>1508</td>
+        <td>666</td>
+        <td>483</td>
+        <td>Boltigen</td>
+        <td>Jaun</td>
+        <td>Fribourg / Bern</td>
+        <td>All year</td>
+    </tr>
+    <tr>
+        <td>Julier</td>
+        <td>42</td>
+        <td>2284</td>
+        <td>1815</td>
+        <td>884</td>
+        <td>884</td>
+        <td>2284</td>
+        <td>1448</td>
+        <td>492</td>
+        <td>Silvaplana</td>
+        <td>Tiefencastel</td>
+        <td>Graubünden</td>
+        <td>Jun > Oct</td>
+    </tr>
+    <tr>
+        <td>Klausen</td>
+        <td>47</td>
+        <td>1948</td>
+        <td>432</td>
+        <td>650</td>
+        <td>432</td>
+        <td>1948</td>
+        <td>1535</td>
+        <td>1342</td>
+        <td>Altdorf</td>
+        <td>Linthal</td>
+        <td>Uri / Glarus</td>
+        <td>Jun > Oct</td>
+    </tr>
+    <tr>
+        <td>Lukmanier</td>
+        <td>59</td>
+        <td>1915</td>
+        <td>1130</td>
+        <td>301</td>
+        <td>301</td>
+        <td>1915</td>
+        <td>966</td>
+        <td>1823</td>
+        <td>Disentis</td>
+        <td>Biasca</td>
+        <td>Graubünden</td>
+        <td>Jun > Oct</td>
+    </tr>
+    <tr>
+        <td>Maloja</td>
+        <td>30</td>
+        <td>1815</td>
+        <td>823</td>
+        <td>1815</td>
+        <td>823</td>
+        <td>1815</td>
+        <td>1045</td>
+        <td>39</td>
+        <td>Bondo</td>
+        <td>Silvaplana</td>
+        <td>Graubünden</td>
+        <td>Jun > Oct</td>
+    </tr>
+    <tr>
+        <td>Nufenen</td>
+        <td>38</td>
+        <td>2478</td>
+        <td>1175</td>
+        <td>1346</td>
+        <td>1175</td>
+        <td>2478</td>
+        <td>1149</td>
+        <td>1332</td>
+        <td>Airolo</td>
+        <td>Ulrichen</td>
+        <td>Valais / Ticino</td>
+        <td>Jun > Oct</td>
+    </tr>
+    <tr>
+        <td>Oberalp</td>
+        <td>31</td>
+        <td>2044</td>
+        <td>1444</td>
+        <td>1130</td>
+        <td>1130</td>
+        <td>2044</td>
+        <td>848</td>
+        <td>1132</td>
+        <td>Andermatt</td>
+        <td>Disentis</td>
+        <td>Uri/Graubünden</td>
+        <td>Jun > Oct</td>
+    </tr>
+    <tr>
+        <td>Ofen</td>
+        <td>35</td>
+        <td>2149</td>
+        <td>1474</td>
+        <td>1375</td>
+        <td>1375</td>
+        <td>2149</td>
+        <td>841</td>
+        <td>716</td>
+        <td>Zernaz</td>
+        <td>Santa Maria Val Mustair</td>
+        <td>Graubünden</td>
+        <td>Jun > Oct</td>
+    </tr>
+    <tr>
+        <td>Pas-de-Morgins</td>
+        <td>14</td>
+        <td>1369</td>
+        <td>765</td>
+        <td>1200</td>
+        <td>765</td>
+        <td>1369</td>
+        <td>629</td>
+        <td>186</td>
+        <td>Troistorrents</td>
+        <td>Châtel</td>
+        <td>Valais</td>
+        <td>All year</td>
+    </tr>
+    <tr>
+        <td>San Bernardino</td>
+        <td>17</td>
+        <td>2066</td>
+        <td>1624</td>
+        <td>769</td>
+        <td>769</td>
+        <td>2066</td>
+        <td>449</td>
+        <td>453</td>
+        <td>Hinterrhein</td>
+        <td>San Bernardino</td>
+        <td>Graubünden / Ticino</td>
+        <td>Jun > Oct</td>
+    </tr>
+    <tr>
+        <td><a href="../simplon-pass/index.html">Simplon</a></td>
+        <td>40</td>
+        <td>2005</td>
+        <td>691</td>
+        <td>855</td>
+        <td>691</td>
+        <td>2005</td>
+        <td>1429</td>
+        <td>1259</td>
+        <td>Brig</td>
+        <td>Gondo</td>
+        <td>Valais</td>
+        <td>Jun > Oct</td>
+    </tr>
+    <tr>
+        <td>Splügen</td>
+        <td>43</td>
+        <td>2113</td>
+        <td>1475</td>
+        <td>333</td>
+        <td>333</td>
+        <td>2113</td>
+        <td>706</td>
+        <td>1843</td>
+        <td>Splügen</td>
+        <td>Chiavenna</td>
+        <td>Graubünden</td>
+        <td>Jun > Oct</td>
+    </tr>
+    <tr>
+        <td><a href="../susten-pass/index.html">Susten</a></td>
+        <td>45</td>
+        <td>2224</td>
+        <td>625</td>
+        <td>930</td>
+        <td>625</td>
+        <td>2260</td>
+        <td>1605</td>
+        <td>1323</td>
+        <td>Innertkirchen</td>
+        <td>Wassen</td>
+        <td>Bern / Uri</td>
+        <td>Jun > Oct</td>
+    </tr>
+    <tr>
+        <td>Umbrail</td>
+        <td>17</td>
+        <td>2503</td>
+        <td>1375</td>
+        <td>2502</td>
+        <td>1375</td>
+        <td>2503</td>
+        <td>1118</td>
+        <td>223</td>
+        <td>Santa Maria Val Mustair</td>
+        <td>Italian border</td>
+        <td>Graubünden</td>
+        <td>Jun > Oct</td>
+    </tr>
+</table>
+</div>
+</section>
+<footer>
+  <div>
+  <h4><a href="https://superalpine.co">Super Alpine</a></h4>
+  Copyright &copy; Super Alpine. All rights reserved. <br>
+  <a href="../../terms.html">Terms &amp; Conditions</a>
+  </div>
+  <div>
+  <a href="../../archive.html">Archive</a><br>
+  <a href="../../journal.html">Journal</a><br>
+  <a href="../../publications.html">Publications</a><br>  
+  </div>
+  <div>
+  <a href="../../library.html">Library</a><br>
+  <a href="../../information.html">Information</a><br>
+  <a href="../../mailing-list.html">Mailing list</a><br>
+  </div>
+</footer>
+<script>
+function sortTable(n) {
+  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+  table = document.getElementById("Passes");
+  switching = true;
+  // Set the sorting direction to ascending:
+  dir = "asc"; 
+  /* Make a loop that will continue until
+  no switching has been done: */
+  while (switching) {
+    // Start by saying: no switching is done:
+    switching = false;
+    rows = table.rows;
+    /* Loop through all table rows (except the
+    first, which contains table headers): */
+    for (i = 1; i < (rows.length - 1); i++) {
+      // Start by saying there should be no switching:
+      shouldSwitch = false;
+      /* Get the two elements you want to compare,
+      one from current row and one from the next: */
+      x = rows[i].getElementsByTagName("td")[n];
+      y = rows[i + 1].getElementsByTagName("td")[n];
+      /* Check if the two rows should switch place,
+      based on the direction, asc or desc: */
+      if (dir == "asc") {
+        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+          // If so, mark as a switch and break the loop:
+          shouldSwitch = true;
+          break;
+        }
+      } else if (dir == "desc") {
+        if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+          // If so, mark as a switch and break the loop:
+          shouldSwitch = true;
+          break;
+        }
+      }
+    }
+    if (shouldSwitch) {
+      /* If a switch has been marked, make the switch
+      and mark that a switch has been done: */
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      // Each time a switch is done, increase this count by 1:
+      switchcount ++; 
+    } else {
+      /* If no switching has been done AND the direction is "asc",
+      set the direction to "desc" and run the while loop again. */
+      if (switchcount == 0 && dir == "asc") {
+        dir = "desc";
+        switching = true;
+      }
+    }
+  }
+}
+</script>
+</body>
+</html>
