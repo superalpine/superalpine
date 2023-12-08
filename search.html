@@ -8,9 +8,9 @@
 <link rel="apple-touch-icon-precomposed" href="https://superalpine.co/apple-touch-icon.png">
 <link rel="shortcut icon" href="https://superalpine.co/favicon.ico">
 <link rel="stylesheet" href="style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
-<script src="https://superalpine.co/js/autocomplete.js"></script>
+<style type="text/css">
+input {font-family:Neue; font-size: 1rem; line-height: 1em; outline: none; padding:10px; max-width: 320px; width: 100%; outline: none; border:1px solid #bfbaae;}
+</style>
 </head>
 <body>
 <header>
@@ -19,8 +19,59 @@
 </header>
 <div class="title"><h1>Search</h1><h2>Search the Super Alpine archive and artifacts</h2></div>
 <article style="min-height:160px;">
-	<p>Enter a search (autocomplete) and select from the pulldown</p>
-	<input id="autocomplete" value="" placeholder="Search">
+<p>Enter a search (autocomplete) and select from the pulldown</p>
+
+<input type="text" id="autocomplete-input" list="name-list" placeholder="Enter a search">
+<datalist id="name-list">
+<option value="Area, population and cities in the Alps" data-url="https://superalpine.co/alps/area-population-cities.html"></option>
+<option value="Highest mountains in the Alps" data-url="https://superalpine.co/alps/highest-mountains.html"></option>
+<option value="Bond in the Alps" data-url="https://superalpine.co/alps/bond-in-the-alps.html"></option>
+<option value="On the trail of Goldfinger" data-url="https://superalpine.co/switzerland/on-the-trail-of-goldfinger/index.html"></option>
+<option value="Chamonix - Death Sport Capital of the World" data-url="https://superalpine.co/france/chamonix/death-sport-capital.html"></option>
+<option value="Cirque du fer à Cheval" data-url="https://superalpine.co/france/cirque-du-fer-a-cheval/index.html"></option>
+<option value="Col de Joux Plane" data-url="https://superalpine.co/france/col-de-joux-plane/index.html"></option>
+<option value="Col de Turini" data-url="https://superalpine.co/france/col-de-turini/index.html"></option>
+<option value="Col du Petit Saint-Bernard" data-url="https://superalpine.co/france/col-du-petit-st-bernard/index.html"></option>
+<option value="Colle del Piccolo San Bernardo" data-url="https://superalpine.co/france/col-du-petit-st-bernard/index.html"></option>
+<option value="Fort de la Redoute Ruinée" data-url="https://superalpine.co/france/fort-de-la-redoute-ruinee/index.html"></option>
+<option value="Route des Grandes Alpes" data-url="https://superalpine.co/france/route-des-grandes-alpes/index.html"></option>
+<option value="Route Napoléon" data-url="https://superalpine.co/france/route-napoleon/index.html"></option>
+<option value="Eze" data-url="https://superalpine.co/france/eze/index.html"></option>
+<option value="Nietzsche trail, Eze" data-url="https://superalpine.co/france/nietzsche-trail/index.html"></option>
+<option value="Aosta" data-url="https://superalpine.co/italy/aosta/index.html"></option>
+<option value="Lumen Mountain Photography Museum, Dolomites" data-url="https://superalpine.co/italy/lumen-mountain-photography-museum/index.html"></option>
+<option value="Messner Mountain Museum Corones, Dolomites" data-url="https://superalpine.co/italy/messner-mountain-museum-corones/index.html"></option>
+<option value="Dolomites" data-url="https://superalpine.co/italy/dolomites/index.html"></option>
+<option value="Monaco" data-url="https://superalpine.co/monaco/index.html"></option>
+<option value="Oceanographic Museum of Monaco" data-url="https://superalpine.co/monaco/oceanographic-museum.html"></option>
+<option value="Saas Fee Glacier Bike 1999" data-url="https://superalpine.co/switzerland/saas-fee-glacier-bike-1999/index.html"></option>
+<option value="Rochers de Naye" data-url="https://superalpine.co/switzerland/rochers-de-naye/index.html"></option>
+<option value="Switzerland's mountain pass roads" data-url="https://superalpine.co/switzerland/mountain-pass-roads/index.html"></option>
+<option value="Col du Grand St.Bernard" data-url="https://superalpine.co/switzerland/col-du-grand-st.bernard/index.html"></option>
+<option value="Furka pass" data-url="https://superalpine.co/switzerland/furka-pass/index.html"></option>
+<option value="Susten pass" data-url="https://superalpine.co/switzerland/susten-pass/index.html"></option>
+<option value="Simplon pass" data-url="https://superalpine.co/switzerland/simplon-pass/index.html"></option>
+<option value="Grimentz" data-url="https://superalpine.co/switzerland/grimentz/index.html"></option>
+<option value="Crans Montana" data-url="https://superalpine.co/switzerland/crans-montana/index.html"></option>
+<option value="The remarkable and tragic life of Jean Vuarnet" data-url="https://superalpine.co/france/the-remarkable-tragic-life-of-jean-vuarnet.html"></option>
+<option value="Moncler" data-url="https://superalpine.co/france/moncler/index.html"></option>
+<option value="Store" data-url="https://superalpine.co/publications.html"></option>
+<option value="Books" data-url="https://superalpine.co/publications.html"></option>
+<option value="Scrambles Amongst the Alps book" data-url="https://superalpine.co/publications.html"></option>
+<option value="Chamonix Travel Guide book" data-url="https://superalpine.co/publications.html"></option>
+<option value="Swiss Passes book" data-url="https://superalpine.co/publications.html"></option>
+<option value="Magazines" data-url="https://superalpine.co/publications.html"></option>
+<option value="Contact" data-url="https://superalpine.co/information.html"></option>
+<option value="Information" data-url="https://superalpine.co/information.html"></option>
+<option value="Publications" data-url="https://superalpine.co/publications.html"></option>
+<option value="Archive" data-url="https://superalpine.co/archive.html"></option>
+<option value="Library" data-url="https://superalpine.co/library.html"></option>
+<option value="Terms and conditions" data-url="https://superalpine.co/terms/index.html"></option>
+<option value="Alpengold hotel Davos" data-url="https://superalpine.co/switzerland/davos//alpengold-hotel-davos-review.html"></option>
+<option value="Panorama Living Dolomites" data-url="https://superalpine.co/italy/dolomites/aparthotel-panorama-living-dolomites-review.html"></option>
+<option value="Cristal de Jade Chamonix" data-url="https://superalpine.co/france/chamonix/cristal-de-jade-chamonix-review.html"></option>
+<option value="Radisson Blue Andermatt" data-url="https://superalpine.co/switzerland/andermatt/radisson-blu-andermatt-review.html"></option>
+</datalist>
 </article>
 
 <footer>
@@ -40,5 +91,18 @@
   <a href="mailing-list.html">Mailing list</a><br>
   </div>
 </footer>
+<script>
+    const input = document.getElementById('autocomplete-input');
+
+    input.addEventListener('input', function() {
+        const selectedOption = Array.from(document.getElementById('name-list').options)
+            .find(option => option.value.toLowerCase() === input.value.toLowerCase());
+
+        if (selectedOption) {
+            input.value = selectedOption.value;
+            window.location.href = selectedOption.getAttribute('data-url');
+        }
+    });
+</script>
 </body>
 </html>
