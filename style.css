@@ -8,11 +8,7 @@ body {background-color: #fff; color: #555;-webkit-text-size-adjust: 100%; -webki
 @font-face {font-family: 'NeueItalic';src: url('fonts/NeueHaasDisplay-RomanItalic.woff2') format('woff2');font-weight: normal;}
 @font-face {font-family: 'JetBrains'; src: url('fonts/JetBrainsMono-Regular.woff2') format('woff2');font-weight:normal;}
 @font-face {font-family: 'JetBrainsBold'; src: url('fonts/JetBrainsMono-Bold.woff2') format('woff2');font-weight:normal;}
-/*@font-face {font-family: 'Saol';
-src: url('fonts/SaolDisplay-Medium.eot');
-src: url('fonts/SaolDisplay-Medium.woff') format('woff');font-weight:normal;font-display: swap;font-style:normal;
-src: url('fonts/SaolDisplay-Medium.woff2') format('woff2');font-weight:normal;font-display: swap;font-style:normal;}
-*/
+
 body {font-size: .85rem;}
 body,p,small,li, header, footer,cite, .list h6{font-family: Neue; font-weight: normal;}
 h1,h2,h3,h4{font-family: NeueMed; font-weight: normal; letter-spacing: -0.01em; color: #000;}
