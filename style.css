@@ -1,6 +1,6 @@
 html,body,main,div,object,iframe,h1,h2,h3,h4,h5,h4,p,cite,blockquote,em,img,small,strong,sub,sup,b,i,dl,dt,dd,ol,ul,li,form,label,table,tr,th,td,article,figure,footer,header,nav,section,video,address {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 html {scroll-behavior: smooth;}
-body {background-color: #fff; color: #555;-webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;-webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;text-rendering: optimizeLegibility; font-variant-ligatures: normal;}
+body {background-color: #fff; color: #444;-webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;-webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;text-rendering: optimizeLegibility; font-variant-ligatures: normal;}
 
 /* typography */
 @font-face {font-family: 'NeueMed';src: url('fonts/NeueHaasDisplay-Mediu.woff2') format('woff2');font-weight: normal;}
@@ -29,12 +29,12 @@ b {font-weight: normal; color: #000;}
 ul,ol {margin: 20px;}
 li {margin: 5px 0;}
 ol li {font-size: 0.8rem;}
-hr {height: 1px; background-color: #ddd; border: 0;}
+hr {height: 1px; background-color: rgba(191,186,174,.3); border: 0;}
 img {max-width: 100%; border: 0; pointer-events: none;}
 a img {pointer-events: auto;}
 table {margin:25px 0 50px 0; border-collapse: collapse;}
-th {padding: 5px 0; width: 110px; border-bottom: 1px dotted #9c978a;}
-td {padding: 5px 0; border-bottom: 1px dotted #9c978a;}
+th {padding: 5px 0; width: 110px; border-bottom: 1px solid rgba(191,186,174,.3);}
+td {padding: 5px 0; border-bottom: 1px solid rgba(191,186,174,.3);}
 a, footer h4 a {color: #000; word-spacing: normal;text-decoration: none; cursor: pointer;}
 p a, li a {border-bottom: 1px solid #bfbaae; }
 a:hover {color: #9c978a; opacity: 0.85; transition:opacity .5s;}
@@ -43,9 +43,9 @@ header a:hover, footer a:hover, .list a h3:hover,.list a p:hover, .portrait a:ho
 article, section, header, footer, .landscape, .portrait, .list, .title {width:95%; max-width: 3000px; margin:0 auto;}
 article {margin:50px 2.5%; max-width: 550px; width: 95%;}
 header, footer {font-family: Jetbrains;}
-header {border-bottom: 1px solid #ddd; padding: 20px 0;}
+header {border-bottom: 1px solid rgba(191,186,174,.3); padding: 20px 0;}
 header nav {float: right;}
-footer {border-top: 1px solid #ddd; padding:60px 0; margin:140px auto 0px auto; }
+footer {border-top: 1px solid rgba(191,186,174,.3); padding:60px 0; margin:140px auto 0px auto; }
 footer div {width: 32.7%;  display: inline-block; vertical-align: top; line-height: 2em; text-align: right;}
 footer div:first-of-type {text-align: left;}
 .portrait {margin:20px auto; display: grid; grid-template-columns: repeat(3, 2fr); grid-gap: 20px 20px; grid-template-rows: masonry;}
@@ -53,10 +53,10 @@ footer div:first-of-type {text-align: left;}
 .portrait p, .landscape p {margin: 10px 0 0 0; font-size:0.85rem; line-height: 1.2em;}
 .title {margin:80px auto 100px auto; }
 .list {margin:80px auto 100px auto; }
-.list li:first-of-type h6 {font-family: JetBrains; font-size: 0.9rem; text-transform: uppercase;}
-.list li:first-of-type .description {font-family: JetBrains; font-size: .9rem;text-transform: uppercase}
-.list li:first-of-type  {padding: 0; border:0; min-height: auto;}
-.list li {margin: 0 auto; padding: 30px 0; border-bottom:1px solid #ddd; display: block; width: 100%;}
+.list li:first-of-type h6 {font-family: JetBrains; font-size: 0.9rem; text-transform: uppercase; margin-top: 3px;}
+.list li:first-of-type .description {font-family: JetBrains; font-size: .9rem;text-transform: uppercase; margin-top: -1px;}
+.list li:first-of-type  {padding: 3px 0 0 0; border:0; min-height: auto;}
+.list li {margin: 0 auto; padding: 30px 0; border-bottom:1px solid rgba(191,186,174,.3); display: block; width: 100%;}
 .list li:last-of-type {border-bottom:0;}
 .list h6 {font-size: .85rem; line-height: 1em;letter-spacing: 0.02em; display:inline-block; width: 25%; vertical-align:top; margin:0; color: #555;}
 .description {display:inline-block; width: 70%;}
