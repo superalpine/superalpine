@@ -52,7 +52,7 @@ footer div:first-of-type {text-align: left;}
 .landscape {margin:20px auto; display: grid; grid-template-columns: repeat(2, 2fr); grid-gap: 20px 20px; grid-template-rows: masonry;}
 .portrait p, .landscape p {margin: 10px 0 0 0; font-size:0.85rem; line-height: 1.2em;}
 .title {margin:80px auto 100px auto; }
-.list {margin:80px auto 100px auto; }
+.list {margin:80px auto 100px auto;}
 .list li:first-of-type h6 {font-family: JetBrains; font-size: 0.9rem; text-transform: uppercase; margin-top: 3px;}
 .list li:first-of-type .description {font-family: JetBrains; font-size: .9rem;text-transform: uppercase; margin-top: -1px;}
 .list li:first-of-type  {padding: 3px 0 0 0; border:0; min-height: auto;}
@@ -61,15 +61,16 @@ footer div:first-of-type {text-align: left;}
 .list h6 {font-size: .85rem; line-height: 1em;letter-spacing: 0.02em; display:inline-block; width: 25%; vertical-align:top; margin:0; color: #555;}
 .description {display:inline-block; width: 70%;}
 .description h3 {font-size: 1.4rem; line-height:1em; color:#bfbaae; }
-.description p {margin: 10px 0 0 0; color: #555;}
+.description p {margin: 10px 0 0 0; color: #555; float: left;}
 .columns {column-count:2; max-width: 980px; column-gap: 3em; margin: 50px 2.5%;}
 .columns p {display: inline-block; margin:10px 0;}
-.button {padding: 9px 20px; background-color: #9c978a;color:#fff; border:none; min-width: auto; font-family:JetBrains;border-radius:3px; text-transform:uppercase; font-size:13px; margin-left:20px; }
-.button-off {padding: 9px 20px; background-color: #fff;color:#9c978a; border:1px solid #9c978a; min-width: auto; font-family:JetBrains;border-radius:3px; text-transform:uppercase; font-size:13px; margin-left:20px; }
+.button {padding: 9px 20px; background-color: #9c978a;color:#fff; border:none; min-width: auto; font-family:JetBrains;border-radius:3px; text-transform:uppercase; font-size:13px; float: right;}
+.button-off {padding: 9px 20px; background-color: #fff;color:#9c978a; border:1px solid #9c978a; min-width: auto; font-family:JetBrains;border-radius:3px; text-transform:uppercase; font-size:13px; float: right;}
 .button:hover {background-color: #000; color: #fff;}
 @media (max-width: 800px) 
 {
 .list h6 { display:block; width: auto; margin:0 0 10px 0;}
+.list .button, .list .button-off {float: none; margin: 5px 5px 5px 0px; display: inline-block;}
 .description {display:block; width: 100%;}
 .landscape, .portrait {grid-gap: 10px 10px; margin: 5px auto;}
 .portrait p, .landscape p {margin: 10px 0; font-size:0.8rem; line-height: 1.2em;}
