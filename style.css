@@ -64,7 +64,9 @@ footer div:first-of-type {text-align: left;}
 .description p {margin: 10px 0 0 0; color: #555;}
 .columns {column-count:2; max-width: 980px; column-gap: 3em; margin: 50px 2.5%;}
 .columns p {display: inline-block; margin:10px 0;}
-
+.button {padding: 9px 20px; background-color: #9c978a;color:#fff; border:none; min-width: auto; font-family:JetBrains;border-radius:3px; text-transform:uppercase; font-size:13px; margin-left:20px; }
+.button-off {padding: 9px 20px; background-color: #fff;color:#9c978a; border:1px solid #9c978a; min-width: auto; font-family:JetBrains;border-radius:3px; text-transform:uppercase; font-size:13px; margin-left:20px; }
+.button:hover {background-color: #000; color: #fff;}
 @media (max-width: 800px) 
 {
 .list h6 { display:block; width: auto; margin:0 0 10px 0;}
