@@ -12,7 +12,7 @@ body {background-color: #fff; color: #444;-webkit-text-size-adjust: 100%; -webki
 body {font-size: .85rem;}
 body,p,small,li, header, footer,cite, .list h6{font-family: Neue; font-weight: normal;}
 h1,h2,h3,h4{font-family: NeueMed; font-weight: normal; letter-spacing: -0.01em; color: #000;}
-h1 {font-size: 2.6rem;}
+h1 {font-size: 2.6rem; line-height: 2.2rem; margin-bottom: 10px;}
 h2 {font-size: 1.6rem; margin: 0 0 40px 0; color: #bfbaae;}
 h3 {font-size: 1.4rem; letter-spacing: normal;}
 h4 {font-size: 1.1rem; letter-spacing: normal;color: #bfbaae;}
@@ -69,9 +69,11 @@ footer div:first-of-type {text-align: left;}
 .button:hover {background-color: #000; color: #fff;}
 @media (max-width: 800px) 
 {
+.title {margin:50px auto; }
 .list h6 { display:block; width: auto; margin:0 0 10px 0;}
 .list .button, .list .button-off {float: none; margin: 5px 5px 5px 0px; display: inline-block;}
 .description {display:block; width: 100%;}
+.description p {float: none;}
 .landscape, .portrait {grid-gap: 10px 10px; margin: 5px auto;}
 .portrait p, .landscape p {margin: 10px 0; font-size:0.8rem; line-height: 1.2em;}
 .columns {column-count:auto;  margin: 50px auto;}
