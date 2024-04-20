@@ -40,7 +40,7 @@ p a, li a {border-bottom: 1px solid #bfbaae; }
 a:hover {color: #9c978a; opacity: 0.85; transition:opacity .5s;}
 header a, footer a, .portrait a {color: #9c978a;}
 header a:hover, footer a:hover, .list a h3:hover,.list a p:hover, .portrait a:hover {color: #000;}
-article, section, header, footer, .landscape, .portrait, .list, .title {width:95%; max-width: 3000px; margin:0 auto;}
+article, section, header, footer, .landscape, .portrait, .list, .title {width:95%; max-width: 2500px; margin:0 auto;}
 article {margin:50px 2.5%; max-width: 550px; width: 95%;}
 header, footer {font-family: Jetbrains;}
 header {border-bottom: 1px solid rgba(191,186,174,.3); padding: 20px 0;}
