@@ -25,7 +25,7 @@ sup {top: -0.5em;}
 sub {bottom: -0.25em;}
 th, .message, .svg text {font-family:JetBrainsBold; font-weight:normal; text-align: left; font-size: .9rem;}
 td {font-family:JetBrains; text-align: left; font-size: .9rem;}
-b {font-weight: normal; color: #000;}
+b {font-weight: normal; color: #000; font-family: NeueMed;}
 ul,ol {margin: 20px;}
 li {margin: 5px 0;}
 ol li {font-size: 0.8rem;}
