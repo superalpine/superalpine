@@ -37,7 +37,7 @@ th {padding: 5px 0; width: 110px; border-bottom: 1px solid rgba(191,186,174,.3);
 td {padding: 5px 0; border-bottom: 1px solid rgba(191,186,174,.3);}
 a, footer h4 a {color: #000; word-spacing: normal;text-decoration: none; cursor: pointer;}
 p a, li a {border-bottom: 1px solid #bfbaae; }
-a:hover {color: #9c978a; opacity: 0.85; transition:opacity .5s;}
+a:hover {color: #9c978a; transition:opacity .5s;}
 header a, footer a, .portrait a {color: #9c978a;}
 header a:hover, footer a:hover, .list a h3:hover,.list a p:hover, .portrait a:hover {color: #000;}
 article, section, header, footer, .landscape, .portrait, .list, .title {width:95%; max-width: 2500px; margin:0 auto;}
