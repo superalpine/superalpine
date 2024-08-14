@@ -50,7 +50,6 @@ footer div {width: 32.7%;  display: inline-block; vertical-align: top; line-heig
 footer div:first-of-type {text-align: left;}
 .portrait {margin:20px auto; display: grid; grid-template-columns: repeat(3, 2fr); grid-gap: 20px 20px; grid-template-rows: masonry;}
 .landscape {margin:20px auto; display: grid; grid-template-columns: repeat(2, 2fr); grid-gap: 20px 20px; grid-template-rows: masonry;}
-.portrait p, .landscape p {margin: 10px 0 0 0; font-size:0.85rem; line-height: 1.2em;}
 .title {margin:80px auto 100px auto; }
 .list {margin:80px auto 100px auto;}
 .list li:first-of-type h6 {font-family: JetBrains; font-size: 0.9rem; text-transform: uppercase; margin-top: 3px;}
@@ -75,7 +74,6 @@ footer div:first-of-type {text-align: left;}
 .description {display:block; width: 100%;}
 .description p {float: none;}
 .landscape, .portrait {grid-gap: 10px 10px; margin: 5px auto;}
-.portrait p, .landscape p {margin: 10px 0; font-size:0.8rem; line-height: 1.2em;}
 .columns {column-count:auto;  margin: 50px auto;}
 footer div {width: 100%; display: block; text-align: left; margin-top: 20px;}
 }
