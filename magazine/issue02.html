@@ -17,10 +17,18 @@
 	<h2>Issue 02</h2>
 </div>
 <article>    
+<p>The article <b><span id="article"></span></b> featured in:</p>
 <h3>Alpes-Martimes</h3>
 <p>Super Alpine magazine Issue 02 / 2019 / 104 pp / 195×260mm Print</p> 
 <p>This magazine is sold out.</p>
 
+
+<script>
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const birthdate = urlParams.get('article');
+    document.getElementById("article").innerHTML = birthdate;
+</script>
 </article>
 <footer>
   <div>
