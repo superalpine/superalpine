@@ -9,8 +9,14 @@
 <link rel="shortcut icon" href="https://superalpine.co/favicon.ico">
 <link rel="stylesheet" href="style.css">
 <style type="text/css">
-	.portrait img { object-fit: cover; object-position: 15% 100%;; height: 300px; margin-bottom:10px;}
+	.portrait div {width: 100%; height: 450px;}
+	.portrait img { object-fit: cover;  object-position:0% 50%; height: 300px; width: 100%;   margin-bottom:10px;}
 	input {font-family:Neue; font-size: 1rem; line-height: 1em; outline: none; padding:10px; max-width: 320px; width: 100%; outline: none; border:1px solid #bfbaae;}
+	@media (max-width: 800px) 
+{
+	.portrait div {height: auto;}
+	.portrait img {height: 200px;}
+}
 </style>
 </head>
 <body>
@@ -134,11 +140,11 @@
 
 <div class="portrait">
 	<div>
-		<img src="alps/img/alps.svg" alt="Map of the Alps">
+		<img src="alps/img/alps.jpg" alt="Alps">
 		<h3>Alpine region</h3><p>A guide to the area, population and cities in the Alps - <a href="alps/area-population-cities.html">Read more</a></p>
 	</div>
 	<div>
-		<img src="https://upload.wikimedia.org/wikipedia/commons/8/88/SCHILTHORN_AND_PIZ_GLORIA_REVOLVIONG_RESTAURANT%2C_LOCATION_OF_JAMES_BOND_007_-_panoramio_%281%29.jpg" alt="Mont Blanc">
+		<img src="switzerland/on-the-trail-of-goldfinger/goldfinger2.jpg" alt="Bond in the Alps">
 		<h3>Bond in the Alps</h3><p>Locations of the James Bond novels and films - <a href="alps/bond-in-the-alps.html">Read more</a></p>
 	</div>
 	<div>
@@ -190,7 +196,7 @@
 		<h3>Routes des Grandes Alpes</h3><p>A 700-kilometre-long itinerary through the French Alps - <a href="france/route-des-grandes-alpes/index.html">Read more</a></p>
 	</div>
 	<div>
-		 <img src="france/route-napoleon/route-napoleon-map.svg" alt="Route Napoléon map">
+		 <img src="france/route-napoleon/castellane.jpg" alt="Route Napoléon">
 		<h3>Route Napoléon</h3><p>The Emperor's legendary march from the Côte d'Azur back to the throne of France - <a href="france/route-napoleon/index.html">Read more</a></p>
 	</div>
 	<div>
