@@ -38,8 +38,8 @@ td {padding: 5px 0; border-bottom: 1px solid rgba(191,186,174,.3);}
 a, footer h4 a {color: #000; word-spacing: normal;text-decoration: none; cursor: pointer;}
 p a, li a {border-bottom: 1px solid #bfbaae; }
 a:hover {color: #9c978a; transition:opacity .5s;}
-header a, footer a, .portrait a {color: #9c978a;}
-header a:hover, footer a:hover, .list a h3:hover,.list a p:hover, .portrait a:hover {color: #000;}
+header a, footer a {color: #9c978a;}
+header a:hover, footer a:hover, .list a h3:hover,.list a p:hover {color: #000;}
 article, section, header, footer, .landscape, .portrait, .list, .title {width:95%; max-width: 2500px; margin:0 auto;}
 article {margin:50px 2.5%; max-width: 550px; width: 95%;}
 header, footer {font-family: Jetbrains;}
@@ -63,9 +63,10 @@ footer div:first-of-type {text-align: left;}
 .description p {margin: 10px 0 0 0; color: #555; float: left;}
 .columns {column-count:2; max-width: 980px; column-gap: 3em; margin: 50px 2.5%;}
 .columns p {display: inline-block; margin:10px 0;}
-.button {padding: 9px 20px; background-color: #CFFC03;color:#000; border:none; min-width: auto; font-family:JetBrainsBold;border-radius:3px; text-transform:uppercase; font-size:14px; float: right;}
-.button-off {padding: 9px 20px; background-color: #000;color:#CFFC03; border:1px solid #9c978a; min-width: auto; font-family:JetBrains;border-radius:3px; text-transform:uppercase; font-size:14px; float: right;}
+.button {padding: 9px 20px; background-color: #CFFC03;color:#000; border:none; min-width: auto; font-family:JetBrainsBold;border-radius:3px; text-transform:uppercase; font-size:14px;}
+.button-off {padding: 9px 20px; background-color: #000;color:#CFFC03; border:1px solid #9c978a; min-width: auto; font-family:JetBrains;border-radius:3px; text-transform:uppercase; font-size:14px;}
 .button:hover {background-color: #000; color: #fff;}
+.list .button, .list .button-off {float: right;}
 @media (max-width: 800px) 
 {
 .title {margin:50px auto; }
