@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title id="page-title">Resource database - Super Alpine</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="papaparse.js"></script>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<nav>
+    <a href="../index.html">Super Alpine</a>
+    <div><a href="index.html">Index</a></div>
+</nav>
+<main class="resource">
+    <div>
+        <img id="image" src="" alt="Resource image">
+    </div>
+    <div>
+        <h1 id="title"></h1>
+        <p id="description"></p>
+        <hr>
+        <cite>An extract from <a href="https://store.superalpine.co/b/super-alpine-magazine-05">Super Alpine Magazine Issue 05</a></cite>
+    </div>
+</main>
+<footer class="columns">
+    <div>
+        <p>Copyright &copy; Super Alpine. All rights reserved</p>
+    </div>
+    <div>
+        <p><a href="../terms.html">Terms &amp; Conditions</a></p>
+    </div>
+</footer>
+<script>
+    function getUrlParameter(name) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(name);
+    }
+
+    function fetchCSV() {
+        const csvFileUrl = 'sa05.csv'; 
+
+        fetch(csvFileUrl)
+            .then(response => response.text())
+            .then(data => {
+                parseCSV(data);
+            })
+            .catch(error => {
+                console.error('Error fetching the CSV file:', error);
+            });
+    }
+
+    function parseCSV(csvData) {
+        Papa.parse(csvData, {
+            header: true,
+            dynamicTyping: true,
+            complete: function(results) {
+                const idNumber = parseInt(getUrlParameter('id'), 10);
+                if (!isNaN(idNumber) && idNumber > 0 && idNumber <= results.data.length) {
+                    displayData([results.data[idNumber - 1]]);
+                } else {
+                    alert('Invalid id number');
+                }
+            }
+        });
+    }
+
+    function displayData(data) {
+        if (data.length > 0) {
+            const row = data[0];
+            const keys = Object.keys(row);
+            if (keys.length > 0) {
+                document.getElementById('title').innerHTML = row[keys[0]];
+                document.getElementById('page-title').innerHTML = row[keys[0]] + ' - Super Alpine';
+                if (keys.length > 1) {
+                    document.getElementById('description').innerHTML = row[keys[1]];
+                }
+                if (keys.length > 2) {
+                    document.getElementById('image').src = row[keys[2]];
+                }
+            }
+        }
+    }
+
+    window.onload = fetchCSV;
+</script>
+</body>
+</html>
