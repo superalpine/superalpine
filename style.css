@@ -59,6 +59,7 @@ footer p {font-family:JetBrains,monospace; font-style:normal; font-size: 0.8rem;
 .masonry p a:hover {background-color: #B2ED18; color: #000;transition: all 0.2s ease-out; }
 .item {transform: translateY(30px);transition: all 0.3s ease-in-out;}
 .resource {display:flex;gap:50px;}
+.resource h1 {font-size:1.2rem; line-height:1em; text-transform: uppercase;}
 .resource div {width: 37%;}
 .resource div:nth-of-type(2) {width: 50%; max-width: 570px;}
 
