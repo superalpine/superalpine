@@ -1,13 +1,11 @@
 html,body,main,div,object,iframe,h1,h2,h3,h4,h5,h4,p,cite,blockquote,em,img,small,strong,sub,sup,b,i,dl,dt,dd,ol,ul,li,form,label,table,tr,th,td,article,figure,footer,header,nav,section,video,address {margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
 html {scroll-behavior: smooth;}
 body {background-color: #fff; color: #111;-webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;-webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;text-rendering: optimizeLegibility; font-variant-ligatures: normal;}
-
 @font-face {font-family: 'NeueMed';src: url('https://superalpine.co/fonts/NeueHaasDisplay-Mediu.woff2') format('woff2');font-weight: normal;}
 @font-face {font-family: 'Neue';src: url('https://superalpine.co/fonts/NeueHaasDisplay-Roman.woff2') format('woff2');font-weight: normal;}
 @font-face {font-family: 'NeueItalic';src: url('https://superalpine.co/fonts/NeueHaasDisplay-RomanItalic.woff2') format('woff2');font-weight: normal;}
 @font-face {font-family: 'JetBrains'; src: url('https://superalpine.co/fonts/JetBrainsMono-Regular.woff2') format('woff2');font-weight:normal;}
 @font-face {font-family: 'JetBrainsBold'; src: url('https://superalpine.co/fonts/JetBrainsMono-Bold.woff2') format('woff2');font-weight:normal;}
-
 h1,h2,h3,h4,h5,h6 {font-family: NeueMed, sans-serif; font-weight: normal;}
 h1 {font-size: 2.6rem; line-height: 2.2rem; margin-bottom: 10px;}
 h2 {font-size: 1.6rem; color: #999; margin-top: 5px; font-family: Neue,sans-serif;}
@@ -41,7 +39,6 @@ figcaption, cite {font-family:JetBrains,monospace; font-style:normal;display: bl
 footer {margin:50px 20px 10px 20px; padding-top: 20px; height:90px;border-top: 1px solid #eee; }
 footer.columns div:nth-of-type(2) {text-align: right; width: 50%;}
 footer p {font-family:JetBrains,monospace; font-style:normal; font-size: 0.8rem; max-width:100%; }
-
 .button {padding: 9px 20px; background-color: #B2ED18;color:#000; border:0; min-width: auto; font-family:JetBrains; border-radius:3px; text-transform:uppercase; font-size:14px; display: inline-block; margin: 20px 10px 10px 0;}
 .button:hover {background-color: #000; color: #fff;}
 .columns {display:flex;align-items:first baseline;gap:20px;}
@@ -65,18 +62,15 @@ footer p {font-family:JetBrains,monospace; font-style:normal; font-size: 0.8rem;
 .resource div {width:50vw; align-content: center;}
 .resource div img { width: 100%;height: 100%; object-fit: contain;}
 .resource div p {max-width: 500px;}
-
 @media (max-width:768px)
 {
 .index{grid-template-columns: repeat(2, 1fr);}
 .index div {margin-bottom: 50px;}
 .columns {gap: 10px;}
 .resource {display:block; gap: 0; height: auto;}
-.resource div {width: 100%; align-content: normal;}
-.resource div img {object-fit: none;}
+.resource div {width: 100%; align-content: normal; margin-bottom: 10px;}
+.resource div img {object-fit: unset; }
 }
-
-
 @keyframes fadeInUp {
   0% {
     transform: translateY(100%);
