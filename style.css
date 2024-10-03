@@ -71,9 +71,9 @@ footer p {font-family:JetBrains,monospace; font-style:normal; font-size: 0.8rem;
 .index{grid-template-columns: repeat(2, 1fr);}
 .index div {margin-bottom: 50px;}
 .columns {gap: 10px;}
-.resource {display:block; gap: 0;}
-.resource div {width: 100%;}
-.resource div:nth-of-type(2) {margin-top:20px; max-width: 100%; width: 100%;}
+.resource {display:block; gap: 0; height: auto;}
+.resource div {width: 100%; align-content: normal;}
+.resource div img {object-fit: none;}
 }
 
 
