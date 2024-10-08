@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title id="page-title">Mountain Passes - Super Alpine</title>
+    <title id="page-title">Swiss Passes - Super Alpine</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="papaparse.js"></script>
@@ -19,7 +19,8 @@
     <div>
         <h1 id="title"></h1>
         <p id="description"></p>
-        <br>
+        <p>Read more about the pass and 25 others in our 312 page <b>Swiss Passes</b> book, available exclusively from Mixam.</p>
+        <a href="https://mixam.co.uk/print-on-demand/66b9d21810fd3302cc68285e" class="button">Buy Now</a>
     </div>
 </main>
 <footer class="columns">
@@ -37,7 +38,7 @@
     }
 
     function fetchCSV() {
-        const csvFileUrl = 'passes.csv'; 
+        const csvFileUrl = 'swiss-passes.csv'; 
 
         fetch(csvFileUrl)
             .then(response => response.text())
