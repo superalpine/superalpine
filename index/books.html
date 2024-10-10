@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title id="page-title">Resource database - Super Alpine</title>
+    <title id="page-title">Books - Super Alpine</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="papaparse.js"></script>
@@ -14,7 +14,7 @@
 </nav>
 <main class="resource">
     <div>
-        <img id="image" src="" alt="Resource image">
+        <img id="image" src="" alt="Book image">
     </div>
     <div>
         <h1 id="title"></h1>
@@ -37,7 +37,7 @@
     }
 
     function fetchCSV() {
-        const csvFileUrl = 'resources.csv'; 
+        const csvFileUrl = 'books.csv'; 
 
         fetch(csvFileUrl)
             .then(response => response.text())
